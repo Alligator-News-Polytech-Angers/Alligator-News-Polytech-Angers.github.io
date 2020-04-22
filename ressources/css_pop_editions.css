@@ -140,7 +140,7 @@ p.link a{
 img.img_article_Wraped {
   display:block; /* Permet de centrer l'image (le transform en un 'block') */
   margin: auto;
-  width: 60%;
+  width: 58%;
   padding: 6px 0px;
 }
 img.img_article_Big {
@@ -173,7 +173,7 @@ table.img_inligne {
   margin: 0 auto;
 }
 table.img_inligne img{
-  width: 80%;
+  width: 75%;
   padding-top: 12px;
   margin: 0 auto;
 }
@@ -198,6 +198,16 @@ img.img_easter_egg {
 .citation i{
     letter-spacing: 0.1em;
     font-weight: lighter;
+}
+a.download {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}
+a.mail_link {
+  text-decoration: underline;
+  color: black;
+  font-weight: lighter;
 }
 /*************************************/
 /*************************************/
