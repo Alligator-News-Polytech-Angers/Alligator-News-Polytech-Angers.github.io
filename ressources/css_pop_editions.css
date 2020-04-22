@@ -1,0 +1,283 @@
+/************************************/
+/* Feuille de style Alligator NEWS  */
+/* Copyright :                      */
+/* PERCEREAU Lucas                  */
+/* LÉPINE Thomas                    */
+/************************************/
+
+/*****************************************/
+/* Présentation Editions depuis la menu */
+/*****************************************/
+.Pop_New_MenuView {
+  background-color: #004875;
+  padding: 0px 20px;
+}
+.Pop_New_MenuView a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 10px;
+}
+.Pop_New_MenuView a:hover {
+  background-color: #FDF5E6;
+}
+.Pop_New_MenuView h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 0.01em 0em 0.01em;
+  font-size: 30px;
+}
+.Pop_New_MenuView img {
+  width: 69%;
+  display: block; /* Permet de centrer l'image (le transform en un 'block') */
+  margin: auto;
+}
+.Pop_New_MenuView p {
+  text-align: justify;
+  font-size: 17.5px;
+  padding-bottom: 5px;
+}
+.Edition_MenuView {
+  color: black; /* Couleur du texte */
+  background-color: #FDF5E6;
+  padding: 2px 20px;
+}
+/*************************************/
+/*************************************/
+/*************************************/
+
+/*************************/
+/* Editions les différentes rubriques */
+/*************************/
+.EditionBlockWraped {
+  background-color: #004875;
+}
+.EditionBlockWraped article {
+  color: black;
+  display: block;
+  text-decoration: none;
+  padding: 15px 15px;
+}
+.Edition {
+  background-color: #FDF5E6;
+  padding: 6px 6px;
+  display: flex;
+  height: 100%;
+}
+.EditionBig {
+  background-color: #004875;
+  padding: 10px 23px;
+}
+/*************************/
+/*************************/
+
+/*************************/
+/*   Editions completes  */
+/*************************/
+.FullEdition {
+  background-color: #FDF5E6;
+  padding: 2px 15px;
+  height: 100%;
+  margin: 0px auto
+}
+.FullEdition p {
+  text-indent: 30px;
+  line-height: 140%;
+  text-align: justify;
+  margin: 4px auto;
+}
+p.link {
+  text-indent: inherit;
+  color: #666666;
+  padding-top: 6px;
+  padding-bottom: 14px;
+}
+p.link a{
+  text-decoration: underline;
+  color: #666666;
+}
+.FullEdition h2 { /* Sous partie rubrique */
+  text-align: center;
+  text-decoration: underline;
+  font-size: 26px;
+  margin: 16px 0px;
+  letter-spacing: 0.04em;
+}
+.FullEdition h3 { /* Slogan des rubriques */
+  color: #444444;
+  text-align: center;
+  font-size: 18px;
+  margin: 16px 0px;
+  letter-spacing: 0.08em;
+  font-weight: lighter;
+}
+.FullEdition h4 { /* Question titre */
+  font-size: 16px;
+  margin: 14px 0px;
+  letter-spacing: 0.04em;
+}
+.FullEdition h5 { /* Filières horoscope */
+  color: #191970;
+  text-decoration: overline underline;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.FullEdition video {
+    width: 84%;
+    padding: 15px 0px;
+    margin: 0 auto;
+    display: flex;
+}
+.legende{
+  text-align: center;
+  font-style: italic;
+  padding: 5px 0px;
+  font-weight: 200;
+  font-size: 16px;
+  color: #4D4D4D;
+}
+img.img_article_Wraped {
+  display:block; /* Permet de centrer l'image (le transform en un 'block') */
+  margin: auto;
+  width: 60%;
+  padding: 6px 0px;
+}
+img.img_article_Big {
+  display:block; /* Permet de centrer l'image (le transform en un 'block') */
+  margin: auto;
+  width: 40%;
+}
+img.img_titre_popWraped {
+  display:block;
+  margin: auto;
+  padding: 1px 0px;
+  width: 90%;
+}
+img.img_titre_popBig {
+  display:block;
+  margin: auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 60%;
+}
+.FullEdition hr {
+  /*background-color: #004875;*/
+  height: 2px;
+  border: 0;
+  text-align: center;
+  margin: 6px 18px;
+}
+table.img_inligne {
+  text-align: center;
+  margin: 0 auto;
+}
+table.img_inligne img{
+  width: 80%;
+  padding-top: 12px;
+  margin: 0 auto;
+}
+td.texte {
+  text-align: center;
+  padding: 5px 30px;
+}
+td.legende {
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 16px;
+  color: #4D4D4D;
+}
+img.img_easter_egg {
+  width: 10%;
+  margin: 0 auto;
+}
+.citation p{
+  font-size: 14px;
+}
+.citation i{
+    letter-spacing: 0.1em;
+    font-weight: lighter;
+}
+/*************************************/
+/*************************************/
+/*************************************/
+
+/*********************/
+/* Responsive layout */
+/*********************/
+@media screen and (max-width: 760px) { /* Resolution d'un  portable */
+  .Pop_New_MenuView img {
+    width: 98%;
+  }
+  .mainEdition {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .EditionBlockWraped {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .EditionBlockWraped article{
+    padding: 10px 5px;
+  }
+  .Edition {
+    padding: 4px 5px;
+  }
+  .EditionBig{
+	  padding: 10px 15px;
+  }
+  .FullEdition {
+    padding: 4.5px 15px;
+  }
+  table.img_inligne img {
+    text-align: center;
+    padding: 0px 5px;
+    width: 99%;
+  }
+  td.texte {
+    padding: 5px 12px;
+  }
+  img.img_article_Wraped {
+    width: 80%;
+  }
+  img.img_article_Big {
+    width: 80%;
+  }
+  img.img_titre_popWraped {
+    width: 100%;
+  }
+  img.img_titre_popBig {
+    width: 100%;
+  }
+  .FullEdition hr {
+    margin: 6px 0px;
+  }
+  img.img_easter_egg {
+    width: 33%;
+  }
+  .citation p{
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC  / tablette  */
+  .EditionBlockWraped {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .EditionBlockWraped article {
+    max-width: 50%; /* Permet d'avoir 2 Editions sur la même ligne dans le menu */
+    margin: 0 auto;
+  }
+  .Edition {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+/*********************/
+/*********************/

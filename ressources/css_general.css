@@ -1,0 +1,300 @@
+/************************************/
+/* Feuille de style Alligator NEWS  */
+/* Copyright :                      */
+/* PERCEREAU Lucas                  */
+/* LÉPINE Thomas                    */
+/************************************/
+* {
+  box-sizing: border-box;
+}
+
+/*********/
+/* Body */
+/*********/
+body {
+  font-family: Calibri, Arial, sans-serif;
+  margin: 0;
+}
+/*********/
+/*********/
+
+/**********/
+/* Header */
+/**********/
+.header {
+  background: #004875;
+  display: flex;
+}
+.titre {
+  flex: 62%;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+.titre h1 {
+  margin: auto;
+  margin-top: 30px;
+  font-size: 64px;
+  font-family: Arno Pro, Tribun ADF Std, serif;
+  text-shadow: black 0.1em 0.1em 0.1em;
+}
+.titre p {
+  text-align: center;
+  text-decoration: none;
+  font-size: 18.2px;
+  text-shadow: 0.01em 0em 0.001em;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+.titre span {
+  color: #C8C8C8;
+  font-size: 15px;
+  letter-spacing: 0.137em;
+  font-weight: 100;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+.LogoPolytech {
+  float: left;
+  flex: 20%;
+  margin: auto;
+}
+.LogoPolytech img{
+  float: left;
+  margin-left: 8px;
+}
+.LogoAlligator {
+  float: right;
+  flex: 20%;
+  margin: auto;
+}
+.LogoAlligator img{
+  float: right;
+  margin-right: 28px;
+}
+/**********/
+/**********/
+
+/***********************/
+/* Barre de navigation */
+/***********************/
+.navbar {
+  display: flex;
+  background-color: #e8947d; /* Pantone 486C */
+  width: 100%;
+  top: 0;
+}
+.navbar a {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 18px 40px;
+  text-decoration: none;
+  display: block;
+}
+.navbar a:hover {
+  background-color: #9C5744;
+}
+.navbar hr {
+  color: #9C5744;
+  background-color: #9C5744;
+  height: 1px;
+  border: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/***********************/
+/***********************/
+
+/***********************/
+/*   Menu deroulant    */
+/***********************/
+.sous{
+  display: none;
+  background-color: #e8947d;
+  position: absolute;
+  width: 100%;
+}
+.navbar > ul li:hover .sous{
+  display: block;
+}
+.navbar ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.navbar ul li{
+  width: 100%;
+  position: relative;
+}
+.sous a{
+  padding: 10px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.deroulant > a::after{
+  content:"  ▼  ";
+  font-size: 14px;
+}
+/***********************/
+/***********************/
+
+/*Symbole "NEW" */
+.plop_new {
+  text-shadow: black 0.01em 0.05em 0.05em;
+  color: red;
+  float: right;
+  margin-right: 10px;
+  padding-bottom: 5px;
+  font-style: italic;
+  font-size: 20px;
+}
+/**********************/
+
+/***********************/
+/* Éléments commun à "Edition" et "Article" */
+.legende_photo {
+  margin-top: 5px;
+  margin-bottom: 12px;
+  text-indent: none;
+  font-size: 13.5px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  color: #4D4D4D;
+}
+.signature {
+  padding-top: 10px;
+  padding-bottom: 11px;
+  padding-right: 4px;
+  font-size: 16px;
+  float: right;
+  font-style: italic;
+  color: black;
+  letter-spacing: 0.07em;
+}
+/**********************/
+
+/**********/
+/* Footer */
+/**********/
+.footer {
+  text-align: center;
+  background: #333;
+  width: 100%;
+  padding: 0px 16px;
+  border-top-width: 10px; /* Permet d'avoir un espace entre les blocs et le footer */
+  border-top-style: solid;
+  border-top-color: #004875;
+  z-index: 1;
+}
+.footer h2 { /* Gros titre du footer */
+  color: white;
+  text-decoration: underline;
+  margin: 15px auto;
+  font-size: 27px;
+}
+.footer h4 { /* mail*/
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.footer a { /* Soulignement du mailto */
+  text-decoration: none;
+}
+.footer h5 { /* texte mis en valeur */
+  color: white;
+  margin: 10px auto;
+  font-size: 18px;
+}
+.footer p { /* texte lambda */
+  color: #C8C8C8;
+  font-size: 15px;
+  margin: 2px auto;
+}
+.footer hr { /* Barre horizontalle séparatrice */
+  background-color: rgb(155,155,155);
+  height: 2px;
+  border: 0;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 69px;
+  margin-right: 69px;
+}
+.footer img {
+  width: 4.6%;
+  margin: 11px 24px;
+}
+.footer p img {
+  vertical-align: middle;
+  width: 2.7%;
+  margin: auto;
+  margin-left: 3px;
+  margin-bottom: 5px;
+}
+/**********/
+/**********/
+
+/*********************/
+/* Responsive layout */
+/*********************/
+@media screen and (max-width: 760px) { /* Resolution d'un  portable  */
+  .row, .navbar {
+    flex-direction: column;
+  }
+  .titre h1 {
+    font-size: 46px;
+  }
+  .titre p {
+    font-size: 14px;
+    margin-bottom: 2.5px;
+  }
+  .titre span {
+    font-size: 11px;
+  }
+  .LogoPolytech img{
+    max-width: 130%;
+    margin-left: 0.5px;
+  }
+  .LogoAlligator img{
+    max-width: 120%;
+    margin-right: 5.6px;
+  }
+  .footer h4 {
+    font-size: 16px;
+  }
+  .footer h5 {
+    font-size: 15px;
+  }
+  .footer p {
+    font-size: 13.5px;
+  }
+  .footer img {
+    width: 10%;
+    margin: 5px 30px;
+  }
+  .footer p img {
+    width: 6%;
+    margin-left: 3px;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC / tablette */
+  .navbar {
+    position: sticky;
+    z-index: 2;
+  }
+  .LogoAlligator img{
+    max-width: 60%;
+    max-height: 60%;
+  }
+  .LogoPolytech img{
+    max-width: 70%;
+    max-height: 70%;
+  }
+}
+/*********************/
+/*********************/
