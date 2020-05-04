@@ -240,6 +240,9 @@ a.mail_link {
   .FullEdition {
     padding: 4.5px 15px;
   }
+  .FullEdition h4 { /* Question titre */
+    font-size: 15px;
+  }
   table.img_inligne img {
     text-align: center;
     padding: 0px 5px;
