@@ -124,7 +124,7 @@ p.link a{
   margin-bottom: 20px;
 }
 .FullEdition video {
-    width: 84%;
+    width: 50%;
     padding: 15px 0px;
     margin: 0 auto;
     display: flex;
@@ -140,7 +140,7 @@ p.link a{
 img.img_article_Wraped {
   display:block; /* Permet de centrer l'image (le transform en un 'block') */
   margin: auto;
-  width: 58%;
+  width: 56%;
   padding: 6px 0px;
 }
 img.img_article_Big {
@@ -173,7 +173,7 @@ table.img_inligne {
   margin: 0 auto;
 }
 table.img_inligne img{
-  width: 75%;
+  width: 78%;
   padding-top: 12px;
   margin: 0 auto;
 }
