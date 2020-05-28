@@ -27,7 +27,7 @@
   font-size: 30px;
 }
 .Pop_New_MenuView img {
-  width: 69%;
+  width: 60%;
   display: block; /* Permet de centrer l'image (le transform en un 'block') */
   margin: auto;
 }
