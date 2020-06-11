@@ -295,8 +295,8 @@ body {
   }
   .footer table p img {
     width: 12%;
-    margin-left: 3px;
-    margin-bottom: 5px;
+    padding-left: 2.5px;
+    padding-bottom: 5px;
   }
   .footer p img {
     width: 6%;
