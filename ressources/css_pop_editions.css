@@ -123,12 +123,6 @@ p.link a{
   margin-top: 30px;
   margin-bottom: 20px;
 }
-.FullEdition video {
-    width: 50%;
-    padding: 15px 0px;
-    margin: 0 auto;
-    display: flex;
-}
 .legende{
   text-align: center;
   font-style: italic;
@@ -249,6 +243,12 @@ a.mail_link {
   .FullEdition h4 { /* Question titre */
     font-size: 15px;
   }
+  .FullEdition video {
+    width: 78%;
+    padding: 15px 0px;
+    margin: 0 auto;
+    display: flex;
+  }
   table.img_inligne img {
     text-align: center;
     padding: 0px 5px;
@@ -297,6 +297,12 @@ a.mail_link {
     width: 100%;
     margin: 0 auto;
   }
+  .FullEdition video {
+    width: 50%;
+    padding: 15px 0px;
+    margin: 0 auto;
+    display: flex;
+}
 }
 /*********************/
 /*********************/
