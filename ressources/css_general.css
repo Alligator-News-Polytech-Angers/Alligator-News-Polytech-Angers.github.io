@@ -235,18 +235,17 @@ body {
   width: 4.6%;
   margin: 11px 24px;
 }
-.footer table p img { /* Version tableau*/
-  vertical-align: middle;
-  width: 7%;
-  margin: auto;
-  margin-left: 3px;
-  margin-bottom: 5px;
-}
 .footer p img { /* Ancienne version en colonne */
   vertical-align: middle;
   width: 3%;
   margin: auto;
   margin-left: 3px;
+  margin-bottom: 5px;
+}
+.footer table p img { /* Version tableau*/
+  vertical-align: middle;
+  width: 8%;
+  margin: auto;
   margin-bottom: 5px;
 }
 /**********/
@@ -294,14 +293,22 @@ body {
     margin: 5px 30px;
   }
   .footer table p img {
-    width: 12%;
+    width: 18%;
     padding-left: 2.5px;
     padding-bottom: 5px;
+	display: flex;
+	text-align:center;
   }
   .footer p img {
-    width: 6%;
+    width: 6%;	
     margin-left: 3px;
     margin-bottom: 5px;
+  }
+  td.name_right_footer {
+	text-align:center;
+  }
+  td.name_left_footer {    
+	text-align:center;
   }
 }
 @media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC / tablette */
@@ -316,6 +323,12 @@ body {
   .LogoPolytech img{
     max-width: 70%;
     max-height: 70%;
+  }
+  td.name_right_footer {
+	text-align:right;
+  }
+  td.name_left_footer {
+	text-align:left;
   }
 }
 /*********************/
