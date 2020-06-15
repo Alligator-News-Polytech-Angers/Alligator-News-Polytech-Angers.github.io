@@ -42,8 +42,6 @@
   padding: 2px 20px;
 }
 /*************************************/
-/*************************************/
-/*************************************/
 
 /*************************/
 /* Editions les différentes rubriques */
@@ -67,7 +65,6 @@
   background-color: #004875;
   padding: 10px 23px;
 }
-/*************************/
 /*************************/
 
 /*************************/
@@ -142,21 +139,20 @@ img.img_article_Big {
   margin: auto;
   width: 40%;
 }
-img.img_titre_popWraped {
-  display:block;
+img.img_titre_popWraped {  
+  display: block;
   margin: auto;
   padding: 1px 0px;
   width: 90%;
 }
 img.img_titre_popBig {
-  display:block;
+  display: block;
   margin: auto;
   padding-top: 8px;
   padding-bottom: 8px;
   width: 60%;
 }
 .FullEdition hr {
-  /*background-color: #004875;*/
   height: 2px;
   border: 0;
   text-align: center;
@@ -208,8 +204,6 @@ a.mail_link {
   color: black;
   font-weight: lighter;
 }
-/*************************************/
-/*************************************/
 /*************************************/
 
 /*********************/
@@ -302,7 +296,5 @@ a.mail_link {
     padding: 15px 0px;
     margin: 0 auto;
     display: flex;
+  }
 }
-}
-/*********************/
-/*********************/
