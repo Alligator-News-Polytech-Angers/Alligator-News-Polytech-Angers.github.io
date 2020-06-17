@@ -130,15 +130,8 @@ body {
 
 /*Symbole "NEW" */
 .plop_new {
-  text-shadow: black 0.01em 0.05em 0.05em;
-  color: red;
-  float: right;
-  margin-right: 10px;
-  padding-bottom: 5px;
-  font-style: italic;
-  font-size: 20px;
+  text-shadow: black 0.01em 0.05em 0.05em; color: red; float: right; margin-right: 10px; padding-bottom: 5px; font-style: italic; font-size: 20px;
 }
-/**********************/
 
 /***********************/
 /* Éléments commun à "Edition" et "Article" */
