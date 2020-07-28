@@ -6,7 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="../ressources/css_general.css">
 	<link rel="stylesheet" type="text/css" href="../ressources/css_pop_editions.css">
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Récupération des caractéristiques de l'application -->
+	<meta name="description" content="Alligator News : site du journal de Polytech Angers" /> <!-- Description de la page : Référencement -->
+	<meta name="keywords" content="Alligator News, edition X" /> <!-- Mots clés de la page : Référencement -->
 </head>
 <body>
 
@@ -19,7 +21,7 @@
 			<h1>Alligator NEWS</h1>
 			<p>- Site de news incroyables -</p>
 			<span>Sans pubs et sans avoir à accepter de cookies !</span>
-			<br><br>
+			<br /><br />
 		</div>
 		<div class="LogoAlligator">
 			<img src="../ressources/images/global/logo_alligator_news.png" alt="*logo_alligator_news*">
@@ -30,18 +32,50 @@
 	<div class="navbar">
 		<a href="../index.html">Home</a>
 		<a href="../articles/index_articles.html">Articles</a>
-		<a href="#bottom">Contact</a>
+		<a href="#contact">Contact</a>
+	</div>
+
+	<div class="EditionBig" style="padding-bottom: 0px;" id="logo_edition">
+		<!-- LOGO / BANNIERE DE L'ÉDITION -->
+		<img class="img_titre_popBig" src="../ressources/images/pop/3/logo_pop_news_3.svg" alt="*Bannière édition #3*">
+	</div>
+
+	<div class="EditionBlockWraped">
+		<br />
+		<article id="mot_debut">
+			<div class="Edition">
+				<div class="FullEdition">
+					<hr style="background:#004875;">
+					<h2>Le mot du début</h2>
+					<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad
+						eas res hominum
+						natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a
+						contemplandis rebus
+						perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis
+						narrare gestiant ? Ut
+						pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ?
+						Quid vero ? Qui
+						ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris
+						habere rationem
+						omniaque perpeti ipsa cognitione et scientia captos et cum maximis
+						curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
+					<a href="#infos_angers">LIEN VERS infos_angers</a>
+					<hr style="background:#004875;">
+				</div>
+			</div>
+		</article>
 	</div>
 
 	<!-- Contenu de l'article -->
 	<div class="EditionBlockWraped">
-		<br>
-		<article> <!-- RUBRIQUE HOROSCOPE -->
+		<br />
+		<article id="horoscope"> <!-- RUBRIQUE HOROSCOPE -->
 			<div class="Edition">
 				<div class="FullEdition">
 					<hr style="background:content-box radial-gradient(#FFC107, #191970);">
 					<img class="img_titre_popWraped" src="../ressources/images/pop/logo_horoscope.svg" alt="*Titre*">
 					<hr style="background:content-box radial-gradient(#FFFF00, #191970);">
+					<img class="img_article_Wraped" src="../ressources/images/pop/horoscope.webp" alt="horoscope" />
 					<h3>Nos spécialistes ont regardés les étoiles à l'aide de leur microscope pour découvir ce qui vous attend dans le mois !</h3> <!-- Slogan de la rubrique -->
 						<h5>BEMS :</h5>
 						<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor convallis. orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor convallis.</p>
@@ -53,11 +87,11 @@
 						<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor convallis. orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor convallis.</p>
 						<h5>PeiP :</h5>
 						<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor convallis. orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor convallis.</p>
-						<br><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
+						<br /><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
 					</div>
 			</div>
 		</article>
-		<article> <!-- RUBRIQUE LE SAVIEZ VOUS ? -->
+		<article id="le_saviez_vous"> <!-- RUBRIQUE LE SAVIEZ VOUS ? -->
 			<div class="Edition">
 				<div class="FullEdition">
 					<hr style="background:content-box radial-gradient(#FFD517, #000000);">
@@ -67,14 +101,15 @@
 					<img class="img_article_Wraped" src="../ressources/images/pop/alli.png" alt="*logo_alli*">
 					<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum maximis
 						curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
+					<p>OUI</p>
 					<video preload  src="../ressources/videos/pop/test1.mp4" poster="../ressources/images/pop/alli.png" controls>
 				  Cette vidéo ne peut être affichée sur votre navigateur Internet... <!-- Message d'erreur -->
 				</video>
-				<br><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
+				<br /><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
 				</div>
 			</div>
 		</article>
-		<article> <!-- RUBRIQUE MISE EN LUMIERE (CRITIQUE CINÉ) -->
+		<article id="mise_en_lumière"> <!-- RUBRIQUE MISE EN LUMIERE (CRITIQUE CINÉ) -->
 			<div class="Edition">
 				<div class="FullEdition">
 					<hr style="background:content-box radial-gradient(#FF0000, #000000);">
@@ -83,11 +118,11 @@
 					<h3>Installez vous confortablement, on va vous éclairer sur ce que vous ne devez pas manquer !</h3> <!-- Slogan de la rubrique -->
 					<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum maximis
 						curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-					<br><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
+					<br /><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
 				</div>
 			</div>
 		</article>
-		<article> <!-- RUBRIQUE QUOI DE NEUF DOC' -->
+		<article id="quoi_de_neuf_doc"> <!-- RUBRIQUE QUOI DE NEUF DOC' -->
 			<div class="Edition">
 				<div class="FullEdition">
 					<hr style="background:content-box radial-gradient(#A3A7DC, #000000);">
@@ -96,11 +131,11 @@
 					<h3>La rubique scientifique idéale pour de futurs ingénieurs !</h3> <!-- Slogan de la rubrique -->
 					<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum maximis
 						curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-					<br><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
+					<br /><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
 				</div>
 			</div>
 		</article>		
-		<article>
+		<article id="quick_news"> <!-- RUBRIQUE QUICK NEWS -->
 			<div class="Edition">
 				<div class="FullEdition">
 					<hr style="background:content-box radial-gradient(#FFDD00, #E72500);">
@@ -109,11 +144,11 @@
 					<h3>Des news à ne pas manquer !</h3> <!-- Slogan de la rubrique -->
 					<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum maximis
 						curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-					<br><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
+					<br /><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
 				</div>
 			</div>
 		</article>
-		<article> <!-- RUBRIQUE INFOS ANGERS -->
+		<article id="infos_angers"> <!-- RUBRIQUE INFOS ANGERS -->
 			<div class="Edition">
 				<div class="FullEdition">
 					<hr style="background:#345FE2;">
@@ -122,11 +157,11 @@
 					<h3>Informations 100% "Made In Angers" !</h3> <!-- Slogan de la rubrique -->
 					<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum maximis
 						curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-					<br><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
+					<br /><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
 				</div>
 			</div>
 		</article>
-		<article> <!-- RUBRIQUE THE INTERVIEW -->
+		<article id="the_interview"> <!-- RUBRIQUE THE INTERVIEW -->
 			<div class="Edition">
 				<div class="FullEdition">
 					<hr style="background:#000000;">
@@ -135,11 +170,11 @@
 					<h3>Découvrez les profs comme vous ne les avez jamais vus !</h3> <!-- Slogan de la rubrique -->
 					<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum maximis
 						curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-					<br><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
+					<br /><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
 				</div>
 			</div>
 		</article>
-		<article> <!-- RUBRIQUE QUI A DIT -->
+		<article id="qui_a_dit"> <!-- RUBRIQUE QUI A DIT -->
 			<div class="Edition">
 				<div class="FullEdition">
 					<hr style="background:#0E5705;">
@@ -148,11 +183,11 @@
 					<h3>LA rubrique qui te permettra de ta la péter en soirée !</h3> <!-- Slogan de la rubrique -->
 					<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum maximis
 						curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-					<br><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
+					<br /><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
 				</div>
 			</div>
 		</article>		
-		<article> <!-- RUBRIQUE RÉSEAU POLYTECH -->
+		<article id="reseau_polytech"> <!-- RUBRIQUE RÉSEAU POLYTECH -->
 			<div class="Edition">
 				<div class="FullEdition">
 					<hr style="background:content-box radial-gradient(#009EE0, #004878);">
@@ -161,11 +196,11 @@
 					<h3>Les actualités brulantes du réseau Polytech !</h3> <!-- Slogan de la rubrique -->
 					<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum maximis
 						curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-					<br><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
+					<br /><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
 				</div>
 			</div>
 		</article>
-		<article> <!-- RUBRIQUE ÉLUS CE -->
+		<article id="elus_ce"> <!-- RUBRIQUE ÉLUS CE -->
 			<div class="Edition">
 				<div class="FullEdition">
 					<hr style="background:content-box radial-gradient(#0A8955, #0A7A4A);">
@@ -175,11 +210,11 @@
 					<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor convallis, non lobortis quam tincidunt. Sed ullamcorper dapibus imperdiet. In hac habitasse platea dictumst. Nam malesuada justo metus, nec ornare dui finibus a. Vestibulum quis leo ac erat consectetur imperdiet. Nullam sodales aliquam tincidunt. Praesent faucibus ullamcorper laoreet. LES QIF SONT CONS !</p>
 					<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum maximis
 						curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-					<br><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
+					<br /><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
 				</div>
 			</div>
 		</article>
-		<article> <!-- RUBRIQUE BDE POLYTECH ANGERS -->
+		<article id="polytech_angers"> <!-- RUBRIQUE BDE POLYTECH ANGERS -->
 			<div class="Edition">
 				<div class="FullEdition">
 					<hr style="background:content-box radial-gradient(#E8947D, #004875);">
@@ -188,11 +223,31 @@
 					<h3>Plus aucune excuse pour louper les évènements !</h3> <!-- Slogan de la rubrique -->
 					<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum maximis
 						curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-					<br><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
+					<br /><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
 				</div>
 			</div>
 		</article>
-		<article> <!-- RUBRIQUE PORTRAIT -->
+		<article id="nos_etudiants_ont_du_talent"> <!-- NOS ÉTUDIANTS ONT DU TALENT -->			
+			<div class="Edition">
+				<div class="FullEdition">
+					<hr style="background:content-box radial-gradient(#00427B, #C77A00);">
+					<img class="img_titre_popWraped" src="../ressources/images/pop/logo_nos_eleves_ont_du_talents.svg"
+						alt="*Titre*">
+					<hr style="background:content-box radial-gradient(#00427B, #C77A00);">
+					<h3>Nos Étudiants ont du Talent !</h3> <!-- Slogan de la rubrique -->
+					<br />
+					<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum
+						natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus
+						perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut
+						pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui
+						ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem
+						omniaque perpeti ipsa cognitione et scientia captos et cum maximis
+						curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
+					<div class="signature">-- Thomas Lépine</div> <!-- Signature de la rubrique -->
+				</div>
+			</div>
+		</article>
+		<article id="portrait"> <!-- RUBRIQUE PORTRAIT -->
 			<div class="Edition">
 				<div class="FullEdition">
 					<hr style="background:content-box radial-gradient(#995231, #FF9B30);">
@@ -201,11 +256,11 @@
 					<h3>Portrait sur des visages emblématiques qui ont marqués l'histoire</h3> <!-- Slogan de la rubrique -->
 					<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum maximis
 						curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-					<br><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
+					<br /><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
 				</div>
 			</div>
 		</article>
-		<article> <!-- RUBRIQUE LA BOITE A MEMES -->
+		<article id="boite_a_memes"> <!-- RUBRIQUE LA BOITE A MEMES -->
 			<div class="Edition">
 				<div class="FullEdition">
 					<hr style="background:content-box radial-gradient(#E33E5C, #FFE000);">
@@ -216,17 +271,17 @@
 						curis et laboribus compensare eam quam ex discendo capiant voluptatem ?
 					</p>
 
-					<br><img class="img_article_Wraped" src="../ressources/images/pop/1/meme_hugo_perdrier.jpg" alt="*mème*">
-					<div class="legende">Chiné - Copy Right : Hugo Perdrier</div><br>
+					<br /><img class="img_article_Wraped" src="../ressources/images/pop/1/meme_hugo_perdrier.jpg" alt="*mème*">
+					<div class="legende">Chiné - Copy Right : Hugo Perdrier</div><br />
 
-					<br><img class="img_article_Wraped" src="../ressources/images/pop/1/meme_trunk.jpg" alt="*mème*">
-					<div class="legende">Description : "Trunk", "Rayon", "Eviter", "Sang-froid"</div><br>
+					<br /><img class="img_article_Wraped" src="../ressources/images/pop/1/meme_trunk.jpg" alt="*mème*">
+					<div class="legende">Description : "Trunk", "Rayon", "Eviter", "Sang-froid"</div><br />
 
-					<br><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
+					<br /><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
 				</div>
 			</div>
 		</article>
-		<article> <!-- RUBRIQUE TEMPLATE -->
+		<article id="template"> <!-- RUBRIQUE TEMPLATE -->
 			<div class="Edition">
 				<div class="FullEdition">
 					<hr style="background:content-box radial-gradient(#333333, #000000);">
@@ -236,111 +291,191 @@
 					<h2>Titre possible</h2>
 					<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum maximis
 						curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-					<br><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
+					<br /><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
 				</div>
 			</div>
 		</article>
-		<article> <!-- RUBRIQUE ROTAGILLA -->
+		<article id="rotagilla"> <!-- RUBRIQUE ROTAGILLA -->
 			<div class="Edition">
 				<div class="FullEdition">
 					<hr style="background:content-box radial-gradient(#166D83, #0B3641);">
 					<img class="img_titre_popWraped" src="../ressources/images/pop/logo_rotagilla.svg" alt="*Titre*">
 					<hr style="background:content-box radial-gradient(#166D83, #0B3641);">
 					<h3>L'info retournée et 100% non vérifiée !</h3> <!-- Slogan de la rubrique -->
-					<p>Pour cette édition, nous aurions pu parler de “Répondre ‘Oui’ à quelqu’un qui demande ‘Tu dors’ devrait-il être punissable ?” ou bien du sujet qui inquiète le monde entier : “Comment être sûr qu’il y a bien 1m de distanciation sociale si l’on n’a pas de mètre sur nous ?”. Un autre sujet tel que : “Mettre du scotch sur la bouche permet-il de remplacer un masque ?” aurait pu attirer notre attention, mais pour cette édition, nous allons plutôt nous focaliser sur une nouvelle affaire, une affaire stupéfiante qui a résonné dans la France entière ! Il est bien connu que les trafics de stupéfiants en tout genre existent bel et bien, nous pensions avoir tout vu, mais un nouveau trafic a vu le jour : Le trafic de coquillages …</p>
-					<img class="img_article_Wraped" src="../ressources/images/pop/2/rotagilla_coquillage.jpg" alt="coquillage">
-					<p>Depuis l’annonce du gouvernement sur l’autorisation des déplacements à moins de 100km de son domicile sans attestation, une bonne partie des français ne pourra malheureusement pas côtoyer le sable chaud des plages … Alors que certains y voient ici une injustice, d’autres y voient une occasion en or. En effet, un trafic massif de coquillages s’est installé sans que les autorités puissent le stopper. Ces petits objets sont fortement réclamés pour leur possibilité d’entendre la mer, lorsque l’on les colle sur nos oreilles.
-					<br><br>
-					A la vue de cette affaire, le gouvernement a rapidement interdit cette vente pour “empêcher que les français y deviennent accro et se mettent en tête d’aller à la mer”. Pour rappel, les coquillages permettent d’entendre le bruit des vagues lorsqu’ils sont collés à l’oreille. Ces objets peuvent être facilement dissimulés pour passer les douanes sans encombre. Face à l’incapacité des bergers allemands à détecter ceux-ci grâce à leur odorat, le gouvernement a dû se tourner vers des Bernard-l’ermite qui semblent plus efficaces.
-					<br><br>
-					Pour un peu mieux comprendre cette affaire, nous avons interviewé Bernard Pagure (32 ans, habitant rue de Chanaleilles dans le 6e arrondissement de Paris), un de ces trafiquants de coquillages. Il a souhaité garder son anonymat, c’est pourquoi nous allons seulement l’appeler par ses initiales dans cet interview.
-					</p>
-					<p><b>> Alligator News : </b><i>“Bonjour P.B., dites-nous, dealer de coquillages, c’est une bonne situation ?”</i></p>
-					<p><b>> P.B : </b><i>"Vous savez, moi je ne crois pas qu’il y ait de bonne ou de mauvaise situation. Aujourd’hui, on apporte du bonheur aux gens, à ceux qui ne peuvent malheureusement pas encore se rendre à la mer à cause de la contrainte des 100km …"</i></p>
-					<p><b>> Alligator News : </b><i>“D’accord, très bien, et combien de coquillages fricotez-vous par jour ?”</i></p>
-					<p><b>> P.B : </b><i>"Une bonne centaine je dirais … D’ailleurs vous en voulez ? Vous verrez, ils sont de bonne qualité, pas cher, et vous pourrez entendre la mer comme si vous y étiez ! Pas mal après 2 mois de confinement, non ? Si vous voulez, je peux même vous faire un prix !"</i></p>
-					<p><b>> Alligator News : </b><i>“Hummm, très bien, c’est ainsi que nous terminons cette interview, on remerci P.B. d’avoir accepté de prendre des risques pour répondre à nos questions ! Nous allons maintenant discuter avec lui en privé …”</i>
-					<br><br>
-					C’est donc sur ces quelques phrases un peu douteuses de la part de notre équipe que nous terminons l’article.
-					</p>
-					<br>
+					
+					<br />
 					<img class="img_article_Wraped" src="../ressources/images/pop/2/rotagilla_plage.webp" alt="plage">
-					<br>
+					<br />
 					<h4><center>N’oubliez pas de toujours vérifier qu’il n’y ait pas de serpent dans vos chaussures, bon appétit et à la prochaine !</center></h4>
-					<br><div class="signature">-- Thomas Lépine</div> <!-- Signature de la rubrique -->
+					<br /><div class="signature">-- Thomas Lépine</div> <!-- Signature de la rubrique -->
 				</div>
 			</div>
 		</article>
-		<article> <!-- RUBRIQUE D'OU CA VIENT -->
+		<article id="d_ou_ca_vient"> <!-- RUBRIQUE D'OU CA VIENT -->
 			<div class="Edition">
 				<div class="FullEdition">
 					<hr style="background:#AC8FBD;">
 					<img class="img_titre_popWraped" src="../ressources/images/pop/logo_dou_ca_vient.svg" alt="*Titre*">
 					<hr style="background:#AC8FBD;">
 					<h3>Une question que tu ne t'es sans doute jamais posée, mais à laquelle nous allons tout de même y répondre !</h3> <!-- Slogan de la rubrique -->
-					<p>On a tous envie de retrouver nos salles obscures et climatisées du cinéma. Malheureusement, il va falloir encore patienter un peu … Dans cette édition, pour nous aider à attendre avant d’y retourner, nous nous intéressons à un fait avéré alors qu’il n'existe aucune règle : les sièges des cinémas sont rouges.</p>
-					<h4>Mais dis-moi, d'où ça vient cette couleur rouge pour les sièges de cinéma ?</h4>
-					<img class="img_article_Wraped" src="../ressources/images/pop/2/dcv_cinema.jpg" alt="dcv_cinema" style="width: 68%;">
-					<br>
-					<p>Il y a plusieurs explications à ce choix de couleur. Tout d’abord, si l’on remonte “un peu” dans le temps, à l’époque grecque, bien avant l’arrivée du cinéma, les théâtres étaient les lieux de divertissement par excellence. Le rouge était lié à la Catharsis (la purgation des passions) qui se déroule sur la scène. En effet, à ce moment, le rôle principal du théâtre était de mettre en scène des actions qui démangeaient l’esprit des spectateurs, avec une fin tragique afin de les dissuader et de chasser ces idées de leur esprit. C’est pourquoi de nombreuses pièces de théâtre mettent en scène le meurtre, la vengeance, la guerre, l’inceste, l’amour interdit, etc. Pourquoi le choix du rouge dans ce processus de Catharsis ? C’est le côté “psychologique” de la couleur qui est souhaité. Le rouge a tendance à rappeler le sang, le feu, la colère, l’amour, la haine … Bref, cette couleur met le cerveau en alerte et amplifie cette Catharsis. <b>Un petit bonus pour votre culture générale :</b> des études avaient montré que le bleu a un effet apaisant pour l’esprit, c’est pourquoi les sièges d’avions sont majoritairement bleus par exemple. Dans la même idée, les sièges de bus et de métro sont souvent plus colorés afin d’apporter de la gaieté aux travailleurs matinaux et limiter la délinquance dans ces transports.</p>
-					<br>
-					<p>Ensuite, il faut noter qu’en France, les salles de divertissement étaient ornées de bleu pour faire écho à la royauté. Au XVIIIe siècle, quand les premiers fauteuils en tissu sont construits, ils conservent cette couleur. Le rouge n’a fait sa première apparition qu’au XIXe siècle, car il rendait les femmes plus belles et ravivait même leurs teints selon notre cher Napoléon : très pratique à une époque où on allait au théâtre surtout pour être vu et discuter. Néanmoins, cette couleur a été très sévèrement critiquée par les spectateurs car elle rappelait trop le sang, très maladroit dans un contexte d’après-guerre / révolution. La couleur rouge revient dans les années 1820 / 1830 une fois le souvenir des massacres estompés. On veut donner aux théâtres une teinte “historique”.</p>
-					<br>
-					<img class="img_article_Wraped" src="../ressources/images/pop/2/dcv_opera.jpg" alt="dcv_opera" style="width: 78%;">
-					<br>
-					<p>Le vert quant à lui est une couleur qui porte malheur au théâtre et est donc banni de ces lieux. Ceci vient du fait que la teinture était difficilement réalisable, chimiquement instable et corrosive. Le vert utilisé était le vert-de-gris, qui s’obtenait par l'oxydation de lamelles de cuivre avec du vinaigre, du citron ou de l’urine. Il aurait été à l’origine de nombreuses intoxications de comédiens. C’est pourquoi il y a peu de chance que vous croisiez cette couleur dans un cinéma ou un théâtre depuis ce jour. Ceci explique également pourquoi un grand nombre de “méchants” au théâtre et dans certains films sont habillés ou teint de vert.</p>
-					<br>
-					<p>En bref, le cinéma commence à prendre son essor au début du XXe siècle, de nombreuses salles de théâtres sont ainsi réaménagées en salles de projection, en conservant leurs fauteuils de couleur rouge déjà en place. Les cinémas qui ont suivis ont conservé dans la grande majorité des cas ce code couleur qui était déjà bien ancré dans les moeurs. C’est pourquoi le siège sur lequel vous vous assoirez bientôt au cinéma sera très probablement rouge. ☺</p>
-					<br><div class="signature">-- Thomas Lépine</div> <!-- Signature de la rubrique -->
+					<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum
+						natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus
+						perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut
+						pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui
+						ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem
+						omniaque perpeti ipsa cognitione et scientia captos et cum maximis
+						curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
+					<br /><div class="signature">-- Thomas Lépine</div> <!-- Signature de la rubrique -->
+				</div>
+			</div>
+		</article>
+		<article id="marque_pages"> <!-- RUBRIQUE MARQUE PAGES -->			
+			<div class="Edition">
+				<div class="FullEdition">
+					<hr style="background:content-box radial-gradient(#428ECC, #485864);">
+					<img class="img_titre_popWraped" src="../ressources/images/pop/logo_marque_pages.svg" alt="*Titre*">
+					<hr style="background:content-box radial-gradient(#428ECC, #485864);">
+					<h3>Préparez votre canapé, on vous conseille sur quoi bouquiner !</h3> <!-- Slogan de la rubrique -->
+					<h2>TITRE <i>- Auteur</i></h2>
+					<p>Ce livre a été écrit par le mentaliste et YouTuber Fabien Olicard et, comme indiqué dans le titre, le
+						sujet abordé est notre rapport au temps. Tout au long de ce livre, l’auteur nous présente différents
+						systèmes de réflexions et d’organisation dans le but de nous faire gagner du temps. Chaque nouveau
+						système est accompagné d’un exemple ou d’une anecdote qui permet de la retenir plus facilement et de la
+						mettre en pratique.</p>
+					<br />
+					<h4>Note : /10</h4>
+					<br />
+					<div class="signature">-- Léo Blaise</div> <!-- Signature de la rubrique -->
+				</div>
+			</div>
+		</article>
+		<article id="infos_polytech_angers"> <!-- INFOS POLYTECH ANGERS -->			
+			<div class="Edition">
+				<div class="FullEdition">
+					<hr style="background:content-box radial-gradient(#009FE3, #004875);">
+					<img class="img_titre_popWraped" src="../ressources/images/pop/logo_info_polytech_angers.svg" alt="*Titre*">
+					<hr style="background:content-box radial-gradient(#009FE3, #004875);">
+					<h3>La rubrique pour être tenu informé sur ton école préférée !</h3> <!-- Slogan de la rubrique -->
+					<br />
+					<div class="signature">-- Thomas Lépine</div> <!-- Signature de la rubrique -->
 				</div>
 			</div>
 		</article>
 	</div>
-	<div class="EditionBig"> 
-			<div class="Edition"> <!-- RUBRIQUE MISE EN LUMIERE -->
-				<div class="FullEdition">
-					<hr style="background:content-box radial-gradient(#FF0000, #000000);">
-					<img class="img_titre_popBig" src="../ressources/images/pop/logo_mise_en_lumiere.svg" alt="*Titre*">
-					<hr style="background:content-box radial-gradient(#FF0000, #000000);">
-					<h3>Installez-vous confortablement, on va vous éclairer sur ce que vous ne devez pas manquer !</h3> <!-- Slogan de la rubrique -->
-					<br>					
-					<h2>Jojo Rabbit - Film</h2>
-					<video preload="metadata" src="../ressources/videos/pop/2/jojo_rabbit_trailler_vostfr.mp4" poster="../ressources/images/pop/2/jojo_rabbit.jpg" controls>
-						Cette vidéo ne peut être affichée sur votre navigateur Internet... <!-- Message d'erreur -->
-					</video>
-					<div class="legende">Trailer du film (VOSTFR)</div>
-					<br><hr style="background:#004875;"><br>
+	<div class="EditionBig">
+		<div class="Edition" id="mise_en_lumire"> <!-- RUBRIQUE MISE EN LUMIERE -->
+			<div class="FullEdition">
+				<hr style="background:content-box radial-gradient(#FF0000, #000000);">
+				<img class="img_titre_popBig" src="../ressources/images/pop/logo_mise_en_lumiere.svg" alt="*Titre*">
+				<hr style="background:content-box radial-gradient(#FF0000, #000000);">
+				<h3>Installez-vous confortablement, on va vous éclairer sur ce que vous ne devez pas manquer !</h3> <!-- Slogan de la rubrique -->
+				<br />					
+				<h2>Jojo Rabbit - Film</h2>
+				<video preload="metadata" src="../ressources/videos/pop/2/jojo_rabbit_trailler_vostfr.mp4" poster="../ressources/images/pop/2/jojo_rabbit.jpg" controls>
+					Cette vidéo ne peut être affichée sur votre navigateur Internet... <!-- Message d'erreur -->
+				</video>
+				<div class="legende">Trailer du film (VOSTFR)</div>
+				<br /><hr style="background:#004875;"><br />
 
-					<img class="img_article_Big" src="../ressources/images/pop/alli.png" alt="*logo_alli*">
-					<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum maximis
-						curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
+				<img class="img_article_Big" src="../ressources/images/pop/alli.png" alt="*logo_alli*">
+				<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum maximis
+					curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
 
-					<table class="img_inligne">
-						<tr>
-							<td><img src="../ressources/images/pop/1/hubble1.webp" alt="*logo_hubble1*"></td>
-							<td><img src="../ressources/images/pop/1/hubble2.jpg" alt="*logo_hubble2*"></td>
-						</tr>
-						<tr>
-							<td class="legende">Légende image 1</td>
-							<td class="legende">Légende mage 2</td>
-						</tr>
-					</table>
+				<table class="img_inligne">
+					<tr>
+						<td><img src="../ressources/images/pop/1/hubble1.webp" alt="*logo_hubble1*"></td>
+						<td><img src="../ressources/images/pop/1/hubble2.jpg" alt="*logo_hubble2*"></td>
+					</tr>
+					<tr>
+						<td class="legende">Légende image 1</td>
+						<td class="legende">Légende mage 2</td>
+					</tr>
+				</table>
 
-					<br><br>
-					<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum maximis
-						curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-					<br><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
-				</div>
+				<br /><br />
+				<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum maximis
+					curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
+				<br /><div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
 			</div>
-			<br>
+		</div>
+		<br />
+		<div class="Edition" id="boite_a_memes">
+			<!-- RUBRIQUE LA BOITE A MEMES -->
+			<div class="FullEdition">
+				<hr style="background:content-box radial-gradient(#E33E5C, #FFE000);">
+				<img class="img_titre_popWraped" src="../ressources/images/pop/logo_la_boite_a_memes.svg" alt="*Titre*">
+				<hr style="background:content-box radial-gradient(#E33E5C, #FFE000);">
+				<h3>Faites des mèmes pas la guerre !</h3> <!-- Slogan de la rubrique -->
+				<h4>L'équipe a scrollé le web pour vous selectioner des mèmes de K-LI-T !</h4>
+				<br />
+				<i>Nous utiliseront 3 mentions :
+					<br />- [OC] : Original Content, un mème créé par un membre de l'équipe Alligator News,
+					<br />- [OCBR] : Original Content By a Reader, un mème créé par un étudiant de Polytech Angers,
+					<br />- Stolen : un mème chiné sur internet.</i>
+				<br />
+				<br />
+		
+				<table class="img_inligne">
+					<tr>
+						<td><img src="../ressources/images/pop/2/meme_peip.jpg" alt="meme_peip"></td>
+						<td><img src="../ressources/images/pop/2/meme_chien_prof.png" alt="meme_Clément Robichon"></td>
+					</tr>
+					<tr>
+						<td class="legende">[OCBR]</td>
+						<td class="legende">[OCBR]</td>
+					</tr>
+					<tr>
+						<td><br /><br /></td> <!-- ESPACEMENT ENTRE 2 LIGNES -->
+					</tr> 
+					<tr>
+						<td><img src="../ressources/images/pop/2/meme_commode.jpg" alt="meme_prof"></td>
+						<td><img src="../ressources/images/pop/2/trap2.jpg" alt="meme_trap"></td>
+					</tr>
+					<tr>
+						<td class="legende">[OCBR]</td>
+						<td class="legende">[OC]</td>
+					</tr>
+					<tr>
+						<td><img src="../ressources/images/pop/2/meme_oss_bouge.webp" alt="meme_oss_alcool"></td>
+						<td><img src="../ressources/images/pop/2/palma_mail_f2.png" alt="meme_palma_mail"></td>
+					</tr>
+					<tr>
+						<td class="legende">Stolen</td>
+						<td class="legende">[OC]</td>
+					</tr>
+				</table>
+				<br />
+				<br />
+				<div class="signature">-- Thomas Lépine</div> <!-- Signature de la rubrique -->
+			</div>
+		</div><br />
+		<div class="Edition" id="le_mot_de_la_fin"> <!-- LE MOT DE LA FIN -->				
+			<div class="FullEdition">
+				<h2>Le mot de la fin ...</h2>
+				<center>
+					<h4>Voici la fin de cette deuxième édition. Mais l’aventure n’est pas finie, séchez donc vos larmes
+						d’alligator, parce que nous serons très vite de retour avec du nouveau contenu !</h4>
+					<br />
+					<h4>La prochaine édition sera une édition spéciale : "Alligator News summer edition" ! Rien de mieux pour
+						ensoleiler votre été ♥ Cette édition devrait sortir courant juillet (si tout se passe comme prévu).</h4>
+					<br />
+					<h4>Si vous êtes intéressé pour rejoindre l’équipe, envoyez nous un message par e-mail, Facebook, ... !</h4>
+				</center>
+				<img style="width:18%; display:block; margin: 5px auto;"
+					src="../ressources/images/pop/logo_alligator_news_pop.png" alt="*Logo Alligator News*">
+				<br />
+				<div class="signature">-- L'équipe Alligator News</div> <!-- Signature de la rubrique -->
+			</div>
+		</div>
+		<br />
 	</div>
 
 	<!-- Footer -->
-	<div class="footer">
-		<br>
+	<div class="footer" id="footer">
+		<br />
 		<div class="citation"><p>"La science, c'est ce que le père enseigne à son fils. La technologie, c'est ce que le fils enseigne à son père"<p><i>- Michel Serres<i></div>
-		<br>
-		<h2 id="bottom">CONTACT</h2>
+		<br />
+		<h2 id="contact">CONTACT</h2>
 		<a href="https://www.facebook.com/AlligatorNews.486C/" target="_blank"><img src="../ressources/images/global/logo_fb.png" alt="logo_facebook"></a>
 		<a><img src="../ressources/images/global/logo_insta.png" alt="logo_instagram"></a>
 		<a href="mailto:alligatornews.polytech.angers@gmail.com"><img src="../ressources/images/global/logo_mail.png" alt="logo_send_mail"></a>
@@ -348,10 +483,10 @@
 		<a href="mailto:alligatornews.polytech.angers@gmail.com"><h4>alligatornews.polytech.angers@gmail.com</h4></a>
 		<hr>
 		<p>Le club de journalisme de Polytech Angers : Alligator News, est fier de vous relayer des informations diverses et variées pour votre plus grand plaisir !</p>
-		<br>
+		<br />
 		<p>L'équipe ayant réalisé cette édition est composée de 6 membres très motivés :</p>
-		<br>
-		<table>
+		<br />
+		<table id="auteurs_membres">
 			<tr>
 				<td class="name_right_footer"><p>► Thomas LÉPINE <a href="https://www.linkedin.com/in/thomas-l%C3%A9pine/" target="_blank"><img src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p></td>				
 				<td class="name_left_footer"><p>► Lucas PERCEREAU <a href="https://www.linkedin.com/in/lucas-percereau/" target="_blank"><img src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p></td>
@@ -365,15 +500,13 @@
 				<td class="name_left_footer"><p>► Léo BLAISE <a href="https://www.linkedin.com/in/leo-blaise-584929153/" target="_blank"><img src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p></td>
 			</tr>
 		</table>		
-		<p>► Yohann HIRRIEN <a href="https://www.linkedin.com/in/yohann-hirrien-a60571140/" target="_blank"><img src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
-		<p>► Caitlin JOLIVET <a href="https://www.linkedin.com/in/caitlin-jolivet-8bb56b140/" target="_blank"><img src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
-		<br>
+		<br />
 		<p>Si tu souhaites faire partie de l'équipe, n'hésite pas à nous contacter ! <i>En plus on a des cookies (des vrais bien sûr)</i></p>
-		<br><br><br>
+		<br /><br /><br />
 		<img class="img_easter_egg" src="../ressources/images/pop/face_new_year-9.jpg" alt="thomas_lepine">
-		<br>
+		<br />
 		<!-- <a title="compteur visiteur"><img src="https://counter4.stat.ovh/private/compteurdevisite.php?c=1gkbbpsa1u9xpjx7qhn6atmcn6whnygd" border="0" title="compteur visiteur" alt="compteur visiteur"></a> <!-- https://www.compteurdevisite.com -->
-		<br>
+		<br />
 	</div>
 </body>
 </html>

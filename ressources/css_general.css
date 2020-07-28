@@ -7,9 +7,6 @@
 * {
   box-sizing: border-box;
 }
-/*********/
-/* Body */
-/*********/
 body {
   font-family: Calibri, Arial, sans-serif; margin: 0;
 }
@@ -64,8 +61,6 @@ body {
 .LogoAlligator img{
   float: right; margin-right: 28px;
 }
-/**********/
-
 /***********************/
 /* Barre de navigation */
 /***********************/
@@ -126,7 +121,6 @@ body {
   content:"  ▼  ";
   font-size: 14px;
 }
-/***********************/
 
 /*Symbole "NEW" */
 .plop_new {
