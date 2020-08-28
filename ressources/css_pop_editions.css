@@ -152,6 +152,15 @@ img.img_titre_popBig {
   padding-bottom: 8px;
   width: 60%;
 }
+.cadre {
+    display:block; /* Permet de centrer l'image (le transform en un 'block') */
+    margin: auto;
+    border-color:  #995231 #4D2411;
+    border-style: solid;
+    border-width: 10px;
+    width: 48%;
+    margin-bottom: 10px;
+}
 .FullEdition hr {
   height: 2px;
   border: 0;
@@ -263,6 +272,10 @@ a.mail_link {
   img.img_titre_popBig {
     width: 100%;
   }
+  .cadre {
+    border-width: 8px;
+    width: 52%;
+}
   .FullEdition hr {
     margin: 6px 0px;
   }
