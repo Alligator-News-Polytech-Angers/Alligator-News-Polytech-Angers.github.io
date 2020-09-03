@@ -155,7 +155,7 @@ img.img_titre_popBig {
 .cadre {
     display:block; /* Permet de centrer l'image (le transform en un 'block') */
     margin: auto;
-    border-color:  #995231 #4D2411;
+    border-color: #995231 #4D2411;
     border-style: solid;
     border-width: 10px;
     width: 48%;
