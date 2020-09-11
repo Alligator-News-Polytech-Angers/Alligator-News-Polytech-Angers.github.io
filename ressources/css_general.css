@@ -15,7 +15,8 @@ body {
 /* Header */
 /**********/
 .header {
-  background: #004875; display: flex;
+  background: #004875;
+  display: flex;
 }
 .titre {
   flex: 62%;
