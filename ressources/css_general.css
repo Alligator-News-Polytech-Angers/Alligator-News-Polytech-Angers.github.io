@@ -68,7 +68,7 @@ body {
 /***********************/
 .navbar {
   display: flex;
-  background-color: #e8947d; /* Pantone 486C */
+  background-color: #E8927C; /* Pantone 486C */
   width: 100%;
   top: 0;
 }
@@ -82,11 +82,11 @@ body {
   display: block;
 }
 .navbar a:hover {
-  background-color: #9C5744;
+  background-color: #B57160;
 }
 .navbar hr {
-  color: #9C5744;
-  background-color: #9C5744;
+  color: #B57160;
+  background-color: #B57160;
   height: 1px;
   border: 0;
   margin-top: 0px;
@@ -98,7 +98,7 @@ body {
 /***********************/
 .sous{
   display: none;
-  background-color: #e8947d;
+  background-color: #E8927C;
   position: absolute;
   width: 100%;
 }

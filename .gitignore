@@ -1,0 +1,4 @@
+# Lines starting with `#` are comments.
+
+# Ignoring directories :
+.vscode/

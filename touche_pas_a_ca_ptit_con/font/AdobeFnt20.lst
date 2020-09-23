@@ -1,0 +1,225 @@
+%!Adobe-FontList 1.20
+%Locale:0x40c
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ARBLANCA
+FamilyName:AR BLANCA
+StyleName:Regular
+FullName:AR BLANCA
+MenuName:AR BLANCA
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\ThomasLepine\Desktop\Alligator-News\touche_pas_a_ca_ptit_con\Font\ARBLANCA.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:212912
+FileModTime:1600207008
+WeightClass:5
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,AR BLANCA
+NameArray:0,Win,1,AR BLANCA
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ARCHRISTY
+FamilyName:AR CHRISTY
+StyleName:Regular
+FullName:AR CHRISTY
+MenuName:AR CHRISTY
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\ThomasLepine\Desktop\Alligator-News\touche_pas_a_ca_ptit_con\Font\ARCHRISTY.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:72364
+FileModTime:1600207114
+WeightClass:5
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,AR CHRISTY
+NameArray:0,Win,1,AR CHRISTY
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ArnoPro-Bold
+FamilyName:Arno Pro
+StyleName:Bold
+FullName:Arno Pro Bold
+MenuName:Arno Pro
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\ThomasLepine\Desktop\Alligator-News\touche_pas_a_ca_ptit_con\Font\arnopro-bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:403036
+FileModTime:1600271048
+WeightClass:700
+WidthClass:5
+AngleClass:0
+DesignSize:120
+NameArray:0,Mac,4,Arno Pro Bold
+NameArray:0,Win,1,Arno Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ArnoPro-Italic
+FamilyName:Arno Pro
+StyleName:Italic
+FullName:Arno Pro Italic
+MenuName:Arno Pro
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\ThomasLepine\Desktop\Alligator-News\touche_pas_a_ca_ptit_con\Font\arnopro-italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:475412
+FileModTime:1600271060
+WeightClass:400
+WidthClass:5
+AngleClass:1
+DesignSize:120
+NameArray:0,Mac,4,Arno Pro Italic
+NameArray:0,Win,1,Arno Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ArnoPro-Regular
+FamilyName:Arno Pro
+StyleName:Regular
+FullName:Arno Pro
+MenuName:Arno Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\ThomasLepine\Desktop\Alligator-News\touche_pas_a_ca_ptit_con\Font\arnopro-regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:404236
+FileModTime:1600271054
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:120
+NameArray:0,Mac,4,Arno Pro
+NameArray:0,Win,1,Arno Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Backtothefuture2002-Regular
+FamilyName:Back to the future 2002
+StyleName:Regular
+FullName:Back to the future 2002
+MenuName:Back to the future 2002
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\ThomasLepine\Desktop\Alligator-News\touche_pas_a_ca_ptit_con\Font\BTTF.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:21156
+FileModTime:1600706512
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Back to the future 2002
+NameArray:0,Win,1,Back to the future 2002
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GillSans-Bold
+FamilyName:Gill Sans
+StyleName:Bold
+FullName:Gill Sans Bold
+MenuName:Gill Sans
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\ThomasLepine\Desktop\Alligator-News\touche_pas_a_ca_ptit_con\Font\Gill Sans Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:131444
+FileModTime:1600706307
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Gill Sans Bold
+NameArray:0,Win,1,Gill Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GillSans-Italic
+FamilyName:Gill Sans
+StyleName:Italic
+FullName:Gill Sans Italic
+MenuName:Gill Sans
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\ThomasLepine\Desktop\Alligator-News\touche_pas_a_ca_ptit_con\Font\Gill Sans Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:151856
+FileModTime:1600706306
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Gill Sans Italic
+NameArray:0,Win,1,Gill Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GillSans
+FamilyName:Gill Sans
+StyleName:Regular
+FullName:Gill Sans
+MenuName:Gill Sans
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\ThomasLepine\Desktop\Alligator-News\touche_pas_a_ca_ptit_con\Font\Gill Sans.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:149908
+FileModTime:1600706307
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Gill Sans
+NameArray:0,Win,1,Gill Sans
+%EndFont
+

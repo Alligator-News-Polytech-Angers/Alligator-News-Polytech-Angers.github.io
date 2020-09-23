@@ -112,6 +112,12 @@ p.link a{
   margin: 14px 0px;
   letter-spacing: 0.04em;
 }
+.FullEdition h6 { /* Titre sujet Rotagilla */
+  text-align: center;
+  font-size: 18px;
+  margin: 5px 0px;
+  letter-spacing: 0.04em;
+}
 .FullEdition h5 { /* Filières horoscope */
   color: #191970;
   text-decoration: overline underline;
@@ -131,7 +137,7 @@ p.link a{
 img.img_article_Wraped {
   display:block; /* Permet de centrer l'image (le transform en un 'block') */
   margin: auto;
-  width: 56%;
+  width: 48%;
   padding: 6px 0px;
 }
 img.img_article_Big {
@@ -158,7 +164,7 @@ img.img_titre_popBig {
     border-color: #995231 #4D2411;
     border-style: solid;
     border-width: 10px;
-    width: 48%;
+    width: 44%;
     margin-bottom: 10px;
 }
 .FullEdition hr {
@@ -168,29 +174,71 @@ img.img_titre_popBig {
   margin: 6px 18px;
 }
 table.img_inligne {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid black;
   text-align: center;
   margin: 0 auto;
 }
 table.img_inligne img{
-  width: 78%;
-  padding-top: 12px;
+  width: 70%;
+  padding-top: 6px;
+  margin: 0 auto;
+}
+table.img_inligne2 {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+}
+table.img_inligne2 img{
+  width: 70%;
+  padding-top: 6px;
   margin: 0 auto;
 }
 table.img_inligne video{
   width: 92%;
-  padding: 6px 0px;
+  padding: 5px 0px;
   margin: 0 auto;
 }
 td.texte {
+  text-align: justify;
+  padding: 4.5px 9px;
+  border: 1px solid black;
+}
+td.texte a{
+  color: #1f0404;
+  text-decoration: underline;
+}
+td.titre {
   text-align: center;
-  padding: 5px 30px;
+  padding: 4px 4px;
+  border: 1px solid black;
+  font-weight: bolder;
+  color: #D4145A;
+  font-size: 18px;
+}
+td.image {
+  text-align: center;
+  padding: 3px 20px;
+  border: 1px solid black;
 }
 td.legende {
   text-align: center;
   font-style: italic;
   font-weight: 200;
-  font-size: 16px;
   color: #4D4D4D;
+  border: 1px solid black;
+}
+td.img {
+  text-align: center;
+  border: 1px solid black;
+}
+td.legende a {
+  color: #4D4D4D;
+  text-decoration: underline;
 }
 img.img_easter_egg {
   width: 18%;
