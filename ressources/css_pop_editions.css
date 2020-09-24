@@ -313,6 +313,7 @@ a.mail_link {
   }
   td.texte {
     padding: 5px 12px;
+    text-align: center;
   }
   img.img_article_Wraped {
     width: 80%;

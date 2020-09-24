@@ -5,7 +5,7 @@
 
 from PIL import Image as imageT
 from resizeimage import resizeimage
-import os;
+import os
 
 #General informations
 chemin_courant = os.getcwd()
