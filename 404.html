@@ -3,9 +3,7 @@
 
 <head>
 	<title>Alligator NEWS - 404 error</title>
-	<link rel="icon" type="image/ico" href="./ressources/images/global/logo_alligator_news_ico.ico" />
-	<link rel="stylesheet" type="text/css" href="./ressources/css_general.css"> <!-- Toute la mise en page globale -->
-	<link rel="stylesheet" type="text/css" href="./ressources/css_pop_editions.css">
+	<link rel="icon" type="image/ico" href="https://alligator-news-polytech-angers.github.io/ressources/images/global/logo_alligator_news_ico.ico" />
 	<!-- Editions présentées dans "Home" -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,11 +15,399 @@
 	<!-- Mots clés de la page : Référencement -->
 </head>
 
+<style>
+	* {
+		box-sizing: border-box;
+	}
+
+	body {
+		font-family: Calibri, Arial, sans-serif;
+		margin: 0;
+	}
+
+	/*********/
+	/* Header */
+	/**********/
+	.header {
+		background: #004875;
+		display: flex;
+	}
+
+	.titre {
+		flex: 62%;
+		color: white;
+		text-align: center;
+		margin: auto;
+	}
+
+	.titre h1 {
+		margin: auto;
+		margin-top: 30px;
+		font-size: 64px;
+		font-family: Arno Pro, Tribun ADF Std, serif;
+		text-shadow: black 0.1em 0.1em 0.1em;
+	}
+
+	.titre p {
+		text-align: center;
+		text-decoration: none;
+		font-size: 18.2px;
+		text-shadow: 0.01em 0em 0.001em;
+		margin-top: 16px;
+		margin-bottom: 6px;
+	}
+
+	.titre span {
+		color: #C8C8C8;
+		font-size: 15px;
+		letter-spacing: 0.137em;
+		font-weight: 100;
+		font-style: italic;
+		padding-bottom: 10px;
+	}
+
+	.LogoPolytech {
+		float: left;
+		flex: 20%;
+		margin: auto;
+	}
+
+	.LogoPolytech img {
+		float: left;
+		margin-left: 8px;
+	}
+
+	.LogoAlligator {
+		float: right;
+		flex: 20%;
+		margin: auto;
+	}
+
+	.LogoAlligator img {
+		float: right;
+		margin-right: 28px;
+	}
+
+	/***********************/
+	/* Barre de navigation */
+	/***********************/
+	.navbar {
+		display: flex;
+		background-color: #E8927C;
+		/* Pantone 486C */
+		width: 100%;
+		top: 0;
+	}
+
+	.navbar a {
+		color: black;
+		text-align: center;
+		font-weight: bold;
+		font-size: 18px;
+		padding: 18px 60px;
+		text-decoration: none;
+		display: block;
+	}
+
+	.navbar a:hover {
+		background-color: #B57160;
+	}
+
+	.navbar hr {
+		color: #B57160;
+		background-color: #B57160;
+		height: 1px;
+		border: 0;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	/***********************/
+	/*   Menu deroulant    */
+	/***********************/
+	.sous {
+		display: none;
+		background-color: #E8927C;
+		position: absolute;
+		width: 100%;
+	}
+
+	.navbar>ul li:hover .sous {
+		display: block;
+	}
+
+	.navbar ul {
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.navbar ul li {
+		width: 100%;
+		position: relative;
+	}
+
+	.sous a {
+		padding: 10px;
+		font-size: 16px;
+		font-weight: normal;
+	}
+
+	.deroulant>a::after {
+		content: "  ▼  ";
+		font-size: 14px;
+	}
+
+	/**********/
+	/* Footer */
+	/**********/
+	.footer {
+		text-align: center;
+		background: #333;
+		width: 100%;
+		padding: 0px 16px;
+		border-top-width: 10px;
+		/* Permet d'avoir un espace entre les blocs et le footer */
+		border-top-style: solid;
+		border-top-color: #004875;
+		z-index: 1;
+	}
+
+	.footer h2 {
+		/* Gros titre du footer */
+		color: white;
+		text-decoration: underline;
+		margin: 15px auto;
+		font-size: 27px;
+	}
+
+	.footer h4 {
+		/* mail*/
+		color: white;
+		text-decoration: none;
+		font-weight: lighter;
+		margin: 0 auto;
+		font-size: 20px;
+	}
+
+	.footer a {
+		/* Soulignement du mailto */
+		text-decoration: none;
+	}
+
+	.footer h5 {
+		/* texte mis en valeur */
+		color: white;
+		margin: 10px auto;
+		font-size: 18px;
+	}
+
+	.footer p {
+		/* texte lambda */
+		color: #C8C8C8;
+		font-size: 16px;
+		margin: 3px auto;
+	}
+
+	.footer table p {
+		/* texte lambda */
+		color: #C8C8C8;
+		font-size: 18px;
+		margin: 6px 10px;
+	}
+
+	.footer hr {
+		/* Barre horizontalle séparatrice */
+		background-color: rgb(155, 155, 155);
+		height: 2px;
+		border: 0;
+		margin-top: 12px;
+		margin-bottom: 12px;
+		margin-left: 69px;
+		margin-right: 69px;
+	}
+
+	.footer img {
+		width: 4.6%;
+		margin: 11px 24px;
+	}
+
+	.footer p img {
+		/* Ancienne version en colonne */
+		vertical-align: middle;
+		width: 3%;
+		margin: auto;
+		margin-left: 3px;
+		margin-bottom: 5px;
+	}
+
+	.footer table p img {
+		/* Version tableau*/
+		vertical-align: middle;
+		width: 8%;
+		margin: auto;
+		margin-bottom: 5px;
+	}
+
+	/**********/
+
+	/*********************/
+	/* Responsive layout */
+	/*********************/
+	@media screen and (max-width: 760px) {
+
+		/* Resolution d'un  portable  */
+		.Pop_New_MenuView img {
+			width: 40%;
+		}
+
+		.row,
+		.navbar {
+			flex-direction: column;
+		}
+
+		.titre h1 {
+			font-size: 46px;
+		}
+
+		.titre p {
+			font-size: 14px;
+			margin-bottom: 2.5px;
+		}
+
+		.titre span {
+			font-size: 11px;
+		}
+
+		.LogoPolytech img {
+			max-width: 138%;
+			margin-left: 0.5px;
+		}
+
+		.LogoAlligator img {
+			max-width: 120%;
+			margin-right: 5.6px;
+		}
+
+		.footer h4 {
+			font-size: 16px;
+		}
+
+		.footer h5 {
+			font-size: 15px;
+		}
+
+		.footer p {
+			font-size: 13.5px;
+		}
+
+		.footer table p {
+			font-size: 15px;
+		}
+
+		.footer img {
+			width: 10%;
+			margin: 5px 30px;
+		}
+
+		.footer table p img {
+			width: 18%;
+			padding-left: 2.5px;
+			padding-bottom: 5px;
+			display: flex;
+			text-align: center;
+		}
+
+		.footer p img {
+			width: 6%;
+			margin-left: 3px;
+			margin-bottom: 5px;
+		}
+
+		td.name_right_footer {
+			text-align: center;
+		}
+
+		td.name_left_footer {
+			text-align: center;
+		}
+	}
+
+	.Pop_New_MenuView {
+		background-color: #004875;
+		padding: 0px 20px;
+	}
+
+	.Pop_New_MenuView h2 {
+		text-align: center;
+		text-decoration: underline;
+		text-shadow: 0.01em 0em 0.01em;
+		font-size: 30px;
+	}
+
+	.Pop_New_MenuView p {
+		text-align: justify;
+		font-size: 17.5px;
+		padding-bottom: 5px;
+	}
+
+	.Pop_New_MenuView img {
+		display: block;
+		/* Permet de centrer l'image (le transform en un 'block') */
+		margin: auto;
+	}
+
+	.Edition_MenuView {
+		color: black;
+		/* Couleur du texte */
+		background-color: #FDF5E6;
+		padding: 2px 20px;
+	}
+
+	.Edition_MenuView h6 {
+		text-align: center;
+		font-size: 18px;
+		margin: 5px 0px;
+		letter-spacing: 0.04em;
+	}
+
+	@media screen and (min-width: 760px) {
+
+		/* Resolution d'une fenêtre sur un PC / tablette */
+		.Pop_New_MenuView img {
+			width: 15%;
+		}
+
+		.navbar {
+			position: sticky;
+			z-index: 2;
+		}
+
+		.LogoAlligator img {
+			max-width: 60%;
+			max-height: 60%;
+		}
+
+		.LogoPolytech img {
+			max-width: 70%;
+			max-height: 70%;
+		}
+
+		td.name_right_footer {
+			text-align: right;
+		}
+
+		td.name_left_footer {
+			text-align: left;
+		}
+	}
+</style>
+	
 <body>
 	<!-- Header -->
 	<div class="header">
 		<div class="LogoPolytech">
-			<img src="./ressources/images/global/Polytech_Angers_blanc_site.png" alt="*Logo Polytech Angers*">
+			<img src="https://alligator-news-polytech-angers.github.io/ressources/images/global/Polytech_Angers_blanc_site.png" alt="*Logo Polytech Angers*">
 		</div>
 		<div class="titre">
 			<h1>
@@ -32,29 +418,32 @@
 			<br><br>
 		</div>
 		<div class="LogoAlligator">
-			<img src="./ressources/images/global/logo_alligator_news.png" alt="*logo_alligator_news*">
+			<img src="https://alligator-news-polytech-angers.github.io/ressources/images/global/logo_alligator_news.png" alt="*logo_alligator_news*">
 		</div>
 	</div>
 
 	<!-- Navigation Bar -->
 	<div class="navbar">
-		<a href="./index.html">Home</a>
-		<a href="./articles/index_articles.html">Articles</a>
+		<a href="https://alligator-news-polytech-angers.github.io/index.html">Home</a>
+		<a href="https://alligator-news-polytech-angers.github.io/articles/index_articles.html">Articles</a>
 		<a href="#bottom">Contact</a>
 	</div>	
 	
 	<div class="Pop_New_MenuView">
-	<br />
-			<div class="Edition_MenuView">
-				<br />
-				<h2>ERROR 404</h2>
-				<br />
-				<h6>Soit la page demandée n'est pas accessible (pour le moment) ou n'existe pas (encore), soit il y a un GROS problème
-					 et c'est peut-être LA FIN DU MONDE !!</h6>
-				<br />
-				<h6>Dans tous les cas, n'hésite pas à patienter en mangeant un cookie ☺</h6>
-
-			</div>
+		<br />
+		<div class="Edition_MenuView">
+			<br />
+			<h2>ERROR 404</h2>
+			<br />
+			<h6>Soit la page demandée n'est pas accessible (pour le moment) ou n'existe pas (encore), soit il y a un GROS
+				problème
+				et c'est peut-être LA FIN DU MONDE !!</h6>
+			<br />
+			<h6>Dans tous les cas, n'hésite pas à patienter en mangeant un cookie ☺</h6>
+			<br />
+			<img src="https://alligator-news-polytech-angers.github.io/ressources/images/global/logo_alligator_news.png" alt="*logo_alligator_news*">
+	
+		</div>
 		<br />
 	</div>
 
@@ -63,10 +452,10 @@
 		<br>
 		<h2 id="contact">CONTACT</h2>
 		<a href="https://www.facebook.com/AlligatorNews.486C/" target="_blank"><img
-				src="./ressources/images/global/logo_fb.png" alt="logo_facebook"></a>
-		<a><img src="./ressources/images/global/logo_insta.png" alt="logo_instagram"></a>
+				src="https://alligator-news-polytech-angers.github.io/ressources/images/global/logo_fb.png" alt="logo_facebook"></a>
+		<a><img src="https://alligator-news-polytech-angers.github.io/ressources/images/global/logo_insta.png" alt="logo_instagram"></a>
 		<a href="mailto:alligatornews.polytech.angers@gmail.com" target="_blank"><img
-				src="./ressources/images/global/logo_mail.png" alt="logo_send_mail"></a>
+				src="https://alligator-news-polytech-angers.github.io/ressources/images/global/logo_mail.png" alt="logo_send_mail"></a>
 		<h5>Si vous rencontrez un problème, une faute, un bug, ... Merci de contacter l'équipe d'Alligator News ☺</h5>
 		<a href="mailto:alligatornews.polytech.angers@gmail.com" target="_blank">
 			<h4>alligatornews.polytech.angers@gmail.com</h4>
@@ -81,33 +470,33 @@
 			<tr>
 				<td class="name_right_footer">
 					<p>► Thomas LÉPINE <a href="https://www.linkedin.com/in/thomas-l%C3%A9pine/" target="_blank"><img
-								src="./ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
+								src="https://alligator-news-polytech-angers.github.io/ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
 				</td>
 				<td class="name_left_footer">
 					<p>► Lucas PERCEREAU <a href="https://www.linkedin.com/in/lucas-percereau/" target="_blank"><img
-								src="./ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
+								src="https://alligator-news-polytech-angers.github.io/ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
 				</td>
 			</tr>
 			<tr>
 				<td class="name_right_footer">
 					<p>► Yohann HIRRIEN <a href="https://www.linkedin.com/in/yohann-hirrien-a60571140/"
-							target="_blank"><img src="./ressources/images/global/logo_linkedin.png"
+							target="_blank"><img src="https://alligator-news-polytech-angers.github.io/ressources/images/global/logo_linkedin.png"
 								alt="logo_linkedin"></a></p>
 				</td>
 				<td class="name_left_footer">
 					<p>► Caitlin JOLIVET <a href="https://www.linkedin.com/in/caitlin-jolivet-8bb56b140/"
-							target="_blank"><img src="./ressources/images/global/logo_linkedin.png"
+							target="_blank"><img src="https://alligator-news-polytech-angers.github.io/ressources/images/global/logo_linkedin.png"
 								alt="logo_linkedin"></a></p>
 				</td>
 			</tr>
 			<tr>
 				<td class="name_right_footer">
 					<p>► Florian ROBIC <a href="https://www.linkedin.com/in/florian-robic/" target="_blank"><img
-								src="./ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
+								src="https://alligator-news-polytech-angers.github.io/ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
 				</td>
 				<td class="name_left_footer">
 					<p>► Léo BLAISE <a href="https://www.linkedin.com/in/leo-blaise-584929153/" target="_blank"><img
-								src="./ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
+								src="https://alligator-news-polytech-angers.github.io/ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
 				</td>
 			</tr>
 		</table>
