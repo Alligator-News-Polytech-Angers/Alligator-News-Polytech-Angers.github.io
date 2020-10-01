@@ -132,14 +132,6 @@ p.link a{
   margin-top: 30px;
   margin-bottom: 20px;
 }
-.legende{
-  text-align: center;
-  font-style: italic;
-  padding: 5px 0px;
-  font-weight: 200;
-  font-size: 16px;
-  color: #4D4D4D;
-}
 img.img_article_Wraped {
   display:block; /* Permet de centrer l'image (le transform en un 'block') */
   margin: auto;
@@ -235,6 +227,8 @@ td.legende {
   text-align: center;
   font-style: italic;
   font-weight: 200;
+  font-size: 16px;
+  padding: 5px 0px;
   color: #4D4D4D;
   border: 1px solid black;
 }
@@ -309,11 +303,14 @@ a.mail_link {
   table.img_inligne img {
     text-align: center;
     padding: 0px 5px;
-    width: 99%;
+    width: 98%;
   }
   td.texte {
     padding: 5px 12px;
     text-align: center;
+  }
+  td.legende {
+    font-size: 12px;
   }
   img.img_article_Wraped {
     width: 80%;
