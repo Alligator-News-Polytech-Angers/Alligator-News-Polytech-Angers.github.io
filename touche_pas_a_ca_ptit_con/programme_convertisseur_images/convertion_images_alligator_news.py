@@ -51,7 +51,7 @@ for filename in os.listdir(input_directory):
 
 		image.save(output_directory + filename.split('.')[0] + ".webp", "webp") #On enregistre l'image au bon format
 	else:
-		nb_converti += 1	
+		nb_converti += 1
 		image = imageT.open(input_directory + filename)
 
 		if image.size[1] > 800: #Si la hauteur dépasse 800 pixels on redimensionne l'image

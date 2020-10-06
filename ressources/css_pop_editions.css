@@ -263,6 +263,14 @@ a.mail_link {
 }
 /*************************************/
 
+/***********   EXTERIEUR *************/
+.video_youtube {
+  display: block;
+  margin: 0 auto;
+  width: 96%;
+  height: 18rem;
+}
+
 /*********************/
 /* Responsive layout */
 /*********************/
@@ -337,8 +345,12 @@ a.mail_link {
   .citation p{
     font-size: 13px;
   }
+  .video_youtube {
+    width: 100%;
+    height: 12rem;
+  }
 }
-@media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC  / tablette  */
+@media screen and (min-width: 761px){ /* Resolution d'une fenêtre sur un PC  / tablette  */
   .EditionBlockWraped {
     padding-left: 8px;
     padding-right: 8px;
