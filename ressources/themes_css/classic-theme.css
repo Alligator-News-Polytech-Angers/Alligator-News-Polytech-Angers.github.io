@@ -1,0 +1,27 @@
+/************************************/
+/* Feuille de style Alligator NEWS  */
+/* ~ Thème global de la page ~      */
+/* Copyright :  LÉPINE Thomas       */
+/************************************/
+
+/* Thème CLASSIQUE */
+
+:root {
+  /* Navbar */
+  --pantone486C: #E8927C; /* Pantone 486C -> rose Saumon Polytech Angers */
+  --navbar-hover: #B57160; /* Couleur secondaire navbar */
+  --navbar-text: #000; /* Couleur textes navbar */
+
+  /* Titres header */
+  --title-color: #fff; /* Couleur du grand titre */
+  --title-span-color: #C8C8C8; /* Couleur titre "span" -> sans pubs et sans cookies */
+
+  /* Corps de la page */
+  --background-color: #004875;; /* Fond de la page */
+  --background-article-color: #FDF5E6; /* Fond des articles */ 
+
+  /* Footer */
+  --background-footer-color: #333; /* Fond du footer */
+  --text1-footer: #fff; /* Textes footer (important) */ 
+  --text2-footer: #C8C8C8;; /* Textes footer */ 
+}

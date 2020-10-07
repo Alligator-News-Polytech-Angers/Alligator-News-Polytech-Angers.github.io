@@ -4,6 +4,7 @@
 /* PERCEREAU Lucas                  */
 /* LÉPINE Thomas                    */
 /************************************/
+
 * {
   box-sizing: border-box;
 }
@@ -15,12 +16,12 @@ body {
 /* Header */
 /**********/
 .header {
-  background: #004875;
+  background: var(--background-color);
   display: flex;
 }
 .titre {
   flex: 62%;
-  color: white;
+  color: var(--title-color);
   text-align: center;
   margin: auto;
 }
@@ -40,7 +41,7 @@ body {
   margin-bottom: 6px;
 }
 .titre span {
-  color: #C8C8C8;
+  color: var(--title-span-color);
   font-size: 15px;
   letter-spacing: 0.137em;
   font-weight: 100;
@@ -53,7 +54,8 @@ body {
   margin: auto;
 }
 .LogoPolytech img{
-  float: left; margin-left: 8px;
+  float: left;
+  margin-left: 28px;
 }
 .LogoAlligator {
   float: right;
@@ -61,19 +63,20 @@ body {
   margin: auto;
 }
 .LogoAlligator img{
-  float: right; margin-right: 28px;
+  float: right;
+  margin-right: 28px;
 }
 /***********************/
 /* Barre de navigation */
 /***********************/
 .navbar {
   display: flex;
-  background-color: #E8927C; /* Pantone 486C */
+  background-color: var(--pantone486C);
   width: 100%;
   top: 0;
 }
 .navbar a {
-  color: black;
+  color: var(--navbar-text);
   text-align: center;
   font-weight: bold;
   font-size: 18px;
@@ -82,11 +85,10 @@ body {
   display: block;
 }
 .navbar a:hover {
-  background-color: #B57160;
+  background-color: var(--navbar-hover);
 }
 .navbar hr {
-  color: #B57160;
-  background-color: #B57160;
+  background-color: var(--navbar-hover);
   height: 1px;
   border: 0;
   margin-top: 0px;
@@ -98,7 +100,7 @@ body {
 /***********************/
 .sous{
   display: none;
-  background-color: #E8927C;
+  background-color: var(--pantone486C);
   position: absolute;
   width: 100%;
 }
@@ -157,22 +159,19 @@ body {
 /**********/
 .footer {
   text-align: center;
-  background: #333;
+  background: var(--background-footer-color);
   width: 100%;
   padding: 0px 16px;
-  border-top-width: 10px; /* Permet d'avoir un espace entre les blocs et le footer */
-  border-top-style: solid;
-  border-top-color: #004875;
   z-index: 1;
 }
 .footer h2 { /* Gros titre du footer */
-  color: white;
+  color: var(--text1-footer);
   text-decoration: underline;
   margin: 15px auto;
   font-size: 27px;
 }
 .footer h4 { /* mail*/
-  color: white;
+  color: var(--text1-footer);
   text-decoration: none;
   font-weight: lighter;
   margin: 0 auto;
@@ -182,17 +181,17 @@ body {
   text-decoration: none;
 }
 .footer h5 { /* texte mis en valeur */
-  color: white;
+  color: var(--text2-footer);
   margin: 10px auto;
   font-size: 18px;
 }
 .footer p { /* texte lambda */
-  color: #C8C8C8;
+  color: var(--text2-footer);
   font-size: 16px;
   margin: 3px auto;
 }
 .footer table p { /* texte lambda */
-  color: #C8C8C8;
+  color: var(--text2-footer);
   font-size: 18px;
   margin: 6px 10px;
 }
@@ -242,12 +241,12 @@ body {
     font-size: 11px;
   }
   .LogoPolytech img{
-    max-width: 138%;
-    margin-left: 0.5px;
+    width: 115%;
+    margin-left: 6px;
   }
   .LogoAlligator img{
-    max-width: 120%;
-    margin-right: 5.6px;
+    width: 100%;
+    margin-right: 6px;
   }
   .footer h4 {
     font-size: 16px;

@@ -1,0 +1,12 @@
+/************************************/
+/* Feuille de style Alligator NEWS  */
+/* ~ Thème global de la page ~      */
+/* Copyright :  LÉPINE Thomas       */
+/************************************/
+
+/* Thème SPÉCIAL HALLOWEEN */
+
+:root {
+    --background-color: #F2720F; /* Fond de la page */
+    --background-article-color: #FDF5E6; /* Fond des articles */
+  }

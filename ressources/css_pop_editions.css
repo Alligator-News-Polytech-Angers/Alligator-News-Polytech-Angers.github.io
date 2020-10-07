@@ -1,7 +1,6 @@
 /************************************/
 /* Feuille de style Alligator NEWS  */
 /* Copyright :                      */
-/* PERCEREAU Lucas                  */
 /* LÉPINE Thomas                    */
 /************************************/
 
@@ -9,7 +8,7 @@
 /* Présentation Editions depuis la menu */
 /*****************************************/
 .Pop_New_MenuView {
-  background-color: #004875;
+  background-color: var(--background-color);
   padding: 0px 20px;
 }
 .Pop_New_MenuView a {
@@ -18,7 +17,7 @@
   padding: 10px 10px;
 }
 .Pop_New_MenuView a:hover {
-  background-color: #FDF5E6;
+  background-color: var(--background-article-color);
 }
 .Pop_New_MenuView h2 {
   text-align: center;
@@ -38,7 +37,7 @@
 }
 .Edition_MenuView {
   color: black; /* Couleur du texte */
-  background-color: #FDF5E6;
+  background-color: var(--background-article-color);
   padding: 2px 20px;
 }
 .Edition_MenuView h6 {
@@ -53,23 +52,23 @@
 /* Editions les différentes rubriques */
 /*************************/
 .EditionBlockWraped {
-  background-color: #004875;
+  background-color: var(--background-color);
 }
 .EditionBlockWraped article {
   color: black;
   display: block;
   text-decoration: none;
-  padding: 15px 15px;
+  padding: 15px 10px;
 }
 .Edition {
-  background-color: #FDF5E6;
+  background-color: var(--background-article-color);
   padding: 6px 6px;
   display: flex;
   height: 100%;
 }
 .EditionBig {
-  background-color: #004875;
-  padding: 10px 23px;
+  background-color: var(--background-color);
+  padding: 10px 18px;
 }
 /*************************/
 
@@ -77,7 +76,7 @@
 /*   Editions completes  */
 /*************************/
 .FullEdition {
-  background-color: #FDF5E6;
+  background-color: var(--background-article-color);
   padding: 2px 15px;
   height: 100%;
   margin: 0px auto
@@ -294,7 +293,7 @@ a.mail_link {
     padding: 4px 5px;
   }
   .EditionBig{
-	  padding: 10px 15px;
+	  padding: 10px 14px;
   }
   .FullEdition {
     padding: 4.5px 15px;
