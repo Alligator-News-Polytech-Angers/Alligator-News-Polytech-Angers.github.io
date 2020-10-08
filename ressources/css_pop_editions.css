@@ -86,6 +86,7 @@
   line-height: 140%;
   text-align: justify;
   margin: 4px auto;
+  /* font-size: 17px; */
 }
 p.link {
   text-indent: inherit;

@@ -4,6 +4,29 @@
 %BeginFont
 Handler:DirectoryHandler
 FontType:TrueType
+FontName:ARBERKLEY
+FamilyName:AR BERKLEY
+StyleName:Regular
+FullName:AR BERKLEY
+MenuName:AR BERKLEY
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\ThomasLepine\Desktop\Alligator-News\touche_pas_a_ca_ptit_con\Font\ar-berkley.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:79652
+FileModTime:1602111433
+WeightClass:5
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,AR BERKLEY
+NameArray:0,Win,1,AR BERKLEY
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
 FontName:ARBLANCA
 FamilyName:AR BLANCA
 StyleName:Regular
@@ -128,6 +151,29 @@ NameArray:0,Win,1,Arno Pro
 %BeginFont
 Handler:DirectoryHandler
 FontType:TrueType
+FontName:BebasNeue-Regular
+FamilyName:Bebas Neue
+StyleName:Regular
+FullName:Bebas Neue Regular
+MenuName:Bebas Neue
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\ThomasLepine\Desktop\Alligator-News\touche_pas_a_ca_ptit_con\Font\BebasNeue-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:60576
+FileModTime:1602111336
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Bebas Neue Regular
+NameArray:0,Win,1,Bebas Neue
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
 FontName:Backtothefuture2002-Regular
 FamilyName:Back to the future 2002
 StyleName:Regular
@@ -146,6 +192,54 @@ WidthClass:5
 AngleClass:0
 NameArray:0,Mac,4,Back to the future 2002
 NameArray:0,Win,1,Back to the future 2002
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ForgottenFuturistRg-Bold
+FamilyName:Forgotten Futurist
+StyleName:Bold
+FullName:ForgottenFuturistRg-Bold
+MenuName:Forgotten Futurist Rg
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\ThomasLepine\Desktop\Alligator-News\touche_pas_a_ca_ptit_con\Font\forgotten futurist bd.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:92780
+FileModTime:1602108497
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,ForgottenFuturistRg-Bold
+NameArray:0,Win,1,Forgotten Futurist Rg
+NameArray:0,Win,16,Forgotten Futurist
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ForgottenFuturistRg-Regular
+FamilyName:Forgotten Futurist
+StyleName:Regular
+FullName:ForgottenFuturistRg-Regular
+MenuName:Forgotten Futurist Rg
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\ThomasLepine\Desktop\Alligator-News\touche_pas_a_ca_ptit_con\Font\forgotten futurist rg.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:91104
+FileModTime:1602108497
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,ForgottenFuturistRg-Regular
+NameArray:0,Win,1,Forgotten Futurist Rg
+NameArray:0,Win,16,Forgotten Futurist
 %EndFont
 
 %BeginFont

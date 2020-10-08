@@ -14,6 +14,7 @@
 
   /* Titres header */
   --title-color: #fff; /* Couleur du grand titre */
+  --shadow-color: #000; /* Couleur des ombres */
   --title-span-color: #C8C8C8; /* Couleur titre "span" -> sans pubs et sans cookies */
 
   /* Corps de la page */
@@ -23,5 +24,9 @@
   /* Footer */
   --background-footer-color: #333; /* Fond du footer */
   --text1-footer: #fff; /* Textes footer (important) */ 
-  --text2-footer: #C8C8C8;; /* Textes footer */ 
+  --text2-footer: #C8C8C8;; /* Textes footer */
+
+   /* Polices d'écritures */
+   --polices-global: Calibri, Arial, sans-serif;
+   --police-titre: Arno Pro, Tribun ADF Std, serif;
 }

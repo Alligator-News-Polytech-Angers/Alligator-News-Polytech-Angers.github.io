@@ -7,6 +7,42 @@
 /* Thème SPÉCIAL HALLOWEEN */
 
 :root {
-    --background-color: #F2720F; /* Fond de la page */
-    --background-article-color: #FDF5E6; /* Fond des articles */
-  }
+  /* Navbar */
+  --pantone486C: #333; /* Pantone 486C -> rose Saumon Polytech Angers */
+  --navbar-hover: #000; /* Couleur secondaire navbar */
+  --navbar-text: #F2720F; /* Couleur textes navbar */
+
+  /* Titres header */
+  --title-color: #000; /* Couleur du grand titre */
+  --shadow-color: #C8C8C8; /* Couleur des ombres */
+  --title-span-color: #333; /* Couleur titre "span" -> sans pubs et sans cookies */
+
+  /* Corps de la page */
+  --background-color: #F2720F;
+  --background-article-color: #e0e0e0; /* Fond des articles */ 
+
+  /* Footer */
+  --background-footer-color: #333; /* Fond du footer */
+  --text1-footer: #fff; /* Textes footer (important) */ 
+  --text2-footer: #C8C8C8;; /* Textes footer */
+
+  /* Polices d'écritures */
+  --polices-global: Calibri, serif;
+  --police-titre: Apple Chancery, cursive;
+}
+
+/*** IMAGES POUR LE THEME : **/
+.header {
+  background-image: url("../../ressources/images/pop/5/blood.svg");
+  background-position: 40% 60%;
+}
+/* .EditionBlockWraped {
+  background-image: url("../../ressources/images/pop/5/spider-insect.svg");
+  background-size: 38rem;
+  background-position: 53% 50%;
+} */
+.EditionBig {
+  background-image: url("../../ressources/images/pop/5/spider-insect.svg");
+  background-position: 53% 50%;
+}
+  
