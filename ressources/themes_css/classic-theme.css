@@ -18,7 +18,8 @@
   --title-span-color: #C8C8C8; /* Couleur titre "span" -> sans pubs et sans cookies */
 
   /* Corps de la page */
-  --background-color: #004875;; /* Fond de la page */
+  --background-header-color: #004875; /* Couleur (background) du header */
+  --background-color: #004875; /* Couleur du fond global */
   --background-article-color: #FDF5E6; /* Fond des articles */ 
 
   /* Footer */

@@ -51,9 +51,6 @@
 /*************************/
 /* Editions les différentes rubriques */
 /*************************/
-.EditionBlockWraped {
-  background-color: var(--background-color);
-}
 .EditionBlockWraped article {
   color: black;
   display: block;
@@ -67,8 +64,10 @@
   height: 100%;
 }
 .EditionBig {
-  background-color: var(--background-color);
   padding: 10px 18px;
+}
+.backgroundTheme {
+  background-color: var(--background-color);
 }
 /*************************/
 

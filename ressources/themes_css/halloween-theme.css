@@ -18,8 +18,9 @@
   --title-span-color: #333; /* Couleur titre "span" -> sans pubs et sans cookies */
 
   /* Corps de la page */
-  --background-color: #F2720F;
-  --background-article-color: #e0e0e0; /* Fond des articles */ 
+  --background-header-color: #F2720F; /* Couleur (background) du header */
+  --background-color: #F2720F; /* Couleur du fond global */
+  --background-article-color: #e0e0e0; /* Fond des articles */
 
   /* Footer */
   --background-footer-color: #333; /* Fond du footer */
@@ -36,13 +37,12 @@
   background-image: url("../../ressources/images/pop/5/blood.svg");
   background-position: 40% 60%;
 }
-/* .EditionBlockWraped {
-  background-image: url("../../ressources/images/pop/5/spider-insect.svg");
-  background-size: 38rem;
-  background-position: 53% 50%;
+/* .backgroundTheme {
+  
 } */
-.EditionBig {
+/* .EditionBig {
   background-image: url("../../ressources/images/pop/5/spider-insect.svg");
   background-position: 53% 50%;
-}
+  background-size: 12rem;
+} */
   
