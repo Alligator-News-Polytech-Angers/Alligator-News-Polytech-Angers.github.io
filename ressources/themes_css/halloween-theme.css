@@ -35,14 +35,16 @@
 /*** IMAGES POUR LE THEME : **/
 .header {
   background-image: url("../../ressources/images/pop/5/blood.svg");
+  /* background: 40% 60% repeat url("../../ressources/images/pop/5/blood.svg"), 0% 0% no-repeat url("../../spider-animated-gif-49.gif"), #F2720F; */
   background-position: 40% 60%;
 }
 /* .backgroundTheme {
   
 } */
-/* .EditionBig {
-  background-image: url("../../ressources/images/pop/5/spider-insect.svg");
-  background-position: 53% 50%;
-  background-size: 12rem;
-} */
+.EditionBig {
+  background-image: url("../../spider-animated-gif-49.gif");
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-size: 40rem;
+}
   
