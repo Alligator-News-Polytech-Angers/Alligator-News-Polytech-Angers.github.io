@@ -3,6 +3,56 @@
 
 %BeginFont
 Handler:DirectoryHandler
+FontType:Type1
+FontName:ACaslonPro-Italic
+FamilyName:Adobe Caslon Pro
+StyleName:Italic
+FullName:Adobe Caslon Pro Italic
+MenuName:Adobe Caslon Pro
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\ThomasLepine\Desktop\Alligator-News\touche_pas_a_ca_ptit_con\Font\acaslonpro-italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:167264
+FileModTime:1602490708
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Adobe Caslon Pro Italic
+NameArray:0,Win,1,Adobe Caslon Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ACaslonPro-Regular
+FamilyName:Adobe Caslon Pro
+StyleName:Regular
+FullName:Adobe Caslon Pro
+MenuName:Adobe Caslon Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\ThomasLepine\Desktop\Alligator-News\touche_pas_a_ca_ptit_con\Font\acaslonpro-regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:161820
+FileModTime:1602490697
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Adobe Caslon Pro
+NameArray:0,Win,1,Adobe Caslon Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
 FontType:TrueType
 FontName:ARBERKLEY
 FamilyName:AR BERKLEY
@@ -339,6 +389,28 @@ AngleClass:0
 NameArray:0,Mac,4,Haunting Attraction
 NameArray:0,Win,1,Haunting Attraction
 NameArray:0,Win,16,Haunting Attraction
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:MeganJune
+FamilyName:Megan June
+StyleName:Regular
+FullName:Megan June
+MenuName:Megan June
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\ThomasLepine\Desktop\Alligator-News\touche_pas_a_ca_ptit_con\Font\Megan June.otf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:33256
+FileModTime:1602258663
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Megan June
 %EndFont
 
 %BeginFont
