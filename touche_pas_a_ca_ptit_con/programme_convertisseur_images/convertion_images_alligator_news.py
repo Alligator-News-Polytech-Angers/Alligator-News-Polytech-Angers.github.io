@@ -2,12 +2,15 @@
 #     Copyright : Thomas LÉPINE  (thomas.lep4@gmail.com)
 # ------------------------------------
 
-from PIL import Image as imagePillow # Librairie Pillow (traitement d'images)
 import os # Librairie pour les fonctions interagissant avec le système (fichiers, ...)
+from PIL import Image as imagePillow # Librairie Pillow (traitement d'images)
+'''
+Docs : https://pillow.readthedocs.io/en/stable/reference/Image.html  https://pillow.readthedocs.io/en/stable/handbook/concepts.html#concept-modes
+'''
 
 def fonctionsImage(image):
 	imageName = output_directory + filename.split('.')[0] + ".webp" # Nom de l'image finale
-	newImage = image.convert("RGB", palette=imagePillow.WEB) # Image.convert(mode=None, matrix=None, dither=None, palette=0, colors=256) # https://pillow.readthedocs.io/en/stable/_modules/PIL/Image.html#Image.convert
+	newImage = image.convert("RGB", palette=imagePillow.WEB) # Image.convert(mode=None, matrix=None, dither=None, palette=0, colors=256)
 	newHeight = 800	
 
 	if newImage.size[1] > newHeight: #Si la hauteur dépasse 800 pixels on redimensionne l'image
@@ -21,11 +24,11 @@ def fonctionsImage(image):
 	newImage.close() # libère les ressources systèmes
 	image.close() # libère les ressources systèmes
 
+
 #General informations
 chemin_courant = os.getcwd()
-#print(chemin_courant)
 path_used = chemin_courant.split('\\')
-#print(path_used)
+
 #Recompose le chamin du fichier finale
 output_directory = ""
 for i in range(0, len(path_used)):
@@ -50,17 +53,16 @@ nb_converti = 0
 if not os.path.exists(output_directory):
 	os.makedirs(output_directory) #Créer le répertoire s'il n'exite pas	
 else:
-	print("/!\\ Le dossier existe déjà /!\\")
+	print("/!\\ Le dossier a déjà été créé /!\\")
 	
 output_directory += "\\"
 print("CHEMIN DE SORTIE : " + output_directory)
 	
 for filename in os.listdir(input_directory):	
 	print('> Nom de l\'image = ' + filename)
-	image = imagePillow.open(input_directory + filename, 'r')
-	fonctionsImage(image)
+	image = imagePillow.open(input_directory + filename, 'r') # Récupère l'image
+	fonctionsImage(image) # Transforme et converti l'image (redimenssionne)
 	nb_converti += 1
 
-print('\n')
-print("Fin du programme, " + str(nb_converti) + " image(s) ont été converti, appuyez sur une touche pour arrêter ...")
-input()
+print("\nFin du programme, " + str(nb_converti) + " image(s) ont été converti, appuyez sur une touche pour arrêter ...")
+input() # Attendre qu'une touche soit appuyé pour quitter le programme
