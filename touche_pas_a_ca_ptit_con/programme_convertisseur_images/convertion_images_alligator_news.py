@@ -1,18 +1,30 @@
-
 # ------------------------------------
 #     Copyright : Thomas LÉPINE
 # ------------------------------------
 
-from PIL import Image as imageT
-from resizeimage import resizeimage
-import os
+from PIL import Image as imagePillow # Librairie Pillow (traitement d'images)
+import numpy as np # Numpy -> Traitement matricielle (NB : une image est une matrice composée pixels grosso modo)
+from resizeimage import resizeimage # Diminuer la taille d'une image pour moins de stockage
+import os # Librairie pour les fonctions interagissant avec le système (fichiers, ...)
+
+def fonctionsImage(image):
+	newImage = image.convert("RGB", palette=imagePillow.WEB) # Image.convert(mode=None, matrix=None, dither=None, palette=0, colors=256) # https://pillow.readthedocs.io/en/stable/_modules/PIL/Image.html#Image.convert
+	# print("Infos : " + image.mode + " -> mode / format -> " + image.format)
+	# print("Infos : " + newImage.mode + " -> mode")
+	if newImage.size[1] > 800: #Si la hauteur dépasse 800 pixels on redimensionne l'image
+		newImage = resizeimage.resize_height(newImage, 800)
+
+	newImage.save(output_directory + filename.split('.')[0] + ".webp", "webp") #On enregistre l'image au bon format
+	newImage.close() # libère les ressources systèmes
+	image.close() # libère les ressources systèmes
+
 
 #General informations
 chemin_courant = os.getcwd()
 #print(chemin_courant)
 path_used = chemin_courant.split('\\')
 #print(path_used)
-#Recompose le chamin du fichier finally
+#Recompose le chamin du fichier finalle
 output_directory = ""
 for i in range(0, len(path_used)):
 	output_directory += path_used[i] + '\\'	
@@ -43,21 +55,9 @@ print("CHEMIN DE SORTIE : " + output_directory)
 	
 for filename in os.listdir(input_directory):	
 	print('> Nom de l\'image = ' + filename)
-	if filename.split('.')[1] == 'webp': #Ne convertit pas les fichier déjà au format voulu
-		#next #On passe à l'image suivante
-		image = imageT.open(input_directory + filename)
-		if image.size[1] > 800: #Si la hauteur dépasse 800 pixels on redimensionne l'image
-			image = resizeimage.resize_height(image, 800)
-
-		image.save(output_directory + filename.split('.')[0] + ".webp", "webp") #On enregistre l'image au bon format
-	else:
-		nb_converti += 1
-		image = imageT.open(input_directory + filename)
-
-		if image.size[1] > 800: #Si la hauteur dépasse 800 pixels on redimensionne l'image
-			image = resizeimage.resize_height(image, 800)
-
-		image.save(output_directory + filename.split('.')[0] + ".webp", "webp") #On enregistre l'image au bon format
+	image = imagePillow.open(input_directory + filename)
+	fonctionsImage(image)
+	nb_converti += 1	
 
 print('\n')
 print("Fin du programme, " + str(nb_converti) + " image(s) ont été converti, appuyez sur une touche pour arrêter ...")
