@@ -9,8 +9,9 @@ Docs : https://pillow.readthedocs.io/en/stable/reference/Image.html  https://pil
 '''
 
 def fonctionsImage(image):
-	imageName = output_directory + filename.split('.')[0] + ".webp" # Nom de l'image finale
+	imageName = output_directory + filename.split('.')[0] + ".jpg" # Nom de l'image finale
 	newImage = image.convert("RGB", palette=imagePillow.WEB) # Image.convert(mode=None, matrix=None, dither=None, palette=0, colors=256)
+	image.close() # libère les ressources systèmes
 	newHeight = 800	
 
 	if newImage.size[1] > newHeight: #Si la hauteur dépasse 800 pixels on redimensionne l'image
@@ -22,9 +23,7 @@ def fonctionsImage(image):
 
 	newImage.save(imageName, format="jpeg") #On enregistre l'image au bon format
 	newImage.close() # libère les ressources systèmes
-	image.close() # libère les ressources systèmes
-
-
+	
 #General informations
 chemin_courant = os.getcwd()
 path_used = chemin_courant.split('\\')

@@ -164,6 +164,10 @@ img.img_titre_popBig {
     width: 44%;
     margin-bottom: 10px;
 }
+.legende {
+  font-style: italic;
+  text-align: center;
+}
 .FullEdition hr {
   height: 2px;
   border: 0;
