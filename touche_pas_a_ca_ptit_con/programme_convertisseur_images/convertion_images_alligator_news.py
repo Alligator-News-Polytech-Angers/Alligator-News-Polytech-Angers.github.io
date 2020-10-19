@@ -19,7 +19,7 @@ def fonctionsImage(image):
 		size = (newWidth, newHeight)
 		print("     -- New size (Width, Height) -> " + str(size))
 		# newImage = resizeimage.resize_height(newImage, 800, imagePillow.ANTIALIAS)
-		newImage.thumbnail(size, imagePillow.BICUBIC)
+		newImage.thumbnail(size, imagePillow.BICUBIC) # BILINEAR = qualité ok- / BICUBIC = qualité ok+ / ANTIALIAS = bonne qualité
 
 	newImage.save(imageName, format="jpeg") #On enregistre l'image au bon format
 	newImage.close() # libère les ressources systèmes
