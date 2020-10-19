@@ -9,19 +9,25 @@ Docs : https://pillow.readthedocs.io/en/stable/reference/Image.html  https://pil
 '''
 
 def fonctionsImage(image):
-	imageName = output_directory + filename.split('.')[0] + ".jpg" # Nom de l'image finale
-	newImage = image.convert("RGB", palette=imagePillow.WEB) # Image.convert(mode=None, matrix=None, dither=None, palette=0, colors=256)
+	fileNameCut = filename.split('.')
+	if fileNameCut[1] == 'png': # Si l'image est au format png
+		imageName = output_directory + filename.split('.')[0] + ".png" # Nom de l'image finale
+		newImage = image.convert("RGBA", palette=imagePillow.WEB) # Image.convert(mode=None, matrix=None, dither=None, palette=0, colors=256)
+		formatImageOut = "png"
+	else : # Autre format (ex : jpg, webp, ...)
+		imageName = output_directory + filename.split('.')[0] + ".jpg" # Nom de l'image finale
+		newImage = image.convert("RGB", palette=imagePillow.WEB) # Image.convert(mode=None, matrix=None, dither=None, palette=0, colors=256)
+		formatImageOut = "jpeg"
 	image.close() # libère les ressources systèmes
-	newHeight = 800	
 
-	if newImage.size[1] > newHeight: #Si la hauteur dépasse 800 pixels on redimensionne l'image
+	newHeight = 720
+	if newImage.size[1] > newHeight: #Si la hauteur dépasse 720 pixels on redimensionne l'image
 		newWidth = newHeight * newImage.size[0] / newImage.size[1] # Calcul de la largeur pour garder les proportions de l'image
 		size = (newWidth, newHeight)
 		print("     -- New size (Width, Height) -> " + str(size))
-		# newImage = resizeimage.resize_height(newImage, 800, imagePillow.ANTIALIAS)
-		newImage.thumbnail(size, imagePillow.BICUBIC) # BILINEAR = qualité ok- / BICUBIC = qualité ok+ / ANTIALIAS = bonne qualité
+		newImage.thumbnail(size, imagePillow.ANTIALIAS) # BILINEAR = qualité ok- / BICUBIC = qualité ok+ / ANTIALIAS = bonne qualité
 
-	newImage.save(imageName, format="jpeg") #On enregistre l'image au bon format
+	newImage.save(imageName, format=formatImageOut) #On enregistre l'image au bon format
 	newImage.close() # libère les ressources systèmes
 	
 #General informations
