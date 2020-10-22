@@ -167,6 +167,7 @@ img.img_titre_popBig {
 .legende {
   font-style: italic;
   text-align: center;
+  color: #333;
 }
 .FullEdition hr {
   height: 2px;
