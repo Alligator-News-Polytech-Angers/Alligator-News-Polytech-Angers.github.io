@@ -140,7 +140,7 @@ img.img_article_Wraped {
 img.img_article_Big {
   display:block; /* Permet de centrer l'image (le transform en un 'block') */
   margin: auto;
-  width: 40%;
+  width: 28%;
 }
 img.img_titre_popWraped {  
   display: block;
