@@ -38,9 +38,9 @@
   background-position: 50% 60%;
 }
 
-/* #logo_edition {
-  background-image: url("../../ressources/images/global/themes/halloween/spectre2.gif");
-  background-position: 50% 50%;
+#logo_edition {
+  background-image: url("../../ressources/images/global/themes/halloween/spider.svg");
+  background-position: 95%;
   background-size: contain;
-  background-repeat: repeat;
-} */
+  background-repeat: no-repeat;
+}
