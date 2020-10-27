@@ -134,7 +134,7 @@ p.link a{
 img.img_article_Wraped {
   display:block; /* Permet de centrer l'image (le transform en un 'block') */
   margin: auto;
-  width: 48%;
+  width: 50%;
   padding: 6px 0px;
 }
 img.img_article_Big {
@@ -188,7 +188,12 @@ table.img_inligne img{
   padding-top: 6px;
   margin: 0 auto;
 }
-table.img_inligne2 {
+table.img_inligne video{
+  width: 92%;
+  padding: 5px 0px;
+  margin: 0 auto;
+}
+table.img_inligne2 { /* Sans bordure */
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
@@ -198,11 +203,6 @@ table.img_inligne2 {
 table.img_inligne2 img{
   width: 70%;
   padding-top: 6px;
-  margin: 0 auto;
-}
-table.img_inligne video{
-  width: 92%;
-  padding: 5px 0px;
   margin: 0 auto;
 }
 td.texte {
@@ -222,6 +222,14 @@ td.titre {
   color: #D4145A;
   font-size: 18px;
 }
+td.titre2 {
+  text-align: center;
+  padding: 2.5px 2.5px;
+  border: 1px solid black;
+  font-weight: bolder;
+  color: #004875;
+  font-size: 17px;
+}
 td.image {
   text-align: center;
   padding: 3px 20px;
@@ -239,6 +247,10 @@ td.legende {
 td.img {
   text-align: center;
   border: 1px solid black;
+}
+td.imbrique img {
+  width: 98%;
+  margin: 0 auto;
 }
 td.legende a {
   color: #4D4D4D;
@@ -267,7 +279,7 @@ a.mail_link {
 }
 /*************************************/
 
-/***********   EXTERIEUR *************/
+/***********  Vidéos YouTube *************/
 .video_youtube {
   display: block;
   margin: 0 auto;
@@ -339,7 +351,7 @@ a.mail_link {
   .cadre {
     border-width: 8px;
     width: 52%;
-}
+  }
   .FullEdition hr {
     margin: 6px 0px;
   }

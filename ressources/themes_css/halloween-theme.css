@@ -34,6 +34,13 @@
 
 /*** IMAGES POUR LE THEME : **/
 .header {
-  background-image: url("../../ressources/images/pop/5/blood.svg");
+  background-image: url("../../ressources/images/global/themes/halloween/blood.svg");
   background-position: 50% 60%;
 }
+
+/* #logo_edition {
+  background-image: url("../../ressources/images/global/themes/halloween/spectre2.gif");
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: repeat;
+} */
