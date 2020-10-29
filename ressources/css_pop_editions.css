@@ -244,6 +244,14 @@ td.legende {
   color: #4D4D4D;
   border: 1px solid black;
 }
+td.legende2 {
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 16px;
+  padding: 3px 0px;
+  color: #333;
+}
 td.img {
   text-align: center;
   border: 1px solid black;
