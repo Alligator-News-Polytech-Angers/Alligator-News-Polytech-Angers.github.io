@@ -1,0 +1,60 @@
+/************************************/
+/* Feuille de style Alligator NEWS  */
+/* ~ Thème global de la page ~      */
+/* Copyright :  LÉPINE Thomas       */
+/************************************/
+
+/* Thème SPÉCIAL HALLOWEEN */
+
+:root {
+    /* Navbar */
+    --pantone486C: #333; /* Pantone 486C -> rose Saumon Polytech Angers */
+    --navbar-hover: #000; /* Couleur secondaire navbar */
+    --navbar-text: #F2720F; /* Couleur textes navbar */
+  
+    /* Titres header */
+    --title-color: #000; /* Couleur du grand titre */
+    --shadow-color: #C8C8C8; /* Couleur des ombres */
+    --title-span-color: #333; /* Couleur titre "span" -> sans pubs et sans cookies */
+  
+    /* Corps de la page */
+    --background-header-color: #f20f0f; /* Couleur (background) du header */
+    --background-color: #f20f0f; /* Couleur du fond global */
+    --background-article-color: #e0e0e0; /* Fond des articles */
+  
+    /* Footer */
+    --background-footer-color: #333; /* Fond du footer */
+    --text1-footer: #fff; /* Textes footer (important) */ 
+    --text2-footer: #C8C8C8;; /* Textes footer */
+  
+    /* Polices d'écritures */
+    --polices-global: Calibri, serif;
+    --police-titre: font_noel, Arno Pro, cursive;
+  }
+  
+  /*** POLICE D'ÉCRITURE POUR LE THEME : ***/
+  @font-face {
+    font-family: "font_noel";
+    src: url("../../ressources/images/global/themes/xmas/SantassleighfullBold.ttf");
+  }
+
+  /*** IMAGES POUR LE THEME : ***/
+  .header {
+    background-image: url("../../ressources/images/global/themes/xmas/neige3.gif");
+    background-position: 50% 60%;
+    background-size: 19rem;
+  }
+  
+  #logo_edition {
+    background-image: url("../../ressources/images/global/themes/xmas/xmas4.gif");
+    background-position: 95%;
+    background-size: contain;
+    background-repeat: repeat;
+  }
+
+  /* .backgroundTheme {
+    background-image: url("../../ressources/images/global/themes/xmas/neige3.gif");
+    background-position: 95%;
+    background-size: 19rem;
+    background-repeat: repeat;
+  } */
