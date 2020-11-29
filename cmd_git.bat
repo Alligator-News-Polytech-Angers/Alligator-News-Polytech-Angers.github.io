@@ -2,7 +2,8 @@
 
 git add .
 git status
-git commit -m "modification from the batch file"
+set /p commitMessage = Message du commit :  
+git commit -m + %commitMessage%
 git push
 
-set /p variable = Appuyez sur une touche pour terminer ...
+set /p enter = Appuyez sur une touche pour terminer ...
