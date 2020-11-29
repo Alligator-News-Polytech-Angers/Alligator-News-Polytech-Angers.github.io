@@ -1,6 +1,6 @@
-# ------------------------------------
-#     Copyright : Thomas LÉPINE  (thomas.lep4@gmail.com)
-# ------------------------------------
+# ------------------------------------------------------
+#  Copyright : Thomas LÉPINE  (thomas.lep4@gmail.com)
+# ------------------------------------------------------
 
 import os # Librairie pour les fonctions interagissant avec le système (fichiers, ...)
 from PIL import Image as imagePillow # Librairie Pillow (traitement d'images)
@@ -29,7 +29,10 @@ def fonctionsImage(image):
 
 	newImage.save(imageName, format=formatImageOut) #On enregistre l'image au bon format
 	newImage.close() # libère les ressources systèmes
-	
+
+
+print("\n\nHello there !\n -> Bienvenue sur ce programme de convertion d'image made in Alligator News, son but est de compresser les images afin de limiter l'impact environnementale du stockage des images !")
+
 #General informations
 chemin_courant = os.getcwd()
 path_used = chemin_courant.split('\\')
@@ -69,5 +72,6 @@ for filename in os.listdir(input_directory):
 	fonctionsImage(image) # Transforme et converti l'image (redimenssionne)
 	nb_converti += 1
 
+print("Copyright du programme : Thomas Lépine\n")
 print("\nFin du programme, " + str(nb_converti) + " image(s) ont été converti, appuyez sur une touche pour arrêter ...")
 input() # Attendre qu'une touche soit appuyé pour quitter le programme
