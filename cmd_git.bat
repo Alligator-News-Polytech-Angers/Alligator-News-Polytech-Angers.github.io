@@ -8,5 +8,4 @@ git commit -m + %commitMessage%
 git push
 :: #################
 
-echo  
-set /p enter = Appuyez sur une touche pour terminer ...
+set /p touche = ------------------------- Appuyez sur une touche pour terminer ...
