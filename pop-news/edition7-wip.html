@@ -6,7 +6,11 @@
 	<link rel="icon" type="image/ico" href="../ressources/images/global/logo_alligator_news_ico.ico" />
 	<link rel="stylesheet" type="text/css" href="../ressources/css_general.css" />
 	<link rel="stylesheet" type="text/css" href="../ressources/css_pop_editions.css" />
-	<link rel="stylesheet" type="text/css" href="../ressources/themes_css/classic-theme.css" />
+	<link rel="stylesheet" type="text/css" href="../ressources/themes_css/xmas-theme.css" />
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+	<script src="../ressources/java_script/snowfall.js"></script>
+	
 	<!-- Thème (couleurs) de l'édition -->
 	<link rel="stylesheet" type="text/css" href="../ressources/css_tests.css" />
 	<!-- Page css pour effectuer les diférents tests avant de les ajouter à la version de dev -->
@@ -17,19 +21,23 @@
 	<!-- Description de la page : Référencement -->
 	<meta name="keywords" content="Alligator News, edition X" /> <!-- Mots clés de la page : Référencement -->
 	<!-- meta spécifique pour les réseaux sociaux : -->
-	<meta property="og:image" content="../ressources/images/pop/4/img_lien_pop_4.webp" />
+	<!-- <meta property="og:image" content="../ressources/images/pop/4/img_lien_pop_4.webp" /> -->
 	<!-- Aperçu du lien (Attention, le format .svg et .gif ne fonctionnent pas) -->
 	<meta property="og:type" content="siteweb" />
 </head>
-
 <script>
-	console.log("Bienvenue sur ALLIGATOR NEWS !");
+	console.log("Bienvenue sur ALLIGATOR NEWS #7 spéciale Noël !");
+	// NEIGE :
+	$(document).ready(function () {
+		$.fn.snow({ minSize: 6, maxSize: 25, newOn: 480, flakeColor: '#fff'});
+	});
 </script>
 <!-- Nota Bene =  Pour tout réduire sur Visual Studio : Ctrl+k + Ctrl+0 (ou "à" car le 0 du pav numérique ne fonctionne pas -->
 <!-- Crt+k + Ctrl+j pour revenir en tout "déplier" -->
 <body>
 	<!-- Header -->
 	<div class="header">
+	
 		<div class="LogoPolytech">
 			<img src="../ressources/images/global/logo_polytech-blanc.svg" loading="eager" alt="*Logo Polytech Angers*">
 		</div>
@@ -40,8 +48,8 @@
 			<br /><br />
 		</div>
 		<div class="LogoAlligator">
-			<img src="../ressources/images/global/logo_alligator_news.svg" loading="eager" alt="*logo_alligator_news*">
-		</div>
+			<img src="../ressources/images/global/logo-alligator-news-event/logo_alligator_news-xmas.svg" loading="eager" alt="*logo_alligator_news*">
+		</div>	
 	</div>
 
 	<!-- Navigation Bar -->
@@ -55,8 +63,8 @@
 		<!-- Background global -->
 		<div class="EditionBig" style="padding-bottom: 0px;" id="logo_edition">
 			<!-- LOGO / BANNIERE DE L'ÉDITION -->
-			<img class="img_titre_popBig" loading="eager" src="../ressources/images/pop/5/logo_pop_news_5.svg"
-				alt="*Bannière édition #3*">
+			<img class="img_titre_popBig" loading="eager" src="../ressources/images/pop/4/logo_pop_news_4.svg"
+				alt="*Bannière édition #7*">
 		</div>
 
 		<div class="EditionBlockWraped">
@@ -1000,12 +1008,12 @@
 		</div>
 		<br />
 		<h2 id="contact">CONTACT</h2>
-		<a href="https://www.facebook.com/AlligatorNews.486C/" loading="lazy" target="_blank"><img
+		<a href="https://www.facebook.com/AlligatorNews.486C/" target="_blank"><img
 				src="../ressources/images/global/logo_fb.png" alt="logo_facebook"></a>
-		<a href="https://www.instagram.com/alligator_news.angers/" loading="lazy" target="_blank"><img
+		<a href="https://www.instagram.com/alligator_news.angers/" target="_blank"><img
 				src="../ressources/images/global/logo_insta.png" alt="logo_instagram"></a>
 		<a href="mailto:alligatornews.polytech.angers@gmail.com"><img src="../ressources/images/global/logo_mail.png"
-				loading="lazy" alt="logo_send_mail"></a>
+				alt="logo_send_mail"></a>
 		<h5>Si vous rencontrez un problème, une faute, un bug, ... Merci de contacter l'équipe d'Alligator News ☺</h5>
 		<a href="mailto:alligatornews.polytech.angers@gmail.com">
 			<h4>alligatornews.polytech.angers@gmail.com</h4>

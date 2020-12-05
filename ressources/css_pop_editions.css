@@ -78,7 +78,7 @@
   background-color: var(--background-article-color);
   padding: 2px 15px;
   height: 100%;
-  margin: 0px auto
+  margin: 0px auto;
 }
 .FullArticle p {
   text-indent: 30px;
@@ -154,22 +154,9 @@ img.img_titre_popBig {
   padding-top: 8px;
   padding-bottom: 8px;
   width: 58%;
+  position: relative;
+  z-index: 1;
 }
-
-/* images pour les articles "wraped" */
-/* .EditionBlockWraped .FullArticle img { 
-  display:block;
-  margin: auto;
-  width: 50%;
-  padding: 6px 0px;
-} */
-/* image pour les articles "big" */
-/* .EditionBig .FullArticle img {
-  display:block;
-  margin: auto;
-  width: 28%;
-} */
-
 .cadre {
     display:block; /* Permet de centrer l'image (le transform en un 'block') */
     margin: auto;
@@ -302,6 +289,11 @@ a.mail_link {
 }
 /*************************************/
 
+.sky {
+  height: 100%;
+  color: #FFF;
+  display: block;
+}
 /***********  Vidéos YouTube *************/
 .video_youtube {
   display: block;

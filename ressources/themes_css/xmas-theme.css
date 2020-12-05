@@ -7,25 +7,32 @@
 /* Thème SPÉCIAL HALLOWEEN */
 
 :root {
+
+    /*** PALETTE ***/
+    --rouge-xmas: #CD010D;
+    --or-xmas: #FFD700;
+    --or-xmas-clair: #FAFAD2;
+    /*** ******* ***/
+
     /* Navbar */
-    --pantone486C: #333; /* Pantone 486C -> rose Saumon Polytech Angers */
-    --navbar-hover: #000; /* Couleur secondaire navbar */
-    --navbar-text: #F2720F; /* Couleur textes navbar */
+    --pantone486C: var(--or-xmas);
+    --navbar-hover: var(--or-xmas); /* Couleur hover navbar */
+    --navbar-text: var(--rouge-xmas); /* Couleur textes navbar */
   
     /* Titres header */
-    --title-color: #000; /* Couleur du grand titre */
-    --shadow-color: #C8C8C8; /* Couleur des ombres */
-    --title-span-color: #333; /* Couleur titre "span" -> sans pubs et sans cookies */
+    --title-color: var(--or-xmas); /* Couleur du grand titre */
+    --shadow-color:  var(--or-xmas-clair); /* Couleur des ombres */
+    --title-span-color: var(--or-xmas); /* Couleur titre "span" -> sans pubs et sans cookies */
   
     /* Corps de la page */
-    --background-header-color: #f20f0f; /* Couleur (background) du header */
-    --background-color: #f20f0f; /* Couleur du fond global */
-    --background-article-color: #e0e0e0; /* Fond des articles */
+    --background-header-color: var(--rouge-xmas); /* Couleur (background) du header */
+    --background-color: var(--rouge-xmas); /* Couleur du fond global */
+    --background-article-color: var(--or-xmas-clair); /* Fond des articles */
   
     /* Footer */
-    --background-footer-color: #333; /* Fond du footer */
-    --text1-footer: #fff; /* Textes footer (important) */ 
-    --text2-footer: #C8C8C8;; /* Textes footer */
+    --background-footer-color: #303030; /* Fond du footer */
+    --text1-footer: var(--or-xmas-clair); /* Textes footer (important) */ 
+    --text2-footer: var(--or-xmas); /* Textes footer */
   
     /* Polices d'écritures */
     --polices-global: Calibri, serif;
@@ -38,23 +45,41 @@
     src: url("../../ressources/images/global/themes/xmas/SantassleighfullBold.ttf");
   }
 
-  /*** IMAGES POUR LE THEME : ***/
-  .header {
+  /*** IMAGES : ***/
+  /* .header {
+    background-image: url("../../ressources/images/global/themes/xmas/1 (3).gif");
+    background-position: 50% 60%;
+    background-size: 50rem;
+  } */
+  /* .header {
     background-image: url("../../ressources/images/global/themes/xmas/neige3.gif");
     background-position: 50% 60%;
-    background-size: 19rem;
-  }
-  
+    background-size: 20rem;
+  } */
+
   #logo_edition {
-    background-image: url("../../ressources/images/global/themes/xmas/xmas4.gif");
+    background-image: url("../../ressources/images/global/themes/xmas/xmas_ball.png");
     background-position: 95%;
     background-size: contain;
     background-repeat: repeat;
   }
 
-  /* .backgroundTheme {
-    background-image: url("../../ressources/images/global/themes/xmas/neige3.gif");
-    background-position: 95%;
-    background-size: 19rem;
-    background-repeat: repeat;
-  } */
+  /*** REDEFINITION DE CLASSES CSS POUR LE THEME : ***/
+  .titre h1 {
+    
+    text-shadow: var(--shadow-color) 0.03em 0.02em 0.02em;
+  }
+  .navbar {
+    background-color: none;
+    background: content-box linear-gradient(var(--or-xmas), var(--or-xmas-clair));
+  }
+  @media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC / tablette */
+    .titre h1 {
+      font-size: 4.62rem;
+    }
+  }
+  @media screen and (max-width: 760px) { /* Resolution d'un  portable  */
+    .titre h1 {
+      font-size: 4rem;
+    }
+  }
