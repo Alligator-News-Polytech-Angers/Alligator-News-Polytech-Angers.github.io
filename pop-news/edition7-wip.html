@@ -11,25 +11,29 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
 	<script src="../ressources/java_script/snowfall.js"></script>
 	
-	<!-- Thème (couleurs) de l'édition -->
-	<link rel="stylesheet" type="text/css" href="../ressources/css_tests.css" />
 	<!-- Page css pour effectuer les diférents tests avant de les ajouter à la version de dev -->
 	<meta charset="UTF-8" />
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!-- Récupération des caractéristiques de l'application -->
 	<meta name="description" content="Alligator News : site du journal de Polytech Angers" />
 	<!-- Description de la page : Référencement -->
-	<meta name="keywords" content="Alligator News, edition X" /> <!-- Mots clés de la page : Référencement -->
+	<meta name="keywords" content="Alligator News, edition 7, Journal Polytech Angers, Alligator News Polytech Angers, Club journal Polytech Angers" /> <!-- Mots clés de la page : Référencement -->
 	<!-- meta spécifique pour les réseaux sociaux : -->
-	<!-- <meta property="og:image" content="../ressources/images/pop/4/img_lien_pop_4.webp" /> -->
-	<!-- Aperçu du lien (Attention, le format .svg et .gif ne fonctionnent pas) -->
-	<meta property="og:type" content="siteweb" />
+	<meta property="og:title" content="Alligator News #7" />
+	<meta property="og:image" content="../ressources/images/pop/7/img_lien_pop_7.jpg" />
+	<meta property="og:image:width" content="1474">
+	<meta property="og:image:height" content="768">
+	<!-- Aperçu du lien pour Facebook, ... (Attention, le format .svg et .gif ne fonctionnent pas) -->
+	<meta property="og:type" content="article" />
+	<meta property="article:publisher" content="Alligator News" />
+	<meta property="og:locale" content="fr" />
 </head>
 <script>
 	console.log("Bienvenue sur ALLIGATOR NEWS #7 spéciale Noël !");
 	// NEIGE :
 	$(document).ready(function () {
-		$.fn.snow({ minSize: 6, maxSize: 25, newOn: 480, flakeColor: '#fff'});
+		$.fn.snow({minSize: 5, maxSize: 22, newOn: 475, flakeColor: '#fff'});
 	});
 </script>
 <!-- Nota Bene =  Pour tout réduire sur Visual Studio : Ctrl+k + Ctrl+0 (ou "à" car le 0 du pav numérique ne fonctionne pas -->
@@ -63,7 +67,7 @@
 		<!-- Background global -->
 		<div class="EditionBig" style="padding-bottom: 0px;" id="logo_edition">
 			<!-- LOGO / BANNIERE DE L'ÉDITION -->
-			<img class="img_titre_popBig" loading="eager" src="../ressources/images/pop/4/logo_pop_news_4.svg"
+			<img class="img_titre_popBig" loading="eager" src="../ressources/images/pop/7/logo_pop_news_7.svg"
 				alt="*Bannière édition #7*">
 		</div>
 

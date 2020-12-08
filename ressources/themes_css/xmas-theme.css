@@ -66,11 +66,9 @@
 
   /*** REDEFINITION DE CLASSES CSS POUR LE THEME : ***/
   .titre h1 {
-    
     text-shadow: var(--shadow-color) 0.03em 0.02em 0.02em;
   }
   .navbar {
-    background-color: none;
     background: content-box linear-gradient(var(--or-xmas), var(--or-xmas-clair));
   }
   @media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC / tablette */
