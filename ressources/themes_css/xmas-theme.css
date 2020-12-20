@@ -1,7 +1,7 @@
 /************************************/
 /* Feuille de style Alligator NEWS  */
 /* ~ Thème global de la page ~      */
-/* Copyright :  LÉPINE Thomas       */
+/* Copyright : LÉPINE Thomas       */
 /************************************/
 
 /* Thème SPÉCIAL HALLOWEEN */
@@ -10,13 +10,14 @@
 
     /*** PALETTE ***/
     --rouge-xmas: #CD010D;
-    --or-xmas: #FFD700;
+    --or-xmas: #ffd700;
     --or-xmas-clair: #FAFAD2;
+    --or-xmas-fonce: #FFAA0D;
     /*** ******* ***/
 
     /* Navbar */
     --pantone486C: var(--or-xmas);
-    --navbar-hover: var(--or-xmas); /* Couleur hover navbar */
+    --navbar-hover: var(--or-xmas-fonce); /* Couleur hover navbar */
     --navbar-text: var(--rouge-xmas); /* Couleur textes navbar */
   
     /* Titres header */
@@ -45,19 +46,7 @@
     src: url("../../ressources/images/global/themes/xmas/SantassleighfullBold.ttf");
   }
 
-  /*** IMAGES : ***/
-  /* .header {
-    background-image: url("../../ressources/images/global/themes/xmas/1 (3).gif");
-    background-position: 50% 60%;
-    background-size: 50rem;
-  } */
-  /* .header {
-    background-image: url("../../ressources/images/global/themes/xmas/neige3.gif");
-    background-position: 50% 60%;
-    background-size: 20rem;
-  } */
-
-  #logo_edition {
+ #logo_edition {
     background-image: url("../../ressources/images/global/themes/xmas/xmas_ball.png");
     background-position: 95%;
     background-size: contain;
@@ -70,6 +59,20 @@
   }
   .navbar {
     background: content-box linear-gradient(var(--or-xmas), var(--or-xmas-clair));
+    /* background: linear-gradient(to right, var(--or-xmas) 0%, var(--or-xmas-clair) 20%, var(--or-xmas-clair) 60%, var(--or-xmas) 100%); */
+  }
+  .navbar a:hover {
+    background: linear-gradient(var(--or-xmas-clair), var(--or-xmas-fonce));;
+  }
+  .footer hr {
+    background-color: var(--or-xmas);
+  }
+  .footer h2
+  {
+    color: var(--or-xmas-fonce);
+  }
+  .footer h4 {
+    color: var(--or-xmas);
   }
   @media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC / tablette */
     .titre h1 {
@@ -80,4 +83,4 @@
     .titre h1 {
       font-size: 4rem;
     }
-  }
+}
