@@ -41,7 +41,7 @@
           opacity: startOpacity,
           "font-size": sizeFlake,
           color: options.flakeColor,
-          "z-index": "0",
+          "z-index": "1",
         })
         .animate(
           { top: endPositionHeight, left: endPositionWidth, opacity: 0.53 },

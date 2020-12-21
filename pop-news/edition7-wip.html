@@ -41,15 +41,17 @@
 		console.log("Bienvenue sur ALLIGATOR NEWS #7 spéciale Noël !");
 		
 		window.onresize = function() { // Fonction activée lors d'un onresize (fenêtre redimenssionée)
-			$('.flocon').empty(); // On enlève tous les flocons
+			if(document.body.clientWidth > 760) {	// On ne s'occupe pas des portable, uniquement des fenêtres PC
+				$('.flocon').empty(); // On enlève tous les flocons
+			}
 			// window.location.replace(window.location.pathname + window.location.search + window.location.hash); // Reload la page
 		}
 		// NEIGE :
 		$(document).ready(function () {
 			if(document.body.clientWidth > 760) { // PC & Tablette
-				$.fn.snow({minSize: 5, maxSize: 24, newOn: 450, flakeColor: '#DFFCFC'});
+				$.fn.snow({minSize: 6, maxSize: 24, newOn: 470, flakeColor: '#DFFCFC'});
 			} else { // Portable
-				$.fn.snow({minSize: 4, maxSize: 17, newOn: 500, flakeColor: '#DFFCFC'});
+				$.fn.snow({minSize: 5, maxSize: 17, newOn: 500, flakeColor: '#DFFCFC'});
 			}
 		});
 	</script>
@@ -57,7 +59,7 @@
 	<div class="header">
 	
 		<div class="LogoPolytech">
-			<img src="../ressources/images/global/logo_polytech-blanc.svg" loading="eager" alt="*Logo Polytech Angers*">
+			<img src="../ressources/images/global/themes/xmas/polytech_angers_or_site.png" loading="eager" alt="*Logo Polytech Angers*">
 		</div>
 		<div class="titre">
 			<h1>Alligator NEWS</h1>

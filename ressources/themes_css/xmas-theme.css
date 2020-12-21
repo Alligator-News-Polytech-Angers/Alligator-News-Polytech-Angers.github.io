@@ -62,7 +62,7 @@
     /* background: linear-gradient(to right, var(--or-xmas) 0%, var(--or-xmas-clair) 20%, var(--or-xmas-clair) 60%, var(--or-xmas) 100%); */
   }
   .navbar a:hover {
-    background: linear-gradient(var(--or-xmas-clair), var(--or-xmas-fonce));;
+    background: linear-gradient(var(--or-xmas-clair), var(--or-xmas));;
   }
   .footer hr {
     background-color: var(--or-xmas);
