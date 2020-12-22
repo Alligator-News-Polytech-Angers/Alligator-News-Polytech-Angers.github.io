@@ -30,7 +30,7 @@
           Math.random() * ($(document).width() - (options.maxSize * 9) / 5),
         startOpacity = 0.4 + (0.3 + Math.random()) / 1.5,
         sizeFlake = options.minSize + Math.random() * options.maxSize,
-        endPositionHeight = $(document).height() - 1.5*options.maxSize,
+        endPositionHeight = $(document).height() - 1.8*options.maxSize,
         endPositionWidth = startPositionWidth,
         durationFall = $(document).height() * 8 + Math.random() * 2500;
       $flocon
