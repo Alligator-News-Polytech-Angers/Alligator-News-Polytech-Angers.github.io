@@ -3,10 +3,10 @@
  *
  * @version 21Dec2020
  * @author Ivan Lazarevic // Copyright
- * Thomas Lépine // Modification
+ * @author Thomas Lépine // Modification + amélioration pour le besoin du journal
  * @requires jQuery
  *
- * @params minSize - min size of snowflake, 10 by default
+ * @params minSize - min size of snowflake, 6 by default
  * @params maxSize - max size of snowflake, 20 by default
  * @params newOn - frequency in ms of appearing of new snowflake, 500 by default
  * @params flakeColor - color of snowflake, #FFFFFF by default
@@ -19,7 +19,7 @@
         .css({ position: "absolute", top: "-20px" })
         .html("&#10052;"), // Table des symboles : https://www.toptal.com/designers/htmlarrows/symbols/
     defaults = {
-      minSize: 10,
+      minSize: 6,
       maxSize: 20,
       newOn: 500,
       flakeColor: "#FFFFFF",
@@ -30,7 +30,7 @@
           Math.random() * ($(document).width() - (options.maxSize * 9) / 5),
         startOpacity = 0.33 + (0.4 + Math.random()) / 1.5,
         sizeFlake = options.minSize + Math.random() * options.maxSize,
-        endPositionHeight = $(document).height(),
+        endPositionHeight = $(document).height() - 2*options.maxSize,
         endPositionWidth = startPositionWidth,
         durationFall = $(document).height() * 8 + Math.random() * 2500;
       $flocon
