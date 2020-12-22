@@ -1,7 +1,7 @@
 /**
  * jquery.snow - jQuery Snow Effect Plugin *
  *
- * @version 21Jan2012
+ * @version 21Dec2020
  * @author Ivan Lazarevic // Copyright
  * Thomas Lépine // Modification
  * @requires jQuery
@@ -16,7 +16,7 @@
 (function ($) {
   $.fn.snow = function (options) {
     var $flocon = $('<div class="flocon" />')
-        .css({ position: "absolute", top: "-24px" })
+        .css({ position: "absolute", top: "-20px" })
         .html("&#10052;"), // Table des symboles : https://www.toptal.com/designers/htmlarrows/symbols/
     defaults = {
       minSize: 10,

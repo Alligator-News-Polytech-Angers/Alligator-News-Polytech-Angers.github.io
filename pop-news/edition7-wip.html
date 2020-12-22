@@ -34,8 +34,6 @@
 	<meta property="og:image" content="../ressources/images/pop/7/img_lien_pop_7.jpg" />
 	<meta property="og:image:alt" content="Alligator News, journal de Polytech Angers" />
 </head>
-<!-- Nota Bene =  Pour tout réduire sur Visual Studio : Ctrl+k + Ctrl+0 (ou "à" car le 0 du pav numérique ne fonctionne pas -->
-<!-- Crt+k + Ctrl+j pour revenir en tout "déplier" -->
 <body>
 	<script>
 		console.log("Bienvenue sur ALLIGATOR NEWS #7 spéciale Noël !");
@@ -48,10 +46,10 @@
 		}
 		// NEIGE :
 		$(document).ready(function () {
-			if(document.body.clientWidth > 760) { // PC & Tablette
-				$.fn.snow({minSize: 8, maxSize: 26, newOn: 460, flakeColor: '#DFFCFC'});
-			} else { // Portable
-				$.fn.snow({minSize: 6, maxSize: 14, newOn: 700, flakeColor: '#DFFCFC'});
+			if(document.body.clientWidth > 760) { // PC & Tablettes
+				$.fn.snow({minSize: 12, maxSize: 35, newOn: 250, flakeColor: '#AFFCFC'});
+			} else { // Portables
+				$.fn.snow({minSize: 6, maxSize: 14, newOn: 700, flakeColor: '#CFFCFC'});
 			}
 		});
 	</script>
@@ -120,91 +118,42 @@
 				<div class="Edition">
 					<div class="FullArticle">
 						<hr style="background:content-box radial-gradient(#FFC107, #191970);">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_horoscope.svg"
-							alt="*Titre*">
+						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_horoscope.svg" alt="*Titre*">
 						<hr style="background:content-box radial-gradient(#FFFF00, #191970);">
 						<h3>Nos spécialistes ont regardé les étoiles à l'aide de leur microscope pour découvir ce qui
 							vous attend dans le mois !</h3> <!-- Slogan de la rubrique -->
-							<img class="img_article" src="../ressources/images/pop/constellations_polytech_angers.jpg" style="width: 70%;" alt="horoscope" />
-							<br />
-							<h5>BEMS :</h5>
-							<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor
-								convallis. orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem
-								in dolor convallis.</p>
-							<h5>GBS :</h5>
-							<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor
-								convallis. orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem
-								in dolor convallis.</p>
-							<h5>QIF :</h5>
-							<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor
-								convallis. orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem
-								in dolor convallis.</p>
-							<h5>SAGI :</h5>
-							<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor
-								convallis. orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem
-								in dolor convallis.</p>
-							<h5>PeiP :</h5>
-							<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor
-								convallis. orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem
-								in dolor convallis.
-							</p>
-							<br />
-							<br />
-							<img class="img_article" src="../ressources/images/pop/horoscope.webp" style="width: 70%;" alt="horoscope" />
-							<br />						
-							<div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
-					</div>
-				</div>
-			</article>
-			<article id="le_saviez_vous">
-				<!-- LE SAVIEZ VOUS ? -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background:content-box radial-gradient(#FFD517, #000000);">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_le_saviez_vous.svg"
-							alt="*Titre*">
-						<hr style="background:content-box radial-gradient(#FFD517, #000000);">
-						<h3>Vous vous coucherez moins bête ce soir, le saviez-vous ?</h3> <!-- Slogan de la rubrique -->
-						<img class="img_article" src="../ressources/images/pop/alli.png" alt="logo_alli">
+						<img class="img_article" src="../ressources/images/pop/constellations_polytech_angers.jpg"
+							style="width: 70%;" alt="horoscope" />
 						<br />
-						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin
-							ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne
-							verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant?
-							Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius
-							modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui
-							ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei
-							familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum
-							maximis
-							curis et laboribus compensare eam quam ex discendo capiant voluptatem ?
-						</p>						
-						<div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
-					</div>
-				</div>
-			</article>
-			<article id="quoi_de_neuf_doc">
-				<!-- QUOI DE NEUF DOC' -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background:content-box radial-gradient(#A3A7DC, #000000);">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_quoi_de_neuf_doc.svg"
-							alt="*Titre*">
-						<hr style="background:content-box radial-gradient(#A3A7DC, #000000);">
-						<h3>La rubique scientifique idéale pour de futurs ingénieurs !</h3>
-						<!-- Slogan de la rubrique -->
-						<h2>Une armée de microrobots</h2>
-						<img class="img_article" src="../ressources/images/pop/4/microRobots.webp"
-							alt="image_microrobots" />
-						<p>En 1959, lors d’une conférence, le prix Nobel et physicien Richard Feynman invitait les
-							scientifiques à
-							s’intéresser au monde de l’infiniment petit. Il évoquait même la possibilité d’effectuer des
-							opérations
-							chirurgicales grâce à un minuscule robot capable de se déplacer dans des vaisseaux sanguins.
-							Plus de 60
-							ans après, de nombreux progrès dans le monde du petit ont été réalisés, rendant cette
-							possibilité de
-							plus en plus réelle.</p>
+						<h5>QIF :</h5>
+						<p>
+							Vous demandez un stage au Père Noël. Malheureusement, votre lettre se perdra et vous recevrez un poney.
+							Vous passerez vos 6 mois de stage à vous entraîner et deviendrez champion équestre, catégorie lasagne.
+						</p>
+						<h5>SAGI :</h5>
+						<p>Vous vous ferez chier durant votre repas de réveillon et lancerez un débat afin de raviver les
+							discussions : pain au chocolat ou chocolatine ? La police sera obligée d’intervenir.
+						</p>
+						<h5>BEMS :</h5>
+						<p>Les cheminées sont trop petites pour le Père Noël. Vous les reconcevrez plus large. Mais n’ayant pas mis
+							en place de système de ralentissement de chute, le Père Noël tombera et se cassera le coccyx. Vous le
+							remplacerez alors et réussirez à livrer trois maisons avant de vous écrouler de fatigue.
+						</p>
+						<h5>GBS :</h5>
+						<p>Vous laisserez un cookie et un verre de lait au Père Noël. Malheureusement, votre chien les mangera avant
+							lui. Le Père Noël mécontent vous laissera en guise de cadeau une orange périmée, datant de 1960. Bon
+							appétit !
+						</p>
+						<h5>PEIP :</h5>
+						<p>Vous n’avez pas été sage cette année et n’aurez pas de cadeau. Vous décidez donc de prendre en otage le
+							Père Noël en l’endormant. Vous ferez la joie des parents qui n’en peuvent plus d’entendre les jouets
+							bruyants de leurs enfants.
+						</p>
 						<br />
-						<div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
+						<br />
+						<img class="img_article" src="../ressources/images/pop/horoscope.webp" style="width: 70%;" alt="horoscope" />
+						<br />
+						<div class="signature">-- Yohann Hirrien</div> <!-- Signature de la rubrique -->
 					</div>
 				</div>
 			</article>
@@ -228,380 +177,6 @@
 							alt="image_kart_mario">
 						<br />
 						<h2>Article numéro 2</h2>
-						<br />
-						<div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
-					</div>
-				</div>
-			</article>
-			<article id="les_clubs">
-				<!-- CLUBS -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background:#D4145A;">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_clubs_polytech_angers.svg"
-							alt="*Titre*">
-						<hr style="background:#D4145A;">
-						<h3>Les infos de vos clubs préférés !</h3> <!-- Slogan de la rubrique -->
-						<p>
-							Une nouvelle rubrique sauvage vient d'apparaître ! Cette rubrique pourra te permettre de
-							suivre les actualités des clubs de Polytech Angers !!
-						</p>
-						<table class="img_inligne">
-							<!-- DEBUT PATERNE -->
-							<tr>
-								<td class="image"><img src="../ressources/images/global/clubs/logo_club-gaming.png">
-								</td>
-								<td class="image"><img src="../ressources/images/global/clubs/logo_club-food.png"></td>
-							</tr>
-							<tr>
-								<td class="titre">Alligator Gaming - club de jeux vidéos</td>
-								<td class="titre">Polyfood - club cuisine</td>
-							</tr>
-							<tr>
-								<td class="texte">
-									Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare
-									possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne
-									ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ?
-									Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut
-									pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim
-									perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne
-									videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa
-									cognitione et scientia captos et cum maximis
-									curis et laboribus compensare eam quam ex discendo capiant voluptatem ?
-								</td>
-								<td class="texte">
-									Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare
-									possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne
-									ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ?
-									Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut
-									pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim
-									perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne
-									videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa
-									cognitione et scientia captos et cum maximis
-									curis et laboribus compensare eam quam ex discendo capiant voluptatem ?
-								</td>
-							</tr>
-							<tr>
-								<td class="legende"><a href="https://www.facebook.com/AlligatorGamingAngers/"
-										target="_blank">Facebook</a> // <a
-										href="https://www.twitch.tv/alligatorgamingpa" target="_blank">Twitch</a> // <a
-										href="https://www.instagram.com/alligatorgamingpa/"
-										target="_blank">Instagram</a></td>
-								<td class="legende"><a href="https://www.instagram.com/polyfoodangers/"
-										target="_blank">Instagram</a> // <a
-										href="https://www.facebook.com/polyfoodangers" target="_blank">Facebook</a></td>
-							</tr>
-							<!-- FIN PATERNE -->
-
-							<!-- DEBUT PATERNE -->
-							<tr>
-								<td class="image"><img src="../ressources/images/global/clubs/logo_club-journal.png">
-								</td>
-								<td class="image"><img src="../ressources/images/global/clubs/logo_club-bdd.png"></td>
-							</tr>
-							<tr>
-								<td class="titre">Alligator News - club de journalisme</td>
-								<td class="titre">BDD - Bureau Du Développement</td>
-							</tr>
-							<tr>
-								<td class="texte">
-									Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare
-									possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne
-									ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ?
-									Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut
-									pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim
-									perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne
-									videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa
-									cognitione et scientia captos et cum maximis
-									curis et laboribus compensare eam quam ex discendo capiant voluptatem ?
-								</td>
-								<td class="texte">
-									Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare
-									possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne
-									ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ?
-									Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut
-									pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim
-									perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne
-									videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa
-									cognitione et scientia captos et cum maximis
-									curis et laboribus compensare eam quam ex discendo capiant voluptatem ?
-								</td>
-							</tr>
-							<tr>
-								<td class="legende"><a href="https://www.facebook.com/pg/AlligatorNews.486C/"
-										target="_blank">Facebook</a> // <a
-										href="https://alligator-news-polytech-angers.github.io/" target="_blank">Journal
-										en ligne</a></td>
-								<td class="legende"><a href="https://www.facebook.com/BDDpolytechAngers/"
-										target="_blank">Facebook</a> // <a
-										href="https://www.instagram.com/bdd.polytech.angers/?igshid=1w73c22r6yjxc"
-										target="_blank">Instagram</a></td>
-							</tr>
-							<!-- FIN PATERNE -->
-						</table>
-						<table class="img_inligne">
-							<tr>
-								<td class="image"><img src="../ressources/images/global/clubs/logo_club-baroudeur.png">
-								</td>
-							</tr>
-							<tr>
-								<td class="titre">Les Bar'oudeurs</td>
-							</tr>
-							<tr>
-								<td class="texte">
-									Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare
-									possit quin ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne
-									ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur ?
-									Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut
-									pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim
-									perferant ? Quid vero ? Qui ingeniis studiis atque artibus delectantur, nonne
-									videmus eos nec valetudinis nec rei familiaris habere rationem omniaque perpeti ipsa
-									cognitione et scientia captos et cum maximis
-									curis et laboribus compensare eam quam ex discendo capiant voluptatem ?
-								</td>
-							</tr>
-							<tr>
-								<td class="legende"><a href="https://www.facebook.com/Les-Baroudeurs-610641669396290"
-										target="_blank">Facebook</a> // <a
-										href="https://www.instagram.com/polybaroudeurs/?igshid=1c25prk6832qi"
-										target="_blank">Instagram</a></td>
-							</tr>
-						</table>
-						<br />
-						<div class="signature">-- Vos clubs adorés ❤️ </div>
-								<!-- Signature de la rubrique -->
-						</div>
-					</div>
-			</article>
-			<article id="infos_angers">
-				<!-- INFOS ANGERS -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background:#345FE2;">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_infos_angers.svg"
-							alt="*Titre*">
-						<hr style="background:#CB0D0D;">
-						<h3>Informations 100% "Made In Angers" !</h3> <!-- Slogan de la rubrique -->
-						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin
-							ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne
-							verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant?
-							Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius
-							modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui
-							ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei
-							familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum
-							maximis
-							curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-						<br />
-						<div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
-					</div>
-				</div>
-			</article>
-			<article id="the_interview">
-				<!-- THE INTERVIEW -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background:#000000;">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_the_interview.svg"
-							alt="*Titre*">
-						<hr style="background:#000000;">
-						<h3>Découvrez les profs comme vous ne les avez jamais vus !</h3> <!-- Slogan de la rubrique -->
-						<p>Dans cette deuxième édition, nous avons interviewé <b>Nizar Chatti</b>. Enseignant chercheur
-							au LARIS depuis 2014 ...</p>
-						<img class="img_article" src="../ressources/images/pop/2/inter_chatti.webp"
-							alt="Nizar Chatti" style="width:45%;">
-						<p>
-							L’innovation pédagogique a eu du pain sur la planche depuis le début du confinement avec la
-							transformation des cours en présentiel en cours en distanciel.
-							<br>
-							C’est parti :
-						</p>
-						<p><b>Alligator News : </b><i>”Bonjour Monsieur Nizar Chatti, comment allez-vous et est-ce que
-								le confinement s’est bien passé ?”</i></p>
-						<p><b>Nizar Chatti :</b><i>”Bonjour, oui ça va merci, concernant le confinement, il est évident
-								que ça n’a été évident pour personne, on a subi la crise. Cependant, je pense qu’il faut
-								vraiment voir le côté positif. On a appris à construire de nouveaux modèles de
-								management, d’encadrement, d’enseignement, … Je pense que l’on a réussi à transcender
-								ces aspects.<br>Je pense que l’on peut dire que l’on a gagné la bataille du basculement
-								vers le télétravail en peu de temps. On a su s’organiser. J’espère que la crise sera un
-								lointain souvenir dans peu de temps. Je remercie les étudiants d’avoir joué le jeu,
-								c’est génial.”</i></p>
-						<p><b>Alligator News : </b><i>”Avez-vous assuré des cours pendant le confinement ?”</i></p>
-						<br />
-						<div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
-					</div>
-				</div>
-			</article>
-			<article id="qui_a_dit">
-				<!-- QUI A DIT -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background:#0E5705;">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_qui_a_dit.svg"
-							alt="*Titre*">
-						<hr style="background:#0E5705;">
-						<h3>LA rubrique qui te permettra de ta la péter en soirée !</h3> <!-- Slogan de la rubrique -->
-						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin
-							ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne
-							verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant?
-							Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius
-							modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui
-							ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei
-							familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum
-							maximis
-							curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-						<br />
-						<div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
-					</div>
-				</div>
-			</article>
-			<article id="reseau_polytech">
-				<!-- RÉSEAU POLYTECH -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background:content-box radial-gradient(#009EE0, #004878);">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_reseau_polytech.svg"
-							alt="*Titre*">
-						<hr style="background:content-box radial-gradient(#009EE0, #004878);">
-						<h3>Les actualités brulantes du réseau Polytech !</h3> <!-- Slogan de la rubrique -->
-						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin
-							ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne
-							verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant?
-							Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius
-							modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui
-							ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei
-							familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum
-							maximis
-							curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-						<br />
-						<div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
-					</div>
-				</div>
-			</article>
-			<article id="elus_ce">
-				<!-- ÉLUS CE -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background:content-box radial-gradient(#0A8955, #0A7A4A);">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_elus_ce.svg" alt="*Titre*">
-						<hr style="background:content-box radial-gradient(#0A8955, #0A7A4A);">
-						<h3>Les informations à ne pas manquer !</h3> <!-- Slogan de la rubrique -->
-						<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor
-							convallis, non lobortis quam tincidunt. Sed ullamcorper dapibus imperdiet. In hac habitasse
-							platea dictumst. Nam malesuada justo metus, nec ornare dui finibus a. Vestibulum quis leo ac
-							erat consectetur imperdiet. Nullam sodales aliquam tincidunt. Praesent faucibus ullamcorper
-							laoreet. LES QIF SONT CONS !</p>
-						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin
-							ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne
-							verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant?
-							Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius
-							modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui
-							ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei
-							familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum
-							maximis
-							curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-						<br />
-						<div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
-					</div>
-				</div>
-			</article>
-			<article id="polytech_angers">
-				<!-- BDE POLYTECH ANGERS -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background:content-box radial-gradient(#E8927D, #004875);">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_bde_polytech_angers.svg"
-							alt="*Titre*">
-						<hr style="background:content-box radial-gradient(#E8927D, #004875);">
-						<h3>Plus aucune excuse pour louper les évènements !</h3> <!-- Slogan de la rubrique -->
-						<p>Votre BDE préféré ne se tourne pas les pouces. Voici les news et informations à ne pas
-							manquer ! :</p>
-						<h4>1ère news : </h4>
-						<p>La passation et les élections BDE arrivent à grands pas ! La dead-line pour déposer une liste
-							BDE est le 25 septembre
-							2020. Les campagnes commenceront dans la foulée le lundi 28 septembre 2020 et dureront 1
-							semaine.
-							Le vote aura lieu en ligne le lundi 5 octobre.
-						</p>
-						<h4>2ème news : </h4>
-						<p>
-							Toujours dans la continuité de l'information précédente, une AG de fin de mandat sera
-							organisée le mardi 6 octobre,
-							où vous pourrez assister au bilan moral et au bilan financier de l'association. Les
-							résultats des campagnes BDE seront
-							également annoncés à ce moment.
-						</p>
-						<h4>3ème news : </h4>
-						<p>Prêt à vêtir encore plus de rose saumon et d'alligator ? Les goodies ont été reçus par le BDE
-							et sont distribués !</p>
-						<h4>4ème news : </h4>
-						<p>
-							Pour la dernière information, tu ne l'as sans doute pas manqué, mais une semaine
-							d'intégration a été organisée par
-							le BDE permettant ainsi, dans le plus grand respect des consignes sanitaires, de permettre
-							aux différents étudiants
-							de se connaître. Chapeau à eux pour avoir organisé cet évènement ! Ce n'est pas simple
-							d'entreprendre des actions
-							dans cette période si particulière.
-							<br />
-							Vous voulez savoir les résultats n'est-ce pas ? Et bien sans plus attendre, les voici :
-							<br />
-						<ul>
-							<li><b>1ère place :</b> Colorytech <i>avec 705 pts</i></li>
-							<li><b>2ème place :</b> Polyrealitech <i>avec 675 pts</i></li>
-							<li><b>3ème place :</b> Sapeurs pompettes <i>avec 475 pts</i></li>
-							<br />
-							<li><b>4ème place</b> <i>(prix spécial Alligator News : "Si près du but ...") :</i>
-								POLYRAMIDE ♥ <i>avec 440 pts</i></li>
-						</ul>
-						</p>
-						<br />
-						<div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
-					</div>
-				</div>
-			</article>
-			<article id="nos_etudiants_ont_du_talent">
-				<!-- NOS ÉTUDIANTS ONT DU TALENT -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background:content-box radial-gradient(#00427B, #C77A00);">
-						<img class="img_titre_popWraped"
-							src="../ressources/images/pop/logo_nos_eleves_ont_du_talents.svg" alt="*Titre*">
-						<hr style="background:content-box radial-gradient(#00427B, #C77A00);">
-						<h3>Nos Étudiants ont du Talent !</h3> <!-- Slogan de la rubrique -->
-						<br />
-						<h2>Titre</h2>
-						<p>
-							Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit
-							quin ad eas res hominum
-							natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a
-							contemplandis rebus
-							perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ?
-						</p>
-						<div class="signature">-- Thomas Lépine</div> <!-- Signature de la rubrique -->
-					</div>
-				</div>
-			</article>
-			<article id="portrait">
-				<!-- PORTRAIT -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background:content-box radial-gradient(#995231, #FF9B30);">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_portrait.svg" alt="*Titre*">
-						<hr style="background:content-box radial-gradient(#995231, #FF9B30);">
-						<h3>Portrait sur des visages emblématiques qui ont marqué l'histoire</h3>
-						<!-- Slogan de la rubrique -->
-						<h2>Katherine Johnson (1918-2020)</h2>
-						<img class="cadre" src="../ressources/images/pop/2/portrait_katherine_johnson.webp"
-							alt="portrait_katherine_johnson" />
-						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin
-							ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne
-							verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant?
-							Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius
-							modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui
-							ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei
-							familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum
-							maximis
-							curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
 						<br />
 						<div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
 					</div>
@@ -726,29 +301,6 @@
 					</div>
 				</div>
 			</article>
-			<article id="a_table">
-				<!-- A TABLE -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background: linear-gradient(to right, #249CD3 42%, #E2017A 58%);">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_a_table.svg" alt="*Titre*">
-						<hr style="background: linear-gradient(to right, #249CD3 42%, #E2017A 58%);">
-						<h3>Le slogan de la rubrique !</h3> <!-- Slogan de la rubrique -->
-						<h2>Titre possible</h2>
-						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin
-							ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne
-							verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant?
-							Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius
-							modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui
-							ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei
-							familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum
-							maximis
-							curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-						<br />
-						<div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
-					</div>
-				</div>
-			</article>
 			<article id="wonderland">
 				<!-- Wonderland -->
 				<div class="Edition">
@@ -757,53 +309,6 @@
 						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_wonderland.svg" alt="*Titre*">
 						<hr style="background:#0099CC;">
 						<h3>Portrait sur des personnages emblématiques provenant d'histoires</h3> <!-- Slogan de la rubrique -->
-						<h2>Titre possible</h2>
-						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin
-							ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne
-							verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant?
-							Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius
-							modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui
-							ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei
-							familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum
-							maximis
-							curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-						<br />
-						<div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
-					</div>
-				</div>
-			</article>
-			<article id="la_bonne_action_du_mois">
-				<!-- La bonne action du mois -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background:content-box radial-gradient(#FF6666, #E8519D);">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_la_bonne_action_du_mois.svg"
-							alt="*Titre*">
-						<hr style="background:content-box radial-gradient(#FF6666, #E8519D);">
-						<h3>La rubrique pour t’aider à augmenter ton karma !</h3> <!-- Slogan de la rubrique -->
-						<h2>Titre possible</h2>
-						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin
-							ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne
-							verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant?
-							Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius
-							modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui
-							ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei
-							familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum
-							maximis
-							curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-						<br />
-						<div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
-					</div>
-				</div>
-			</article>
-			<article id="resultats_bds">
-				<!-- RÉSULTATS BDS -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background:content-box radial-gradient(#E8927D, #333333);">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_resultats_bds.svg" alt="*Titre*">
-						<hr style="background:content-box radial-gradient(#E8927D, #333333);">
-						<h3>Ne loupez aucun résultat des équipes sportives de Polytech Angers !</h3>
 						<h2>Titre possible</h2>
 						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin
 							ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne
@@ -842,29 +347,6 @@
 					</div>
 				</div>
 			</article>
-			<article id="template">
-				<!-- TEMPLATE -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background:content-box radial-gradient(#333333, #000000);">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/template_logo.svg" alt="*Titre*">
-						<hr style="background:content-box radial-gradient(#333333, #000000);">
-						<h3>Le slogan de la rubrique !</h3> <!-- Slogan de la rubrique -->
-						<h2>Titre possible</h2>
-						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin
-							ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne
-							verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant?
-							Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius
-							modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui
-							ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei
-							familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum
-							maximis
-							curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-						<br />
-						<div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
-					</div>
-				</div>
-			</article>			
 		</div>
 		<div class="EditionBig">
 			<div class="Edition" id="mise_en_lumire">
@@ -1093,9 +575,9 @@
 						alt="logo_linkedin"></a></p>
 				</td>				
 				<td class="name_left_footer">
-					<p>► Gaëtan MARIE <!-- <a href="" target="_blank"><img
+					<p>► Gaëtan MARIE <a href="https://www.linkedin.com/in/ga%C3%ABtan-marie/" target="_blank"><img
 								src="../ressources/images/global/themes/xmas/logo_linkedin.png" loading="auto"
-								alt="logo_linkedin"></a>--></p> 
+								alt="logo_linkedin"></a></p> 
 				</td>
 			</tr>
 		</table>

@@ -286,7 +286,7 @@ body {
 @media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC / tablette */
   .navbar {
     position: sticky;
-    z-index: 2;
+    z-index: 10;
   }
   .LogoAlligator img{
     max-width: 60%;
