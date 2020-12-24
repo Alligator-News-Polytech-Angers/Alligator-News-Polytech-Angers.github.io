@@ -46,11 +46,11 @@
 		}
 		// NEIGE :
 		$(document).ready(function () {
-			// if(document.body.clientWidth > 760) { // PC & Tablettes
-			// 	$.fn.snow({minSize: 12, maxSize: 30, newOn: 260, flakeColor: '#AFFCFC'});
-			// } else { // Portables
-			// 	$.fn.snow({minSize: 6, maxSize: 14, newOn: 400, flakeColor: '#CFFCFC'});
-			// }
+			if(document.body.clientWidth > 760) { // PC & Tablettes
+				$.fn.snow({minSize: 12, maxSize: 30, newOn: 260, flakeColor: '#AFFCFC'});
+			} else { // Portables
+				$.fn.snow({minSize: 6, maxSize: 14, newOn: 400, flakeColor: '#CFFCFC'});
+			}
 		});
 	</script>
 	<!-- Header -->
@@ -85,9 +85,9 @@
 				alt="*Bannière édition #7*">
 		</div>
 
-		<div class="EditionBlockWraped">
+		<div class="EditionBlockWraped" style="padding: 4px 18px;">
 			<br />
-			<article id="photo_du_debut" style="max-width: 80%; margin: 0 auto;">
+			<article id="photo_du_debut" style="max-width: 75%; margin: 0 auto; z-index: 0;">
 				<div class="Edition" style="padding: 0 0;">
 					<div class="FullArticle" style="padding: 2px 8px;">
 						<img class="img_article" loading="eager" style="width: 100%;"
@@ -98,7 +98,7 @@
 		</div>
 
 		<div class="EditionBig">
-			<div class="Edition" id="mise_en_lumire">
+			<div class="Edition" id="d_ou_ca_vient">
 				<!-- MISE EN LUMIERE -->
 				<div class="FullArticle">
 					<hr style="background:#669999;">
@@ -138,7 +138,7 @@
 						dieu Saturne (symbole de fertilité). Lors de ces fêtes, il était coutume de s’échanger des cadeaux, les
 						“Strenae”, qui sont devenus aujourd’hui les étrennes.</p>
 					<br />
-					<p>e ne vous apprends rien, Noël est avant tout une fête chrétienne où l’on célèbre la naissance de Jésus
+					<p>Je ne vous apprends rien, Noël est avant tout une fête chrétienne où l’on célèbre la naissance de Jésus
 						(d’ailleurs messe du Christ = Christ mass = Christmas). Cette fameuse date de naissance est bien connue
 						: le 25
 						décembre de l’an 1. Pourtant, aucun écrit n’a jamais indiqué de date. Il semblerait même qu’en regardant
@@ -302,7 +302,7 @@
 						filles qui séchaient auprès du feu. Depuis, les pièces d’or ont été remplacées par des cadeaux, worth it
 						?</p>
 					<br />
-					<h6>Maintenant que vous avez apris les origines de Noël, vous pourrez vous la péter lors
+					<h6>Maintenant que vous avez appris les origines de Noël, vous pourrez vous la péter lors
 						de votre repas de famille !</h6>
 					<br />
 					<img class="img_article" src="../ressources/images/pop/7/noel.jpg" alt="sapin de noël décoré">
@@ -1397,7 +1397,7 @@
 			</svg>
 		</div>
 		<!-- https://www.compteurdevisite.com -->
-		<!-- <a title="compteur visiteur"><img src="https://counter8.stat.ovh/private/compteurdevisite.php?c=d7dbyxr97cd816ldjjszklrps9rf5has" border="0" title="compteur visiteur" alt="compteur visiteur"></a> -->
+		<a title="compteur visiteur"><img src="https://counter8.stat.ovh/private/compteurdevisite.php?c=d7dbyxr97cd816ldjjszklrps9rf5has" border="0" title="compteur visiteur" alt="compteur visiteur"></a>
 		<br />
 	</div>
 </body>
