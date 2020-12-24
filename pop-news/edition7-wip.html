@@ -46,11 +46,11 @@
 		}
 		// NEIGE :
 		$(document).ready(function () {
-			if(document.body.clientWidth > 760) { // PC & Tablettes
-				$.fn.snow({minSize: 12, maxSize: 30, newOn: 250, flakeColor: '#AFFCFC'});
-			} else { // Portables
-				$.fn.snow({minSize: 6, maxSize: 14, newOn: 400, flakeColor: '#CFFCFC'});
-			}
+			// if(document.body.clientWidth > 760) { // PC & Tablettes
+			// 	$.fn.snow({minSize: 12, maxSize: 30, newOn: 260, flakeColor: '#AFFCFC'});
+			// } else { // Portables
+			// 	$.fn.snow({minSize: 6, maxSize: 14, newOn: 400, flakeColor: '#CFFCFC'});
+			// }
 		});
 	</script>
 	<!-- Header -->
@@ -87,76 +87,255 @@
 
 		<div class="EditionBlockWraped">
 			<br />
-			<article id="mot_debut">
-				<!-- Le MOT DU DEBUT -->
-				<div class="Edition" style="padding: 6px 6px;">
-					<div class="FullArticle">
-						<hr style="background:#004875;">
-						<h2>Le mot du début</h2>
-						<p>
-							Pour cette Xème édition d'Alligator News, nous avons mis nos meilleurs reporters
-							sur le coup pour vous concocter une édition digne de ce nom ! L'équipe réunie profite de ce
-							petit mot d'introduction
-							pour vous rappeler que nous recrutons des journalistes en herbe pour agrandir l'équipe !
-							N'hésitez plus,
-							rejoignez-nous, on a des cookies ♥
-						</p>
-						<img class="img_article" loading="eager" style="width: 88%;"
-							src="../ressources/images/pop/affiche_recrutement.webp" />
-						<a href="#horoscope">LIEN VERS horoscope</a>
-						<hr style="background:#004875;">
+			<article id="photo_du_debut" style="max-width: 80%; margin: 0 auto;">
+				<div class="Edition" style="padding: 0 0;">
+					<div class="FullArticle" style="padding: 2px 8px;">
+						<img class="img_article" loading="eager" style="width: 100%;"
+							src="../ressources/images/pop/7/algnews_jn.jpg" />
 					</div>
 				</div>
 			</article>
 		</div>
 
-		<!-- Contenu de l'article -->
+		<div class="EditionBig">
+			<div class="Edition" id="mise_en_lumire">
+				<!-- MISE EN LUMIERE -->
+				<div class="FullArticle">
+					<hr style="background:#669999;">
+					<img class="img_titre_popWraped" style="width: 66%;" src="../ressources/images/pop/logo_dou_ca_vient.svg"
+						alt="*Titre*">
+					<hr style="background:#669999;">
+					<h3>Une question que tu ne t'es sans doute jamais posée, mais à laquelle nous allons tout de
+						même y répondre !</h3> <!-- Slogan de la rubrique -->
+					<h2>LES ORIGINES DE NOËL</h2>
+					<img class="img_article" src="../ressources/images/pop/7/nowel.jpg" alt="main père noël">
+					<br />
+					<p>Les origines des fêtes de Noël remontent à il y a très très longtemps. Nous allons essayer de vous les
+						simplifier
+						le plus possible en les découpant en 3 parties : les origines de cette période de fête, le personnage du
+						père
+						Noël, les origines des coutumes de Noël. Cet article a demandé beaucoup de recherches sur divers sites
+						pour obtenir le plus d'informations
+						possible et à mobiliser 3 journalistes pour l'écriture. On espère que vous apprécierez et que vous
+						apprendrez un maximum de choses !
+					</p>
+					<br />
+					<h2>Les origines des festivités de Noël</h2>
+					<p>Noël n’a pas toujours existé (désolé si cela vous déçoit). Mais par contre, cela fait bien longtemps que
+						cette
+						période est festive. Comme vous le savez, la Terre tourne autour du Soleil et son axe n’est pas tout à
+						fait
+						vertical. C’est pourquoi nous avons des saisons et 2 solstices dans l’année : le solstice d’été, le
+						moment où
+						les jours commencent à rétrécir et le solstice d’hiver, le moment où les jours commencent à s’allonger.
+						Les
+						hommes connaissent ce phénomène depuis bien longtemps et franchement, savoir que le soleil restera plus
+						longtemps ça se fête non ?! C’est pourquoi à chaque solstice d’hiver (vers le 20/21 décembre) les hommes
+						célébraient leurs divinités (que ce soit les romains, les vikings, les gaulois ou bien même les celtes).
+						Les
+						fêtes qui ont le plus influencé Noël sont les saturnales chez les romains. C’était les réjouissances
+						envers le
+						dieu Saturne (symbole de fertilité). Lors de ces fêtes, il était coutume de s’échanger des cadeaux, les
+						“Strenae”, qui sont devenus aujourd’hui les étrennes.</p>
+					<br />
+					<p>e ne vous apprends rien, Noël est avant tout une fête chrétienne où l’on célèbre la naissance de Jésus
+						(d’ailleurs messe du Christ = Christ mass = Christmas). Cette fameuse date de naissance est bien connue
+						: le 25
+						décembre de l’an 1. Pourtant, aucun écrit n’a jamais indiqué de date. Il semblerait même qu’en regardant
+						la
+						chronologie de certains événements bibliques, Jésus serait né en l’an -8 (paradoxal n’est-ce pas ?).
+						Mais dans
+						ce cas, pourquoi la date du 25 ?</p>
+					<br />
+					<p>Cette date du 25 décembre n’est pas choisie au hasard, elle est choisie arbitrairement au IVème siècle
+						quand il y
+						avait les fêtes païennes. En effet, à l’époque, la religion chrétienne n’était pas encore bien implantée
+						en
+						Europe et pour faire perdre les “mauvaises” coutumes aux peuples, rien de mieux que d’en créer de
+						nouvelles. On
+						a élucidé le mystère de la date, mais qu’en est-il du reste ? D’abord, il faut noter qu’au IVème siècle,
+						mis à
+						part la messe de Noël (qui ne s’appelait d’ailleurs pas encore comme cela), il n’y avait pas de Père
+						Noël, ni de
+						cadeau le 25. Il fallait encore attendre quelques siècles avec St Nicolas, aussi appelé Nicolas de Myre.
+						Cet
+						évêque, originaire de Turquie, serait né en 270 et mort en 345. Il est à l’origine de nombreux miracles
+						et dons,
+						qui lui ont valu d’être canonisé et d’être célébré le 6 décembre à partir de l’an 1000. Au XIIème
+						siècle, il
+						était associé au symbole de protecteur des enfants (allant même jusqu’à leur distribuer des cadeaux)
+						grâce à une
+						de ses légendes les plus connues. Dans celle-ci, il ressuscita trois enfants qui avaient été tués par un
+						boucher
+						voulant les manger (ce boucher est d’ailleurs devenu le croque-mitaine / père fouettard, le symbole
+						présenté aux
+						enfants pour leur faire peur et ainsi les rendre plus sages). C’est vers ces années qu’il y avait une
+						“distribution” de cadeaux dans les familles les plus aisées.</p>
+					<br />
+					<p>Les éléments commencent à se goupiller et pourtant, il n’y a pas encore de “fête de Noël” à proprement
+						parler. Au
+						XVIeme siècle, il y a eu la réforme protestante qui a freiné l'élan net en interdisant la célébration de
+						plusieurs icônes chrétiennes, dont St Nicolas. Alors que tout semble perdu, à la fin du XVIeme siècle,
+						avec un
+						nombre important d’émigrants européens vers l’Amérique, les légendes et les histoires sont amenées sur
+						ce
+						nouveau continent. Ces légendes se font discrètes au début. Mais en 1821 avec le poème “Old Santeclaus
+						with Much
+						Delight" et en 1823 avec la parution du poème “A Visit from St. Nicholas” écrit par le pasteur Clément
+						Clarke
+						Moore, l’évêque généreux qu’est Saint Nicolas se métamorphose en une personne vêtue de rouge distribuant
+						des
+						cadeaux la nuit du 24 décembre (changeant ainsi la date du 6 initialement). Cette histoire s’est
+						propagée à
+						grande vitesse et s’est popularisée après la première guerre mondiale. C'est l'origine de Noël telle
+						qu’on le
+						connaît.</p>
+					<br />
+					<h2>Les origines du personnage</h2>
+					<p>Le Père Noël, personnage phare de Noël a plusieurs origines. On pourrait ainsi remonter aux Dieux
+						Nordiques avec
+						Thor, vêtu de rouge. Il avait un traîneau tiré par des chèvres, ou encore Odin chevauchant Sleipnir, son
+						cheval
+						à 8 pattes (comme les 8 rennes du traîneau du Père Noël). Bref, on trouve beaucoup de liens/références
+						des
+						divinités de l’ancien temps sur le Père Noël d'aujourd'hui. Reprenons quelques éléments de l’histoire de
+						Saint
+						Nicolas pour commencer (personnage qui a le plus influencé l’icône du Père Noël).</p>
+					<br />
+					<p>Il est arrivé pour la première fois en France, dans le Nord, en Lorraine grâce à un chevalier. Celui-ci
+						ramenait
+						une phalange de St Nicolas chez lui comme relique, ill fut alors célébré en Lorraine, puis devint connu
+						dans
+						toute la France comme “Père de la nativité” et protecteur des enfants.</p>
+					<br />
+					<p>Au 16ème siècle, comme mentionné précédemment, il y a eu la réforme protestante, la fête célébrant le
+						personnage
+						disparut et seule la célébration de Jésus était commune aux chrétiens à cette période de l’année. Ainsi,
+						une
+						partie des protestants uniquement, principalement issus des Pays-Bas / Allemagne, gardèrent la
+						célébration du
+						Saint Nicolas et la distribution de jouets. St Nicolas se disait Sinter Klass. Lorsque les colons
+						hollandais
+						s’installèrent aux États-Unis, Sinter Klass devint Santa Claus, et sa célébration se transmit au fur et
+						à mesure
+						dans les foyers des colons. Elle finit par être associée au 24 décembre et à la naissance du Christ.</p>
+					<br />
+					<p>Le personnage actuel du père Noël a fait son apparition avec les poèmes “Old Santeclaus” (1821) et “A
+						Visit from
+						St. Nicholas” (1823). Le personnage est décrit comme un vieil homme, apportant des cadeaux aux enfants
+						sur son
+						traîneau tiré par des rennes. Le personnage sera repris par la suite par de nombreux journaux, et son
+						image sera
+						fixée par les illustrateurs John Tenniel et Thomas Nast, qui le représentent comme un vieillard
+						rondouillard,
+						avec une ceinture de cuir, un bonnet rouge, distribuant des jouets aux enfants. </p>
+					<br />
+					<p>Finalement, c’est Coca-Cola qui va finir d'asseoir l’image du Père Noël dans le monde entier. Grâce à une
+						campagne de pub représentant le Père Noël, publiée en 1931, le personnage devient mondialement connu. Et
+						contrairement à la légende, Coca-Cola n’a pas rendu le Père Noël rouge, il l’était déjà auparavant, mais
+						ils ont
+						permis de populariser l’image de ce personnage qui n’était pas nécessairement connu dans tous les
+						foyers.
+					</p>
+					<br />
+					<h2>Les origines des coutumes de Noël</h2>
+					<p>Maintenant que vous connaissez l’histoire sur les origines de la fête, puis du personnage, on va
+						s’intéresser à
+						plusieurs coutumes bien connues à Noël.
+					</p>
+					<h4>Les cadeaux :</h4>
+					<p>L’origine des cadeaux de Noël remonte à l’antiquité, durant l’époque romaine. Lors du solstice d’hiver,
+						il était
+						coutume d’offrir des cadeaux sous forme de nourriture ou d’argent, afin de célébrer la fin de l’année et
+						de
+						porter chance pour les mois à venir. Par la suite, on y associe l’origine de ces cadeaux aux rois mages,
+						qui
+						offraient des cadeaux le 6 janvier au Christ. On l’associe aussi à St Nicolas, apportant des cadeaux aux
+						enfants
+						sages le 6 décembre. La distribution des cadeaux s’est ainsi démocratisée, les magasins ont alors
+						commencé à faire de la publicité
+						afin de réaliser un chiffre d'affaires plus important. Noël est ainsi devenu une fête consumériste.</p>
+					<h4>Le sapin :</h4>
+					<p>Les premières traces de vente de sapin en période de fête remontent à 1521 en Alsace. Cette tradition
+						aurait été
+						inventée par les protestants, voulant alors se distinguer du catholicisme et de leur représentation de
+						la
+						nativité par une crèche. Cette tradition se serait alors rapidement répandue au sein de l’Eglise
+						protestante des
+						pays d’Europe de L’Est. En France, on doit l’arbre de Noël à Marie Leszynka qui n’est autre que la femme
+						de
+						Louis XV. Cette véritable héroïne polonaise a donc ramené la coutume de son pays à Versailles, puis dans
+						toute
+						la France.</p>
+					<h4>La bûche :</h4>
+					<p>Que serait Noël sans une bonne bûche au dessert ?! Mais d’où ça vient ? Cette dernière est associée aux
+						rituels
+						païens. À cette époque, on célébrait la renaissance du soleil en brûlant des bûches en bois. Si vous en
+						avez
+						marre de faire la danse du soleil en cette période froide, on vous a trouvé une nouvelle alternative. On
+						doute
+						néanmoins que ça marche : n’essayez pas ça à Noël, vous aurez sans doute du mal à faire flamber la bûche
+						glacée…
+						Finalement, le célèbre dessert tel qu’on le connaît n’apparaît que bien plus tard, à priori au XIXème
+						siècle
+						grâce au savoir-faire de la pâtisserie française. Depuis, les sorcières (et Jeanne d’Arc) n’en ont plus
+						peur,
+						elles en raffolent !</p>
+					<h4>Les boules :</h4>
+					<p> … de noël, elles sont de plus en plus jolies et sophistiquées. Pourtant, jusqu’au XIXème siècle, la déco
+						était
+						beaucoup plus écolo. Et oui, on accrochait des fruits au sapin… plutôt sympa/sapin non ? Cette déco
+						naturelle
+						symbolisait alors une offrande aux dieux. On privilégiait d’ailleurs les pommes, en rappel à l’arbre du
+						paradis.
+						Mais qu’est-il arrivé pour que cette idée, à première vue extravagante, disparaisse ? En 1858 a lieu une
+						grande
+						sécheresse qui affecta la récolte paysanne. C’est alors l’occasion pour un artisan verrier de Moselle de
+						fabriquer des boules en verre afin de remplacer les fruits. Allez, on vous invite maintenant à remettre
+						les
+						anciennes coutumes au goût du jour en proposant votre version du sapin comestible.</p>
+					<h4>Les chaussettes accrochées à la cheminée : </h4>
+					<p>Cela vient de la légende de Saint Nicolas. Il est dit que ce Saint, touché par la misère de trois sœurs,
+						fit
+						glisser des pièces d’or par la cheminée de leur maison. Et ces pièces seraient tombées dans les
+						chaussettes des
+						filles qui séchaient auprès du feu. Depuis, les pièces d’or ont été remplacées par des cadeaux, worth it
+						?</p>
+					<br />
+					<h6>Maintenant que vous avez apris les origines de Noël, vous pourrez vous la péter lors
+						de votre repas de famille !</h6>
+					<br />
+					<img class="img_article" src="../ressources/images/pop/7/noel.jpg" alt="sapin de noël décoré">
+					<br />
+					<p class="link">
+						Sitographie :
+						<a target="_blank"
+							href="https://www.leparisien.fr/guide-shopping/noel/d-ou-vient-l-histoire-du-pere-noel-18-12-2017-7460112.php">Origine
+							du Père Noël</a> |
+						<a target=" _blank"
+							href="https://fr.wikipedia.org/wiki/Cadeau_de_No%C3%ABl#Justification_des_cadeaux">Origine des
+							cadeaux de Noël</a> |
+						<a target=" _blank" href="https://cocacolaweb.fr/coca-cola-pere-noel/">Le Père Noël et Coca-Cola</a> |
+						<a target=" _blank" href="https://fr.wikipedia.org/wiki/Nicolas_de_Myre#Vie">Nicolas de Myre</a> |
+						<a target=" _blank" href="https://fr.wikipedia.org/wiki/Saint-Nicolas_(f%C3%AAte)">St Nicolas</a> |
+						<a target=" _blank" href="https://www.youtube.com/watch?v=_6A7NTmoaNg">Vidéo : C’est pas sorcier</a> |
+						<a target=" _blank" href="https://www.youtube.com/watch?v=et6zDn6Odr0">Le monde (vidéo)</a> |
+						<a target=" _blank"
+							href="https://croire.la-croix.com/Definitions/Fetes-religieuses/Noel/Quelle-est-l-origine-des-cadeaux-de-Noel">Origine
+							des cadeaux de Noël</a> |
+						<a target="_blank"
+							href="https://www.caminteresse.fr/culture/dou-viennent-les-traditions-de-noel-1157918/">Origine des
+							traditions de Noël</a> |
+						<a target=" _blank" href="https://www.francesapinbio.fr/histoire-sapin-noel/">Histoire du sapin de
+							Noël</a>
+					</p>
+					<br />
+					<div class="signature">-- Yohann Hirrien, Thomas Lépine, Gaëtan Marie</div>
+				</div>
+			</div>
+		</div>
 		<div class="EditionBlockWraped">
 			<br />
-			<article id="horoscope">
-				<!-- HOROSCOPE -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background:content-box radial-gradient(#FFC107, #191970);">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_horoscope.svg" alt="*Titre*">
-						<hr style="background:content-box radial-gradient(#FFFF00, #191970);">
-						<h3>Nos spécialistes ont regardé les étoiles à l'aide de leur microscope pour découvir ce qui
-							vous attend dans le mois !</h3> <!-- Slogan de la rubrique -->
-						<img class="img_article" src="../ressources/images/pop/constellations_polytech_angers.jpg"
-							style="width: 70%;" alt="horoscope" />
-						<br />
-						<h5>QIF :</h5>
-						<p>
-							Vous demandez un stage au Père Noël. Malheureusement, votre lettre se perdra et vous recevrez un poney.
-							Vous passerez vos 6 mois de stage à vous entraîner et deviendrez champion équestre, catégorie lasagne.
-						</p>
-						<h5>SAGI :</h5>
-						<p>Vous vous ferez chier durant votre repas de réveillon et lancerez un débat afin de raviver les
-							discussions : pain au chocolat ou chocolatine ? La police sera obligée d’intervenir.
-						</p>
-						<h5>BEMS :</h5>
-						<p>Les cheminées sont trop petites pour le Père Noël. Vous les reconcevrez plus large. Mais n’ayant pas mis
-							en place de système de ralentissement de chute, le Père Noël tombera et se cassera le coccyx. Vous le
-							remplacerez alors et réussirez à livrer trois maisons avant de vous écrouler de fatigue.
-						</p>
-						<h5>GBS :</h5>
-						<p>Vous laisserez un cookie et un verre de lait au Père Noël. Malheureusement, votre chien les mangera avant
-							lui. Le Père Noël mécontent vous laissera en guise de cadeau une orange périmée, datant de 1960. Bon
-							appétit !
-						</p>
-						<h5>PEIP :</h5>
-						<p>Vous n’avez pas été sage cette année et n’aurez pas de cadeau. Vous décidez donc de prendre en otage le
-							Père Noël en l’endormant. Vous ferez la joie des parents qui n’en peuvent plus d’entendre les jouets
-							bruyants de leurs enfants.
-						</p>
-						<br />
-						<br />
-						<img class="img_article" src="../ressources/images/pop/horoscope.webp" style="width: 70%;" alt="horoscope" />
-						<br />
-						<div class="signature">-- Yohann Hirrien</div> <!-- Signature de la rubrique -->
-					</div>
-				</div>
-			</article>
 			<article id="quick_news">
 				<!-- QUICK NEWS -->
 				<div class="Edition">
@@ -258,132 +437,6 @@
 					</div>
 				</div>
 			</article>
-			<article id="rotagilla">
-				<!-- ROTAGILLA -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background:content-box radial-gradient(#166D83, #0B3641);">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_rotagilla.svg" alt="*Titre*">
-						<hr style="background:content-box radial-gradient(#166D83, #0B3641);">
-						<h3>L'info retournée et 100% non vérifiée !</h3> <!-- Slogan de la rubrique -->
-						<p>
-							Pour cette édition spéciale Noël, nous aurions pu nous intéresser à savoir <b>si la chloroquine est un bon
-							cadeau de Noël</b>, ou bien à un sujet qui semble tout particulièrement vous préoccuper : <b>« devons-nous se
-							limiter à un seul oncle beauf cet année ? »</b>. Mais cette dernière question nous a poussée à privilégier
-							un autre sujet tout aussi intéressant :
-						</p>
-						<h6>
-							Fendre en deux le crâne de son oncle beauf lui permettra-t-il de devenir ouvert d’esprit ?
-						</h6>
-						<img class="img_article" src="../ressources/images/pop/7/hache.jpg"
-							alt="hache" />
-						<p>
-							Si nous devions répondre simplement à la question, la réponse serait « oui », mais nous vous
-							déconseillons de le faire, car cela pourrait être passible de plusieurs années de prison … Cela reste un
-							meurtre, sauf si vous vous loupez lamentablement … Bien évidemment, pas vu, pas pris ! (Nous vous
-							conseillons également d’aiguiser votre hache juste avant et de vous entraîner sur des bûches en bois).
-						</p>
-						<p>
-							Maintenant, si nous regardons la question plus en profondeur, il est à noter que, d’après Wikipédia, le
-							cerveau n'est qu'une sorte de « terminal » qui opère l'interface entre l'esprit (immatériel) et le monde
-							des cinq sens (matériel). Une simple hache ne permettrait alors pas de réussir à ouvrir son esprit qui
-							n’est pas quelque chose de palpable.
-						</p>
-						<p>
-							D’après nos experts en la matière, si vous souhaitez « ouvrir l’esprit » de votre oncle beauf, rien de
-							mieux que de « le faire avec des mots en le raisonnant ». Tout en rajoutant que « s’il devient trop
-							lourd après avoir trop bu, les mots ne serviront à rien. Nous vous conseillons alors de l’enfermer dans
-							la cuisine tout en faisant revenir vos grands-parents qui y étaient à votre table ».
-							Bref, c’est sûr ces belles paroles pleines de bon sens que nous achevons cet article.
-						</p>
-						<img class="img_article" src="../ressources/images/pop/7/unclesam.jpg"
-							alt="oncle sam" />
-						<h4>
-							<center>N’oubliez pas, le meurtre ne résoudra jamais rien, mais surtout, vérifiez qu’il n’y ait pas de
-								serpent dans votre chaussette de Noël, bon appétit et à la prochaine !</center>
-						</h4>						
-						<br />
-						<div class="signature">-- Thomas Lépine</div> <!-- Signature de la rubrique -->
-					</div>
-				</div>
-			</article>
-			<article id="d_ou_ca_vient">
-				<!-- D'OU CA VIENT -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background:#669999;">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_dou_ca_vient.svg"
-							alt="*Titre*">
-						<hr style="background:#669999;">
-						<h3>Une question que tu ne t'es sans doute jamais posée, mais à laquelle nous allons tout de
-							même y répondre !</h3> <!-- Slogan de la rubrique -->
-						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin
-							ad eas res hominum
-							natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a
-							contemplandis rebus
-							perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id
-							aliis narrare gestiant ? Ut
-							pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim
-							perferant ? Quid vero ? Qui
-							ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei
-							familiaris habere rationem
-							omniaque perpeti ipsa cognitione et scientia captos et cum maximis
-							curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-						<br />
-						<div class="signature">-- Thomas Lépine</div> <!-- Signature de la rubrique -->
-					</div>
-				</div>
-			</article>
-			<article id="marque_pages">
-				<!-- MARQUE PAGES -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background:content-box radial-gradient(#428ECC, #485864);">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_marque_pages.svg"
-							alt="*Titre*">
-						<hr style="background:content-box radial-gradient(#428ECC, #485864);">
-						<h3>Préparez votre canapé, on vous conseille sur quoi bouquiner !</h3>
-						<!-- Slogan de la rubrique -->
-						<h2>Le Drôle de Noël de Scrooge (Un chant de Noël) – <i>Charles Dickens</i></h2>
-						<img class="img_article" src="../ressources/images/pop/7/le_drole_de_noel_de_scrooge.jpg" alt="img_le_drole_de_noel_de_scrooge">
-						<h4>Résumé</h4>
-						<p>Dans l’Angleterre des années 1840 vit Ebenezer Scrooge, un vieil homme solitaire et égoïste qui ne pense qu’à l’argent. Ne partageant pas la joie de Noël, il décide de passer comme chaque année cette fête seul malgré l’invitation de son neveu. Mais, à la veille de Noël, le fantôme de son ancien associé apparaît pour le prévenir que trois esprits vont venir le hanter. Ces esprits lui feront voir son passé, son présent et son avenir pour le prévenir des risques s’il continue à agir de la sorte. 
-						</p>
-						<h4>Critique</h4>
-						<p>J’ai trouvé ce conte de Noël sympathique et en total accord avec la période. Avec ses descriptions, Dickens nous plonge dans une ambiance de Noël « merveilleuse ». De beaux messages sont passés à travers cette histoire. </p>
-						<h4>Note : 7/10</h4>
-						<br /><div class="signature">-- Caitlin Jolivet</div>						
-					</div>
-				</div>
-			</article>
-			<article id="infos_polytech_angers">
-				<!-- INFOS POLYTECH ANGERS -->
-				<div class="Edition">
-					<div class="FullArticle">
-						<hr style="background:content-box radial-gradient(#009FE3, #004875);">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_info_polytech_angers.svg"
-							alt="*Titre*">
-						<hr style="background:content-box radial-gradient(#009FE3, #004875);">
-						<h3>La rubrique pour être tenu informé sur ton école préférée !</h3>
-						<!-- Slogan de la rubrique -->
-						<br />
-						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin
-							ad eas res hominum
-							natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus quidem a
-							contemplandis rebus
-							perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire se gaudeant ? Ut id
-							aliis narrare gestiant ? Ut
-							pompa, ludis atque eius modi spectaculis teneantur ob eamque rem vel famem et sitim
-							perferant ? Quid vero ? Qui
-							ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei
-							familiaris habere rationem
-							omniaque perpeti ipsa cognitione et scientia captos et cum maximis
-							curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
-						<br />
-						<div class="signature">-- Signature</div> <!-- Signature de la rubrique -->
-					</div>
-				</div>
-			</article>
 			<article id="wonderland">
 				<!-- Wonderland -->
 				<div class="Edition">
@@ -393,7 +446,11 @@
 						<hr style="background:#0099CC;">
 						<h3>Portrait sur des personnages emblématiques provenant d'histoires</h3> <!-- Slogan de la rubrique -->
 						<h2>Le Père Noël :</h2>
-						<img class="img_article" src="../ressources/images/pop/7/perenoel.jpg" alt="perenoel">
+						<br />
+						<!-- IMAGE PERE NOËL (source : https://storyset.com/illustration/santa-claus/bro/animate) -->
+						<img class="img_article" style="width: 90%;" src="../ressources/images/global/themes/xmas/santa_clause.svg" alt="pere noel">
+						
+						<br />
 						<p>
 							Le Père Noël, aussi connu sous le nom de Santa Claus, est sorti de nulle part en 1821. Dès son
 							apparition, il avait l’apparence d’un vieil homme avec une barbe blanche. Il se balade le soir de Noël
@@ -448,6 +505,9 @@
 							Korvantunturi, en Laponie. Le Père Noël, la Mère Noël et son équipe de lutins se feront un plaisir de
 							vous répondre.
 						</p>
+						<br/>
+						<img class="img_article" style="width: 70%;" src="../ressources/images/pop/7/perenoel.jpg" alt="perenoel">
+						<br/>
 						<p class="link">
 							Sitographie :
 							<a target="_blank" href="https://www.happyfete.com/Blog/A-propos-de-la-mere-noel.html
@@ -456,34 +516,148 @@
 								">Noël Vert</a>
 							<a target=" _blank" href="https://fr.wikipedia.org/wiki/P%C3%A8re_No%C3%ABl">Wikipédia</a>
 						</p>
-						<br />
+						<br/>
 						<div class="signature">-- Yohann Hirrien</div>
 					</div>
 				</div>
 			</article>
-			<article id="histoire_d_une_invention">
-				<!-- HISTOIRE D'UNE INVENTION -->
+			<article id="infos_polytech_angers">
+				<!-- INFOS POLYTECH ANGERS -->
 				<div class="Edition">
 					<div class="FullArticle">
-						<hr style="background:content-box radial-gradient(#B36212, #663300);">
-						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_histoire_d_une_invention.svg" alt="*Titre*">
-						<hr style="background:content-box radial-gradient(#B36212, #663300);">
-						<h3>Découvrez l'incroyable histoire d'une invention qui a révolutioné notre monde !</h3> <!-- Slogan de la rubrique -->
-						<h2>Titre possible</h2>
-						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin
-							ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne
-							verberibus quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant?
-							Ut aliquid scire se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius
-							modi spectaculis teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui
-							ingeniis studiis atque artibus delectantur, nonne videmus eos nec valetudinis nec rei
-							familiaris habere rationem omniaque perpeti ipsa cognitione et scientia captos et cum
-							maximis
-							curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
+						<hr style="background:content-box radial-gradient(#009FE3, #004875);">
+						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_info_polytech_angers.svg"
+							alt="*Titre*">
+						<hr style="background:content-box radial-gradient(#009FE3, #004875);">
+						<h3>La rubrique pour être tenu informé sur ton école préférée !</h3>
+						<h2>Tout le personnel de Polytech Angers vous souhaite un joyeux Noël !</h2>
+						<img class="img_article" src="../ressources/images/pop/7/polytech_angers_jn.png"
+							style="width: 93%;" alt="horoscope" />
 						<br />
-						<div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
+						<h2>Escape Polytech : le magot a été trouvé !</h2>
+						<img class="img_article" src="../ressources/images/pop/7/escape_polytech_end.jpg"
+							style="width: 82%;" alt="horoscope" />
+							<div class="legende">Article réalisé par Alain Godon</div>
+						<br>
+						<div class="signature">-- Thomas Lépine</div> <!-- Signature de la rubrique -->
 					</div>
 				</div>
 			</article>
+			<article id="horoscope">
+				<!-- HOROSCOPE -->
+				<div class="Edition">
+					<div class="FullArticle">
+						<hr style="background:content-box radial-gradient(#FFC107, #191970);">
+						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_horoscope.svg" alt="*Titre*">
+						<hr style="background:content-box radial-gradient(#FFFF00, #191970);">
+						<h3>Nos spécialistes ont regardé les étoiles à l'aide de leur microscope pour découvir ce qui
+							vous attend dans le mois !</h3> <!-- Slogan de la rubrique -->
+						<img class="img_article" src="../ressources/images/pop/constellations_polytech_angers.jpg"
+							style="width: 70%;" alt="horoscope" />
+						<br />
+						<h5>QIF :</h5>
+						<p>
+							Vous demandez un stage au Père Noël. Malheureusement, votre lettre se perdra et vous recevrez un poney.
+							Vous passerez vos 6 mois de stage à vous entraîner et deviendrez champion équestre, catégorie lasagne.
+						</p>
+						<h5>SAGI :</h5>
+						<p>Vous vous ferez chier durant votre repas de réveillon et lancerez un débat afin de raviver les
+							discussions : pain au chocolat ou chocolatine ? La police sera obligée d’intervenir.
+						</p>
+						<h5>BEMS :</h5>
+						<p>Les cheminées sont trop petites pour le Père Noël. Vous les reconcevrez plus large. Mais n’ayant pas mis
+							en place de système de ralentissement de chute, le Père Noël tombera et se cassera le coccyx. Vous le
+							remplacerez alors et réussirez à livrer trois maisons avant de vous écrouler de fatigue.
+						</p>
+						<h5>GBS :</h5>
+						<p>Vous laisserez un cookie et un verre de lait au Père Noël. Malheureusement, votre chien les mangera avant
+							lui. Le Père Noël mécontent vous laissera en guise de cadeau une orange périmée, datant de 1960. Bon
+							appétit !
+						</p>
+						<h5>PEIP :</h5>
+						<p>Vous n’avez pas été sage cette année et n’aurez pas de cadeau. Vous décidez donc de prendre en otage le
+							Père Noël en l’endormant. Vous ferez la joie des parents qui n’en peuvent plus d’entendre les jouets
+							bruyants de leurs enfants.
+						</p>
+						<br />
+						<br />
+						<img class="img_article" src="../ressources/images/pop/horoscope.webp" style="width: 70%;" alt="horoscope" />
+						<br />
+						<div class="signature">-- Yohann Hirrien</div> <!-- Signature de la rubrique -->
+					</div>
+				</div>
+			</article>
+			<article id="rotagilla">
+				<!-- ROTAGILLA -->
+				<div class="Edition">
+					<div class="FullArticle">
+						<hr style="background:content-box radial-gradient(#166D83, #0B3641);">
+						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_rotagilla.svg" alt="*Titre*">
+						<hr style="background:content-box radial-gradient(#166D83, #0B3641);">
+						<h3>L'info retournée et 100% non vérifiée !</h3> <!-- Slogan de la rubrique -->
+						<p>
+							Pour cette édition spéciale Noël, nous aurions pu nous intéresser à savoir <b>si la chloroquine est un bon
+							cadeau de Noël</b>, ou bien à un sujet qui semble tout particulièrement vous préoccuper : <b>« devons-nous se
+							limiter à un seul oncle beauf cet année ? »</b>. Mais cette dernière question nous a poussée à privilégier
+							un autre sujet tout aussi intéressant :
+						</p>
+						<h4>
+							Fendre en deux le crâne de son oncle beauf lui permettra-t-il de devenir ouvert d’esprit ?
+						</h4>
+						<img class="img_article" src="../ressources/images/pop/7/hache.jpg"
+							alt="hache" />
+						<p>
+							Si nous devions répondre simplement à la question, la réponse serait « oui », mais nous vous
+							déconseillons de le faire, car cela pourrait être passible de plusieurs années de prison … Cela reste un
+							meurtre, sauf si vous vous loupez lamentablement … Bien évidemment, pas vu, pas pris ! (Nous vous
+							conseillons également d’aiguiser votre hache juste avant et de vous entraîner sur des bûches en bois).
+						</p>
+						<p>
+							Maintenant, si nous regardons la question plus en profondeur, il est à noter que, d’après Wikipédia, le
+							cerveau n'est qu'une sorte de « terminal » qui opère l'interface entre l'esprit (immatériel) et le monde
+							des cinq sens (matériel). Une simple hache ne permettrait alors pas de réussir à ouvrir son esprit qui
+							n’est pas quelque chose de palpable.
+						</p>
+						<p>
+							D’après nos experts en la matière, si vous souhaitez « ouvrir l’esprit » de votre oncle beauf, rien de
+							mieux que de « le faire avec des mots en le raisonnant ». Tout en rajoutant que « s’il devient trop
+							lourd après avoir trop bu, les mots ne serviront à rien. Nous vous conseillons alors de l’enfermer dans
+							la cuisine tout en faisant revenir vos grands-parents qui y étaient à votre table ».
+							Bref, c’est sûr ces belles paroles pleines de bon sens que nous achevons cet article.
+						</p>
+						<img class="img_article" src="../ressources/images/pop/7/unclesam.jpg"
+							alt="oncle sam" />
+						<h4>
+							<center>N’oubliez pas, le meurtre ne résoudra jamais rien, mais surtout, vérifiez qu’il n’y ait pas de
+								serpent dans votre chaussette de Noël, bon appétit et à la prochaine !</center>
+						</h4>						
+						<br />
+						<div class="signature">-- Thomas Lépine</div> <!-- Signature de la rubrique -->
+					</div>
+				</div>
+			</article>
+			<article id="marque_pages">
+				<!-- MARQUE PAGES -->
+				<div class="Edition">
+					<div class="FullArticle">
+						<hr style="background:content-box radial-gradient(#428ECC, #485864);">
+						<img class="img_titre_popWraped" src="../ressources/images/pop/logo_marque_pages.svg"
+							alt="*Titre*">
+						<hr style="background:content-box radial-gradient(#428ECC, #485864);">
+						<h3>Préparez votre canapé, on vous conseille sur quoi bouquiner !</h3>
+						<!-- Slogan de la rubrique -->
+						<h2>Le Drôle de Noël de Scrooge (Un chant de Noël) – <i>Charles Dickens</i></h2>
+						<img class="img_article" src="../ressources/images/pop/7/le_drole_de_noel_de_scrooge.jpg" alt="img_le_drole_de_noel_de_scrooge">
+						<h4>Résumé</h4>
+						<p>Dans l’Angleterre des années 1840 vit Ebenezer Scrooge, un vieil homme solitaire et égoïste qui ne pense qu’à l’argent. Ne partageant pas la joie de Noël, il décide de passer comme chaque année cette fête seul malgré l’invitation de son neveu. Mais, à la veille de Noël, le fantôme de son ancien associé apparaît pour le prévenir que trois esprits vont venir le hanter. Ces esprits lui feront voir son passé, son présent et son avenir pour le prévenir des risques s’il continue à agir de la sorte. 
+						</p>
+						<h4>Critique</h4>
+						<p>J’ai trouvé ce conte de Noël sympathique et en total accord avec la période. Avec ses descriptions, Dickens nous plonge dans une ambiance de Noël « merveilleuse ». De beaux messages sont passés à travers cette histoire. </p>
+						<h4>Note : 7/10</h4>
+						<br /><div class="signature">-- Caitlin Jolivet</div>						
+					</div>
+				</div>
+			</article>	
 		</div>
 		<div class="EditionBig">
 			<div class="Edition" id="mise_en_lumire">
@@ -642,14 +816,14 @@
                             <td class="legende">[OCBR] de Axel Moribon</td>
 							<td class="legende">Stolen de Val Ouche (nom sur facebook)</td>
 						</tr>
-						<tr>
+						<!-- <tr>
                             <td class="img"><img loading="auto" src="../ressources/images/pop/7/sapin.jpg" /></td>
 							<td class="img"><img loading="auto" src="../ressources/images/pop/7/beauf_vs_vaccin.jpg" /></td>
                         </tr>
                         <tr>
                             <td class="legende">[OC] de Thomas Lépine</td>
 							<td class="legende">[OC] de Thomas Lépine</td>
-                        </tr>
+                        </tr> -->
                     </table>
                     <br />
                     <br />
@@ -662,20 +836,18 @@
 				<div class="FullArticle">
 					<h2>Le mot de la fin ...</h2>
 					<center>
-						<h4>Voici la fin de cette deuxième édition. Mais l’aventure n’est pas finie, séchez donc vos
-							larmes
-							d’alligator, parce que nous serons très vite de retour avec du nouveau contenu !</h4>
+						<h4>
+							Voici la fin de cette septième édition 😭 ... Mais, l’aventure n’est pas finie, séchez donc vos larmes
+							d’alligator, parce que nous serons très très vite de retour avec du nouveau contenu ! 🐊
+							<br />
+							On espère que vous avez appréciez cette édition spéciale Noël 🎅🏻 ! On se retrouve le mois pochain pour la première éditon de l'année 2021 : l'édition #8 !
+						</h4>
 						<br />
-						<h4>La prochaine édition sera une édition spéciale : "Alligator News summer edition" ! Rien de
-							mieux pour
-							ensoleiler votre été ♥ Cette édition devrait sortir courant juillet (si tout se passe comme
-							prévu).</h4>
-						<br />
-						<h4>Si vous êtes intéressé pour rejoindre l’équipe, envoyez nous un message par e-mail,
-							Facebook, ... !</h4>
+						<h4>PS : Si vous êtes intéressé pour rejoindre l’équipe, vous connaissez la chanson, envoyez nous un message par
+							e-mail, Facebook, ... On a besoin de vous pour continuer d'exister l'année prochaine !</h4>
 					</center>
 					<img style="width:24%; display:block; margin: 5px auto;"
-						src="../ressources/images/global/logo_alligator_news.png" alt="*Logo Alligator News*">
+						src="../ressources/images/global/logo-alligator-news-event/logo_alligator_news-xmas.svg" alt="Logo Alligator News Noël">
 					<br />
 					<div class="signature">-- L'équipe Alligator News</div> <!-- Signature de la rubrique -->
 				</div>
@@ -706,7 +878,7 @@
 		<p>Le club de journalisme de Polytech Angers : Alligator News, est fier de vous relayer des informations
 			diverses et variées pour votre plus grand plaisir !</p>
 		<br />
-		<p>L'équipe ayant réalisé cette édition est composée de 6 membres très motivés :</p>
+		<p>L'équipe ayant réalisé cette édition est composée de 7 membres très motivés :</p>
 		<br />
 		<table id="auteurs_membres">
 			<tr>
@@ -735,18 +907,6 @@
 			</tr>
 			<tr>
 				<td class="name_right_footer">
-					<p>► Florian ROBIC <a href="https://www.linkedin.com/in/florian-robic/" target="_blank"><img
-								src="../ressources/images/global/themes/xmas/logo_linkedin.png" loading="auto"
-								alt="logo_linkedin"></a></p>
-				</td>
-				<td class="name_left_footer">
-					<p>► Gaëtan MARIE <a href="https://www.linkedin.com/in/ga%C3%ABtan-marie/" target="_blank"><img
-								src="../ressources/images/global/themes/xmas/logo_linkedin.png" loading="auto"
-								alt="logo_linkedin"></a></p> 
-				</td>
-			</tr>
-			<tr>
-				<td class="name_right_footer">
 					<p>► Clément ROBICHON <a href="https://www.linkedin.com/in/cl%C3%A9ment-robichon-1b562a1a5/" target="_blank"><img
 								src="../ressources/images/global/themes/xmas/logo_linkedin.png" loading="auto"
 								alt="logo_linkedin"></a></p>
@@ -757,14 +917,486 @@
 								alt="logo_linkedin"></a></p>
 				</td>
 			</tr>
+			<tr>
+				<td class="name_right_footer">
+					<p>► Gaëtan MARIE <a href="https://www.linkedin.com/in/ga%C3%ABtan-marie/" target="_blank"><img
+								src="../ressources/images/global/themes/xmas/logo_linkedin.png" loading="auto"
+								alt="logo_linkedin"></a></p> 
+				</td>
+			</tr>
 		</table>
 		<br />
 		<p>Si tu souhaites faire partie de l'équipe, n'hésite pas à nous contacter ! <i>En plus on a des cookies (des
-				vrais bien sûr)</i></p>
-		<br /><br />
-		<img class="img_easter_egg" src="../ressources/images/pop/7/algnews_jn.jpg" />
-		<br />
-		 <!-- https://www.compteurdevisite.com -->
+				vrais bien sûr)</i>
+		</p>
+		<div style="display: block; max-width: 48%; margin: 0 auto;">
+			<svg class="animated" id="freepik_stories-christmas-stocking" xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 500 500" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+				xmlns:svgjs="http://svgjs.com/svgjs">
+				<style>
+					svg#freepik_stories-christmas-stocking:not(.animated) .animable {
+						opacity: 0;
+					}
+		
+					svg#freepik_stories-christmas-stocking.animated #freepik--Snowflakes--inject-2 {
+						animation: 3s Infinite linear wind;
+						animation-delay: 0s;
+					}
+		
+					@keyframes wind {
+						0% {
+							transform: rotate(0deg);
+						}
+		
+						25% {
+							transform: rotate(1deg);
+						}
+		
+						75% {
+							transform: rotate(-1deg);
+						}
+					}
+		
+					.animator-hidden {
+						display: none;
+					}
+				</style>
+				<g id="freepik--Bricks--inject-2" style="transform-origin: 248.32px 241.52px 0px;"
+					class="animable animator-hidden">
+					<line x1="44.96" y1="41.49" x2="469.79" y2="41.49"
+						style="fill: none; stroke: rgb(38, 50, 56); stroke-miterlimit: 10; transform-origin: 257.375px 41.49px 0px;"
+						id="elcg8axenho8w" class="animable"></line>
+					<line x1="44.96" y1="193.14" x2="469.79" y2="193.14"
+						style="fill: none; stroke: rgb(38, 50, 56); stroke-miterlimit: 10; transform-origin: 257.375px 193.14px 0px;"
+						id="el645pg8wvido" class="animable"></line>
+					<line x1="44.96" y1="184.39" x2="469.79" y2="184.39"
+						style="fill: none; stroke: rgb(38, 50, 56); stroke-miterlimit: 10; transform-origin: 257.375px 184.39px 0px;"
+						id="el1wrhu7mhvh2" class="animable"></line>
+					<g id="eltbsvh10f6f">
+						<rect x="394.33" y="204" width="50.34" height="20.38"
+							style="opacity: 0.2; transform-origin: 419.5px 214.19px 0px;" class="animable"></rect>
+					</g>
+					<g id="elmt4lwosclzf">
+						<rect x="423.83" y="284.81" width="50.34" height="20.38"
+							style="opacity: 0.2; transform-origin: 449px 295px 0px;" class="animable"></rect>
+					</g>
+					<g id="elp8wbcsxo3en">
+						<rect x="337.83" y="204" width="50.34" height="20.38"
+							style="opacity: 0.2; transform-origin: 363px 214.19px 0px;" class="animable"></rect>
+					</g>
+					<g id="elik5wbqzn3t8">
+						<rect x="337.83" y="259" width="50.34" height="20.38"
+							style="opacity: 0.2; transform-origin: 363px 269.19px 0px;" class="animable"></rect>
+					</g>
+					<g id="elufx83iokd">
+						<rect x="105.43" y="260" width="50.34" height="20.38"
+							style="opacity: 0.2; transform-origin: 130.6px 270.19px 0px;" class="animable"></rect>
+					</g>
+					<g id="eldlqqo55j6bu">
+						<rect x="366.76" y="232.16" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 391.93px 242.35px 0px;" class="animable"></rect>
+					</g>
+					<g id="elztrtzzspqn">
+						<rect x="424.3" y="232.16" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 449.47px 242.35px 0px;" class="animable"></rect>
+					</g>
+					<g id="elm8wvaiqc39d">
+						<rect x="396.83" y="258.81" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 422px 269px 0px;" class="animable"></rect>
+					</g>
+					<g id="el45vb822gkka">
+						<rect x="279.41" y="204" width="50.34" height="20.38"
+							style="opacity: 0.2; transform-origin: 304.58px 214.19px 0px;" class="animable"></rect>
+					</g>
+					<g id="eluzsqekl88e">
+						<rect x="251.84" y="232.16" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 277.01px 242.35px 0px;" class="animable"></rect>
+					</g>
+					<g id="elin716s5hacf">
+						<rect x="309.38" y="232.16" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 334.55px 242.35px 0px;" class="animable"></rect>
+					</g>
+					<g id="elngdec07c5l">
+						<rect x="164.49" y="204" width="50.34" height="20.38"
+							style="opacity: 0.2; transform-origin: 189.66px 214.19px 0px;" class="animable"></rect>
+					</g>
+					<g id="elh1zcx86sa66">
+						<rect x="136.92" y="232.16" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 162.09px 242.35px 0px;" class="animable"></rect>
+					</g>
+					<g id="elflg63sflnna">
+						<rect x="194.46" y="232.16" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 219.63px 242.35px 0px;" class="animable"></rect>
+					</g>
+					<g id="el802xbc394ii">
+						<rect x="49.57" y="204" width="50.34" height="20.38"
+							style="opacity: 0.2; transform-origin: 74.74px 214.19px 0px;" class="animable"></rect>
+					</g>
+					<g id="elvrz8o7674x">
+						<rect x="46.83" y="278.81" width="50.34" height="20.38"
+							style="opacity: 0.2; transform-origin: 72px 289px 0px;" class="animable"></rect>
+					</g>
+					<g id="elt7gdqcyr45l">
+						<rect x="22" y="232.16" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 47.17px 242.35px 0px;" class="animable"></rect>
+					</g>
+					<g id="elda1t14svnlv">
+						<rect x="79.54" y="232.16" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 104.71px 242.35px 0px;" class="animable"></rect>
+					</g>
+					<g id="elcur84w1nb8d">
+						<rect x="394.33" y="308" width="50.34" height="20.38"
+							style="opacity: 0.2; transform-origin: 419.5px 318.19px 0px;" class="animable"></rect>
+					</g>
+					<g id="el8w8eo03muo9">
+						<rect x="423.83" y="388.81" width="50.34" height="20.38"
+							style="opacity: 0.2; transform-origin: 449px 399px 0px;" class="animable"></rect>
+					</g>
+					<g id="eltfqjs9hg23k">
+						<rect x="337.83" y="308" width="50.34" height="20.38"
+							style="opacity: 0.2; transform-origin: 363px 318.19px 0px;" class="animable"></rect>
+					</g>
+					<g id="elojk860o43g">
+						<rect x="337.83" y="363" width="50.34" height="20.38"
+							style="opacity: 0.2; transform-origin: 363px 373.19px 0px;" class="animable"></rect>
+					</g>
+					<g id="el1tepkabohfb">
+						<rect x="105.43" y="364" width="50.34" height="20.38"
+							style="opacity: 0.2; transform-origin: 130.6px 374.19px 0px;" class="animable"></rect>
+					</g>
+					<g id="elb6kc2gdtl9b">
+						<rect x="366.76" y="336.17" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 391.93px 346.36px 0px;" class="animable"></rect>
+					</g>
+					<g id="elzhan6zwc9np">
+						<rect x="424.3" y="336.17" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 449.47px 346.36px 0px;" class="animable"></rect>
+					</g>
+					<g id="elj6ncxurcxv">
+						<rect x="396.83" y="362.81" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 422px 373px 0px;" class="animable"></rect>
+					</g>
+					<g id="el7ibg39rsluu">
+						<rect x="279.41" y="308" width="50.34" height="20.38"
+							style="opacity: 0.2; transform-origin: 304.58px 318.19px 0px;" class="animable"></rect>
+					</g>
+					<g id="elot92yniwzo">
+						<rect x="251.84" y="336.17" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 277.01px 346.36px 0px;" class="animable"></rect>
+					</g>
+					<g id="elattc83vnm8h">
+						<rect x="309.38" y="336.17" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 334.55px 346.36px 0px;" class="animable"></rect>
+					</g>
+					<g id="el7zh23trex7a">
+						<rect x="285.38" y="394.17" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 310.55px 404.36px 0px;" class="animable"></rect>
+					</g>
+					<g id="elb77u31k0hjn">
+						<rect x="357.38" y="421.17" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 382.55px 431.36px 0px;" class="animable"></rect>
+					</g>
+					<g id="ellr185cxrina">
+						<rect x="167.38" y="421.17" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 192.55px 431.36px 0px;" class="animable"></rect>
+					</g>
+					<g id="el4r8eec2d1nq">
+						<rect x="23.83" y="421.17" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 49px 431.36px 0px;" class="animable"></rect>
+					</g>
+					<g id="elp4hmhq8gmw">
+						<rect x="206.84" y="267.17" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 232.01px 277.36px 0px;" class="animable"></rect>
+					</g>
+					<g id="el2607z1u0uu9">
+						<rect x="264.38" y="267.17" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 289.55px 277.36px 0px;" class="animable"></rect>
+					</g>
+					<g id="el91m6lagfjos">
+						<rect x="164.49" y="308" width="50.34" height="20.38"
+							style="opacity: 0.2; transform-origin: 189.66px 318.19px 0px;" class="animable"></rect>
+					</g>
+					<g id="ely5nsop49t5j">
+						<rect x="136.92" y="336.17" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 162.09px 346.36px 0px;" class="animable"></rect>
+					</g>
+					<g id="elt0q6bk1obp">
+						<rect x="219.92" y="366.17" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 245.09px 376.36px 0px;" class="animable"></rect>
+					</g>
+					<g id="el2v2ig2woy3v">
+						<rect x="194.46" y="336.17" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 219.63px 346.36px 0px;" class="animable"></rect>
+					</g>
+					<g id="elhegcfg9w61o">
+						<rect x="49.57" y="308" width="50.34" height="20.38"
+							style="opacity: 0.2; transform-origin: 74.74px 318.19px 0px;" class="animable"></rect>
+					</g>
+					<g id="elgte2wfllv7s">
+						<rect x="46.83" y="382.81" width="50.34" height="20.38"
+							style="opacity: 0.2; transform-origin: 72px 393px 0px;" class="animable"></rect>
+					</g>
+					<g id="ellj5raut7w7g">
+						<rect x="22" y="336.17" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 47.17px 346.36px 0px;" class="animable"></rect>
+					</g>
+					<g id="elapthki83lml">
+						<rect x="79.54" y="336.17" width="50.34" height="20.38"
+							style="opacity: 0.1; transform-origin: 104.71px 346.36px 0px;" class="animable"></rect>
+					</g>
+					<path
+						d="M146.14,219.56h-5.62l-2.43-2.43,5-5a.45.45,0,0,0-.63-.63l-5,5L135,214.07v-5.63a.45.45,0,0,0-.89,0v5.72l-2.38,2.38-5-5a.45.45,0,1,0-.63.63l5,5-2.38,2.39H123a.44.44,0,1,0,0,.88h6.16l2.16,2.17-5.25,5.25a.45.45,0,0,0,0,.63.45.45,0,0,0,.63,0l5.25-5.25,2.16,2.16v6.16a.45.45,0,0,0,.89,0V225.5l2.21-2.22,5.2,5.21a.45.45,0,0,0,.63,0,.45.45,0,0,0,0-.63l-5.2-5.2,2.21-2.22h6.06a.44.44,0,1,0,0-.88Zm-6.88,0h-3.6l1.8-1.81Zm-2.43-2.43-1.8,1.8v-3.61Zm-2.69-1.71v3.51l-1.75-1.76Zm-2.38,2.38,1.75,1.76H130Zm-1.32,2.64h3.07L132,222Zm2.17,2.17,1.53-1.54v3.07Zm2.42,1.63v-3.17l1.58,1.59Zm2.21-2.21-1.58-1.59h3.16Z"
+						style="fill: rgb(209, 209, 209); transform-origin: 134.555px 220px 0px;" id="el6iu496g0b68"
+						class="animable"></path>
+				</g>
+				<g id="freepik--Snowflakes--inject-2" style="transform-origin: 232.77px 256.545px 0px;"
+					class="animable animator-active animator-hidden">
+					<g id="elyu12o38hwzp">
+						<path
+							d="M107.19,372.9h-1.8l1.11-.76a.4.4,0,0,0,.1-.54.39.39,0,0,0-.54-.1l-2,1.4H103l1.1-.76a.39.39,0,0,0,.1-.54.38.38,0,0,0-.53-.1l-2,1.4h-.16l-3.72-1.68.1-.83,2-2.05,2.44-.45a.39.39,0,1,0-.14-.76l-1.34.25.76-.77,2.45-.45a.39.39,0,0,0-.15-.76l-1.33.25,1.26-1.26a.39.39,0,0,0-.55-.55l-1.32,1.33.28-1.42a.38.38,0,1,0-.75-.16l-.51,2.56-.75.74.29-1.42a.39.39,0,0,0-.31-.45.38.38,0,0,0-.45.3l-.51,2.56-1.28,1.28.27-2.37L95,369.14v-3.08L96.4,364a.39.39,0,1,0-.64-.44l-.8,1.17v-1.07l1.44-2.11a.38.38,0,0,0-.1-.53.39.39,0,0,0-.54.1l-.8,1.17v-1.86a.39.39,0,1,0-.78,0v1.84l-.76-1.15a.39.39,0,1,0-.64.43l1.4,2.11v1.05l-.76-1.15a.4.4,0,0,0-.54-.1.38.38,0,0,0-.1.53l1.4,2.11v3L91,366.74l.25,2.41-1.32-1.32-.47-2.5a.39.39,0,1,0-.76.14l.26,1.4-.76-.76-.46-2.51a.4.4,0,0,0-.46-.31.39.39,0,0,0-.3.45l.26,1.4-1.32-1.32a.39.39,0,0,0-.55.55l1.3,1.3-1.35-.27a.39.39,0,0,0-.45.3.38.38,0,0,0,.3.46l2.49.5.74.74-1.35-.27a.39.39,0,0,0-.46.3.4.4,0,0,0,.31.46l2.48.49,2,2,.08.81-3.95,1.72h-.18l-2-1.4a.39.39,0,0,0-.54.1.4.4,0,0,0,.1.54l1.11.76H84.88l-2-1.4a.39.39,0,0,0-.44.64l1.11.76H82a.39.39,0,0,0,0,.77h1.68l-1.22.81a.4.4,0,0,0-.1.54.37.37,0,0,0,.32.17.33.33,0,0,0,.21-.07L85,373.67h1l-1.21.81a.39.39,0,0,0-.11.54.4.4,0,0,0,.32.17.36.36,0,0,0,.22-.07l2.18-1.45H89l2.48,1.11-.11,1-1.91,1.91-2.51.46a.39.39,0,1,0,.14.76l1.4-.26-.76.76-2.5.47a.39.39,0,0,0-.31.45.38.38,0,0,0,.45.31l1.4-.26-1.32,1.32a.38.38,0,0,0,0,.54.36.36,0,0,0,.54,0l1.31-1.3L87,382.28a.38.38,0,0,0,.3.46h.08a.38.38,0,0,0,.37-.32l.5-2.48.74-.75-.27,1.36A.39.39,0,0,0,89,381h.07a.39.39,0,0,0,.38-.31l.5-2.49L91.18,377l-.25,2.21,3.25-2.35V380l-1.4,2.05a.39.39,0,0,0,.1.54.4.4,0,0,0,.54-.1l.76-1.12v1.08l-1.4,2a.39.39,0,1,0,.64.44l.76-1.12v1.78a.39.39,0,1,0,.78,0v-1.87l.8,1.21a.39.39,0,0,0,.32.17.36.36,0,0,0,.22-.07.38.38,0,0,0,.1-.53L95,382.36v-1.05l.8,1.2a.37.37,0,0,0,.32.18.44.44,0,0,0,.22-.07.38.38,0,0,0,.1-.53L95,379.92v-3l3.17,2.36-.24-2.4,1.38,1.39.46,2.44a.38.38,0,0,0,.38.32h.07a.39.39,0,0,0,.31-.45l-.25-1.33.76.76.46,2.44a.38.38,0,0,0,.37.32h.08a.38.38,0,0,0,.3-.45L102,381l1.26,1.26a.36.36,0,0,0,.54,0,.38.38,0,0,0,0-.54l-1.32-1.33,1.42.29a.39.39,0,0,0,.45-.3.38.38,0,0,0-.3-.46l-2.56-.51-.74-.74,1.42.28a.39.39,0,0,0,.46-.3.4.4,0,0,0-.31-.46l-2.55-.51-2-2-.08-.83,2.67-1.16h1.09l2.18,1.45a.36.36,0,0,0,.22.07.4.4,0,0,0,.32-.17.39.39,0,0,0-.11-.54l-1.22-.81h1l2.18,1.45a.36.36,0,0,0,.22.07.39.39,0,0,0,.21-.71l-1.21-.81h1.91a.39.39,0,0,0,0-.77Zm-7.65,0H95.29l1.63-1.63,0,.43Zm-2.3-4.46-.18,1.6-2.1,2.1v-2.05Zm-5.28,0,2.22,1.65v2L92.12,370Zm.33,3.26,0-.44,1.66,1.67H89.45Zm-1.45,2h2.59l-1.23,1.22.07-.58Zm1.06,3.9.16-1.44L94.18,374v1.91Zm5.28,0L95,376v-2L97,376Zm-.33-3.26.05.45-1.13-1.12H98.4Z"
+							style="opacity: 0.2; transform-origin: 94.5742px 372.988px 0px;" class="animable"></path>
+					</g>
+					<g id="elpuvy30ml3hj">
+						<path
+							d="M326.41,132.23h-1.79l1.1-.76a.39.39,0,0,0,.1-.54.38.38,0,0,0-.53-.1l-2,1.4h-1.08l1.11-.76a.39.39,0,0,0-.44-.64l-2,1.4h-.16l-3.72-1.67.09-.84,2.05-2,2.44-.45a.39.39,0,1,0-.14-.76l-1.33.25.76-.77,2.44-.45a.39.39,0,1,0-.14-.76l-1.33.25,1.26-1.26a.39.39,0,1,0-.55-.55l-1.32,1.33.28-1.42a.39.39,0,0,0-.3-.46.4.4,0,0,0-.46.3l-.51,2.56-.74.74.28-1.42a.38.38,0,0,0-.75-.15l-.52,2.56-1.27,1.28.27-2.37-3.26,2.35v-3.08l1.45-2.1a.4.4,0,0,0-.1-.54.39.39,0,0,0-.54.1l-.81,1.18V123l1.45-2.11a.39.39,0,0,0-.64-.43l-.81,1.17v-1.86a.39.39,0,1,0-.77,0v1.84l-.76-1.15a.4.4,0,0,0-.54-.11.39.39,0,0,0-.11.54l1.41,2.11v1l-.76-1.15a.4.4,0,0,0-.54-.1.38.38,0,0,0-.11.53l1.41,2.11v3l-3.17-2.36.24,2.41-1.31-1.31-.47-2.51a.39.39,0,0,0-.76.14l.26,1.4-.76-.76-.47-2.51a.39.39,0,1,0-.76.14l.26,1.4-1.32-1.32a.38.38,0,0,0-.54,0,.39.39,0,0,0,0,.55l1.3,1.3-1.35-.27a.39.39,0,1,0-.15.76l2.48.5.75.74-1.35-.27a.38.38,0,0,0-.46.3.39.39,0,0,0,.3.46l2.49.49,2,2,.08.81-4,1.72h-.18l-2-1.4a.39.39,0,0,0-.44.64l1.11.76h-1.08l-2-1.4a.38.38,0,0,0-.53.1.39.39,0,0,0,.1.54l1.1.76h-1.56a.39.39,0,1,0,0,.77h1.68l-1.22.81a.4.4,0,0,0-.11.54.4.4,0,0,0,.33.17.35.35,0,0,0,.21-.07l2.18-1.45h1.05l-1.22.81a.4.4,0,0,0-.1.54.37.37,0,0,0,.32.17.33.33,0,0,0,.21-.07l2.18-1.45h1.49l2.49,1.11-.12,1-1.9,1.91-2.51.46a.39.39,0,0,0,.14.76l1.4-.26-.76.76-2.51.47a.39.39,0,0,0,.14.76l1.4-.26L304.63,141a.38.38,0,0,0,0,.54.39.39,0,0,0,.28.12.36.36,0,0,0,.27-.12l1.3-1.3-.27,1.35a.4.4,0,0,0,.31.46h.07a.39.39,0,0,0,.38-.31l.5-2.49.74-.74-.27,1.35a.38.38,0,0,0,.3.45h.08a.39.39,0,0,0,.38-.31l.49-2.49,1.22-1.21-.26,2.21,3.26-2.35v3.17l-1.4,2a.39.39,0,0,0,.1.54.38.38,0,0,0,.53-.1l.77-1.12v1.08l-1.4,2a.39.39,0,0,0,.1.54.38.38,0,0,0,.53-.1l.77-1.12V145a.39.39,0,1,0,.77,0v-1.87l.81,1.21a.37.37,0,0,0,.32.17.33.33,0,0,0,.21-.07.37.37,0,0,0,.11-.53l-1.45-2.17v-1.05l.81,1.2a.36.36,0,0,0,.32.18.33.33,0,0,0,.21-.07.38.38,0,0,0,.11-.53l-1.45-2.17v-3l3.18,2.36-.25-2.4,1.39,1.39L319,140a.39.39,0,0,0,.38.32h.07a.39.39,0,0,0,.31-.45l-.24-1.33.76.76.45,2.44a.39.39,0,0,0,.38.32h.07a.39.39,0,0,0,.31-.45l-.25-1.33,1.26,1.25a.39.39,0,0,0,.28.12.39.39,0,0,0,.27-.12.38.38,0,0,0,0-.54l-1.32-1.32,1.42.28a.39.39,0,0,0,.15-.76l-2.56-.51L320,138l1.42.28a.37.37,0,0,0,.45-.3.39.39,0,0,0-.3-.46L319,137l-2-2-.09-.83,2.68-1.16h1.09l2.18,1.45a.33.33,0,0,0,.21.07.37.37,0,0,0,.32-.17.4.4,0,0,0-.1-.54l-1.22-.81h1.05l2.18,1.45a.35.35,0,0,0,.21.07.4.4,0,0,0,.33-.17.4.4,0,0,0-.11-.54L324.5,133h1.91a.39.39,0,1,0,0-.77Zm-7.65,0h-4.24l1.62-1.63,0,.43Zm-2.29-4.46-.18,1.6-2.11,2.1v-2Zm-5.29,0,2.23,1.65v2l-2.06-2.06Zm.34,3.26,0-.44,1.67,1.67h-4.46Zm-1.45,2h2.58l-1.22,1.22.07-.58Zm1.05,3.9.17-1.44,2.12-2.12v1.91Zm5.29,0-2.23-1.65v-2l2.07,2.06Zm-.33-3.26,0,.45L315,133h2.63Z"
+							style="opacity: 0.2; transform-origin: 313.85px 132.387px 0px;" class="animable"></path>
+					</g>
+					<g id="eluhkgaaj09r">
+						<path
+							d="M318.75,67.44h-2L318,66.6a.43.43,0,0,0,.11-.59.41.41,0,0,0-.59-.11l-2.25,1.54h-1.18l1.22-.84a.43.43,0,0,0,.11-.59.41.41,0,0,0-.59-.11l-2.25,1.54h-.17l-4.1-1.85.11-.91,2.25-2.26,2.69-.5a.43.43,0,0,0-.15-.84l-1.47.28.84-.84,2.68-.5a.43.43,0,1,0-.15-.84l-1.47.27L315,58.07a.43.43,0,1,0-.61-.61L313,58.92l.31-1.56a.42.42,0,0,0-.33-.5.41.41,0,0,0-.5.33L311.87,60l-.81.81.31-1.56a.44.44,0,0,0-.34-.5.42.42,0,0,0-.5.33L310,61.91l-1.41,1.41.3-2.61-3.58,2.59V59.91l1.59-2.32a.43.43,0,0,0-.11-.59.42.42,0,0,0-.59.11l-.89,1.29V57.22l1.59-2.32a.43.43,0,0,0-.11-.59.42.42,0,0,0-.59.11l-.89,1.29V53.66a.43.43,0,1,0-.85,0v2l-.85-1.27a.42.42,0,1,0-.7.47l1.55,2.33v1.16l-.85-1.27a.42.42,0,1,0-.7.47l1.55,2.33v3.34l-3.5-2.59.27,2.65-1.45-1.45-.51-2.76a.43.43,0,0,0-.5-.34.42.42,0,0,0-.34.49l.29,1.55-.84-.84-.52-2.76a.42.42,0,0,0-.83.15l.29,1.55-1.46-1.46a.43.43,0,0,0-.6,0,.42.42,0,0,0,0,.6l1.43,1.44-1.48-.3a.41.41,0,0,0-.5.33.42.42,0,0,0,.33.5l2.74.55.82.82-1.49-.3a.43.43,0,0,0-.17.84l2.74.54,2.19,2.19.09.9-4.36,1.89h-.2l-2.24-1.54A.41.41,0,0,0,294,66a.43.43,0,0,0,.11.59l1.22.84h-1.19l-2.24-1.54a.41.41,0,0,0-.59.11.43.43,0,0,0,.11.59l1.22.84H291a.43.43,0,1,0,0,.85h1.84l-1.34.89a.43.43,0,0,0-.11.59.42.42,0,0,0,.35.19.44.44,0,0,0,.24-.07l2.4-1.6h1.16l-1.35.89a.43.43,0,0,0-.11.59.42.42,0,0,0,.35.19.44.44,0,0,0,.24-.07l2.4-1.6h1.64l2.73,1.22-.12,1.09-2.1,2.1-2.76.51a.43.43,0,0,0-.34.5.42.42,0,0,0,.49.34l1.55-.29-.84.84-2.76.52a.42.42,0,0,0-.35.49.44.44,0,0,0,.5.34l1.54-.29-1.45,1.46a.43.43,0,0,0,0,.6.44.44,0,0,0,.6,0l1.44-1.43-.3,1.48a.42.42,0,0,0,.33.5h.09a.42.42,0,0,0,.41-.34l.55-2.74.82-.82-.3,1.49a.43.43,0,0,0,.34.5h.08a.43.43,0,0,0,.42-.34l.54-2.74L301.12,72l-.28,2.44,3.59-2.59V75.3l-1.55,2.25a.43.43,0,0,0,.11.59.41.41,0,0,0,.59-.11l.85-1.23V78l-1.55,2.25a.43.43,0,0,0,.11.59.41.41,0,0,0,.59-.11l.85-1.23v2a.43.43,0,1,0,.85,0V79.39l.88,1.33a.44.44,0,0,0,.36.19.48.48,0,0,0,.23-.07.42.42,0,0,0,.12-.59l-1.59-2.39V76.7l.88,1.33a.44.44,0,0,0,.36.19.48.48,0,0,0,.23-.07.42.42,0,0,0,.12-.59l-1.59-2.39V71.86l3.49,2.59-.27-2.63L310,73.34l.5,2.69a.43.43,0,0,0,.42.35H311a.42.42,0,0,0,.34-.49l-.27-1.47.83.84.5,2.69a.43.43,0,0,0,.42.34h.08a.44.44,0,0,0,.34-.5L313,76.31l1.38,1.39a.46.46,0,0,0,.3.12.47.47,0,0,0,.31-.12.43.43,0,0,0,0-.6l-1.46-1.46,1.56.31a.41.41,0,0,0,.5-.33.42.42,0,0,0-.33-.5l-2.82-.57-.81-.81,1.56.31a.43.43,0,0,0,.17-.84l-2.82-.56-2.17-2.17-.1-.92,3-1.27h1.2l2.4,1.6a.4.4,0,0,0,.24.07.43.43,0,0,0,.35-.19.42.42,0,0,0-.12-.59L314,68.29h1.16l2.4,1.6a.42.42,0,0,0,.24.07.43.43,0,0,0,.35-.19.42.42,0,0,0-.12-.59l-1.34-.89h2.11a.43.43,0,0,0,0-.85Zm-8.43,0h-4.67l1.79-1.8-.06.48Zm-2.52-4.91-.21,1.75-2.31,2.32V64.35Zm-5.83,0,2.46,1.82v2.23l-2.27-2.27Zm.37,3.59,0-.48,1.83,1.84h-4.91Zm-1.59,2.21h2.84l-1.34,1.34.07-.64Zm1.16,4.29.18-1.59,2.34-2.33v2.1Zm5.82,0-2.45-1.82V68.59l2.27,2.27ZM307.36,69l.05.49-1.23-1.23h2.89Z"
+							style="opacity: 0.2; transform-origin: 304.834px 67.5801px 0px;" class="animable"></path>
+					</g>
+					<g id="el8o3hf7qorc4">
+						<path
+							d="M441.93,89.22h-2.65l1.63-1.12a.57.57,0,1,0-.65-.94l-3,2.06h-1.58l1.63-1.12a.57.57,0,0,0-.65-.94l-3,2.06h-.23l-5.49-2.47.15-1.23,3-3,3.59-.67a.56.56,0,0,0,.46-.66.58.58,0,0,0-.66-.46l-2,.37L433.65,80l3.6-.67a.58.58,0,0,0,.46-.67.57.57,0,0,0-.67-.45l-2,.36,1.85-1.85a.58.58,0,0,0,0-.81.57.57,0,0,0-.8,0l-1.95,1.95.41-2.09a.56.56,0,0,0-.44-.67.56.56,0,0,0-.67.45l-.75,3.76-1.1,1.1.42-2.09a.57.57,0,0,0-.45-.67.56.56,0,0,0-.67.44l-.75,3.77L428.3,83.7l.4-3.48-4.8,3.46V79.14L426,76a.57.57,0,0,0-.15-.79.57.57,0,0,0-.79.15l-1.19,1.73V75.54l2.13-3.1a.57.57,0,0,0-.15-.79.57.57,0,0,0-.79.15l-1.19,1.73V70.78a.57.57,0,0,0-.57-.57.56.56,0,0,0-.57.57v2.71l-1.13-1.69a.58.58,0,0,0-.79-.16.57.57,0,0,0-.15.79l2.07,3.11v1.55l-1.13-1.69a.58.58,0,0,0-.79-.16.57.57,0,0,0-.15.79l2.07,3.11v4.48l-4.68-3.47.37,3.55-1.95-1.94-.68-3.7a.58.58,0,0,0-.67-.46.57.57,0,0,0-.45.67l.38,2.06L414,79.21l-.69-3.7a.57.57,0,0,0-.66-.45.57.57,0,0,0-.46.66l.38,2.07-1.94-2a.57.57,0,0,0-.8,0,.56.56,0,0,0,0,.81l1.91,1.92-2-.4a.57.57,0,0,0-.67.45.58.58,0,0,0,.45.67l3.67.73,1.09,1.09-2-.39a.56.56,0,0,0-.67.44.57.57,0,0,0,.44.67l3.67.73,2.93,2.93.12,1.2-5.83,2.53h-.27l-3-2.06a.57.57,0,1,0-.64.94l1.63,1.12h-1.59l-3-2.06a.57.57,0,1,0-.64.94L407,89.22h-2.31a.57.57,0,0,0-.57.57.58.58,0,0,0,.57.57h2.48l-1.8,1.19a.58.58,0,0,0,.32,1,.63.63,0,0,0,.32-.1l3.21-2.14h1.55L409,91.55a.58.58,0,0,0,.32,1,.63.63,0,0,0,.32-.1l3.21-2.14h2.2L418.72,92l-.17,1.45-2.81,2.81L412,97a.56.56,0,0,0-.45.66.57.57,0,0,0,.66.46l2.07-.39-1.13,1.13-3.69.68a.58.58,0,0,0-.46.67.57.57,0,0,0,.66.45l2.07-.38-1.94,1.94a.58.58,0,0,0,.4,1,.58.58,0,0,0,.4-.17l1.92-1.92-.4,2a.57.57,0,0,0,.45.67h.11a.57.57,0,0,0,.56-.45l.73-3.67,1.1-1.1-.4,2a.58.58,0,0,0,.45.67h.11a.57.57,0,0,0,.55-.46l.74-3.67,1.79-1.79L418,98.53l4.8-3.46v4.67l-2.07,3a.57.57,0,1,0,.94.65l1.13-1.65v1.59l-2.07,3a.57.57,0,1,0,.94.65l1.13-1.65V108a.56.56,0,0,0,.57.57.57.57,0,0,0,.57-.57v-2.75l1.18,1.77a.56.56,0,0,0,.48.26.58.58,0,0,0,.47-.89l-2.13-3.2v-1.54l1.18,1.77a.56.56,0,0,0,.48.26.58.58,0,0,0,.47-.89l-2.13-3.2V95.13l4.67,3.47-.35-3.52,2,2,.67,3.6a.57.57,0,0,0,.56.47h.1a.58.58,0,0,0,.46-.67l-.37-2,1.13,1.12.67,3.6a.57.57,0,0,0,.56.46h.1a.57.57,0,0,0,.46-.66l-.37-2,1.86,1.86a.56.56,0,0,0,.4.17.58.58,0,0,0,.4-1l-1.95-2,2.09.42a.57.57,0,0,0,.23-1.11l-3.77-.76-1.09-1.09,2.09.42a.57.57,0,0,0,.22-1.12l-3.77-.75L428,93.29l-.12-1.23,3.94-1.7h1.61l3.21,2.14a.63.63,0,0,0,.31.1.56.56,0,0,0,.48-.26.58.58,0,0,0-.16-.79l-1.79-1.19h1.55l3.21,2.14a.63.63,0,0,0,.32.1.56.56,0,0,0,.47-.26.58.58,0,0,0-.16-.79l-1.79-1.19h2.82a.58.58,0,0,0,.57-.57A.57.57,0,0,0,441.93,89.22Zm-11.28,0h-6.26l2.4-2.4-.07.63Zm-3.38-6.57L427,85l-3.1,3.1v-3Zm-7.79-.05L422.76,85v3l-3-3Zm.49,4.81-.07-.64,2.45,2.45h-6.57Zm-2.13,3h3.8l-1.8,1.8.1-.86Zm1.55,5.74.24-2.12,3.13-3.13v2.81Zm7.79.05-3.28-2.44V90.76l3,3Zm-.49-4.8.07.66-1.66-1.65H429Z"
+							style="opacity: 0.2; transform-origin: 423.295px 89.3906px 0px;" class="animable"></path>
+					</g>
+					<g id="el7jljdyvb9du">
+						<path
+							d="M171.78,71.69h-2.05l1.26-.86a.43.43,0,0,0,.12-.61.44.44,0,0,0-.61-.12l-2.32,1.59H167l1.26-.86a.44.44,0,1,0-.5-.73l-2.31,1.59h-.18L161,69.79l.11-1,2.34-2.34L166.2,66a.44.44,0,0,0,.35-.52.44.44,0,0,0-.51-.35l-1.52.28.87-.86,2.78-.52a.45.45,0,0,0,.35-.52.44.44,0,0,0-.51-.35l-1.52.29L167.92,62a.44.44,0,1,0-.62-.62l-1.51,1.51.32-1.62a.44.44,0,0,0-.34-.52.44.44,0,0,0-.52.34L164.67,64l-.85.84.33-1.62a.44.44,0,0,0-.87-.17L162.7,66l-1.45,1.45.31-2.69-3.71,2.68V63.9l1.64-2.39a.44.44,0,1,0-.72-.5l-.92,1.34V61.12l1.64-2.4a.44.44,0,0,0-.11-.61.45.45,0,0,0-.61.12l-.92,1.34V57.44a.44.44,0,0,0-.44-.44.44.44,0,0,0-.44.44v2.1l-.87-1.31a.44.44,0,0,0-.74.49l1.61,2.4v1.2L156.1,61a.45.45,0,0,0-.61-.12.44.44,0,0,0-.13.61L157,63.91v3.46l-3.62-2.69.28,2.75-1.5-1.5-.53-2.86a.44.44,0,0,0-.87.16l.3,1.6-.87-.87-.53-2.86a.44.44,0,0,0-.51-.35.44.44,0,0,0-.36.51l.3,1.6-1.5-1.5a.44.44,0,0,0-.62.62l1.48,1.48-1.54-.31a.44.44,0,0,0-.17.87l2.83.56.85.85-1.54-.31a.44.44,0,0,0-.52.35.43.43,0,0,0,.35.51l2.83.57,2.26,2.26.1.93-4.51,2h-.21l-2.32-1.59a.44.44,0,0,0-.49.73l1.26.86h-1.23l-2.32-1.59a.44.44,0,0,0-.5.73l1.26.86H143a.44.44,0,0,0-.44.44.44.44,0,0,0,.44.44h1.91l-1.38.93a.43.43,0,0,0-.12.61.42.42,0,0,0,.36.2.46.46,0,0,0,.25-.08l2.48-1.66h1.2l-1.39.93a.44.44,0,0,0-.12.61.43.43,0,0,0,.37.2.46.46,0,0,0,.24-.08l2.48-1.66H151l2.83,1.27L153.71,75l-2.17,2.17-2.86.53a.43.43,0,0,0-.35.51.44.44,0,0,0,.51.36l1.6-.3-.87.87-2.86.53a.44.44,0,0,0-.35.51.45.45,0,0,0,.51.35l1.6-.29-1.5,1.5a.44.44,0,0,0,0,.62.42.42,0,0,0,.31.13.43.43,0,0,0,.31-.13l1.48-1.48-.3,1.54a.44.44,0,0,0,.34.52h.09a.44.44,0,0,0,.43-.35l.57-2.83.84-.85-.31,1.54a.45.45,0,0,0,.35.52h.09a.45.45,0,0,0,.43-.36l.56-2.83,1.39-1.39-.29,2.52L157,76.22v3.61l-1.6,2.33a.44.44,0,1,0,.72.5l.88-1.28v1.23l-1.6,2.33a.44.44,0,1,0,.72.5l.88-1.28v2a.43.43,0,0,0,.44.44.44.44,0,0,0,.44-.44V84.06l.91,1.37a.45.45,0,0,0,.37.2.42.42,0,0,0,.24-.07.43.43,0,0,0,.12-.61l-1.64-2.48V81.28l.91,1.37a.45.45,0,0,0,.37.2.45.45,0,0,0,.36-.69l-1.64-2.47V76.27L161.46,79l-.28-2.73,1.59,1.59.51,2.78a.45.45,0,0,0,.44.36h.08a.45.45,0,0,0,.35-.51l-.28-1.52.86.86.52,2.78a.44.44,0,0,0,.43.36h.08a.46.46,0,0,0,.36-.52l-.29-1.52,1.44,1.44a.46.46,0,0,0,.31.13.48.48,0,0,0,.31-.13.44.44,0,0,0,0-.62l-1.51-1.51,1.62.32a.44.44,0,1,0,.17-.86l-2.91-.58-.84-.85,1.61.32a.44.44,0,0,0,.52-.34.44.44,0,0,0-.34-.52l-2.92-.58L161,74.84l-.09-1,3-1.32h1.24l2.49,1.66a.43.43,0,0,0,.24.08.45.45,0,0,0,.37-.2.45.45,0,0,0-.12-.61l-1.39-.93H168l2.48,1.66a.46.46,0,0,0,.25.08.42.42,0,0,0,.36-.2.44.44,0,0,0-.12-.61l-1.39-.93h2.18a.43.43,0,0,0,.44-.44A.44.44,0,0,0,171.78,71.69Zm-8.71,0h-4.84l1.85-1.85-.05.49Zm-2.62-5.07-.21,1.81-2.39,2.4V68.5Zm-6,0L157,68.46v2.3l-2.35-2.35Zm.38,3.71-.05-.49,1.89,1.89h-5.08Zm-1.65,2.28h2.94L154.71,74l.08-.67Zm1.2,4.44.19-1.64L157,73v2.17Zm6,0-2.53-1.88V72.89l2.35,2.35ZM160,73.34l.06.51-1.28-1.28h3Z"
+							style="opacity: 0.2; transform-origin: 157.379px 71.8008px 0px;" class="animable"></path>
+					</g>
+					<g id="eltnzoe4ygy6i">
+						<path
+							d="M304.57,446.39h-1.86l1.15-.79a.4.4,0,1,0-.46-.66l-2.11,1.45h-1.12l1.15-.79a.4.4,0,0,0,.1-.56.39.39,0,0,0-.55-.1l-2.12,1.45h-.16l-3.87-1.74.1-.86,2.13-2.13,2.54-.47a.41.41,0,0,0,.32-.47.4.4,0,0,0-.47-.32l-1.38.26.79-.79,2.53-.48a.4.4,0,0,0,.32-.46.4.4,0,0,0-.47-.32l-1.38.25,1.31-1.3a.42.42,0,0,0,0-.57.4.4,0,0,0-.57,0l-1.37,1.37.29-1.47a.4.4,0,0,0-.79-.16l-.53,2.65-.77.78.3-1.48a.4.4,0,0,0-.32-.47.39.39,0,0,0-.47.31l-.53,2.66L295,442.51l.29-2.46-3.38,2.44v-3.2l1.49-2.18a.4.4,0,0,0-.66-.46l-.83,1.22v-1.11l1.49-2.19a.4.4,0,1,0-.66-.45l-.83,1.22V433.4a.41.41,0,0,0-.81,0v1.91l-.79-1.19a.4.4,0,0,0-.67.45l1.46,2.19v1.09l-.79-1.19a.39.39,0,0,0-.56-.11.4.4,0,0,0-.11.55l1.46,2.19v3.16L287.78,440l.26,2.5-1.37-1.37-.49-2.6a.4.4,0,0,0-.46-.32.41.41,0,0,0-.33.47l.28,1.45-.8-.79-.48-2.6a.4.4,0,0,0-.47-.32.39.39,0,0,0-.32.46l.27,1.46L282.5,437a.4.4,0,0,0-.57,0,.42.42,0,0,0,0,.57l1.36,1.35-1.41-.28a.39.39,0,0,0-.47.31.4.4,0,0,0,.32.47l2.58.52.77.77-1.4-.28a.41.41,0,0,0-.48.31.42.42,0,0,0,.32.48l2.58.51,2.06,2.06.09.85-4.11,1.78H284l-2.11-1.45a.4.4,0,1,0-.45.66l1.15.79h-1.12l-2.11-1.45a.4.4,0,0,0-.46.66l1.15.79h-1.62a.4.4,0,0,0,0,.8h1.74l-1.26.84a.4.4,0,0,0,.22.74.36.36,0,0,0,.22-.07l2.26-1.51h1.1l-1.27.84a.41.41,0,0,0-.11.56.4.4,0,0,0,.56.11l2.26-1.51h1.55l2.58,1.16-.12,1-2,2-2.61.48a.41.41,0,0,0-.32.47.4.4,0,0,0,.47.32l1.46-.27-.79.79-2.61.49a.4.4,0,0,0-.32.46.41.41,0,0,0,.47.33l1.45-.27L282,455.51a.42.42,0,0,0,0,.57.4.4,0,0,0,.29.12.39.39,0,0,0,.28-.12l1.35-1.35-.28,1.4a.4.4,0,0,0,.32.47H284a.4.4,0,0,0,.39-.32l.51-2.58.78-.77-.28,1.4a.39.39,0,0,0,.31.47h.08a.4.4,0,0,0,.39-.32l.52-2.58,1.26-1.27-.27,2.3,3.38-2.44v3.29l-1.45,2.12a.4.4,0,1,0,.66.46l.79-1.16v1.11l-1.45,2.13a.4.4,0,1,0,.66.45l.79-1.16v1.85a.41.41,0,0,0,.81,0v-1.94l.83,1.25a.41.41,0,0,0,.33.18.48.48,0,0,0,.23-.07.41.41,0,0,0,.11-.56l-1.5-2.25v-1.09l.83,1.25a.4.4,0,0,0,.56.11.4.4,0,0,0,.11-.55l-1.5-2.25v-3.13l3.29,2.45-.25-2.48,1.44,1.44.47,2.53a.4.4,0,0,0,.39.33h.08a.4.4,0,0,0,.32-.46l-.26-1.39.79.79.47,2.53a.41.41,0,0,0,.4.33h.07a.4.4,0,0,0,.32-.47l-.26-1.39,1.31,1.31a.39.39,0,0,0,.28.12.4.4,0,0,0,.29-.12.42.42,0,0,0,0-.57l-1.38-1.37,1.48.29a.39.39,0,0,0,.47-.31.4.4,0,0,0-.31-.47l-2.66-.53-.77-.77,1.48.29a.4.4,0,1,0,.15-.78l-2.65-.53-2-2.06-.09-.86,2.77-1.2h1.14l2.26,1.51a.38.38,0,0,0,.22.07.41.41,0,0,0,.34-.18.41.41,0,0,0-.11-.56l-1.27-.84h1.09l2.27,1.51a.36.36,0,0,0,.22.07.38.38,0,0,0,.33-.18.4.4,0,0,0-.11-.56l-1.26-.84h2a.4.4,0,1,0,0-.8Zm-7.94,0h-4.41l1.69-1.69-.05.44Zm-2.38-4.62-.19,1.65-2.18,2.18v-2.12Zm-5.49,0,2.31,1.71v2.1l-2.14-2.14Zm.35,3.38-.05-.45,1.73,1.73h-4.63Zm-1.5,2.08h2.68L289,448.46l.07-.6Zm1.09,4,.17-1.49,2.2-2.2v2Zm5.49,0-2.31-1.71v-2.08l2.14,2.14Zm-.35-3.38.05.47-1.17-1.17h2.73Z"
+							style="opacity: 0.2; transform-origin: 291.535px 446.49px 0px;" class="animable"></path>
+					</g>
+					<g id="elxqb544i9n6d">
+						<path
+							d="M401.43,352.36h-2.69l1.66-1.13a.58.58,0,1,0-.66-1l-3,2.09h-1.62l1.66-1.13a.59.59,0,0,0,.15-.81.58.58,0,0,0-.8-.15l-3,2.09h-.24l-5.57-2.5.14-1.25,3.07-3.07,3.66-.68a.58.58,0,0,0,.46-.67.59.59,0,0,0-.68-.47l-2,.38L393,343l3.65-.68a.58.58,0,0,0,.47-.67.59.59,0,0,0-.68-.46l-2,.37,1.89-1.89a.58.58,0,0,0,0-.81.57.57,0,0,0-.82,0l-2,2,.42-2.13a.58.58,0,1,0-1.13-.23l-.77,3.83L391,343.37l.43-2.12a.58.58,0,0,0-1.14-.23l-.76,3.83-1.92,1.91.41-3.54-4.87,3.52v-4.61l2.16-3.15a.58.58,0,1,0-1-.66l-1.2,1.76v-1.61l2.16-3.15a.58.58,0,1,0-1-.66l-1.2,1.76v-2.79a.58.58,0,0,0-1.16,0v2.76l-1.15-1.72a.57.57,0,0,0-.8-.16.58.58,0,0,0-.16.8l2.11,3.16V340l-1.15-1.71a.57.57,0,0,0-.8-.16.58.58,0,0,0-.16.8l2.11,3.16v4.55l-4.75-3.53.37,3.61-2-2-.7-3.75a.57.57,0,1,0-1.13.21l.39,2.1L373,342.2l-.69-3.76a.59.59,0,0,0-.68-.46.58.58,0,0,0-.46.67l.39,2.1-2-2a.57.57,0,0,0-.82,0,.58.58,0,0,0,0,.81l2,2-2-.4a.57.57,0,0,0-.68.45.58.58,0,0,0,.45.68l3.73.75,1.11,1.11-2-.4a.58.58,0,0,0-.23,1.13l3.73.74,3,3,.13,1.22L372,352.36h-.27l-3.05-2.09a.58.58,0,0,0-.8.15.57.57,0,0,0,.15.81l1.65,1.13H368l-3-2.09a.58.58,0,0,0-.65,1l1.65,1.13h-2.34a.58.58,0,0,0,0,1.16h2.52l-1.83,1.22a.59.59,0,0,0-.16.8.58.58,0,0,0,.48.26.53.53,0,0,0,.32-.1l3.27-2.18h1.57L368,354.74a.58.58,0,0,0,.32,1.06.55.55,0,0,0,.32-.1l3.27-2.18h2.23l3.72,1.67-.17,1.48-2.85,2.85-3.76.7a.58.58,0,0,0,.21,1.14l2.1-.39-1.14,1.14-3.76.7a.58.58,0,0,0-.46.67.57.57,0,0,0,.67.46l2.1-.39-2,2a.57.57,0,0,0,0,.82.57.57,0,0,0,.81,0l1.95-2-.4,2a.58.58,0,0,0,.45.68h.12a.57.57,0,0,0,.56-.46l.75-3.73,1.11-1.11-.4,2a.58.58,0,0,0,.45.68h.11a.58.58,0,0,0,.57-.47l.74-3.72,1.82-1.82-.38,3.31,4.88-3.52v4.74l-2.1,3.07a.56.56,0,0,0,.15.8.57.57,0,0,0,.8-.15L382,365.1v1.61l-2.1,3.07a.56.56,0,0,0,.15.8.57.57,0,0,0,.8-.15l1.15-1.67v2.66a.58.58,0,0,0,1.16,0v-2.8l1.2,1.81a.58.58,0,0,0,.48.25.62.62,0,0,0,.32-.09.58.58,0,0,0,.16-.81l-2.16-3.24V365l1.2,1.81a.58.58,0,0,0,.48.25.62.62,0,0,0,.32-.09.57.57,0,0,0,.16-.8l-2.16-3.25v-4.51l4.75,3.53-.37-3.58,2.08,2.08.68,3.65a.59.59,0,0,0,.57.48h.11a.58.58,0,0,0,.46-.68l-.37-2,1.14,1.15.68,3.65a.57.57,0,0,0,.57.47h.1a.58.58,0,0,0,.47-.67l-.38-2,1.89,1.89a.58.58,0,0,0,.41.17.6.6,0,0,0,.41-.17.59.59,0,0,0,0-.82l-2-2,2.12.42a.58.58,0,1,0,.23-1.13l-3.83-.77-1.11-1.11,2.13.43a.59.59,0,0,0,.68-.46.58.58,0,0,0-.46-.68l-3.82-.76-3-3-.13-1.25,4-1.73h1.64l3.26,2.18a.55.55,0,0,0,.32.1.58.58,0,0,0,.32-1.06l-1.82-1.22h1.57l3.27,2.18a.55.55,0,0,0,.32.1.58.58,0,0,0,.32-1.06l-1.82-1.22h2.86a.58.58,0,0,0,0-1.16Zm-11.45,0h-6.36l2.43-2.43-.07.64Zm-3.44-6.66-.27,2.38-3.15,3.15v-3.06Zm-7.92-.06,3.34,2.48v3l-3.09-3.09Zm.5,4.88-.06-.65,2.49,2.49h-6.68Zm-2.16,3h3.86L379,355.35l.11-.87Zm1.57,5.84.25-2.16L382,354v2.86Zm7.92.05-3.33-2.48v-3l3.09,3.09Zm-.5-4.88.07.67-1.68-1.68h3.94Z"
+							style="opacity: 0.2; transform-origin: 382.533px 352.525px 0px;" class="animable"></path>
+					</g>
+					<g id="elpk91415fq8">
+						<path
+							d="M141.17,434.28h-2.7l1.66-1.13a.58.58,0,0,0-.65-1l-3,2.09h-1.61l1.65-1.13a.58.58,0,0,0-.65-1l-3,2.09h-.23l-5.58-2.5.14-1.25,3.07-3.07,3.66-.68a.58.58,0,0,0,.46-.67.58.58,0,0,0-.67-.47l-2,.38,1.14-1.14,3.66-.68a.58.58,0,1,0-.22-1.14l-2,.37,1.88-1.89a.56.56,0,0,0,0-.81.57.57,0,0,0-.82,0l-2,2,.43-2.13a.58.58,0,0,0-.46-.68.57.57,0,0,0-.68.45l-.76,3.83-1.11,1.11.42-2.12a.58.58,0,0,0-.45-.68.57.57,0,0,0-.68.45l-.77,3.83-1.91,1.91.41-3.54-4.88,3.52v-4.61L125,420.9a.59.59,0,0,0-.15-.81.58.58,0,0,0-.8.15L122.85,422v-1.61l2.16-3.15a.59.59,0,0,0-.15-.81.58.58,0,0,0-.8.15l-1.21,1.76v-2.79a.58.58,0,0,0-1.16,0v2.76l-1.14-1.72a.58.58,0,0,0-.81-.16.59.59,0,0,0-.16.8l2.11,3.16V422l-1.14-1.71a.58.58,0,0,0-.81-.16.59.59,0,0,0-.16.8l2.11,3.16v4.55l-4.75-3.53.37,3.61-2-2-.69-3.75a.58.58,0,1,0-1.14.21l.39,2.1-1.14-1.14-.7-3.76a.58.58,0,0,0-1.14.21l.39,2.1-2-2a.57.57,0,0,0-.82,0,.56.56,0,0,0,0,.81l1.95,1.95-2-.4a.58.58,0,1,0-.22,1.13l3.72.75,1.11,1.11-2-.4a.57.57,0,0,0-.68.45.58.58,0,0,0,.45.68l3.73.75,3,3,.13,1.22-5.93,2.56h-.27l-3-2.09a.58.58,0,0,0-.65,1l1.66,1.13h-1.62l-3.05-2.09a.58.58,0,0,0-.8.15.59.59,0,0,0,.15.81l1.66,1.13h-2.35a.58.58,0,0,0,0,1.16h2.52l-1.82,1.22a.58.58,0,0,0,.32,1.06.55.55,0,0,0,.32-.1l3.26-2.18h1.58l-1.83,1.22a.59.59,0,0,0-.16.8.59.59,0,0,0,.49.26.55.55,0,0,0,.32-.1l3.26-2.18h2.23l3.72,1.67-.17,1.48-2.85,2.85-3.76.7a.58.58,0,0,0,.21,1.14l2.1-.39L112,444l-3.76.7a.58.58,0,0,0-.46.67.59.59,0,0,0,.68.47l2.1-.4-2,2a.57.57,0,0,0,0,.82.58.58,0,0,0,.41.17.6.6,0,0,0,.41-.17l1.95-1.95-.41,2a.57.57,0,0,0,.46.68h.11a.59.59,0,0,0,.57-.46l.74-3.73,1.11-1.11-.4,2a.59.59,0,0,0,.45.68h.12a.57.57,0,0,0,.56-.47l.75-3.72,1.82-1.82-.39,3.31,4.88-3.52V445l-2.1,3.07a.57.57,0,0,0,.15.8.56.56,0,0,0,.8-.15l1.15-1.67v1.61l-2.1,3.07a.58.58,0,0,0,1,.65l1.15-1.67v2.66a.58.58,0,1,0,1.16,0v-2.8l1.2,1.81a.58.58,0,0,0,1-.65l-2.17-3.24v-1.58l1.2,1.81a.57.57,0,0,0,.8.16.58.58,0,0,0,.17-.8l-2.17-3.25v-4.5l4.75,3.52-.36-3.58,2.07,2.08L130,446a.6.6,0,0,0,.57.47h.11a.58.58,0,0,0,.46-.68l-.37-2,1.14,1.14.68,3.65a.58.58,0,0,0,.57.47h.11a.57.57,0,0,0,.46-.67l-.37-2,1.88,1.89a.6.6,0,0,0,.41.17.58.58,0,0,0,.41-.17.57.57,0,0,0,0-.82l-2-2,2.13.42a.58.58,0,1,0,.22-1.13L132.6,444l-1.12-1.11,2.13.43a.58.58,0,0,0,.68-.46.59.59,0,0,0-.45-.68l-3.83-.76-3-3-.13-1.25,4-1.73h1.64l3.27,2.18a.53.53,0,0,0,.32.1.58.58,0,0,0,.48-.26.59.59,0,0,0-.16-.8l-1.83-1.22h1.58l3.26,2.18a.55.55,0,0,0,.32.1.59.59,0,0,0,.49-.26.59.59,0,0,0-.16-.8l-1.83-1.22h2.87a.58.58,0,0,0,0-1.16Zm-11.46,0h-6.36l2.44-2.43-.08.64Zm-3.43-6.66L126,430l-3.15,3.15v-3.06Zm-7.92-.06,3.33,2.48v3L118.6,430Zm.5,4.88-.07-.64,2.49,2.48H114.6Zm-2.17,3h3.87l-1.83,1.83.1-.87Zm1.58,5.84.24-2.16,3.18-3.18v2.86Zm7.91.05-3.33-2.48v-3l3.09,3.1Zm-.49-4.88.06.67-1.68-1.68H128Z"
+							style="opacity: 0.2; transform-origin: 122.291px 434.459px 0px;" class="animable"></path>
+					</g>
+					<g id="el572wybxubzi">
+						<path
+							d="M99.16,104.84h-2.7l1.66-1.13a.59.59,0,0,0,.15-.81.58.58,0,0,0-.8-.15l-3,2.09H92.8l1.66-1.13a.58.58,0,0,0-.65-1l-3,2.09h-.24L85,102.34l.14-1.25L88.16,98l3.66-.68a.58.58,0,0,0,.46-.67.58.58,0,0,0-.67-.47l-2,.37,1.14-1.14,3.65-.68a.57.57,0,0,0,.47-.67.58.58,0,0,0-.68-.46l-2,.37,1.89-1.89a.57.57,0,0,0,0-.82.59.59,0,0,0-.82,0l-2,2,.43-2.13a.58.58,0,0,0-.46-.68.57.57,0,0,0-.68.45l-.76,3.83-1.12,1.11.43-2.12a.59.59,0,0,0-.45-.69.6.6,0,0,0-.69.46l-.76,3.83-1.91,1.91.4-3.54-4.87,3.52V94.6L83,91.45a.58.58,0,1,0-1-.65l-1.21,1.76V91L83,87.8a.59.59,0,0,0-.15-.81.58.58,0,0,0-.8.15L80.84,88.9V86.11a.58.58,0,0,0-1.16,0v2.75l-1.14-1.71a.58.58,0,0,0-1,.64L79.68,91v1.57l-1.14-1.71a.58.58,0,0,0-1,.64l2.11,3.16v4.55l-4.75-3.53.37,3.61-2-2-.7-3.75A.57.57,0,0,0,72,93a.58.58,0,0,0-.46.68l.39,2.1-1.14-1.14L70,90.92a.58.58,0,0,0-.68-.46.57.57,0,0,0-.46.67l.39,2.1-2-2a.58.58,0,0,0-.81,0,.57.57,0,0,0,0,.82l2,2-2-.4a.57.57,0,0,0-.68.45.57.57,0,0,0,.46.68l3.72.75L71,96.61l-2-.41a.58.58,0,0,0-.23,1.14l3.73.74,3,3,.13,1.22-5.93,2.56h-.27l-3-2.09a.58.58,0,0,0-.65,1l1.65,1.13H65.75l-3-2.09a.58.58,0,0,0-.65,1l1.66,1.13H61.36a.58.58,0,0,0,0,1.16h2.52l-1.83,1.22a.59.59,0,0,0-.16.8.59.59,0,0,0,.49.26.63.63,0,0,0,.32-.1L66,106h1.58l-1.83,1.22a.59.59,0,0,0-.16.8.58.58,0,0,0,.48.26.6.6,0,0,0,.32-.1L69.62,106h2.23l3.72,1.67-.17,1.48L72.55,112l-3.76.7a.58.58,0,0,0-.46.67.58.58,0,0,0,.67.47l2.1-.39L70,114.59l-3.76.7a.57.57,0,0,0,.21,1.13l2.1-.39-2,2a.57.57,0,0,0,0,.82A.58.58,0,0,0,67,119a.62.62,0,0,0,.41-.17l2-2-.41,2a.58.58,0,0,0,.45.68h.12a.59.59,0,0,0,.57-.46l.74-3.73,1.11-1.11-.4,2a.58.58,0,0,0,.45.68l.12,0a.57.57,0,0,0,.56-.47l.75-3.72L75.19,111l-.39,3.31,4.88-3.52v4.74l-2.1,3.07a.58.58,0,1,0,1,.65l1.15-1.67v1.61l-2.1,3.07a.57.57,0,0,0,.15.8.58.58,0,0,0,.8-.15l1.15-1.67v2.66a.58.58,0,0,0,1.16,0v-2.8l1.2,1.8a.58.58,0,0,0,.48.26.55.55,0,0,0,.32-.1.57.57,0,0,0,.16-.8L80.84,119v-1.57l1.2,1.81a.59.59,0,0,0,.48.25.62.62,0,0,0,.32-.09.58.58,0,0,0,.16-.81l-2.16-3.24v-4.51l4.75,3.53-.37-3.58,2.08,2.08.68,3.65a.59.59,0,0,0,.57.48h.11a.58.58,0,0,0,.46-.68l-.37-2,1.14,1.14.68,3.66a.57.57,0,0,0,.57.47h.1a.58.58,0,0,0,.47-.67l-.37-2,1.88,1.89a.58.58,0,0,0,.82,0,.59.59,0,0,0,0-.82l-2-2,2.12.42a.58.58,0,1,0,.23-1.13l-3.83-.77-1.11-1.11,2.13.43a.59.59,0,0,0,.68-.46.58.58,0,0,0-.45-.68L88,111.94l-3-3-.13-1.25,4-1.73h1.64l3.26,2.18a.63.63,0,0,0,.32.1.59.59,0,0,0,.49-.26.59.59,0,0,0-.16-.8L92.63,106h1.58l3.26,2.18a.63.63,0,0,0,.32.1.58.58,0,0,0,.32-1.06L96.29,106h2.87a.58.58,0,0,0,0-1.16Zm-11.46,0H81.34l2.43-2.43-.07.64Zm-3.44-6.67L84,100.56l-3.15,3.15v-3.06Zm-7.91,0,3.33,2.48v3l-3.09-3.09Zm.49,4.88-.06-.65,2.49,2.49H72.59Zm-2.16,3h3.87l-1.83,1.83.1-.87Zm1.57,5.83.25-2.15,3.18-3.18v2.86Zm7.92.06-3.33-2.48v-3l3.09,3.09Zm-.5-4.88.07.67L82.06,106H86Z"
+							style="opacity: 0.2; transform-origin: 80.2598px 105.006px 0px;" class="animable"></path>
+					</g>
+					<g id="el5trcdd76ltx">
+						<path
+							d="M80.57,262.86H78.44l1.31-.91a.46.46,0,1,0-.52-.75l-2.42,1.66H75.53l1.32-.91a.46.46,0,1,0-.52-.75l-2.42,1.66h-.19l-4.43-2,.12-1,2.44-2.44,2.9-.54a.47.47,0,0,0,.37-.54.46.46,0,0,0-.54-.36l-1.59.29.91-.9,2.9-.54a.46.46,0,0,0,.37-.54.47.47,0,0,0-.54-.37l-1.58.3,1.49-1.5a.46.46,0,0,0-.65-.65l-1.57,1.57.34-1.68a.46.46,0,0,0-.36-.54.45.45,0,0,0-.54.36l-.61,3-.88.88.34-1.69a.46.46,0,0,0-.91-.18l-.6,3-1.52,1.52.32-2.81L66,258.39v-3.66l1.72-2.5a.46.46,0,0,0-.12-.64.45.45,0,0,0-.64.12l-1,1.4v-1.29l1.72-2.5a.46.46,0,0,0-.76-.52l-1,1.4V248a.46.46,0,0,0-.46-.46.47.47,0,0,0-.46.46v2.19l-.91-1.36a.46.46,0,1,0-.76.51l1.67,2.51v1.25l-.91-1.37a.45.45,0,0,0-.63-.13.46.46,0,0,0-.13.64l1.67,2.51v3.61l-3.77-2.8.29,2.87-1.57-1.57-.55-3a.46.46,0,0,0-.54-.37.45.45,0,0,0-.36.53l.31,1.67-.91-.91-.55-3a.46.46,0,1,0-.91.17l.31,1.67-1.57-1.57a.45.45,0,0,0-.64,0,.46.46,0,0,0,0,.65l1.54,1.55-1.6-.33a.46.46,0,0,0-.54.36.45.45,0,0,0,.36.54l3,.6.89.88L56.64,256a.46.46,0,0,0-.18.9l3,.59,2.36,2.36.1,1-4.71,2H57l-2.42-1.66A.46.46,0,1,0,54,262l1.31.91H54.05l-2.42-1.66a.46.46,0,1,0-.52.75l1.32.91H50.57a.46.46,0,1,0,0,.91h2l-1.45,1a.47.47,0,0,0-.13.64.47.47,0,0,0,.38.2.42.42,0,0,0,.26-.08l2.59-1.73h1.25l-1.45,1a.45.45,0,0,0-.12.64.44.44,0,0,0,.38.2.39.39,0,0,0,.25-.08l2.6-1.73H58.9l3,1.33-.14,1.17-2.26,2.27-3,.55a.46.46,0,0,0-.37.54.46.46,0,0,0,.53.37l1.67-.31-.91.9-3,.56a.46.46,0,0,0-.37.53.47.47,0,0,0,.54.37l1.67-.31-1.57,1.57a.46.46,0,0,0,0,.65.45.45,0,0,0,.32.13.46.46,0,0,0,.33-.13l1.55-1.55L56.55,274a.46.46,0,0,0,.36.54H57a.45.45,0,0,0,.44-.37l.6-3,.88-.88-.32,1.6a.46.46,0,0,0,.36.54h.09a.46.46,0,0,0,.45-.37l.59-2.95,1.44-1.45-.3,2.63,3.87-2.79v3.76l-1.67,2.44a.46.46,0,0,0,.76.52l.91-1.33v1.28l-1.67,2.43a.46.46,0,1,0,.76.52l.91-1.33V278a.47.47,0,0,0,.46.46A.46.46,0,0,0,66,278v-2.23l1,1.44a.44.44,0,0,0,.38.2.44.44,0,0,0,.25-.08.45.45,0,0,0,.13-.63L66,274.11v-1.25l1,1.43a.45.45,0,0,0,.38.21.44.44,0,0,0,.25-.08.47.47,0,0,0,.13-.64L66,271.2v-3.57l3.77,2.8-.29-2.85,1.65,1.66.54,2.9a.46.46,0,0,0,.45.37h.09a.47.47,0,0,0,.37-.54l-.3-1.59.91.91.54,2.9a.46.46,0,0,0,.45.38h.08a.46.46,0,0,0,.37-.54l-.29-1.58,1.49,1.49a.47.47,0,0,0,.33.14.47.47,0,0,0,.32-.14.46.46,0,0,0,0-.65l-1.57-1.57,1.69.34a.46.46,0,1,0,.18-.9l-3-.61-.88-.88,1.68.34a.46.46,0,0,0,.18-.91l-3-.6-2.34-2.35-.1-1,3.17-1.38h1.3l2.59,1.73a.42.42,0,0,0,.26.08.46.46,0,0,0,.38-.2.47.47,0,0,0-.13-.64l-1.44-1h1.24l2.6,1.73a.39.39,0,0,0,.25.08.44.44,0,0,0,.38-.2.46.46,0,0,0-.12-.64l-1.45-1h2.27a.46.46,0,1,0,0-.91Zm-9.09,0h-5l1.93-1.94-.06.51Zm-2.73-5.3-.22,1.89L66,262v-2.43Zm-6.28,0,2.64,2v2.4l-2.45-2.46Zm.39,3.87,0-.51,2,2h-5.3Zm-1.72,2.38h3.07l-1.45,1.46.08-.69Zm1.25,4.64.2-1.71,2.52-2.53v2.27Zm6.29,0-2.65-2V264.1l2.45,2.46Zm-.4-3.88.06.54L67,263.77h3.13Z"
+							style="opacity: 0.2; transform-origin: 65.5957px 263px 0px;" class="animable"></path>
+					</g>
+					<g id="eli9omo0s5ct8">
+						<path
+							d="M115.26,137.13h-6.87l-3-3,6.09-6.1a.54.54,0,0,0,0-.76.53.53,0,0,0-.77,0l-6.09,6.09-3-3v-6.88a.54.54,0,0,0-1.08,0v7l-2.92,2.92-6.15-6.15a.54.54,0,0,0-.76.76l6.14,6.15L94,137.13H87a.54.54,0,0,0,0,1.08h7.53l2.64,2.65-6.41,6.41a.53.53,0,0,0,0,.77.53.53,0,0,0,.76,0L98,141.63l2.65,2.64v7.52a.54.54,0,1,0,1.08,0v-7.4l2.7-2.71,6.36,6.36a.54.54,0,0,0,.39.16.51.51,0,0,0,.38-.16.55.55,0,0,0,0-.77l-6.36-6.35,2.71-2.71h7.4a.54.54,0,1,0,0-1.08Zm-8.41,0h-4.4l2.2-2.21Zm-3-3-2.2,2.2V132Zm-3.28-2.09v4.29l-2.15-2.15ZM97.68,135l2.15,2.15H95.54Zm-1.6,3.23h3.75L98,140.09Zm2.64,2.65L100.6,139v3.75Zm3,2V139l1.94,1.94Zm2.7-2.7-1.93-1.94h3.87Z"
+							style="opacity: 0.2; transform-origin: 101.156px 137.635px 0px;" class="animable"></path>
+					</g>
+					<g id="eljn3rhtvhjxd">
+						<path
+							d="M397.88,413H391l-3-3,6.09-6.09a.54.54,0,1,0-.77-.77l-6.09,6.09-3-3V399.4a.55.55,0,0,0-.55-.55.55.55,0,0,0-.54.55v7l-2.91,2.91-6.15-6.15a.54.54,0,1,0-.77.77l6.15,6.15L376.62,413h-7a.55.55,0,0,0-.55.54.55.55,0,0,0,.55.55h7.52l2.65,2.64-6.42,6.42a.55.55,0,0,0,0,.77.58.58,0,0,0,.39.15.57.57,0,0,0,.38-.15l6.42-6.42,2.64,2.64v7.53a.54.54,0,0,0,.54.54.55.55,0,0,0,.55-.54v-7.41l2.7-2.7,6.36,6.36a.54.54,0,0,0,.38.15.58.58,0,0,0,.39-.15.55.55,0,0,0,0-.77l-6.36-6.36,2.7-2.7h7.41a.55.55,0,0,0,.54-.55A.54.54,0,0,0,397.88,413Zm-8.41,0h-4.4l2.2-2.2Zm-3-3-2.2,2.2v-4.4Zm-3.29-2.09v4.29l-2.14-2.14Zm-2.91,2.92,2.14,2.14h-4.28Zm-1.61,3.23h3.75l-1.87,1.87Zm2.64,2.64,1.88-1.88v3.76Zm3,2v-3.87l1.93,1.94ZM387,416l-1.93-1.93h3.86Z"
+							style="opacity: 0.2; transform-origin: 383.74px 413.531px 0px;" class="animable"></path>
+					</g>
+					<g id="elclj2q1qikyg">
+						<path
+							d="M51.88,343H45l-3-3,6.09-6.09a.54.54,0,1,0-.77-.77l-6.09,6.09-3-3V329.4a.55.55,0,0,0-.55-.55.55.55,0,0,0-.54.55v7L34.3,339.3l-6.15-6.15a.54.54,0,1,0-.77.77l6.15,6.15L30.62,343h-7a.55.55,0,0,0-.55.54.55.55,0,0,0,.55.55h7.52l2.65,2.64-6.42,6.42a.55.55,0,0,0,0,.77.58.58,0,0,0,.39.15.57.57,0,0,0,.38-.15l6.42-6.42,2.64,2.64v7.53a.54.54,0,0,0,.54.54.55.55,0,0,0,.55-.54v-7.41l2.7-2.7,6.36,6.36a.54.54,0,0,0,.38.15.58.58,0,0,0,.39-.15.55.55,0,0,0,0-.77l-6.36-6.36,2.7-2.7h7.41a.55.55,0,0,0,.54-.55A.54.54,0,0,0,51.88,343Zm-8.41,0h-4.4l2.2-2.2Zm-3-3-2.2,2.2v-4.4Zm-3.29-2.09v4.29l-2.14-2.14Zm-2.91,2.92L36.44,343H32.16Zm-1.61,3.23h3.75l-1.87,1.87Zm2.64,2.64,1.88-1.88v3.76Zm3,2v-3.87l1.93,1.94ZM41,346l-1.93-1.93h3.86Z"
+							style="opacity: 0.2; transform-origin: 37.7402px 343.531px 0px;" class="animable"></path>
+					</g>
+					<g id="elb0arhominwr">
+						<path
+							d="M332,300.2h-7.4L321.41,297l6.55-6.56a.59.59,0,0,0,0-.83.59.59,0,0,0-.82,0l-6.56,6.56-3.2-3.2v-7.4a.58.58,0,0,0-.58-.58.59.59,0,0,0-.59.58v7.53l-3.13,3.13-6.62-6.62a.59.59,0,0,0-.82,0,.59.59,0,0,0,0,.83l6.61,6.62-3.13,3.13H301.6a.59.59,0,1,0,0,1.17h8.1l2.84,2.85-6.9,6.9a.58.58,0,1,0,.82.83l6.91-6.91,2.84,2.85V316a.59.59,0,0,0,.59.58.58.58,0,0,0,.58-.58v-8l2.91-2.91,6.85,6.84a.58.58,0,0,0,.82-.83l-6.84-6.84,2.91-2.91h8a.59.59,0,1,0,0-1.17Zm-9.05,0h-4.74l2.37-2.37Zm-3.2-3.19-2.37,2.36v-4.73Zm-3.54-2.25v4.61l-2.3-2.3Zm-3.13,3.14,2.31,2.3h-4.62Zm-1.73,3.47h4l-2,2Zm2.85,2.85,2-2v4Zm3.18,2.14V302.2l2.09,2.08Zm2.91-2.91-2.08-2.08h4.16Z"
+							style="opacity: 0.2; transform-origin: 316.814px 300.783px 0px;" class="animable"></path>
+					</g>
+					<g id="elwhlkb891on9">
+						<path
+							d="M436.71,152.75h-7.4l-3.2-3.2,6.56-6.55a.59.59,0,1,0-.83-.83l-6.55,6.56-3.2-3.2v-7.4a.59.59,0,0,0-1.17,0v7.52l-3.13,3.14-6.62-6.62a.59.59,0,0,0-.83,0,.6.6,0,0,0,0,.83l6.62,6.62-3.13,3.13H406.3a.59.59,0,0,0,0,1.17h8.1l2.85,2.84-6.91,6.91a.6.6,0,0,0,0,.83.63.63,0,0,0,.42.17.58.58,0,0,0,.41-.17l6.91-6.91,2.84,2.85v8.1a.59.59,0,0,0,1.17,0v-8l2.91-2.91,6.84,6.85a.63.63,0,0,0,.42.17.59.59,0,0,0,.41-1l-6.84-6.84,2.91-2.91h8a.59.59,0,0,0,0-1.17Zm-9,0h-4.74l2.37-2.37Zm-3.2-3.2-2.37,2.37v-4.74Zm-3.54-2.24v4.61l-2.3-2.3Zm-3.13,3.13,2.3,2.31h-4.61Zm-1.73,3.48h4l-2,2Zm2.84,2.84,2-2v4Zm3.19,2.15v-4.16l2.08,2.08ZM425,156l-2.08-2.08h4.16Z"
+							style="opacity: 0.2; transform-origin: 421.52px 153.336px 0px;" class="animable"></path>
+					</g>
+				</g>
+				<g id="freepik--christmas-stocking--inject-2" style="transform-origin: 239.836px 238.725px 0px;"
+					class="animable">
+					<path
+						d="M202.38,184.42s-13.77,58.5-21.34,68.13-44.73,41.3-47.49,55.75S143.88,331,157,337.89s22,8.26,34.41,24.78S212,407.4,242.29,417,287,395,287,379.19s-29.6-46.8-29.6-67.45,13.77-29.59,29.6-44.05a305,305,0,0,0,26.15-26.84s-28.9-35.1-48.86-48.17S202.38,184.42,202.38,184.42Z"
+						style="fill: rgb(255, 215, 0); stroke: rgb(38, 50, 56); stroke-miterlimit: 10; transform-origin: 223.164px 301.168px 0px;"
+						id="eljirc5rf6vs" class="animable"></path>
+					<path
+						d="M242.28,58.71h0a4.85,4.85,0,0,0-5.49,4.83l.24,58.64,5,.81,5.06-58.26A5.6,5.6,0,0,0,242.28,58.71Zm1.87,7.82-3.3,49.16-1.95.82.43-50.16a2.41,2.41,0,1,1,4.82.18Z"
+						style="fill: rgb(255, 215, 0); stroke: rgb(38, 50, 56); stroke-miterlimit: 10; transform-origin: 241.949px 90.8281px 0px;"
+						id="ela366jwwcomw" class="animable"></path>
+					<path d="M245,66.57a3.33,3.33,0,1,0-3.33,3.34A3.33,3.33,0,0,0,245,66.57Z"
+						style="fill: rgb(38, 50, 56); stroke: rgb(38, 50, 56); stroke-miterlimit: 10; transform-origin: 241.67px 66.5801px 0px;"
+						id="el7g59c9sl8qu" class="animable"></path>
+					<path
+						d="M313.18,240.85s-28.9-35.1-48.86-48.17-61.94-8.26-61.94-8.26l-.55,2.27,1,2.95s82.09,48.14,102,60.57C310.11,244.53,313.18,240.85,313.18,240.85Z"
+						style="fill: rgb(38, 50, 56); transform-origin: 257.504px 216.883px 0px;" id="elews8zis0gia"
+						class="animable"></path>
+					<path
+						d="M315.25,164.46s-42.67-27.53-53-39.92-26.15-13.76-33-4.13-21.34,36.48-31,50.93-.69,17.89-.69,17.89,36.47,13.77,53.68,22,46.8,33,51.62,37.85,13.76-4.82,15.83-9,21.33-29.59,26.84-41.29S331.76,174.09,315.25,164.46Z"
+						style="fill: rgb(255, 255, 255); stroke: rgb(38, 50, 56); stroke-miterlimit: 10; transform-origin: 270.131px 182.25px 0px;"
+						id="el3pe6xy2rt57" class="animable"></path>
+					<path d="M243.54,118.67s-5.23-1-10,5.23"
+						style="fill: none; stroke: rgb(38, 50, 56); stroke-miterlimit: 10; transform-origin: 238.539px 121.256px 0px;"
+						id="elfjzcr3dp1fl" class="animable"></path>
+					<path d="M231.37,129.74a16.66,16.66,0,0,0-2.08,3.18"
+						style="fill: none; stroke: rgb(38, 50, 56); stroke-miterlimit: 10; transform-origin: 230.33px 131.33px 0px;"
+						id="elfj47eg5x35m" class="animable"></path>
+					<path d="M238.79,124.85a14.08,14.08,0,0,0-4.66,2.31"
+						style="fill: none; stroke: rgb(38, 50, 56); stroke-miterlimit: 10; transform-origin: 236.459px 126.006px 0px;"
+						id="elt17vom3povo" class="animable"></path>
+					<path d="M202.7,182.31s-2.38,1.9,2.37,6.17"
+						style="fill: none; stroke: rgb(38, 50, 56); stroke-miterlimit: 10; transform-origin: 203.586px 185.395px 0px;"
+						id="el0ej704q4zsp4" class="animable"></path>
+					<path d="M208.87,185.16s-2.37,3.79,5.7,6.17"
+						style="fill: none; stroke: rgb(38, 50, 56); stroke-miterlimit: 10; transform-origin: 211.559px 188.244px 0px;"
+						id="elwuu7dqlxzo" class="animable"></path>
+					<path d="M260.44,209.26a92.82,92.82,0,0,1,8.74,5.34"
+						style="fill: none; stroke: rgb(38, 50, 56); stroke-miterlimit: 10; transform-origin: 264.811px 211.932px 0px;"
+						id="ello2hfa0ok0d" class="animable"></path>
+					<path d="M220.74,189.43s0,3.32,10.45,7.6c6.1,2.49,13.33,4.83,21,8.23"
+						style="fill: none; stroke: rgb(38, 50, 56); stroke-miterlimit: 10; transform-origin: 236.465px 197.346px 0px;"
+						id="el5xskziex50c" class="animable"></path>
+					<path
+						d="M214.67,299.33s-6,6.67,2.66,19.34S232,336,232,344s-2,20.67-2,20.67L252.67,356A48.08,48.08,0,0,0,250,332.67c-4.67-12-16.67-12.67-18-22.67s.67-15.33.67-15.33Z"
+						style="fill: rgb(38, 50, 56); transform-origin: 232.871px 329.672px 0px;" id="elxpv5otlmfud"
+						class="animable"></path>
+					<line x1="224.69" y1="326.46" x2="237.49" y2="320.92"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; transform-origin: 231.09px 323.69px 0px;"
+						id="el9mjqstasqvv" class="animable"></line>
+					<line x1="227.68" y1="331.15" x2="242.6" y2="325.18"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; transform-origin: 235.14px 328.165px 0px;"
+						id="el2w7t22duf7e" class="animable"></line>
+					<polyline points="233.22 357.58 237.49 353.32 241.32 355.88 246.01 351.19 249.85 352.89"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; transform-origin: 241.535px 354.385px 0px;"
+						id="el0i4220fqejw" class="animable"></polyline>
+					<line x1="220.01" y1="309.83" x2="217.45" y2="315.38"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; transform-origin: 218.73px 312.605px 0px;"
+						id="elce60w8ni7p" class="animable"></line>
+					<line x1="216.17" y1="311.11" x2="221.71" y2="314.1"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; transform-origin: 218.94px 312.605px 0px;"
+						id="el93s2bicqwzl" class="animable"></line>
+					<line x1="227.25" y1="307.7" x2="224.69" y2="313.24"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; transform-origin: 225.97px 310.47px 0px;"
+						id="eltm4np9yr6wd" class="animable"></line>
+					<line x1="223.42" y1="308.98" x2="228.96" y2="311.96"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; transform-origin: 226.19px 310.47px 0px;"
+						id="elld2ec725lxf" class="animable"></line>
+					<line x1="237.49" y1="334.99" x2="234.93" y2="340.53"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; transform-origin: 236.21px 337.76px 0px;"
+						id="elcy3645t5oyh" class="animable"></line>
+					<line x1="233.65" y1="336.27" x2="239.19" y2="339.25"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; transform-origin: 236.42px 337.76px 0px;"
+						id="elmvfid3akh99" class="animable"></line>
+					<line x1="244.73" y1="332.86" x2="242.18" y2="338.4"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; transform-origin: 243.455px 335.63px 0px;"
+						id="eleia1qhebilm" class="animable"></line>
+					<line x1="240.9" y1="334.13" x2="246.44" y2="337.12"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; transform-origin: 243.67px 335.625px 0px;"
+						id="elfl5pn9bqlf6" class="animable"></line>
+					<path
+						d="M258.14,283.94c-3.44-5.06-11.18-7.86-11.18-7.86s-.58-.39-1.36-.85c.94-9.49-2.95-18.85-11-24.11s-18.16-5-26.47-.38l-.79-.53s-5.68-6-11.7-7.08-9.89,4.8-8,8.83c1.17,2.53,8.94,2.74,15.26,2.56a30.1,30.1,0,0,0-5,5.84c-8.39,12.86-5.57,29.57,6.3,37.32s28.31,3.62,36.71-9.23a30.17,30.17,0,0,0,3.52-7.46c2.4,6,5.92,13.79,8.85,13.85C257.72,294.93,261.59,289,258.14,283.94Z"
+						style="fill: rgb(255, 255, 255); transform-origin: 223.311px 272.295px 0px;" id="eliwl3irxuare"
+						class="animable"></path>
+					<circle cx="246.25" cy="233.25" r="5.75"
+						style="fill: rgb(255, 255, 255); transform-origin: 246.25px 233.25px 0px;" id="el4q8dy289q32"
+						class="animable"></circle>
+					<path
+						d="M205.51,249.57s12.19,2.89,42.22,27.57c0,0,2.8-7.74,2-22.89s-9.62-21.48-19.92-18.63S205.51,249.57,205.51,249.57Z"
+						style="fill: rgb(38, 50, 56); transform-origin: 227.693px 256.049px 0px;" id="el5glotuw5nh6"
+						class="animable"></path>
+					<line x1="249.39" y1="256.27" x2="222.38" y2="238.64"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; transform-origin: 235.885px 247.455px 0px;"
+						id="elle72b2ugw0l" class="animable"></line>
+					<line x1="211.63" y1="245.12" x2="249.27" y2="269.7"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; transform-origin: 230.45px 257.41px 0px;"
+						id="eloytvqxcbu18" class="animable"></line>
+					<g id="el9jt1h967z97">
+						<ellipse cx="209.76" cy="290.27" rx="8.48" ry="9.19"
+							style="fill: rgb(255, 215, 0); transform-origin: 209.76px 290.27px 0px; transform: rotate(-56.85deg);"
+							class="animable"></ellipse>
+					</g>
+					<path d="M213.45,259.82a2.35,2.35,0,1,1-.68-3.26A2.35,2.35,0,0,1,213.45,259.82Z"
+						style="fill: rgb(38, 50, 56); transform-origin: 211.486px 258.527px 0px;" id="el31tz47ag1kl"
+						class="animable"></path>
+					<path d="M238.7,276.31a2.35,2.35,0,1,1-.68-3.26A2.36,2.36,0,0,1,238.7,276.31Z"
+						style="fill: rgb(38, 50, 56); transform-origin: 236.734px 275.02px 0px;" id="el74r6w3aqsnf"
+						class="animable"></path>
+					<line x1="249.74" y1="254.25" x2="282.64" y2="250.41"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 2px; transform-origin: 266.19px 252.33px 0px;"
+						id="el0sbq9v92n62" class="animable"></line>
+					<line x1="264.75" y1="252.8" x2="270.51" y2="239.68"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 2px; transform-origin: 267.63px 246.24px 0px;"
+						id="elxib6fbtdvi" class="animable"></line>
+					<line x1="277.68" y1="251.11" x2="281.8" y2="244.8"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 2px; transform-origin: 279.74px 247.955px 0px;"
+						id="elrf6alht86zm" class="animable"></line>
+					<line x1="259.53" y1="253.9" x2="269.81" y2="262.29"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 2px; transform-origin: 264.67px 258.095px 0px;"
+						id="el7gtro0wweqt" class="animable"></line>
+					<line x1="223.04" y1="237.38" x2="213.33" y2="205.71"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 2px; transform-origin: 218.185px 221.545px 0px;"
+						id="eleqglakruy6a" class="animable"></line>
+					<line x1="218.33" y1="223.05" x2="228.04" y2="212.5"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 2px; transform-origin: 223.185px 217.775px 0px;"
+						id="elrf5vwlczq6" class="animable"></line>
+					<line x1="214.69" y1="210.53" x2="218.81" y2="204.22"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 2px; transform-origin: 216.75px 207.375px 0px;"
+						id="eluaglkr1psjc" class="animable"></line>
+					<line x1="219.43" y1="228.26" x2="207.61" y2="222.23"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 2px; transform-origin: 213.52px 225.245px 0px;"
+						id="elscjjxuhwsf" class="animable"></line>
+					<polyline
+						points="212.59 245.93 225.41 240.5 224.28 253.13 236.09 247.91 236.52 261.12 247.07 254.87 246.29 267.29"
+						style="fill: none; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; transform-origin: 229.83px 253.895px 0px;"
+						id="elxe14e3376f" class="animable"></polyline>
+					<path
+						d="M268.06,388.17H265.2L267,387a.62.62,0,0,0,.16-.86.61.61,0,0,0-.85-.16L263,388.17h-1.72l1.76-1.2a.62.62,0,0,0,.16-.86.61.61,0,0,0-.85-.16l-3.24,2.22h-.25L253,385.52l.15-1.33,3.26-3.25,3.88-.73a.61.61,0,0,0,.49-.71.62.62,0,0,0-.72-.49l-2.12.39,1.21-1.21,3.88-.72a.61.61,0,0,0-.22-1.21l-2.12.4,2-2a.62.62,0,0,0-.87-.87l-2.1,2.1.45-2.25a.63.63,0,0,0-.48-.73.62.62,0,0,0-.73.48l-.81,4.07L257,378.64l.45-2.26a.6.6,0,0,0-.48-.72.61.61,0,0,0-.72.48l-.81,4.06-2,2,.43-3.76-5.17,3.74v-4.9l2.29-3.34a.61.61,0,1,0-1-.69l-1.28,1.86v-1.71l2.29-3.34a.61.61,0,0,0-1-.69l-1.28,1.86v-3a.61.61,0,0,0-.61-.61.61.61,0,0,0-.62.61v2.92l-1.21-1.82a.61.61,0,0,0-1,.68l2.23,3.35v1.67l-1.21-1.82a.61.61,0,0,0-1,.68l2.23,3.35v4.83l-5-3.74.39,3.83-2.09-2.1-.74-4a.6.6,0,0,0-.72-.49.61.61,0,0,0-.49.71l.42,2.23-1.21-1.21-.75-4a.61.61,0,1,0-1.2.23l.41,2.22-2.09-2.09a.62.62,0,0,0-.87.87l2.07,2.06-2.15-.42a.6.6,0,0,0-.72.48.61.61,0,0,0,.48.72l4,.79,1.18,1.18-2.15-.43a.61.61,0,0,0-.24,1.2l3.95.79,3.16,3.16.13,1.29-6.29,2.72h-.28L233.27,386a.61.61,0,0,0-.85.16.62.62,0,0,0,.16.86l1.76,1.2h-1.71L229.39,386a.61.61,0,0,0-.85.16.62.62,0,0,0,.16.86l1.76,1.2H228a.62.62,0,0,0,0,1.23h2.67l-1.93,1.29a.61.61,0,0,0-.17.85.6.6,0,0,0,.51.27.63.63,0,0,0,.34-.1l3.46-2.31h1.67l-1.93,1.29a.61.61,0,0,0-.17.85.6.6,0,0,0,.51.27.61.61,0,0,0,.34-.1l3.46-2.31h2.37l3.94,1.77-.18,1.57-3,3-4,.74a.63.63,0,0,0-.49.72.62.62,0,0,0,.72.49l2.22-.41-1.21,1.21-4,.74a.6.6,0,0,0-.49.71.62.62,0,0,0,.71.5l2.23-.42-2.1,2.1a.6.6,0,0,0,0,.86.62.62,0,0,0,.87,0l2.07-2.06-.43,2.14a.6.6,0,0,0,.48.72l.12,0a.62.62,0,0,0,.6-.5l.79-3.95,1.18-1.18-.43,2.15a.61.61,0,0,0,.49.72h.12a.62.62,0,0,0,.6-.49l.79-3.95,1.93-1.93-.41,3.51,5.17-3.73v5l-2.23,3.25a.61.61,0,0,0,.16.85.6.6,0,0,0,.85-.15l1.22-1.78v1.71l-2.23,3.25a.61.61,0,0,0,.16.85.6.6,0,0,0,.85-.15l1.22-1.78v2.83a.61.61,0,0,0,.62.61.61.61,0,0,0,.61-.61v-3l1.28,1.91a.59.59,0,0,0,.51.27.63.63,0,0,0,.34-.1.61.61,0,0,0,.17-.85l-2.3-3.45v-1.67l1.28,1.92a.59.59,0,0,0,.51.27.63.63,0,0,0,.34-.1.61.61,0,0,0,.17-.85l-2.3-3.45v-4.77l5,3.74-.39-3.8,2.21,2.2.72,3.88a.6.6,0,0,0,.6.5h.11a.61.61,0,0,0,.5-.71l-.4-2.12,1.21,1.21.72,3.88a.63.63,0,0,0,.61.5h.11a.63.63,0,0,0,.49-.72l-.39-2.12,2,2a.6.6,0,0,0,.86,0,.62.62,0,0,0,0-.87l-2.1-2.1,2.26.45a.61.61,0,1,0,.24-1.2l-4.06-.81-1.18-1.18,2.25.45a.61.61,0,1,0,.25-1.2l-4.07-.81-3.13-3.14-.14-1.32,4.25-1.84h1.73l3.46,2.31a.63.63,0,0,0,.34.1.61.61,0,0,0,.35-1.12l-1.94-1.29h1.67l3.46,2.31a.63.63,0,0,0,.34.1.61.61,0,0,0,.35-1.12L265,389.4h3a.62.62,0,0,0,0-1.23Zm-12.15,0h-6.75l2.59-2.58-.08.68Zm-3.65-7.07-.29,2.53L248.63,387v-3.25Zm-8.39-.06,3.53,2.63v3.2l-3.27-3.27Zm.52,5.18-.07-.69,2.65,2.64h-7.09Zm-2.29,3.18h4.1l-1.94,1.94.11-.92Zm1.67,6.19.26-2.29,3.37-3.37v3Zm8.4.05L248.63,393v-3.18l3.28,3.28Zm-.53-5.17.07.71-1.78-1.78h4.18Z"
+						style="fill: rgb(255, 255, 255); transform-origin: 248px 388.295px 0px;" id="elfq9i6g77pp"
+						class="animable"></path>
+					<path
+						d="M184.43,305.34h-2.86l1.76-1.21a.61.61,0,1,0-.69-1l-3.23,2.22h-1.72l1.76-1.21a.61.61,0,1,0-.69-1l-3.24,2.22h-.25l-5.91-2.66.15-1.32,3.26-3.26,3.88-.72a.62.62,0,0,0-.23-1.21l-2.12.39,1.21-1.21,3.88-.72a.61.61,0,0,0,.49-.71.6.6,0,0,0-.71-.49l-2.12.39,2-2a.62.62,0,0,0-.87-.87l-2.1,2.1.45-2.25a.62.62,0,0,0-1.21-.24l-.81,4.06-1.18,1.18.45-2.26a.61.61,0,0,0-.48-.72.61.61,0,0,0-.72.48l-.81,4.06-2,2,.43-3.75L165,299.37v-4.89l2.29-3.35a.61.61,0,1,0-1-.69L165,292.31v-1.72l2.29-3.34a.61.61,0,1,0-1-.69L165,288.43v-3a.61.61,0,0,0-.61-.61.61.61,0,0,0-.62.61v2.93l-1.21-1.82a.61.61,0,1,0-1,.68l2.23,3.35v1.67l-1.21-1.82a.6.6,0,0,0-.85-.17.61.61,0,0,0-.17.85l2.23,3.35v4.82l-5-3.74.39,3.83-2.09-2.1-.74-4a.61.61,0,0,0-1.21.22l.42,2.23-1.21-1.21-.75-4a.62.62,0,0,0-.71-.5.63.63,0,0,0-.49.72l.41,2.23-2.09-2.1a.62.62,0,0,0-.87.87l2.07,2.07-2.15-.43a.61.61,0,1,0-.24,1.2l3.95.79,1.18,1.18-2.15-.43a.61.61,0,0,0-.72.48.63.63,0,0,0,.48.73l3.95.78,3.16,3.16.13,1.29-6.29,2.73h-.28l-3.24-2.22a.61.61,0,1,0-.69,1l1.76,1.21H149l-3.24-2.22a.61.61,0,1,0-.69,1l1.76,1.21h-2.49a.61.61,0,1,0,0,1.22H147l-1.93,1.29a.6.6,0,0,0-.17.85.61.61,0,0,0,.51.28.65.65,0,0,0,.34-.11l3.46-2.31h1.67L149,307.85a.62.62,0,0,0,.34,1.13.62.62,0,0,0,.34-.11l3.46-2.31h2.37l3.94,1.77-.18,1.57-3,3-4,.74a.61.61,0,0,0-.49.71.62.62,0,0,0,.72.5l2.22-.42-1.21,1.21-4,.74a.6.6,0,0,0-.49.72.61.61,0,0,0,.71.49l2.23-.42-2.1,2.1a.62.62,0,0,0,.87.87l2.07-2.07-.43,2.15a.61.61,0,0,0,.48.72h.12a.61.61,0,0,0,.6-.49l.79-3.95,1.18-1.18-.43,2.14a.61.61,0,0,0,.49.72l.12,0a.63.63,0,0,0,.6-.5l.79-3.95,1.93-1.93-.41,3.51,5.17-3.73v5l-2.23,3.26a.61.61,0,1,0,1,.69l1.22-1.78v1.71l-2.23,3.26a.61.61,0,0,0,1,.69l1.22-1.78v2.83a.61.61,0,0,0,.62.61.61.61,0,0,0,.61-.61v-3l1.28,1.91a.6.6,0,0,0,.51.28.65.65,0,0,0,.34-.11.61.61,0,0,0,.17-.85l-2.3-3.44V318.7l1.28,1.91a.6.6,0,0,0,.51.28.65.65,0,0,0,.34-.11.61.61,0,0,0,.17-.85l-2.3-3.44v-4.78l5,3.74-.39-3.8,2.21,2.21.72,3.88a.61.61,0,0,0,.6.5h.11a.63.63,0,0,0,.5-.72l-.4-2.12,1.21,1.21.72,3.88a.63.63,0,0,0,.61.5H176a.62.62,0,0,0,.49-.72l-.39-2.11,2,2a.58.58,0,0,0,.43.18.61.61,0,0,0,.43-1l-2.1-2.1,2.26.45a.62.62,0,0,0,.24-1.21l-4.06-.81-1.18-1.18,2.25.45a.61.61,0,1,0,.25-1.2l-4.07-.81-3.13-3.14-.14-1.32,4.25-1.84h1.73l3.46,2.31a.65.65,0,0,0,.34.11.63.63,0,0,0,.52-.28.62.62,0,0,0-.18-.85l-1.93-1.29h1.67l3.46,2.31a.65.65,0,0,0,.34.11.63.63,0,0,0,.52-.28.62.62,0,0,0-.17-.85l-1.94-1.29h3a.61.61,0,1,0,0-1.22Zm-12.15,0h-6.75l2.59-2.59-.08.68Zm-3.65-7.08-.29,2.53L165,304.13v-3.25Zm-8.39-.05,3.53,2.62V304l-3.27-3.28Zm.52,5.17-.07-.69,2.65,2.65h-7.09Zm-2.29,3.18h4.1l-1.94,1.94.11-.92Zm1.67,6.19.26-2.28,3.37-3.38v3Zm8.4.06L165,310.18V307l3.28,3.28Zm-.53-5.18.07.72-1.78-1.79h4.18Z"
+						style="fill: rgb(255, 255, 255); transform-origin: 164.346px 305.445px 0px;" id="elrbaok3q52kq"
+						class="animable"></path>
+				</g>
+				<defs>
+					<filter id="active" height="200%">
+						<feMorphology in="SourceAlpha" result="DILATED" operator="dilate" radius="2"></feMorphology>
+						<feFlood flood-color="#32DFEC" flood-opacity="1" result="PINK"></feFlood>
+						<feComposite in="PINK" in2="DILATED" operator="in" result="OUTLINE"></feComposite>
+						<feMerge>
+							<feMergeNode in="OUTLINE"></feMergeNode>
+							<feMergeNode in="SourceGraphic"></feMergeNode>
+						</feMerge>
+					</filter>
+					<filter id="hover" height="200%">
+						<feMorphology in="SourceAlpha" result="DILATED" operator="dilate" radius="2"></feMorphology>
+						<feFlood flood-color="#ff0000" flood-opacity="0.5" result="PINK"></feFlood>
+						<feComposite in="PINK" in2="DILATED" operator="in" result="OUTLINE"></feComposite>
+						<feMerge>
+							<feMergeNode in="OUTLINE"></feMergeNode>
+							<feMergeNode in="SourceGraphic"></feMergeNode>
+						</feMerge>
+						<feColorMatrix type="matrix"
+							values="0   0   0   0   0                0   1   0   0   0                0   0   0   0   0                0   0   0   1   0 ">
+						</feColorMatrix>
+					</filter>
+				</defs>
+			</svg>
+		</div>
+		<!-- https://www.compteurdevisite.com -->
 		<!-- <a title="compteur visiteur"><img src="https://counter8.stat.ovh/private/compteurdevisite.php?c=d7dbyxr97cd816ldjjszklrps9rf5has" border="0" title="compteur visiteur" alt="compteur visiteur"></a> -->
 		<br />
 	</div>
