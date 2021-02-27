@@ -1,11 +1,12 @@
 @echo off
 
 :: Commandes git ↓
+git pull
 git add .
 git status
-set /p commitMessage = Message du commit :  
-git commit -m + %commitMessage%
+set /p commit-message="Message du commit :  "
+git commit -m "%commit-message%"
 git push
 :: #################
 
-set /p touche = ------------------------- Appuyez sur une touche pour terminer ...
+set /p enter = Appuyez sur une touche pour terminer ...

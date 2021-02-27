@@ -18,7 +18,7 @@ isCFF:yes
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:167264
-FileModTime:1602490708
+FileModTime:1602487108
 WeightClass:400
 WidthClass:5
 AngleClass:1
@@ -43,7 +43,7 @@ isCFF:yes
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:161820
-FileModTime:1602490697
+FileModTime:1602487097
 WeightClass:400
 WidthClass:5
 AngleClass:0
@@ -66,7 +66,7 @@ DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:79652
-FileModTime:1602111433
+FileModTime:1602107833
 WeightClass:5
 WidthClass:5
 AngleClass:0
@@ -89,7 +89,7 @@ DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:212912
-FileModTime:1600207008
+FileModTime:1600203408
 WeightClass:5
 WidthClass:5
 AngleClass:0
@@ -112,7 +112,7 @@ DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:72364
-FileModTime:1600207114
+FileModTime:1600203514
 WeightClass:5
 WidthClass:5
 AngleClass:0
@@ -137,7 +137,7 @@ isCFF:yes
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:403036
-FileModTime:1600271048
+FileModTime:1600267448
 WeightClass:700
 WidthClass:5
 AngleClass:0
@@ -163,7 +163,7 @@ isCFF:yes
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:475412
-FileModTime:1600271060
+FileModTime:1600267460
 WeightClass:400
 WidthClass:5
 AngleClass:1
@@ -189,7 +189,7 @@ isCFF:yes
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:404236
-FileModTime:1600271054
+FileModTime:1600267454
 WeightClass:400
 WidthClass:5
 AngleClass:0
@@ -213,7 +213,7 @@ DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:60576
-FileModTime:1602111336
+FileModTime:1602107736
 WeightClass:400
 WidthClass:5
 AngleClass:0
@@ -236,12 +236,35 @@ DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:21156
-FileModTime:1600706512
+FileModTime:1600702912
 WeightClass:400
 WidthClass:5
 AngleClass:0
 NameArray:0,Mac,4,Back to the future 2002
 NameArray:0,Win,1,Back to the future 2002
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CollegiateFLF
+FamilyName:CollegiateFLF
+StyleName:Regular
+FullName:CollegiateFLF
+MenuName:CollegiateFLF
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\ThomasLepine\Desktop\Alligator-News\touche_pas_a_ca_ptit_con\Font\CollegiateFLF.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:19272
+FileModTime:1603819158
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,CollegiateFLF
+NameArray:0,Win,1,CollegiateFLF
 %EndFont
 
 %BeginFont
@@ -259,7 +282,7 @@ DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:92780
-FileModTime:1602108497
+FileModTime:1602104897
 WeightClass:700
 WidthClass:5
 AngleClass:0
@@ -283,7 +306,7 @@ DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:91104
-FileModTime:1602108497
+FileModTime:1602104897
 WeightClass:400
 WidthClass:5
 AngleClass:0
@@ -309,7 +332,7 @@ isCFF:yes
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:131444
-FileModTime:1600706307
+FileModTime:1600702707
 WeightClass:700
 WidthClass:5
 AngleClass:0
@@ -334,7 +357,7 @@ isCFF:yes
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:151856
-FileModTime:1600706306
+FileModTime:1600702706
 WeightClass:400
 WidthClass:5
 AngleClass:1
@@ -359,7 +382,7 @@ isCFF:yes
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:149908
-FileModTime:1600706307
+FileModTime:1600702707
 WeightClass:400
 WidthClass:5
 AngleClass:0
@@ -382,7 +405,7 @@ DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:61068
-FileModTime:1602176653
+FileModTime:1602173053
 WeightClass:400
 WidthClass:5
 AngleClass:0
@@ -406,7 +429,7 @@ DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:24496
-FileModTime:1602889465
+FileModTime:1602885865
 WeightClass:500
 WidthClass:5
 AngleClass:0
@@ -429,7 +452,7 @@ DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:33256
-FileModTime:1602258663
+FileModTime:1602255063
 WeightClass:400
 WidthClass:5
 AngleClass:0
@@ -451,7 +474,7 @@ DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:53932
-FileModTime:1602176637
+FileModTime:1602173037
 WeightClass:400
 WidthClass:5
 AngleClass:0
@@ -474,7 +497,7 @@ DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:271192
-FileModTime:1602176608
+FileModTime:1602173008
 WeightClass:400
 WidthClass:5
 AngleClass:0
@@ -499,7 +522,7 @@ isCFF:yes
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:256880
-FileModTime:1603314891
+FileModTime:1603311291
 WeightClass:400
 WidthClass:5
 AngleClass:0

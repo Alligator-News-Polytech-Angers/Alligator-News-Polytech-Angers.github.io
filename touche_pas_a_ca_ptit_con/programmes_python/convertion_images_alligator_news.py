@@ -6,6 +6,7 @@ import os # Librairie pour les fonctions interagissant avec le système (fichier
 from PIL import Image as imagePillow # Librairie Pillow (traitement d'images)
 '''
 Docs : https://pillow.readthedocs.io/en/stable/reference/Image.html  https://pillow.readthedocs.io/en/stable/handbook/concepts.html#concept-modes
+	   https://pillow.readthedocs.io/en/stable/handbook/concepts.html#filters
 '''
 
 def fonctionsImage(image):
@@ -25,7 +26,7 @@ def fonctionsImage(image):
 		newWidth = newHeight * newImage.size[0] / newImage.size[1] # Calcul de la largeur pour garder les proportions de l'image
 		size = (newWidth, newHeight)
 		print("     -- New size (Width, Height) -> " + str(size))
-		newImage.thumbnail(size, imagePillow.ANTIALIAS) # BILINEAR = qualité ok- / BICUBIC = qualité ok+ / ANTIALIAS = bonne qualité
+		newImage.thumbnail(size, imagePillow.LANCZOS) # BILINEAR = qualité ok- / BICUBIC = qualité ok+ / ANTIALIAS = bonne qualité
 
 	newImage.save(imageName, format=formatImageOut) #On enregistre l'image au bon format
 	newImage.close() # libère les ressources systèmes
