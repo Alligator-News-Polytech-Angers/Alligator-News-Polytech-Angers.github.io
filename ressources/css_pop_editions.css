@@ -46,11 +46,11 @@
   margin: 5px 0px;
   letter-spacing: 0.04em;
 }
-/*************************************/
+/**************************************/
 
-/*************************/
+/**************************************/
 /* Editions les différentes rubriques */
-/*************************/
+/**************************************/
 .EditionBlockWraped article {
   color: black;
   display: block;
@@ -334,7 +334,10 @@ a.mail_link {
     padding: 4px 5px;
   }
   .EditionBig{
-	  padding: 10px 14px;
+	  padding: 5px 14px;
+  }
+  .EditionBig article {
+    padding: 10px 0px;
   }
   .FullArticle {
     padding: 4.5px 15px;
