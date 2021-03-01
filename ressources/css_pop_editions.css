@@ -5,7 +5,7 @@
 /************************************/
 
 /*****************************************/
-/* Présentation Editions depuis la menu */
+/* Présentation Editions depuis la menu  */
 /*****************************************/
 .Pop_New_MenuView {
   background-color: var(--background-color);
@@ -65,7 +65,11 @@
   height: 100%;
 }
 .EditionBig {
-  padding: 10px 18px;
+  padding: 2px 18px;
+  margin-bottom: -8px;
+}
+.EditionBig article {
+  padding: 15px 0px;
 }
 div.Edition {
   position: relative;

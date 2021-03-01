@@ -130,7 +130,7 @@ img.img_titre_article {
 /*********************/
 @media screen and (max-width: 760px) { /* Resolution d'un  portable */
   .mainArticle {
-    padding: 5px 15px;
+    padding: 20px 15px;
   }
   .mainMenuArticle {
     padding-left: 20px;
@@ -159,7 +159,7 @@ img.img_titre_article {
 }
 @media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC  / tablette  */
   .mainArticle {
-    padding: 10px 25px;
+    padding: 25px 25px;
   }
   .mainMenuArticle {
     padding: 15px 5px;
