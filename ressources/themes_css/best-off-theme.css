@@ -1,0 +1,51 @@
+/************************************/
+/* Feuille de style Alligator NEWS  */
+/* ~ Thème global de la page ~      */
+/* Copyright : LÉPINE Thomas       */
+/************************************/
+
+/* Thème SPÉCIAL HALLOWEEN */
+
+:root {
+
+  /*** PALETTE ***/
+  --background: #077C8C;
+  --background-fonce: #004875;
+  --background-articles: #f5e9d4;
+  --color-major: #D99E21;
+  --color-major-clair: #E6CE17;
+  --color-major-fonce: #A67919;
+  /*** ******* ***/
+
+  /* Navbar */
+  --pantone486C: var(--color-major);
+  --navbar-hover: var(--color-major-clair); /* Couleur hover navbar */
+  --navbar-text: var(--background-fonce);; /* Couleur textes navbar */
+
+  /* Titres header */
+  --title-color: var(--color-major); /* Couleur du grand titre */
+  --shadow-color: #444; /* Couleur des ombres */
+  --title-span-color: var(--color-major); /* Couleur titre "span" -> sans pubs et sans cookies */
+
+  /* Corps de la page */
+  --background-header-color: var(--background-fonce); /* Couleur (background) du header */
+  --background-color: var(--background-fonce); /* Couleur du fond global */
+  --background-article-color: var(--background-articles); /* Fond des articles */
+
+   /* Footer */
+   --background-footer-color: #333; /* Fond du footer */
+   --text1-footer: #fff; /* Textes footer (important) */ 
+   --text2-footer: #C8C8C8;; /* Textes footer */
+  
+  /* Polices d'écritures */
+  --polices-global: Calibri, Arial, sans-serif;
+  --police-titre: Arno Pro, Tribun ADF Std, serif;
+}
+
+/*** REDEFINITION DE CLASSES CSS POUR LE THEME : ***/
+@media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC / tablette */
+
+}
+@media screen and (max-width: 760px) { /* Resolution d'un  portable  */
+
+}
