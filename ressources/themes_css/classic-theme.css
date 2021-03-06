@@ -1,8 +1,8 @@
-/************************************/
-/* Feuille de style Alligator NEWS  */
-/* ~ Thème global de la page ~      */
-/* Copyright :  LÉPINE Thomas       */
-/************************************/
+/*****************************************/
+/*** Feuille de style Alligator NEWS  ***/
+/***   ~ Thème global de la page ~   ***/
+/***    Copyright: LÉPINE Thomas    ***/
+/*************************************/
 
 /* Thème CLASSIQUE */
 
@@ -14,7 +14,7 @@
 
   /* Titres header */
   --title-color: #fff; /* Couleur du grand titre */
-  --shadow-color: #000; /* Couleur des ombres */
+  --shadow-color: #222; /* Couleur des ombres */
   --title-span-color: #C8C8C8; /* Couleur titre "span" -> sans pubs et sans cookies */
 
   /* Corps de la page */
