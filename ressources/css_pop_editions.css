@@ -75,6 +75,9 @@ div.Edition {
   position: relative;
   z-index: 2;
 }
+.Edition hr { /* Barres horizontales */
+  background: var(--background-color);
+}
 .containerTheme {
   background-color: var(--background-color);
 }
