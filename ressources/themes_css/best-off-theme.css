@@ -4,32 +4,34 @@
 /***    Copyright: LÉPINE Thomas    ***/
 /*************************************/
 
-/* Thème SPÉCIAL HALLOWEEN */
+/* Thème SPÉCIAL best-off (anniversaires) */
 
 :root {
 
   /*** PALETTE ***/
-  --background: #077C8C;
-  --background-fonce: #004875;
-  --background-articles: #f5e9d4;
-  --color-major: #CFCC0A;
-  --color-major-clair: #D9C10B;
-  --color-major-fonce: #998808;
+  --background: #007965; /* #00af91; */
+  --background-fonce: #007965;
+  --background-clair: #33E4F5;
+  --background-articles: #f7f3e9;
+  --color-major: #ffcc29;
+  --color-major-clair: #FFDF75;
+  --color-major-fonce: #BF9A1F;
   /*** ******* ***/
 
   /* Navbar */
   --pantone486C: var(--color-major-clair);
   --navbar-hover: var(--color-major-fonce); /* Couleur hover navbar */
-  --navbar-text: var(--background-fonce);; /* Couleur textes navbar */
+  --navbar-text: var(--background); /* Couleur textes navbar */
+  --navbar-text-hover: var(--background-fonce); /* Couleur textes navbar en hover (souris sur la case) */
 
   /* Titres header */
   --title-color: var(--color-major-clair); /* Couleur du grand titre */
-  --shadow-color: #555; /* Couleur des ombres */
-  --title-span-color: var(--color-major); /* Couleur titre "span" -> sans pubs et sans cookies */
+  --shadow-color: none; /* Couleur des ombres */
+  --title-span-color: var(--color-major-clair); /* Couleur titre "span" -> sans pubs et sans cookies */
 
   /* Corps de la page */
-  --background-header-color: var(--background-fonce); /* Couleur (background) du header */
-  --background-color: var(--background-fonce); /* Couleur du fond global */
+  --background-header-color: var(--background); /* Couleur (background) du header */
+  --background-color: var(--background); /* Couleur du fond global */
   --background-article-color: var(--background-articles); /* Fond des articles */
 
    /* Footer */
@@ -39,13 +41,21 @@
   
   /* Polices d'écritures */
   --polices-global: Calibri, Arial, sans-serif;
-  --police-titre: Arno Pro, Tribun ADF Std, serif;
+  --police-titre: festif_font, Arno Pro, Tribun ADF Std, serif;
+}
+
+/*** POLICE D'ÉCRITURE POUR LE THEME : ***/
+@font-face {
+  font-family: "festif_font";
+  src: url("../../ressources/images/global/themes/best-off/vintage1.otf");
 }
 
 /*** REDEFINITION DE CLASSES CSS POUR LE THEME : ***/
-@media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC / tablette */
+@media screen and (min-width: 768px){ /* Resolution d'une fenêtre sur un PC / tablette */
 
 }
-@media screen and (max-width: 760px) { /* Resolution d'un  portable  */
-
+@media screen and (max-width: 768px) { /* Resolution d'un  portable  */
+  .titre p {
+    padding: 2px 50px;
+  }
 }

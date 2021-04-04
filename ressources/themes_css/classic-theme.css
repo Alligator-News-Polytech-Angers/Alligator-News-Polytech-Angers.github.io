@@ -7,10 +7,21 @@
 /* Thème CLASSIQUE */
 
 :root {
+
+    /*** PALETTE ***/
+    --background: #004875;
+    --background-articles: #FDF5E6;
+    --color-major: #E8927C;
+    --color-major-clair: #FFB4A1;
+    --color-major-fonce: #9C5543;
+    /*** ******* ***/
+
+
   /* Navbar */
-  --pantone486C: #E8927C; /* Pantone 486C -> rose Saumon Polytech Angers */
-  --navbar-hover: #B57160; /* Couleur secondaire navbar */
-  --navbar-text: #000; /* Couleur textes navbar */
+  --pantone486C: var(--color-major); /* Pantone 486C -> rose Saumon Polytech Angers */
+  --navbar-hover: var(--color-major-fonce); /* Couleur secondaire navbar */
+  --navbar-text: var(--background); /* Couleur textes navbar */
+  --navbar-text-hover: #fff; /* Couleur textes navbar en hover (souris sur la case) */
 
   /* Titres header */
   --title-color: #fff; /* Couleur du grand titre */
@@ -18,9 +29,9 @@
   --title-span-color: #C8C8C8; /* Couleur titre "span" -> sans pubs et sans cookies */
 
   /* Corps de la page */
-  --background-header-color: #004875; /* Couleur (background) du header */
-  --background-color: #004875; /* Couleur du fond global */
-  --background-article-color: #FDF5E6; /* Fond des articles */ 
+  --background-header-color: var(--background); /* Couleur (background) du header */
+  --background-color: var(--background);  /* Couleur du fond global */
+  --background-article-color: var(--background-articles);  /* Fond des articles */ 
 
   /* Footer */
   --background-footer-color: #333; /* Fond du footer */

@@ -86,6 +86,7 @@ body {
 }
 .navbar a:hover {
   background-color: var(--navbar-hover);
+  color: var(--navbar-text-hover);
 }
 .navbar hr {
   background-color: var(--navbar-hover);

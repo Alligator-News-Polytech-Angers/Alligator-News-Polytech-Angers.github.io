@@ -11,6 +11,7 @@
   --pantone486C: #333; /* Pantone 486C -> rose Saumon Polytech Angers */
   --navbar-hover: #000; /* Couleur secondaire navbar */
   --navbar-text: #F2720F; /* Couleur textes navbar */
+  --navbar-text-hover: #F2720F; /* Couleur textes navbar en hover (souris sur la case) */
 
   /* Titres header */
   --title-color: #000; /* Couleur du grand titre */

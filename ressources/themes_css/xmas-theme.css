@@ -20,6 +20,7 @@
     --pantone486C: var(--or-xmas);
     --navbar-hover: var(--or-xmas-fonce); /* Couleur hover navbar */
     --navbar-text: var(--rouge-xmas); /* Couleur textes navbar */
+    --navbar-text-hover: var(--rouge-xmas); /* Couleur textes navbar en hover (souris sur la case) */
   
     /* Titres header */
     --title-color: var(--or-xmas); /* Couleur du grand titre */
