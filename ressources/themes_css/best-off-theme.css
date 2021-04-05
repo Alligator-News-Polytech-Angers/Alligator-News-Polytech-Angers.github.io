@@ -9,9 +9,9 @@
 :root {
 
   /*** PALETTE ***/
-  --background: #007965; /* #00af91; */
-  --background-fonce: #007965;
-  --background-clair: #33E4F5;
+  --background: #007965;
+  --background-clair: #00af91;
+  --background-fonce: #003D33;
   --background-articles: #f7f3e9;
   --color-major: #ffcc29;
   --color-major-clair: #FFDF75;

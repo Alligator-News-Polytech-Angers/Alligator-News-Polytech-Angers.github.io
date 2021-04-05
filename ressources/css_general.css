@@ -34,7 +34,6 @@ body {
   text-shadow: var(--shadow-color) 0.1em 0.1em 0.1em;
 }
 .titre p {
-  text-align: center;
   text-decoration: none;
   font-size: 18.2px;
   text-shadow: var(--shadow-color) 0.01em 0.005em 0.001em;
