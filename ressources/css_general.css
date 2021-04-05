@@ -163,6 +163,7 @@ body {
   background: var(--background-footer-color);
   width: 100%;
   padding: 0px 16px;
+  padding-bottom: 50px;
   z-index: 1;
 }
 .footer h2 { /* Gros titre du footer */
