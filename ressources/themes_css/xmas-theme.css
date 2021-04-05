@@ -76,7 +76,7 @@
   .footer h4 {
     color: var(--or-xmas);
   }
-  @media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC / tablette */
+  @media screen and (min-width: 768px){ /* Resolution d'une fenêtre sur un PC / tablette */
     .titre h1 {
       font-size: 4.62rem;
     }
@@ -84,7 +84,7 @@
       width: 60%;
     }
   }
-  @media screen and (max-width: 760px) { /* Resolution d'un  portable  */
+  @media screen and (max-width: 768px) { /* Resolution d'un  portable  */
     .titre h1 {
       font-size: 4rem;
     }

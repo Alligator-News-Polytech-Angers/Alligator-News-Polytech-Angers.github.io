@@ -128,7 +128,7 @@ img.img_titre_article {
 /*********************/
 /* Responsive layout */
 /*********************/
-@media screen and (max-width: 760px) { /* Resolution d'un  portable */
+@media screen and (max-width: 768px) { /* Resolution d'un  portable */
   .mainArticle {
     padding: 20px 15px;
   }
@@ -157,7 +157,7 @@ img.img_titre_article {
     margin: 5px 0px;
   }
 }
-@media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC  / tablette  */
+@media screen and (min-width: 768px){ /* Resolution d'une fenêtre sur un PC  / tablette  */
   .mainArticle {
     padding: 25px 25px;
   }

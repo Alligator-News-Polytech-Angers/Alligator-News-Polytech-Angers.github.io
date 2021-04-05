@@ -317,7 +317,7 @@ a.mail_link {
 /*********************/
 /* Responsive layout */
 /*********************/
-@media screen and (max-width: 760px) { /* Resolution d'un  portable */
+@media screen and (max-width: 768px) { /* Resolution d'un  portable */
   .Pop_New_MenuView img {
     width: 98%;
   }
@@ -396,7 +396,7 @@ a.mail_link {
     height: 12rem;
   }
 }
-@media screen and (min-width: 761px){ /* Resolution d'une fenêtre sur un PC  / tablette  */
+@media screen and (min-width: 768px){ /* Resolution d'une fenêtre sur un PC  / tablette  */
   .EditionBlockWraped {
     padding-left: 8px;
     padding-right: 8px;
