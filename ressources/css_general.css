@@ -28,7 +28,8 @@ body {
 .titre h1 {
   margin: auto;
   margin-top: 30px;
-  font-size: 64px;
+  font-size: 74px;
+  font-weight: bold;
   font-family: var(--police-titre); /*Arno Pro, Tribun ADF Std, serif;*/
   text-shadow: var(--shadow-color) 0.1em 0.1em 0.1em;
 }
@@ -233,7 +234,7 @@ body {
     flex-direction: column;
   }
   .titre h1 {
-    font-size: 46px;
+    font-size: 53px;
   }
   .titre p {
     font-size: 14px;

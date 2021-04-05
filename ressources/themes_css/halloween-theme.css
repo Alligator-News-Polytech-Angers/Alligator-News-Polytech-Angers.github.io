@@ -28,9 +28,19 @@
   --text1-footer: #fff; /* Textes footer (important) */ 
   --text2-footer: #C8C8C8;; /* Textes footer */
 
-  /* Polices d'écritures */
-  --polices-global: Calibri, serif;
-  --police-titre: Apple Chancery, Arno Pro, cursive;
+    /* Polices d'écritures */
+    --polices-global: Calibri, serif;
+    --police-titre: font_halloween, Arno Pro, cursive;
+}
+  
+/*** POLICE D'ÉCRITURE POUR LE THEME : ***/
+@font-face {
+  font-family: "font_halloween";
+  src: url("../../ressources/images/global/themes/halloween/Frightmare.ttf");
+}
+
+.titre h1 {
+  font-size: 90px;
 }
 
 /*** IMAGES POUR LE THEME : **/
