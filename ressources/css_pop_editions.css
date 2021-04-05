@@ -1,12 +1,12 @@
-/************************************/
-/* Feuille de style Alligator NEWS  */
-/* Copyright :                      */
-/* LÉPINE Thomas                    */
-/************************************/
+/***************************************/
+/** Feuille de style Alligator NEWS  **/
+/** Copyright :                     **/
+/** LÉPINE Thomas                  **/
+/***********************************/
 
-/*****************************************/
-/* Présentation Editions depuis la menu  */
-/*****************************************/
+/********************************************/
+/** Présentation Editions depuis la menu  **/
+/******************************************/
 .Pop_New_MenuView {
   background-color: var(--background-color);
   padding: 0px 20px;
@@ -48,9 +48,9 @@
 }
 /**************************************/
 
-/**************************************/
-/* Editions les différentes rubriques */
-/**************************************/
+/*****************************************/
+/** Editions les différentes rubriques **/
+/***************************************/
 .EditionBlockWraped article {
   color: black;
   display: block;
@@ -83,8 +83,8 @@ div.Edition {
 }
 /*************************/
 
-/*************************/
-/*   Editions completes  */
+/***************************/
+/**  Editions completes  **/
 /*************************/
 .FullArticle {
   background-color: var(--background-article-color);
@@ -154,7 +154,7 @@ p.link a{
   margin: auto;
   width: 28%;
 }
-img.img_titre_popWraped {
+img.img_titre_article {
   display: block;
   margin: auto;
   padding: 1px 0px;
@@ -170,13 +170,13 @@ img.img_titre_popBig {
   z-index: 1;
 }
 .cadre {
-    display:block; /* Permet de centrer l'image (le transform en un 'block') */
-    margin: auto;
-    border-color: #995231 #4D2411;
-    border-style: solid;
-    border-width: 10px;
-    width: 44%;
-    margin-bottom: 10px;
+  display:block; /* Permet de centrer l'image (le transform en un 'block') */
+  margin: auto;
+  border-color: #995231 #4D2411;
+  border-style: solid;
+  border-width: 10px;
+  width: 44%;
+  margin-bottom: 10px;
 }
 .legende {
   font-style: italic;
@@ -187,7 +187,7 @@ img.img_titre_popBig {
   height: 2px;
   border: 0;
   text-align: center;
-  margin: 6px 18px;
+  margin: 6px 16px;
 }
 table.img_inligne {
   table-layout: fixed;
@@ -301,11 +301,6 @@ a.mail_link {
 }
 /*************************************/
 
-.sky {
-  height: 100%;
-  color: #FFF;
-  display: block;
-}
 /***********  Vidéos YouTube *************/
 .video_youtube {
   display: block;
@@ -314,9 +309,10 @@ a.mail_link {
   height: 18rem;
 }
 
-/*********************/
-/* Responsive layout */
-/*********************/
+/** ******* /!\ ******* **/
+/************************/
+/** Responsive layout **/
+/**********************/
 @media screen and (max-width: 768px) { /* Resolution d'un  portable */
   .Pop_New_MenuView img {
     width: 98%;
@@ -372,7 +368,7 @@ a.mail_link {
   .EditionBig img.img_article {
     width: 80%;
   }
-  img.img_titre_popWraped {
+  img.img_titre_article {
     width: 100%;
   }
   img.img_titre_popBig {

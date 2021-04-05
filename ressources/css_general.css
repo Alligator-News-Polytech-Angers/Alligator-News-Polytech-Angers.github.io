@@ -1,9 +1,9 @@
-/************************************/
-/* Feuille de style Alligator NEWS  */
-/* Copyright :                      */
-/* PERCEREAU Lucas                  */
-/* LÉPINE Thomas                    */
-/************************************/
+/***************************************/
+/** Feuille de style Alligator NEWS  **/
+/** Copyright :                     **/
+/** PERCEREAU Lucas                **/
+/** LÉPINE Thomas                 **/
+/**********************************/
 
 * {
   box-sizing: border-box;
@@ -12,9 +12,9 @@ body {
   font-family: var(--polices-global); /*Calibri, Arial, sans-serif;*/
   margin: 0;
 }
-/*********/
-/* Header */
-/**********/
+/*************/
+/** Header **/
+/***********/
 .header {
   background: var(--background-header-color);
   display: flex;
@@ -66,9 +66,9 @@ body {
   float: right;
   margin-right: 28px;
 }
-/***********************/
-/* Barre de navigation */
-/***********************/
+/**************************/
+/** Barre de navigation **/
+/************************/
 .navbar {
   display: flex;
   background-color: var(--pantone486C);
@@ -96,9 +96,9 @@ body {
   margin-bottom: 0px;
 }
 
-/***********************/
-/*   Menu deroulant    */
-/***********************/
+/**************************/
+/**   Menu deroulant    **/
+/************************/
 .sous{
   display: none;
   background-color: var(--pantone486C);
@@ -132,8 +132,9 @@ body {
   text-shadow: black 0.01em 0.05em 0.05em; color: red; float: right; margin-right: 10px; padding-bottom: 5px; font-style: italic; font-size: 20px;
 }
 
-/***********************/
-/* Éléments commun à "Edition" et "Article" */
+/***********************************************/
+/** Éléments commun à "Edition" et "Article" **/
+/*********************************************/
 .legende_photo {
   margin-top: 5px;
   margin-bottom: 12px;
@@ -155,9 +156,9 @@ body {
   letter-spacing: 0.07em;
 }
 
-/**********/
-/* Footer */
-/**********/
+/*************/
+/** Footer **/
+/***********/
 .footer {
   text-align: center;
   background: var(--background-footer-color);
@@ -225,9 +226,9 @@ body {
 }
 /**********/
 
-/*********************/
-/* Responsive layout */
-/*********************/
+/************************/
+/** Responsive layout **/
+/**********************/
 @media screen and (max-width: 768px) { /* Resolution d'un  portable  */
   .row, .navbar {
     flex-direction: column;
