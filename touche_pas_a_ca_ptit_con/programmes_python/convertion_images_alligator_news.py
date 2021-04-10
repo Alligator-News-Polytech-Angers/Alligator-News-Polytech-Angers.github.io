@@ -43,17 +43,11 @@ output_directory = ""
 for i in range(0, len(path_used)):
 	output_directory += path_used[i] + '\\'	
 
-input_directory_automatic = output_directory + 'images_a_convertir\\'
+input_directory = output_directory + 'images_a_convertir\\'
 output_directory += 'ressources\\images\\pop\\' #Chemin où seront sauvegardés les images
 print("output_directory USED :" + output_directory + "\n\n")
-print("Quel est le chemin du dossier des images à convertir ? (1 pour le chemin automatique)")
-input_console = input()
-if input_console == '1' :
-	input_directory = input_directory_automatic
-else :	
-	input_directory = input() + "\\"
+print("Les images à convertir doivent être présentes dans le fichier 'images_a_convertir'")
 
-print('\n')
 print("De quel édition il s'agit ?")
 output_directory += input()
 print('\n')

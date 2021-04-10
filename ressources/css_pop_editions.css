@@ -56,7 +56,7 @@
   color: black;
   display: block;
   text-decoration: none;
-  padding: 15px 10px;
+  padding: 10px 10px;
   z-index: 2;
 }
 .Edition {
@@ -70,7 +70,7 @@
   margin-bottom: -8px;
 }
 .EditionBig article {
-  padding: 15px 0px;
+  padding: 10px 0px;
 }
 div.Edition {
   position: relative;
@@ -81,6 +81,7 @@ div.Edition {
 }
 .containerTheme {
   background-color: var(--background-color);
+  padding-bottom: 20px;
 }
 /*************************/
 
@@ -159,13 +160,12 @@ img.img_titre_article {
   display: block;
   margin: auto;
   padding: 1px 0px;
-  width: 90%;
+  width: 85%;
 }
 img.img_titre_popBig {
   display: block;
-  margin: auto;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding: 8px 0;
+  margin: 10px auto;
   width: 58%;
   position: relative;
   z-index: 1;
@@ -328,7 +328,10 @@ a.mail_link {
     margin-top: -15px;
   }
   .EditionBlockWraped article{
-    padding: 10px 5px;
+    padding: 10px 8px;
+  }
+  .EditionBlockWraped img.img_article {
+    width: 80%;
   }
   .Edition {
     padding: 4px 5px;
@@ -363,9 +366,6 @@ a.mail_link {
   td.legende {
     font-size: 12px;
   }
-  .EditionBlockWraped img.img_article {
-    width: 80%;
-  }
   .EditionBig img.img_article {
     width: 80%;
   }
@@ -373,7 +373,7 @@ a.mail_link {
     width: 100%;
   }
   img.img_titre_popBig {
-    width: 100%;
+    width: 98.5%;
   }
   .cadre {
     border-width: 8px;
@@ -395,10 +395,7 @@ a.mail_link {
 }
 @media screen and (min-width: 768px){ /* Resolution d'une fenêtre sur un PC  / tablette  */
   .EditionBlockWraped {
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 0 8px;
     width: 100%;
     flex-wrap: wrap;
     display: flex;
