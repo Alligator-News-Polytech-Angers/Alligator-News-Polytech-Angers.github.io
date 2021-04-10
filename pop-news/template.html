@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang='fr'>
+<html lang='fr' xmlns:og="http://ogp.me/ns#">
+
 <head>
 	<!-- TODO : À modifier ↓ -->
 	<title>Alligator news - Edition#X</title>
@@ -18,19 +19,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!-- Description de la page ↓ -->
 	<meta name="description" content="Alligator News : site du journal de Polytech Angers" />
-	<!-- Mots clés de la page : référencement ↓ -->
-	<meta name="keywords" content="Alligator News, edition X" />
 
 	<!-- Meta spécifique pour les réseaux sociaux : -->
 	<meta property="og:type" content='siteweb' />
-	<meta property="og:title" content='Alligator News' />
 	<meta property="og:description" content="Édition de l'Alligator News : site du journal de Polytech Angers" />
 	<meta property="og:local" content='fr' />
 	<meta property="og:site_name" content='Alligator NEWS' />
-	<meta property="og:url" content='https://alligator-news-polytech-angers.github.io/' />
+	<!-- TODO : À modifier (le 'X' pour mettre le numéro de l'édion) ↓ -->
+	<meta property="og:title" content='Alligator NEWS, edition X' />
+	<!-- TODO : À modifier (le 'X' pour mettre le numéro de l'édion) ↓ -->
+	<meta name="keywords" content="Alligator NEWS, edition X" />
 	<!-- TODO : À modifier (l'image permettant l'aperçu de l'édition via le lien partagé sur les réseaux sociaux) ↓ -->
-	<!-- Aperçu du lien (Attention, le format .svg et .gif ne fonctionnent pas) ↓ -->
-	<meta property="og:image" content="../ressources/images/pop/X/img_lien_pop_X.jpg" />
+	<meta property="og:image" content="../ressources/images/pop/X/img_lien_pop_X.jpg" /> <!-- ← Aperçu du lien (Attention, le format .svg et .gif ne fonctionnent pas) -->
 </head>
 
 <script>
@@ -65,7 +65,7 @@
 
 	<!-- Container des articles :  -->
 	<div class="containerTheme">
-		
+
 		<div class="EditionBig" id="logo_edition">
 			<!-- TODO : À modifier (Image de l'édition) ↓ -->
 			<!-- LOGO / BANNIERE DE L'ÉDITION -->
@@ -89,7 +89,7 @@
 							N'hésitez plus,
 							rejoignez-nous, on a des cookies ♥
 						</p>
-						<img class="img_article" loading="eager" style="width: 88%;"
+						<img class="img_article" style="width: 88%;"
 							src="../ressources/images/pop/affiche_recrutement.webp" />
 						<hr>
 					</div>
@@ -946,20 +946,17 @@
 						<br />
 						<table class="img_inligne2">
 							<tr>
-								<td class="img"><img loading="auto"
-										src="../ressources/images/pop/4/meme1_thomas-lepine.webp" /></td>
-								<td class="img"><img loading="auto"
-										src="../ressources/images/pop/4/meme2_clement-robichon.webp" /></td>
+								<td class="img"><img src="../ressources/images/pop/4/meme1_thomas-lepine.webp" /></td>
+								<td class="img"><img src="../ressources/images/pop/4/meme2_clement-robichon.webp" />
+								</td>
 							</tr>
 							<tr>
 								<td class="legende">[OC] de Thomas Lépine</td>
 								<td class="legende">[OC] de Clément Robichon</td>
 							</tr>
 							<tr>
-								<td class="img"><img loading="auto"
-										src="../ressources/images/pop/4/meme1_doriane_prn.webp" /></td>
-								<td class="img"><img loading="auto"
-										src="../ressources/images/pop/4/meme3-thomas-lepine.webp" /></td>
+								<td class="img"><img src="../ressources/images/pop/4/meme1_doriane_prn.webp" /></td>
+								<td class="img"><img src="../ressources/images/pop/4/meme3-thomas-lepine.webp" /></td>
 							</tr>
 							<tr>
 								<td class="legende">[OC] de Doriane Prn</td>
@@ -1010,7 +1007,7 @@
 							<h4>Si vous êtes intéressé pour rejoindre l’équipe, envoyez nous un message par e-mail,
 								Facebook, ... !</h4>
 						</center>
-						<img style="width:24%; display:block; margin: 5px auto;" loading="lazy"
+						<img style="width:24%; display:block; margin: 5px auto;"
 							src="../ressources/images/global/logo_alligator_news.svg" alt="*Logo Alligator News*">
 						<br />
 						<div class="signature">-- L'équipe Alligator News</div> <!-- Signature de la rubrique -->
@@ -1028,12 +1025,12 @@
 		</div>
 		<br />
 		<h2 id="contact">CONTACT</h2>
-		<a href="https://www.facebook.com/AlligatorNews.486C/" loading="lazy" target="_blank"><img
+		<a href="https://www.facebook.com/AlligatorNews.486C/" target="_blank"><img
 				src="../ressources/images/global/logo_fb.png" alt="logo_facebook"></a>
-		<a href="https://www.instagram.com/alligator_news.angers/" loading="lazy" target="_blank"><img
+		<a href="https://www.instagram.com/alligator_news.angers/" target="_blank"><img
 				src="../ressources/images/global/logo_insta.png" alt="logo_instagram"></a>
 		<a href="mailto:alligatornews.polytech.angers@gmail.com"><img src="../ressources/images/global/logo_mail.png"
-				loading="lazy" alt="logo_send_mail"></a>
+				alt="logo_send_mail"></a>
 		<h5>Si vous rencontrez un problème, une faute, un bug, ... Merci de contacter l'équipe d'Alligator News ☺</h5>
 		<a href="mailto:alligatornews.polytech.angers@gmail.com">
 			<h4>alligatornews.polytech.angers@gmail.com</h4>
@@ -1048,72 +1045,66 @@
 			<tr>
 				<td class="name_right_footer">
 					<p>► Thomas LÉPINE <a href="https://www.linkedin.com/in/thomas-l%C3%A9pine/" target="_blank"><img
-								src="../ressources/images/global/logo_linkedin.png" loading="auto"
-								alt="logo_linkedin"></a></p>
+								src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
 				</td>
 				<td class="name_left_footer">
 					<p>► Caitlin JOLIVET <a href="https://www.linkedin.com/in/caitlin-jolivet-8bb56b140/"
-							target="_blank"><img src="../ressources/images/global/logo_linkedin.png" loading="auto"
+							target="_blank"><img src="../ressources/images/global/logo_linkedin.png"
 								alt="logo_linkedin"></a></p>
 				</td>
 			</tr>
 			<tr>
 				<td class="name_right_footer">
 					<p>► Yohann HIRRIEN <a href="https://www.linkedin.com/in/yohann-hirrien-a60571140/"
-							target="_blank"><img src="../ressources/images/global/logo_linkedin.png" loading="auto"
+							target="_blank"><img src="../ressources/images/global/logo_linkedin.png"
 								alt="logo_linkedin"></a></p>
 				</td>
 				<td class="name_left_footer">
 					<p>► Lucas PERCEREAU <a href="https://www.linkedin.com/in/lucas-percereau/" target="_blank"><img
-								src="../ressources/images/global/logo_linkedin.png" loading="auto"
-								alt="logo_linkedin"></a></p>
+								src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
 				</td>
 			</tr>
 			<tr>
 				<td class="name_right_footer">
 					<p>► Clément ROBICHON <a href="https://www.linkedin.com/in/cl%C3%A9ment-robichon-1b562a1a5/"
-							target="_blank"><img src="../ressources/images/global/logo_linkedin.png" loading="auto"
+							target="_blank"><img src="../ressources/images/global/logo_linkedin.png"
 								alt="logo_linkedin"></a></p>
 				</td>
 				<td class="name_left_footer">
 					<p>► Maxime DUC <a href="https://www.linkedin.com/in/maxime-duc-551714180" target="_blank"><img
-								src="../ressources/images/global/logo_linkedin.png" loading="auto"
-								alt="logo_linkedin"></a></p>
+								src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
 				</td>
 			</tr>
 			<tr>
 				<td class="name_right_footer">
 					<p>► Florian ROBIC <a href="https://www.linkedin.com/in/florian-robic/" target="_blank"><img
-								src="../ressources/images/global/logo_linkedin.png" loading="auto"
-								alt="logo_linkedin"></a></p>
+								src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
 				</td>
 				<td class="name_left_footer">
 					<p>► Léo BLAISE <a href="https://www.linkedin.com/in/leo-blaise-584929153/" target="_blank"><img
-								src="../ressources/images/global/logo_linkedin.png" loading="auto"
-								alt="logo_linkedin"></a></p>
+								src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
 				</td>
 			</tr>
 			<tr>
 				<td class="name_right_footer">
 					<p>► Cloé DEHOURS <a href="https://www.linkedin.com/in/clo%C3%A9-dehours-12957a1b8/"
-							target="_blank"><img src="../ressources/images/global/logo_linkedin.png" loading="auto"
+							target="_blank"><img src="../ressources/images/global/logo_linkedin.png"
 								alt="logo_linkedin"></a></p>
 				</td>
 				<td class="name_left_footer">
 					<p>► Gaëtan MARIE <a href="https://www.linkedin.com/in/ga%C3%ABtan-marie/" target="_blank"><img
-								src="../ressources/images/global/logo_linkedin.png" loading="auto"
-								alt="logo_linkedin"></a></p>
+								src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
 				</td>
 			</tr>
 			<tr>
 				<td class="name_right_footer">
 					<p>► Louise ROLLET <a href="https://www.linkedin.com/in/louise-rollet-polytechangers/"
-							target="_blank"><img src="../ressources/images/global/logo_linkedin.png" loading="auto"
+							target="_blank"><img src="../ressources/images/global/logo_linkedin.png"
 								alt="logo_linkedin"></a></p>
 				</td>
 				<!-- <td class="name_left_footer">
 					<p>► XXX <a href="" target="_blank"><img
-						src="../ressources/images/global/logo_linkedin.png" loading="auto"
+						src="../ressources/images/global/logo_linkedin.png" 
 						alt="logo_linkedin"></a></p>
 				</td> -->
 			</tr>
@@ -1122,8 +1113,10 @@
 		<p>Si tu souhaites faire partie de l'équipe, n'hésite pas à nous contacter ! <i>En plus on a des cookies (des
 				vrais bien sûr)</i></p>
 		<br /><br />
-		<img class="img_easter_egg" loading="lazy" src="../ressources/images/pop/X/img-footer-alligator_news.svg"
+		<!-- TODO : MODIFIER L'IMAGE PRESENTE ICI ↓ -->
+		<img class="img_easter_egg" loading="lazy" src="../ressources/images/pop/X/img-footer-polytech_angers.svg"
 			alt="Image">
 	</div>
 </body>
+
 </html>
