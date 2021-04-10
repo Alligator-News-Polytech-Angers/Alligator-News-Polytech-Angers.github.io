@@ -1,0 +1,43 @@
+/*****************************************/
+/*** Feuille de style Alligator NEWS  ***/
+/***   ~ Thème global de la page ~   ***/
+/***    Copyright: LÉPINE Thomas    ***/
+/*************************************/
+
+/* Thème CLASSIQUE */
+
+:root {
+
+    /*** PALETTE ***/
+    --background: #750C0C;
+    --background-articles: #FDF5E6;
+    --color-major: #137FC2;
+    --color-major-clair: #004875;
+    /*** ******* ***/
+
+
+  /* Navbar */
+  --pantone486C: var(--color-major); /* Pantone 486C -> rose Saumon Polytech Angers */
+  --navbar-hover: var(--color-major-clair); /* Couleur secondaire navbar */
+  --navbar-text: var(--background-articles); /* Couleur textes navbar */
+  --navbar-text-hover: #fff; /* Couleur textes navbar en hover (souris sur la case) */
+
+  /* Titres header */
+  --title-color: #fff; /* Couleur du grand titre */
+  --shadow-color: #222; /* Couleur des ombres */
+  --title-span-color: #C8C8C8; /* Couleur titre "span" -> sans pubs et sans cookies */
+
+  /* Corps de la page */
+  --background-header-color: var(--background); /* Couleur (background) du header */
+  --background-color: var(--background);  /* Couleur du fond global */
+  --background-article-color: var(--background-articles);  /* Fond des articles */ 
+
+  /* Footer */
+  --background-footer-color: #333; /* Fond du footer */
+  --text1-footer: #fff; /* Textes footer (important) */ 
+  --text2-footer: #C8C8C8;; /* Textes footer */
+
+   /* Polices d'écritures */
+   --polices-global: Calibri, Arial, sans-serif;
+   --police-titre: Arno Pro, Tribun ADF Std, serif;
+}
