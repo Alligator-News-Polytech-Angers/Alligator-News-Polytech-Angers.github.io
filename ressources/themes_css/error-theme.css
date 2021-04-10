@@ -8,13 +8,12 @@
 
 :root {
 
-    /*** PALETTE ***/
-    --background: #750C0C;
-    --blanc-casse: #FDF5E6;
-    --color-major: #137FC2;
-    --color-major-fonce: #B50801;
-    /*** ******* ***/
-
+  /*** PALETTE ***/
+  --background: #750C0C;
+  --blanc-casse: #FDF5E6;
+  --color-major: #137FC2;
+  --color-major-fonce: #B50801;
+  /*** ******* ***/
 
   /* Navbar */
   --pantone486C: var(--blanc-casse); /* Pantone 486C -> rose Saumon Polytech Angers */
