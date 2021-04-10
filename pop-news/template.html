@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
+	<!-- TODO : À modifier ↓ -->
 	<title>Alligator news - Edition#X</title>
+
+	<!-- Balises <link> : permet d'ajouter des fichiers "externes" (feuilles de style = .css / scripts JavaScript = .js / ...) -->
 	<link rel="icon" type="image/ico" href="../ressources/images/global/logo_alligator_news_ico.ico" />
 	<link rel="stylesheet" type="text/css" href="../ressources/css_general.css" />
 	<link rel="stylesheet" type="text/css" href="../ressources/css_pop_editions.css" />
 	<link rel="stylesheet" type="text/css" href="../ressources/themes_css/classic-theme.css" />
-	<!-- Thème (couleurs) de l'édition -->
-	<link rel="stylesheet" type="text/css" href="../ressources/css_tests.css" />
-	<!-- Page css pour effectuer les diférents tests avant de les ajouter à la version de dev -->
+
+	<!-- Balises <meta> : permet de rajouter de la méta-données -->
+	<!-- FORMAT des textes ↓ -->
 	<meta charset="UTF-8" />
+	<!-- Récupération des caractéristiques de l'application ↓ -->
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!-- Récupération des caractéristiques de l'application -->
+	<!-- Description de la page ↓ -->
 	<meta name="description" content="Alligator News : site du journal de Polytech Angers" />
-	<!-- Description de la page : Référencement -->
-	<meta name="keywords" content="Alligator News, edition X" /> <!-- Mots clés de la page : Référencement -->
-	<!-- meta spécifique pour les réseaux sociaux : -->
-	<meta property="og:image" content="../ressources/images/pop/4/img_lien_pop_4.webp" />
-	<!-- Aperçu du lien (Attention, le format .svg et .gif ne fonctionnent pas) -->
+	<!-- Mots clés de la page : référencement ↓ -->
+	<meta name="keywords" content="Alligator News, edition X" />
+
+	<!-- Meta spécifique pour les réseaux sociaux : -->
 	<meta property="og:type" content="siteweb" />
+	<meta property="og:title" content="Alligator News" />
+	<meta property="og:url" content="https://alligator-news-polytech-angers.github.io/" />
+	<!-- TODO : À modifier ↓ -->
+	<!-- Aperçu du lien (Attention, le format .svg et .gif ne fonctionnent pas) ↓ -->
+	<meta property="og:image" content="../ressources/images/pop/4/img_lien_pop_4.webp" />
 </head>
 
 <script>
@@ -27,6 +34,7 @@
 </script>
 <!-- Nota Bene =  Pour tout réduire sur Visual Studio : Ctrl+k + Ctrl+0 (ou "à" car le 0 du pav numérique ne fonctionne pas -->
 <!-- Crt+k + Ctrl+j pour revenir en tout "déplier" -->
+
 <body role="main">
 	<!-- Header -->
 	<div class="header">
@@ -92,39 +100,40 @@
 				<div class="Edition">
 					<div class="FullArticle">
 						<hr style="background:content-box radial-gradient(#FFC107, #191970);">
-						<img class="img_titre_article" src="../ressources/images/pop/logo_horoscope.svg"
-							alt="*Titre*">
+						<img class="img_titre_article" src="../ressources/images/pop/logo_horoscope.svg" alt="*Titre*">
 						<hr style="background:content-box radial-gradient(#FFFF00, #191970);">
 						<h3>Nos spécialistes ont regardé les étoiles à l'aide de leur microscope pour découvir ce qui
 							vous attend dans le mois !</h3> <!-- Slogan de la rubrique -->
-							<img class="img_article" src="../ressources/images/pop/constellations_polytech_angers.jpg" style="width: 70%;" alt="horoscope" />
-							<br />
-							<h5>BEMS :</h5>
-							<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor
-								convallis. orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem
-								in dolor convallis.</p>
-							<h5>GBS :</h5>
-							<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor
-								convallis. orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem
-								in dolor convallis.</p>
-							<h5>QIF :</h5>
-							<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor
-								convallis. orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem
-								in dolor convallis.</p>
-							<h5>SAGI :</h5>
-							<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor
-								convallis. orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem
-								in dolor convallis.</p>
-							<h5>PeiP :</h5>
-							<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor
-								convallis. orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem
-								in dolor convallis.
-							</p>
-							<br />
-							<br />
-							<img class="img_article" src="../ressources/images/pop/horoscope.webp" style="width: 70%;" alt="horoscope" />
-							<br />						
-							<div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
+						<img class="img_article" src="../ressources/images/pop/constellations_polytech_angers.jpg"
+							style="width: 70%;" alt="horoscope" />
+						<br />
+						<h5>BEMS :</h5>
+						<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor
+							convallis. orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem
+							in dolor convallis.</p>
+						<h5>GBS :</h5>
+						<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor
+							convallis. orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem
+							in dolor convallis.</p>
+						<h5>QIF :</h5>
+						<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor
+							convallis. orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem
+							in dolor convallis.</p>
+						<h5>SAGI :</h5>
+						<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor
+							convallis. orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem
+							in dolor convallis.</p>
+						<h5>PeiP :</h5>
+						<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem in dolor
+							convallis. orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet sem
+							in dolor convallis.
+						</p>
+						<br />
+						<br />
+						<img class="img_article" src="../ressources/images/pop/horoscope.webp" style="width: 70%;"
+							alt="horoscope" />
+						<br />
+						<div class="signature">-- La belle signature</div> <!-- Signature de la rubrique -->
 					</div>
 				</div>
 			</article>
@@ -192,8 +201,7 @@
 				<div class="Edition">
 					<div class="FullArticle">
 						<hr style="background:content-box radial-gradient(#FFDD00, #E72500);">
-						<img class="img_titre_article" src="../ressources/images/pop/logo_quick_news.svg"
-							alt="*Titre*">
+						<img class="img_titre_article" src="../ressources/images/pop/logo_quick_news.svg" alt="*Titre*">
 						<hr style="background:content-box radial-gradient(#FFDD00, #E72500);">
 						<h3>Des news à ne pas manquer !</h3> <!-- Slogan de la rubrique -->
 						<h2>Mario kart à la maison !</h2>
@@ -348,9 +356,9 @@
 						</table>
 						<br />
 						<div class="signature">-- Vos clubs adorés ❤️ </div>
-								<!-- Signature de la rubrique -->
-						</div>
+						<!-- Signature de la rubrique -->
 					</div>
+				</div>
 			</article>
 			<article id="infos_angers">
 				<!-- INFOS ANGERS -->
@@ -386,8 +394,8 @@
 						<h3>Découvrez les profs comme vous ne les avez jamais vus !</h3> <!-- Slogan de la rubrique -->
 						<p>Dans cette deuxième édition, nous avons interviewé <b>Nizar Chatti</b>. Enseignant chercheur
 							au LARIS depuis 2014 ...</p>
-						<img class="img_article" src="../ressources/images/pop/2/inter_chatti.webp"
-							alt="Nizar Chatti" style="width:45%;">
+						<img class="img_article" src="../ressources/images/pop/2/inter_chatti.webp" alt="Nizar Chatti"
+							style="width:45%;">
 						<p>
 							L’innovation pédagogique a eu du pain sur la planche depuis le début du confinement avec la
 							transformation des cours en présentiel en cours en distanciel.
@@ -415,8 +423,7 @@
 				<div class="Edition">
 					<div class="FullArticle">
 						<hr style="background:#0E5705;">
-						<img class="img_titre_article" src="../ressources/images/pop/logo_qui_a_dit.svg"
-							alt="*Titre*">
+						<img class="img_titre_article" src="../ressources/images/pop/logo_qui_a_dit.svg" alt="*Titre*">
 						<hr style="background:#0E5705;">
 						<h3>LA rubrique qui te permettra de ta la péter en soirée !</h3> <!-- Slogan de la rubrique -->
 						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin
@@ -543,8 +550,8 @@
 				<div class="Edition">
 					<div class="FullArticle">
 						<hr style="background:content-box radial-gradient(#00427B, #C77A00);">
-						<img class="img_titre_article"
-							src="../ressources/images/pop/logo_nos_eleves_ont_du_talents.svg" alt="*Titre*">
+						<img class="img_titre_article" src="../ressources/images/pop/logo_nos_eleves_ont_du_talents.svg"
+							alt="*Titre*">
 						<hr style="background:content-box radial-gradient(#00427B, #C77A00);">
 						<h3>Nos Étudiants ont du Talent !</h3> <!-- Slogan de la rubrique -->
 						<br />
@@ -591,8 +598,7 @@
 				<div class="Edition">
 					<div class="FullArticle">
 						<hr style="background:content-box radial-gradient(#166D83, #0B3641);">
-						<img class="img_titre_article" src="../ressources/images/pop/logo_rotagilla.svg"
-							alt="*Titre*">
+						<img class="img_titre_article" src="../ressources/images/pop/logo_rotagilla.svg" alt="*Titre*">
 						<hr style="background:content-box radial-gradient(#166D83, #0B3641);">
 						<h3>L'info retournée et 100% non vérifiée !</h3> <!-- Slogan de la rubrique -->
 						<p>
@@ -611,11 +617,11 @@
 							Si n
 						</p>
 						<br />
-						<img class="img_article" src="../ressources/images/pop/2/rotagilla_plage.webp"
-							alt="plage">
+						<img class="img_article" src="../ressources/images/pop/2/rotagilla_plage.webp" alt="plage">
 						<br />
 						<h4>
-							<center>N’oubliez pas de toujours vérifier qu’il n’y ait pas de serpent 🐍 dans vos chaussures 👟,
+							<center>N’oubliez pas de toujours vérifier qu’il n’y ait pas de serpent 🐍 dans vos
+								chaussures 👟,
 								bon appétit et à la prochaine !</center>
 						</h4>
 						<br />
@@ -735,7 +741,8 @@
 						<hr style="background: linear-gradient(to left, #F90 40%, #F30 58%);">
 						<img class="img_titre_article" src="../ressources/images/pop/logo_wonderland.svg" alt="*Titre*">
 						<hr style="background:#0099CC;">
-						<h3>Portrait sur des personnages emblématiques provenant de vos fictions préférées !</h3> <!-- Slogan de la rubrique -->
+						<h3>Portrait sur des personnages emblématiques provenant de vos fictions préférées !</h3>
+						<!-- Slogan de la rubrique -->
 						<h2>Titre possible</h2>
 						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin
 							ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne
@@ -780,7 +787,8 @@
 				<div class="Edition">
 					<div class="FullArticle">
 						<hr style="background:content-box radial-gradient(#E8927D, #333333);">
-						<img class="img_titre_article" src="../ressources/images/pop/logo_resultats_bds.svg" alt="*Titre*">
+						<img class="img_titre_article" src="../ressources/images/pop/logo_resultats_bds.svg"
+							alt="*Titre*">
 						<hr style="background:content-box radial-gradient(#E8927D, #333333);">
 						<h3>Ne loupez aucun résultat des équipes sportives de Polytech Angers !</h3>
 						<h2>Titre possible</h2>
@@ -803,9 +811,11 @@
 				<div class="Edition">
 					<div class="FullArticle">
 						<hr style="background:content-box radial-gradient(#B36212, #663300);">
-						<img class="img_titre_article" src="../ressources/images/pop/logo_histoire_d_une_invention.svg" alt="*Titre*">
+						<img class="img_titre_article" src="../ressources/images/pop/logo_histoire_d_une_invention.svg"
+							alt="*Titre*">
 						<hr style="background:content-box radial-gradient(#B36212, #663300);">
-						<h3>Découvrez l'incroyable histoire d'une invention qui a révolutioné notre monde !</h3> <!-- Slogan de la rubrique -->
+						<h3>Découvrez l'incroyable histoire d'une invention qui a révolutioné notre monde !</h3>
+						<!-- Slogan de la rubrique -->
 						<h2>Titre possible</h2>
 						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin
 							ad eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne
@@ -844,7 +854,7 @@
 					</div>
 				</div>
 			</article>
-			
+
 		</div>
 		<!-- Contenu de l'édition (gros format = toute la largeur de la page) -->
 		<div class="EditionBig">
@@ -856,7 +866,8 @@
 						<img class="img_titre_article" src="../ressources/images/pop/logo_mise_en_lumiere.svg"
 							alt="*Titre*">
 						<hr style="background:content-box radial-gradient(#FF0000, #000000);">
-						<h3>Installez-vous confortablement, on va vous éclairer sur ce que vous ne devez pas manquer !</h3>
+						<h3>Installez-vous confortablement, on va vous éclairer sur ce que vous ne devez pas manquer !
+						</h3>
 						<!-- Slogan de la rubrique -->
 						<br />
 						<h2>Jojo Rabbit - Film</h2>
@@ -871,11 +882,14 @@
 						<hr style="background:#004875;"><br />
 
 						<img class="img_article" src="../ressources/images/pop/X/alli_test.jpg" alt="*logo_alli*">
-						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad
+						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin
+							ad
 							eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus
-							quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire
+							quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid
+							scire
 							se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis
-							teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis atque
+							teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis
+							atque
 							artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem
 							omniaque perpeti ipsa cognitione et scientia captos et cum maximis
 							curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
@@ -892,11 +906,14 @@
 						</table>
 
 						<br /><br />
-						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin ad
+						<p>Tantus est igitur innatus in nobis cognitionis amor et scientiae ut nemo dubitare possit quin
+							ad
 							eas res hominum natura nullo emolumento invitata rapiatur. Videmusne ut pueri ne verberibus
-							quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid scire
+							quidem a contemplandis rebus perquirendisque deterreantur ? Ut pulsi recurrant? Ut aliquid
+							scire
 							se gaudeant ? Ut id aliis narrare gestiant ? Ut pompa, ludis atque eius modi spectaculis
-							teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis atque
+							teneantur ob eamque rem vel famem et sitim perferant ? Quid vero ? Qui ingeniis studiis
+							atque
 							artibus delectantur, nonne videmus eos nec valetudinis nec rei familiaris habere rationem
 							omniaque perpeti ipsa cognitione et scientia captos et cum maximis
 							curis et laboribus compensare eam quam ex discendo capiant voluptatem ?</p>
@@ -918,7 +935,8 @@
 						<br />
 						<i>Nous utiliseront 3 mentions :
 							<br />- [OC] : Original Content, un mème créé par un membre de l'équipe Alligator News,
-							<br />- [OCBR] : Original Content By a Reader, un mème créé par un étudiant de Polytech Angers,
+							<br />- [OCBR] : Original Content By a Reader, un mème créé par un étudiant de Polytech
+							Angers,
 							<br />- Stolen : un mème chiné sur internet.</i>
 						<br />
 						<br />
@@ -978,9 +996,11 @@
 								larmes
 								d’alligator, parce que nous serons très vite de retour avec du nouveau contenu !</h4>
 							<br />
-							<h4>La prochaine édition sera une édition spéciale : "Alligator News summer edition" ! Rien de
+							<h4>La prochaine édition sera une édition spéciale : "Alligator News summer edition" ! Rien
+								de
 								mieux pour
-								ensoleiler votre été ♥ Cette édition devrait sortir courant juillet (si tout se passe comme
+								ensoleiler votre été ♥ Cette édition devrait sortir courant juillet (si tout se passe
+								comme
 								prévu).</h4>
 							<br />
 							<h4>Si vous êtes intéressé pour rejoindre l’équipe, envoyez nous un message par e-mail,
@@ -996,7 +1016,7 @@
 		</div>
 		<br />
 	</div>
-	
+
 	<!-- Footer -->
 	<div class="footer" id="footer">
 		<div class="citation">
@@ -1032,7 +1052,7 @@
 					<p>► Caitlin JOLIVET <a href="https://www.linkedin.com/in/caitlin-jolivet-8bb56b140/"
 							target="_blank"><img src="../ressources/images/global/logo_linkedin.png" loading="auto"
 								alt="logo_linkedin"></a></p>
-				</td>				
+				</td>
 			</tr>
 			<tr>
 				<td class="name_right_footer">
@@ -1048,8 +1068,8 @@
 			</tr>
 			<tr>
 				<td class="name_right_footer">
-					<p>► Clément ROBICHON <a href="https://www.linkedin.com/in/cl%C3%A9ment-robichon-1b562a1a5/" target="_blank"><img
-								src="../ressources/images/global/logo_linkedin.png" loading="auto"
+					<p>► Clément ROBICHON <a href="https://www.linkedin.com/in/cl%C3%A9ment-robichon-1b562a1a5/"
+							target="_blank"><img src="../ressources/images/global/logo_linkedin.png" loading="auto"
 								alt="logo_linkedin"></a></p>
 				</td>
 				<td class="name_left_footer">
@@ -1072,21 +1092,21 @@
 			</tr>
 			<tr>
 				<td class="name_right_footer">
-					<p>► Cloé DEHOURS <a href="https://www.linkedin.com/in/clo%C3%A9-dehours-12957a1b8/" target="_blank"><img
-						src="../ressources/images/global/logo_linkedin.png" loading="auto"
-						alt="logo_linkedin"></a></p>
+					<p>► Cloé DEHOURS <a href="https://www.linkedin.com/in/clo%C3%A9-dehours-12957a1b8/"
+							target="_blank"><img src="../ressources/images/global/logo_linkedin.png" loading="auto"
+								alt="logo_linkedin"></a></p>
 				</td>
 				<td class="name_left_footer">
 					<p>► Gaëtan MARIE <a href="https://www.linkedin.com/in/ga%C3%ABtan-marie/" target="_blank"><img
-						src="../ressources/images/global/logo_linkedin.png" loading="auto"
-						alt="logo_linkedin"></a></p>
+								src="../ressources/images/global/logo_linkedin.png" loading="auto"
+								alt="logo_linkedin"></a></p>
 				</td>
 			</tr>
 			<tr>
 				<td class="name_right_footer">
-					<p>► Louise ROLLET <a href="https://www.linkedin.com/in/louise-rollet-polytechangers/" target="_blank"><img
-						src="../ressources/images/global/logo_linkedin.png" loading="auto"
-						alt="logo_linkedin"></a></p>
+					<p>► Louise ROLLET <a href="https://www.linkedin.com/in/louise-rollet-polytechangers/"
+							target="_blank"><img src="../ressources/images/global/logo_linkedin.png" loading="auto"
+								alt="logo_linkedin"></a></p>
 				</td>
 				<!-- <td class="name_left_footer">
 					<p>► XXX <a href="" target="_blank"><img
@@ -1099,9 +1119,8 @@
 		<p>Si tu souhaites faire partie de l'équipe, n'hésite pas à nous contacter ! <i>En plus on a des cookies (des
 				vrais bien sûr)</i></p>
 		<br /><br />
-		<img class="img_easter_egg" loading="lazy" src="../ressources/images/pop/face_new_year-9.jpg"
-			alt="thomas_lepine">
+		<img class="img_easter_egg" loading="lazy" src="../ressources/images/pop/X/img-footer-alligator_news.svg"
+			alt="Image">
 	</div>
 </body>
-
 </html>
