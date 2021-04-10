@@ -10,16 +10,16 @@
 
     /*** PALETTE ***/
     --background: #750C0C;
-    --background-articles: #FDF5E6;
+    --blanc-casse: #FDF5E6;
     --color-major: #137FC2;
-    --color-major-clair: #004875;
+    --color-major-fonce: #B50801;
     /*** ******* ***/
 
 
   /* Navbar */
-  --pantone486C: var(--color-major); /* Pantone 486C -> rose Saumon Polytech Angers */
-  --navbar-hover: var(--color-major-clair); /* Couleur secondaire navbar */
-  --navbar-text: var(--background-articles); /* Couleur textes navbar */
+  --pantone486C: var(--blanc-casse); /* Pantone 486C -> rose Saumon Polytech Angers */
+  --navbar-hover: var(--color-major-fonce); /* Couleur secondaire navbar */
+  --navbar-text: var(--background); /* Couleur textes navbar */
   --navbar-text-hover: #fff; /* Couleur textes navbar en hover (souris sur la case) */
 
   /* Titres header */
@@ -30,7 +30,7 @@
   /* Corps de la page */
   --background-header-color: var(--background); /* Couleur (background) du header */
   --background-color: var(--background);  /* Couleur du fond global */
-  --background-article-color: var(--background-articles);  /* Fond des articles */ 
+  --background-article-color: var(--blanc-casse);  /* Fond des articles */ 
 
   /* Footer */
   --background-footer-color: #333; /* Fond du footer */
