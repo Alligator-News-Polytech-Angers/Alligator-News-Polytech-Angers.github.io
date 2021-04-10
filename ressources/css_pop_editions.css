@@ -9,12 +9,13 @@
 /******************************************/
 .Pop_New_MenuView {
   background-color: var(--background-color);
-  padding: 0px 20px;
+  padding: 20px 20px;
 }
 .Pop_New_MenuView a {
   text-decoration: none;
   display: block;
   padding: 10px 10px;
+  margin: 10px auto;
 }
 .Pop_New_MenuView a:hover {
   background-color: var(--background-article-color);

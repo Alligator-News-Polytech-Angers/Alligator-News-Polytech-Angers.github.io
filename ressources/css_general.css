@@ -163,15 +163,17 @@ body {
   text-align: center;
   background: var(--background-footer-color);
   width: 100%;
-  padding: 0px 16px;
+  padding: 10px 15px;
   padding-bottom: 50px;
   z-index: 1;
+  border-top-width: 10px;
+  border-top-style: solid;
+  border-color: var(--background-footer-color);
 }
 .footer h2 { /* Gros titre du footer */
   color: var(--text1-footer);
   text-decoration: underline;
-  margin: 15px auto;
-  font-size: 27px;
+  font-size: 26px;
 }
 .footer h4 { /* mail*/
   color: var(--text1-footer);
