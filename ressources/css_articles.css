@@ -1,13 +1,13 @@
-/************************************/
-/* Feuille de style Alligator NEWS  */
-/* Copyright :                      */
-/* PERCEREAU Lucas                  */
-/* LÉPINE Thomas                    */
-/************************************/
+/***************************************/
+/** Feuille de style Alligator NEWS  **/
+/** Copyright :                     **/
+/** PERCEREAU Lucas                **/
+/** LÉPINE Thomas                 **/
+/**********************************/
 
-/*************************/
-/* Présentation Articles */
-/*************************/
+/****************************/
+/** Présentation Articles **/
+/**************************/
 .mainMenuArticle {
   background-color: #004875;
 }
@@ -18,23 +18,28 @@
   padding: 10px 10px;
 }
 .mainMenuArticle a:hover {
-  background-color: #FDF5E6;
+  background-color: var(--background-article-color);
+}
+.Edition {
+  border-bottom-style: solid;
+  border-bottom-width: 30px;
+  border-block-end-color: var(--background-article-color);
 }
 .Article {
-  background-color: #FDF5E6;
+  background-color: var(--background-article-color);
   padding: 2px 4px;
   display: flex;
   height: 100%;
 }
 
-/********************/
-/* Articles complet */
-/********************/
+/***********************/
+/** Articles complet **/
+/*********************/
 .mainArticle {
-  background-color: #004875;
+  background-color: var(--background-color);
 }
 .FullArticle {
-  background-color: #FDF5E6;
+  background-color: var(--background-article-color);
   padding: 14px 30px;
 }
 .FullArticle p {
@@ -63,8 +68,8 @@
   width: 30%;
 }
 .FullArticle hr { /* Barre horizontalle séparatrice */
-  color: #004875;
-  background-color: #004875;
+  color: var(--background-color);
+  background-color: var(--background-color);
   height: 2px;
   border: 0;
   text-align: center;
@@ -83,7 +88,6 @@ table.img_inligne img {
   margin-top: 12px;
 }
 .left {
-  /*background-color: #FDF5E6;*/
   padding: 5px;
   flex: 35%;
   display:block; /* Permet de centrer l'image (le transform en un 'block') */
@@ -125,9 +129,9 @@ img.img_titre_article {
   width: 50%;
 }
 
-/*********************/
-/* Responsive layout */
-/*********************/
+/************************/
+/** Responsive layout **/
+/**********************/
 @media screen and (max-width: 768px) { /* Resolution d'un  portable */
   .mainArticle {
     padding: 20px 15px;
