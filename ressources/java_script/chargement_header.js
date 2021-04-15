@@ -1,4 +1,3 @@
 $(document).ready(function(){
-    $("#header-test").load("header-test.html");
-    // $("#footer").load("footer.html");
+    $("#header").load("../elements-html-to-load/header.html");
 });
