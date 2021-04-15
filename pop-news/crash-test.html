@@ -10,6 +10,12 @@
 	<!-- Thème (couleurs) de l'édition -->
 	<link rel="stylesheet" type="text/css" href="../ressources/css_tests.css" />
 	<!-- Page css pour effectuer les diférents tests avant de les ajouter à la version de dev -->
+	
+	<!-- JavaScript : -->
+	<link type="text/javascript" src="../ressources/java_script/jquery-3.6.0.slim.min.js" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+	<link type="text/javascript" src="../ressources/java_script/chargement_header.js" />
+
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!-- Récupération des caractéristiques de l'application -->
@@ -20,6 +26,12 @@
 	<meta property="og:image" content="../ressources/images/pop/4/img_lien_pop_4.webp" />
 	<!-- Aperçu du lien (Attention, le format .svg et .gif ne fonctionnent pas) -->
 	<meta property="og:type" content="siteweb" />
+
+	<script>
+		$(document).ready(function () {
+			$("#header-test").load("../ressources/java_script/header-test.html");
+		});
+	</script>
 </head>
 
 <script>
@@ -29,7 +41,7 @@
 <!-- Crt+k + Ctrl+j pour revenir en tout "déplier" -->
 <body role="main">
 	<!-- Header -->
-	<div class="header">
+	<!-- <div class="header">
 		<div class="LogoPolytech">
 			<img src="../ressources/images/global/logo_polytech-blanc.svg" loading="eager" alt="*Logo Polytech Angers*">
 		</div>
@@ -42,7 +54,9 @@
 		<div class="LogoAlligator">
 			<img src="../ressources/images/global/logo_alligator_news.svg" loading="eager" alt="*logo_alligator_news*">
 		</div>
-	</div>
+	</div> -->
+
+	<div id="header-test"></div>
 
 	<!-- Navigation Bar -->
 	<div class="navbar" role="navigation">

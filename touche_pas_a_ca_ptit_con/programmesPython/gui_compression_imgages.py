@@ -193,7 +193,7 @@ def appCompressionImg():
     width = WINDOWS_OPTIONS['width']/9
     height = WINDOWS_OPTIONS['height']/4.8
 
-    image = PhotoImage(file="./assets/logo_alligator_news.png").zoom(2).subsample(17)
+    image = PhotoImage(file="./images/logo_alligator_news.png").zoom(2).subsample(17)
     imageCanvas = Canvas(header, width=width, height=height,
                          background=WINDOWS_OPTIONS['background-compressionImg'], border=0, highlightthickness=0)
     imageCanvas.create_image(width/2, height/2, image=image)
@@ -203,7 +203,7 @@ def appCompressionImg():
                   background=WINDOWS_OPTIONS['background-compressionImg'], font=('Ink Free', 30, 'bold'), fg='#000')  # border=2, relief=SUNKEN
     titre.grid(row=0, column=1, sticky=W)
 
-    image2 = PhotoImage(file="./assets/logo_compression_images.png").zoom(2).subsample(17)
+    image2 = PhotoImage(file="./images/logo_compression_images.png").zoom(2).subsample(17)
     imageCanvas2 = Canvas(header, width=width, height=height, background=WINDOWS_OPTIONS['background-compressionImg'], border=0, highlightthickness=0)
     imageCanvas2.create_image(width/2, height/2, image=image2)
     imageCanvas2.grid(row=0, column=2, sticky=W)
@@ -285,11 +285,11 @@ def appCompressionImg():
 def startMenu():
     global MAIN_WINDOW
     MAIN_WINDOW = Tk()
-    icoImg = PhotoImage(file="./assets/logo_alligator_news_ico.ico")
+    icoImg = PhotoImage(file="./images/logo_alligator_news_ico.ico")
     MAIN_WINDOW.title('Alligator tool - Compression d\'image(s)')
-    # MAIN_WINDOW.wm_iconbitmap(bitmap ="./assets/logo_alligator_news_ico.ico")
+    # MAIN_WINDOW.wm_iconbitmap(bitmap ="./images/logo_alligator_news_ico.ico")
     # MAIN_WINDOW.tk.call('wm', 'iconphoto', MAIN_WINDOW._w, icoImg)
-    MAIN_WINDOW.iconbitmap("./assets/logo_alligator_news_ico.ico")
+    MAIN_WINDOW.iconbitmap("./images/logo_alligator_news_ico.ico")
     appCompressionImg() # Lancement de la fenêtre
 
 # ----- START UP :

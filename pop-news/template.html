@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang='fr' xmlns:og="http://ogp.me/ns#">
 
+<!-- Nota Bene =  Pour tout réduire sur Visual Studio : Ctrl+k + Ctrl+0 (ou "à" car le 0 du pav numérique ne fonctionne pas -->
+<!-- Crt+k + Ctrl+j pour revenir en tout "déplier" -->
+
 <head>
 	<!-- TODO : À modifier ↓ -->
 	<title>Alligator news - Edition#X</title>
@@ -22,7 +25,7 @@
 
 	<!-- Meta spécifique pour les réseaux sociaux : -->
 	<meta property="og:type" content='website' />
-	<meta property="og:description" content="Édition de l'Alligator News : site du journal de Polytech Angers" />
+	<meta property="og:description" content="Édition de l'Alligator NEWS : site du journal de Polytech Angers" />
 	<meta property="og:local" content='fr' />
 	<meta property="og:site_name" content='Alligator NEWS' />
 	<!-- TODO : À modifier (le 'X' pour mettre le numéro de l'édion) ↓ -->
@@ -34,10 +37,8 @@
 </head>
 
 <script>
-	console.log("Bienvenue sur ALLIGATOR NEWS !");
+	console.log("Bienvenue sur cette édition de l'Alligator NEWS : site du journal de Polytech Angers");
 </script>
-<!-- Nota Bene =  Pour tout réduire sur Visual Studio : Ctrl+k + Ctrl+0 (ou "à" car le 0 du pav numérique ne fonctionne pas -->
-<!-- Crt+k + Ctrl+j pour revenir en tout "déplier" -->
 
 <body role="main">
 	<!-- Header -->
@@ -63,14 +64,13 @@
 		<a href="#contact">Contact</a>
 	</div>
 
-	<!-- Container des articles :  -->
+	<!-- Container des articles : (gère également les couleurs des fonds)  -->
 	<div class="containerTheme">
-
+		<!-- LOGO / BANNIERE DE L'ÉDITION -->
 		<div class="EditionBig" id="logo_edition">
 			<!-- TODO : À modifier (Image de l'édition) ↓ -->
-			<!-- LOGO / BANNIERE DE L'ÉDITION -->
 			<img class="img_titre_popBig" loading="eager" src="../ressources/images/pop/X/logo_pop_news_X.svg"
-				alt="Image bannière de l'édition">
+				alt="Image bannière de l'édition" />
 		</div>
 
 		<div class="EditionBlockWraped">
@@ -97,6 +97,9 @@
 			</article>
 		</div>
 
+		<!-- TODO : À enlever les articles non utiles ↓ -->
+		<!-- TODO : À modifier les articles ceux réalisés par l'équipe ↓ -->
+		<!-- NOTE : les articles sont identifiables à l'aide des balises <article> -->
 		<!-- Contenu de l'édition (petit format) -->
 		<div class="EditionBlockWraped">
 			<article id="horoscope">
@@ -860,6 +863,10 @@
 			</article>
 
 		</div>
+
+		<!-- TODO : À enlever les articles non utiles ↓ -->
+		<!-- TODO : À modifier les articles ceux réalisés par l'équipe ↓ -->
+		<!-- NOTE : les articles sont identifiables à l'aide des balises <article> -->
 		<!-- Contenu de l'édition (gros format = toute la largeur de la page) -->
 		<div class="EditionBig">
 			<article id="mise_en_lumire">
@@ -987,28 +994,26 @@
 					</div>
 				</div>
 			</article>
+
+			<!-- TODO : À modifier (Ne pas oublier de modifier ou enlever le mot de la fin, il change à chaque fois ! ) ↓ -->
 			<article id="le_mot_de_la_fin">
 				<div class="Edition">
 					<!-- LE MOT DE LA FIN -->
 					<div class="FullArticle">
 						<h2>Le mot de la fin ...</h2>
 						<center>
-							<h4>Voici la fin de cette deuxième édition. Mais l’aventure n’est pas finie, séchez donc vos
-								larmes
-								d’alligator, parce que nous serons très vite de retour avec du nouveau contenu !</h4>
+							<!-- TODO : le numéro de l'édition -->
+							<h4>Voici la fin de cette Xème édition 😭 ... Mais, l’aventure n’est pas finie, séchez donc vos larmes
+								d’alligator, parce que nous serons très très vite de retour avec du nouveau contenu ! 🐊</h4>
 							<br />
-							<h4>La prochaine édition sera une édition spéciale : "Alligator News summer edition" ! Rien
-								de
-								mieux pour
-								ensoleiler votre été ♥ Cette édition devrait sortir courant juillet (si tout se passe
-								comme
-								prévu).</h4>
+							<!-- TODO : modifier le numéro de la prochaine édition -->
+							<h4>On se retrouve pour l'édition X qui arrivera à la fin du mois de mars, il y aura du contenu inédit !</h4>
 							<br />
 							<h4>Si vous êtes intéressé pour rejoindre l’équipe, envoyez nous un message par e-mail,
 								Facebook, ... !</h4>
 						</center>
-						<img style="width:24%; display:block; margin: 5px auto;"
-							src="../ressources/images/global/logo_alligator_news.svg" alt="*Logo Alligator News*">
+						<img id="image_alligator_news_mot_fin" src="../ressources/images/global/logo_alligator_news.svg"
+							alt="Logo Alligator News" />
 						<br />
 						<div class="signature">-- L'équipe Alligator News</div> <!-- Signature de la rubrique -->
 					</div>

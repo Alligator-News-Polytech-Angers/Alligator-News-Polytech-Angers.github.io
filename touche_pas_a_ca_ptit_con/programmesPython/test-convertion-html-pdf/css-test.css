@@ -8,7 +8,7 @@
 /** Présentation Editions depuis la menu  **/
 /******************************************/
 .Pop_New_MenuView {
-  background-color: var(--background-color);
+  background-color: #004875;
   padding: 20px 20px;
 }
 .Pop_New_MenuView a {
@@ -18,7 +18,7 @@
   margin: 10px auto;
 }
 .Pop_New_MenuView a:hover {
-  background-color: var(--background-article-color);
+  background-color: #FDF5E6;
 }
 .Pop_New_MenuView h2 {
   text-align: center;
@@ -38,7 +38,7 @@
 }
 .Edition_MenuView {
   color: black; /* Couleur du texte */
-  background-color: var(--background-article-color);
+  background-color: #FDF5E6;
   padding: 2px 20px;
 }
 .Edition_MenuView h6 {
@@ -60,7 +60,7 @@
   z-index: 2;
 }
 .Edition {
-  background-color: var(--background-article-color);
+  background-color: #FDF5E6;
   padding: 6px 6px;
   display: flex;
   height: 100%;
@@ -77,10 +77,10 @@ div.Edition {
   z-index: 2;
 }
 .Edition hr { /* Barres horizontales */
-  background: var(--background-color);
+  background: #004875;
 }
 .containerTheme {
-  background-color: var(--background-color);
+  background-color: #004875;
   padding-bottom: 20px;
 }
 /*************************/
@@ -89,7 +89,7 @@ div.Edition {
 /**  Editions completes  **/
 /*************************/
 .FullArticle {
-  background-color: var(--background-article-color);
+  background-color: #FDF5E6;
   padding: 2px 15px;
   height: 100%;
   margin: 0px auto;
