@@ -14,9 +14,9 @@
 	<!-- JavaScript : -->
 	<link type="text/javascript" src="../ressources/java_script/jquery-3.6.0.slim.min.js" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
-	<link type="text/javascript" src="../ressources/java_script/chargement-header.js" />
+	<!-- <link type="text/javascript" src="../ressources/java_script/chargement-header.js" />
 	<link type="text/javascript" src="../ressources/java_script/chargement-footer.js" />
-	<link type="text/javascript" src="../ressources/java_script/chargement-navbar.js" />
+	<link type="text/javascript" src="../ressources/java_script/chargement-navbar.js" /> -->
 
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -28,6 +28,14 @@
 	<meta property="og:image" content="../ressources/images/pop/4/img_lien_pop_4.webp" />
 	<!-- Aperçu du lien (Attention, le format .svg et .gif ne fonctionnent pas) -->
 	<meta property="og:type" content="siteweb" />
+
+	<script>
+		$(document).ready(function() {
+			$("#header").load("../ressources/elements-html-to-load/header.html");
+			$("#navbar").load("../ressources/elements-html-to-load/navbar.html");
+			$("#footer").load("../ressources/elements-html-to-load/footer.html");
+		});
+	</script>
 </head>
 
 <script>
