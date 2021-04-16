@@ -129,6 +129,10 @@ img.img_titre_article {
   padding-bottom: 8px;
   width: 50%;
 }
+.footer img.img_easter_egg {
+  width: 16%;
+  margin: 0 auto;
+}
 
 /************************/
 /** Responsive layout **/
