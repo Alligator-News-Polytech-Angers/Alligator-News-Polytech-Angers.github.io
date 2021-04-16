@@ -173,8 +173,13 @@ body {
   border-top-style: solid;
   border-color: var(--background-footer-color);
 }
-.is_not_the_index a#github_link {
-  color: red;
+/* Cache le lien du github et du compteur si on n'est pas dans l'index : */
+.is_not_the_index #github_link,
+.is_not_the_index #compteur_view { 
+  display: none;
+}
+#compteur_view {
+  margin-top: 15px;
 }
 .footer h2 { /* Gros titre du footer */
   color: var(--text1-footer);

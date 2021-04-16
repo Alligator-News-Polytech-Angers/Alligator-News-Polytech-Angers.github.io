@@ -34,6 +34,17 @@
 	<meta name="keywords" content="Alligator NEWS, edition X" />
 	<!-- TODO : À modifier (l'image permettant l'aperçu de l'édition via le lien partagé sur les réseaux sociaux) ↓ -->
 	<meta property="og:image" content="../ressources/images/pop/X/img_lien_pop_X.jpg" /> <!-- ← Aperçu du lien (Attention, le format .svg et .gif ne fonctionnent pas) -->
+
+	<!-- JavaScript : -->
+	<script src="../ressources/java_script/jquery-3.6.0.min.js"></script>
+	<script>
+		// Chargement des éléments html génériques :
+		$(document).ready(function() {
+			$("#header").load("../ressources/elements-html-to-load/header.html"); // Chargement du header, permet de l'externaliser // ATTENTION, IL FAUDRA RECUPERER LE CODE DE CELUI-CI SUR LES EDITIONS ANTERIEUR À LA 10eme SI VOUS VOULEZ CHANGER L'UNE DES 2 IMAGES
+			$("#navbar").load("../ressources/elements-html-to-load/navbar.html"); // Chargement de la navbar (menu de navigation)
+			$("#footer").load("../ressources/elements-html-to-load/footer.html").addClass("is_not_the_index"); // Chargement du footer, permet de l'externaliser // ATTENTION, IL FAUDRA RECUPERER LE CODE DE CELUI-CI SUR LES EDITIONS ANTERIEUR À LA 10eme SI VOUS VOULEZ LE CHANGER / LE PERSONNALISER  
+		});
+	</script>
 </head>
 
 <script>
@@ -42,27 +53,10 @@
 
 <body role="main">
 	<!-- Header -->
-	<div class="header">
-		<div class="LogoPolytech">
-			<img src="../ressources/images/global/logo_polytech-blanc.svg" loading="eager" alt="*Logo Polytech Angers*">
-		</div>
-		<div class="titre">
-			<h1>Alligator NEWS</h1>
-			<p>- Site de news incroyables -</p>
-			<span>Sans pubs et sans avoir à accepter de cookies !</span>
-			<br /><br />
-		</div>
-		<div class="LogoAlligator">
-			<img src="../ressources/images/global/logo_alligator_news.svg" loading="eager" alt="*logo_alligator_news*">
-		</div>
-	</div>
+	<div id="header"></div>
 
 	<!-- Navigation Bar -->
-	<div class="navbar" role="navigation">
-		<a href="../index.html">Home</a>
-		<a href="../articles/index_articles.html">Articles</a>
-		<a href="#contact">Contact</a>
-	</div>
+	<div id="navbar"></div>
 
 	<!-- Container des articles : (gère également les couleurs des fonds)  -->
 	<div class="containerTheme">
@@ -1023,105 +1017,7 @@
 	</div>
 
 	<!-- Footer -->
-	<div class="footer" id="footer">
-		<div class="citation">
-			<p>"Le club lecture, pas de courbature !"</p>
-			<p><i>- Guaetan Marie & Clément Bézier (4A GBS)</i></p>
-		</div>
-		<br />
-		<h2 id="contact">CONTACT</h2>
-		<a href="https://www.facebook.com/AlligatorNews.486C/" target="_blank"><img
-				src="../ressources/images/global/logo_fb.png" alt="logo_facebook"></a>
-		<a href="https://www.instagram.com/alligator_news.angers/" target="_blank"><img
-				src="../ressources/images/global/logo_insta.png" alt="logo_instagram"></a>
-		<a href="mailto:alligatornews.polytech.angers@gmail.com"><img src="../ressources/images/global/logo_mail.png"
-				alt="logo_send_mail"></a>
-		<h5>Si vous rencontrez un problème, une faute, un bug, ... Merci de contacter l'équipe d'Alligator News ☺</h5>
-		<a href="mailto:alligatornews.polytech.angers@gmail.com">
-			<h4>alligatornews.polytech.angers@gmail.com</h4>
-		</a>
-		<hr>
-		<p>Le club de journalisme de Polytech Angers : Alligator News, est fier de vous relayer des informations
-			diverses et variées pour votre plus grand plaisir !</p>
-		<br />
-		<p>L'équipe ayant réalisé cette édition est composée de 11 membres très motivés :</p>
-		<br />
-		<table id="auteurs_membres">
-			<tr>
-				<td class="name_right_footer">
-					<p>► Thomas LÉPINE <a href="https://www.linkedin.com/in/thomas-l%C3%A9pine/" target="_blank"><img
-								src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
-				</td>
-				<td class="name_left_footer">
-					<p>► Caitlin JOLIVET <a href="https://www.linkedin.com/in/caitlin-jolivet-8bb56b140/"
-							target="_blank"><img src="../ressources/images/global/logo_linkedin.png"
-								alt="logo_linkedin"></a></p>
-				</td>
-			</tr>
-			<tr>
-				<td class="name_right_footer">
-					<p>► Yohann HIRRIEN <a href="https://www.linkedin.com/in/yohann-hirrien-a60571140/"
-							target="_blank"><img src="../ressources/images/global/logo_linkedin.png"
-								alt="logo_linkedin"></a></p>
-				</td>
-				<td class="name_left_footer">
-					<p>► Lucas PERCEREAU <a href="https://www.linkedin.com/in/lucas-percereau/" target="_blank"><img
-								src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
-				</td>
-			</tr>
-			<tr>
-				<td class="name_right_footer">
-					<p>► Clément ROBICHON <a href="https://www.linkedin.com/in/cl%C3%A9ment-robichon-1b562a1a5/"
-							target="_blank"><img src="../ressources/images/global/logo_linkedin.png"
-								alt="logo_linkedin"></a></p>
-				</td>
-				<td class="name_left_footer">
-					<p>► Maxime DUC <a href="https://www.linkedin.com/in/maxime-duc-551714180" target="_blank"><img
-								src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
-				</td>
-			</tr>
-			<tr>
-				<td class="name_right_footer">
-					<p>► Florian ROBIC <a href="https://www.linkedin.com/in/florian-robic/" target="_blank"><img
-								src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
-				</td>
-				<td class="name_left_footer">
-					<p>► Léo BLAISE <a href="https://www.linkedin.com/in/leo-blaise-584929153/" target="_blank"><img
-								src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
-				</td>
-			</tr>
-			<tr>
-				<td class="name_right_footer">
-					<p>► Cloé DEHOURS <a href="https://www.linkedin.com/in/clo%C3%A9-dehours-12957a1b8/"
-							target="_blank"><img src="../ressources/images/global/logo_linkedin.png"
-								alt="logo_linkedin"></a></p>
-				</td>
-				<td class="name_left_footer">
-					<p>► Gaëtan MARIE <a href="https://www.linkedin.com/in/ga%C3%ABtan-marie/" target="_blank"><img
-								src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
-				</td>
-			</tr>
-			<tr>
-				<td class="name_right_footer">
-					<p>► Louise ROLLET <a href="https://www.linkedin.com/in/louise-rollet-polytechangers/"
-							target="_blank"><img src="../ressources/images/global/logo_linkedin.png"
-								alt="logo_linkedin"></a></p>
-				</td>
-				<!-- <td class="name_left_footer">
-					<p>► XXX <a href="" target="_blank"><img
-						src="../ressources/images/global/logo_linkedin.png" 
-						alt="logo_linkedin"></a></p>
-				</td> -->
-			</tr>
-		</table>
-		<br />
-		<p>Si tu souhaites faire partie de l'équipe, n'hésite pas à nous contacter ! <i>En plus on a des cookies (des
-				vrais bien sûr)</i></p>
-		<br /><br />
-		<!-- TODO : MODIFIER L'IMAGE PRESENTE ICI ↓ -->
-		<img class="img_easter_egg" loading="lazy" src="../ressources/images/pop/X/img-footer-polytech_angers.svg"
-			alt="Image" />
-	</div>
+	<div id="footer"></div>
 </body>
 
 </html>
