@@ -24,32 +24,25 @@
 	<meta property="og:site_name" content='Alligator NEWS' />
 	<meta property="og:url" content='https://alligator-news-polytech-angers.github.io/' />
 	<meta property="og:image" content="../ressources/images/global/img_index_alligator_news.jpg" />
+
+	<!-- JavaScript : -->
+	<link type="text/javascript" src="../ressources/java_script/jquery-3.6.0.min.js" />
+	<script>
+		// Chargement des éléments html génériques :
+		$(document).ready(function() {
+			$("#header").load("./ressources/elements-html-to-load/header.html");
+			$("#navbar").load("./ressources/elements-html-to-load/navbar.html");
+			$("#footer").load("./ressources/elements-html-to-load/footer.html");
+		});
+	</script>
 </head>
 
 <body role="main">
 	<!-- Header -->
-	<div class="header">
-		<div class="LogoPolytech">
-			<img src="./ressources/images/global/logo_polytech-blanc.svg" loading="eager" alt="*Logo Polytech Angers*">
-		</div>
-		<div class="titre">
-			<h1>Alligator NEWS</h1>
-			<p>- Site de news incroyables -</p>
-			<span>Sans pubs et sans avoir à accepter de cookies !</span>
-			<br /><br />
-		</div>
-		<div class="LogoAlligator">
-			<img src="./ressources/images/global/logo_alligator_news.svg" loading="eager" alt="*logo_alligator_news*">
-		</div>
-	</div>
+	<div id="header"></div>
 
 	<!-- Navigation Bar -->
-	<div class="navbar" role="navigation">
-		<a href="">Home</a>
-		<a href="./articles/index_articles.html">Articles</a>
-		<a href="#contact">Contact</a>
-	</div>
-
+	<div id="navbar"></div>
 
 	<!-- The flexible grid (content) -->
 	<div class="Pop_New_MenuView">

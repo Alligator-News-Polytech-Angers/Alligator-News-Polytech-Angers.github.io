@@ -12,8 +12,8 @@
 	<!-- Page css pour effectuer les diférents tests avant de les ajouter à la version de dev -->
 	
 	<!-- JavaScript : -->
-	<link type="text/javascript" src="../ressources/java_script/jquery-3.6.0.slim.min.js" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+	<link type="text/javascript" src="../ressources/java_script/jquery-3.6.0.min.js" />
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script> -->
 	<!-- <link type="text/javascript" src="../ressources/java_script/chargement-header.js" />
 	<link type="text/javascript" src="../ressources/java_script/chargement-footer.js" />
 	<link type="text/javascript" src="../ressources/java_script/chargement-navbar.js" /> -->
@@ -30,6 +30,7 @@
 	<meta property="og:type" content="siteweb" />
 
 	<script>
+		// Chargement des éléments html génériques :
 		$(document).ready(function() {
 			$("#header").load("../ressources/elements-html-to-load/header.html");
 			$("#navbar").load("../ressources/elements-html-to-load/navbar.html");
