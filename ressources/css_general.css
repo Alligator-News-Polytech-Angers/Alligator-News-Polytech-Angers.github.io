@@ -105,6 +105,9 @@ body {
   position: absolute;
   width: 100%;
 }
+#home_from_index {
+  cursor: pointer;
+}
 .navbar > ul li:hover .sous{
   display: block;
 }
@@ -185,29 +188,26 @@ body {
 .footer a { /* Soulignement du mailto */
   text-decoration: none;
 }
-.footer h5 { /* texte mis en valeur */
+.footer h5 { /* Texte mis en valeur */
   color: var(--text2-footer);
   margin: 10px auto;
   font-size: 18px;
 }
-.footer p { /* texte lambda */
+.footer p { /* Texte lambda */
   color: var(--text2-footer);
   font-size: 16px;
   margin: 3px auto;
 }
-.footer table p { /* texte lambda */
+.footer table p { /* Texte dans un tableau */
   color: var(--text2-footer);
   font-size: 18px;
   margin: 6px 10px;
 }
 .footer hr { /* Barre horizontalle séparatrice */
-  background-color: rgb(155,155,155);
+  background-color: var(--text2-footer);
   height: 2px;
   border: 0;
-  margin-top: 12px;
-  margin-bottom: 12px;
-  margin-left: 69px;
-  margin-right: 69px;
+  margin: 12px 60px;
 }
 .footer img {
   width: 4.6%;
