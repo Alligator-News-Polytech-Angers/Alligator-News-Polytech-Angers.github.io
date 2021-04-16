@@ -1,3 +1,8 @@
 /**  PAGE DE STYLE CSS POUR FAIRE DES TESTS                                                 **/
 /**  UTILE UNIQUEMENT POUR CODER DU STYLE CSS SANS CASSER LES AUTRES PAGES "stables"       **/
 /** NB : VOUS POUVEZ SURCHARGEZ LE CSS DES AUTRES FICHIERS, PUISQUE CELUI-CI EST LU APRÈS **/
+
+.test#github_link {
+    display: block;
+    color: red;
+}

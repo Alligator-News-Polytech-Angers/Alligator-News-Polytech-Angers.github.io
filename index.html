@@ -31,7 +31,6 @@
 		// Chargement des éléments html génériques :
 		$(document).ready(function() {
 			$("#header").load("./ressources/elements-html-to-load/header.html");
-			$("#navbar").load("./ressources/elements-html-to-load/navbar.html");
 			$("#footer").load("./ressources/elements-html-to-load/footer.html");
 		});
 	</script>
@@ -42,7 +41,11 @@
 	<div id="header"></div>
 
 	<!-- Navigation Bar -->
-	<div id="navbar"></div>
+	<div class="navbar" role="navigation">
+		<a href="">Home</a>
+		<a href="./articles/index_articles.html">Articles</a>
+		<a href="#contact">Contact</a>
+	</div>
 
 	<!-- The flexible grid (content) -->
 	<div class="Pop_New_MenuView">
