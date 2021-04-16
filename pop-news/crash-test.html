@@ -27,9 +27,9 @@
 	<script>
 		// Chargement des éléments html génériques :
 		$(document).ready(function() {
-			$("#header").load("../ressources/elements-html-to-load/header.html");
-			$("#navbar").load("../ressources/elements-html-to-load/navbar.html");
-			$("#footer").load("../ressources/elements-html-to-load/footer.html").addClass("is_not_the_index");
+			$(".header").load("../ressources/elements-html-to-load/header.html"); // Chargement du header, permet de l'externaliser // ATTENTION, IL FAUDRA RECUPERER LE CODE DE CELUI-CI SUR LES EDITIONS ANTERIEUR À LA 10eme SI VOUS VOULEZ CHANGER L'UNE DES 2 IMAGES
+			$(".navbar").load("../ressources/elements-html-to-load/navbar.html"); // Chargement de la navbar (menu de navigation)
+			$(".footer").load("../ressources/elements-html-to-load/footer.html").addClass("is_not_the_index"); // Chargement du footer, permet de l'externaliser // ATTENTION, IL FAUDRA RECUPERER LE CODE DE CELUI-CI SUR LES EDITIONS ANTERIEUR À LA 10eme SI VOUS VOULEZ LE CHANGER / LE PERSONNALISER  
 		});
 	</script>
 </head>
@@ -41,10 +41,10 @@
 <!-- Crt+k + Ctrl+j pour revenir en tout "déplier" -->
 <body role="main">
 	<!-- Header -->
-	<div id="header"></div>
+	<div class="header"></div>
 
 	<!-- Navigation Bar -->
-	<div id="navbar"></div>
+	<div class="navbar"></div>
 
 	<div class="containerTheme">
 		<!-- Background global -->
@@ -993,7 +993,14 @@
 	</div>
 	
 	<!-- Footer -->
-	<div id="footer"></div>
+	<div class="footer"></div>
+	
+	<!-- COMPTEUR DE VUES ↓ -->
+	<!-- https://www.websiteout.net/compteur.php -->
+    <div id="compteur_view">
+        <!-- COMPTEUR VISITE TOTAL -->
+        <script type="text/javascript" src="//compteur.websiteout.com/js/6/0/0/0"></script>
+    </div>
 </body>
 
 </html>

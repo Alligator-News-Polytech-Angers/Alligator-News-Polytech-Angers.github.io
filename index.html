@@ -30,18 +30,18 @@
 	<script>
 		// Chargement des éléments html génériques :
 		$(document).ready(function() {
-			$("#header").load("./ressources/elements-html-to-load/header.html");
-			$("#footer").load("./ressources/elements-html-to-load/footer.html");
+			$(".header").load("../ressources/elements-html-to-load/header.html"); // Chargement du header, permet de l'externaliser // ATTENTION, IL FAUDRA RECUPERER LE CODE DE CELUI-CI SUR LES EDITIONS ANTERIEUR À LA 10eme SI VOUS VOULEZ CHANGER L'UNE DES 2 IMAGES
+			$(".footer").load("../ressources/elements-html-to-load/footer.html").addClass("is_not_the_index"); // Chargement du footer, permet de l'externaliser // ATTENTION, IL FAUDRA RECUPERER LE CODE DE CELUI-CI SUR LES EDITIONS ANTERIEUR À LA 10eme SI VOUS VOULEZ LE CHANGER / LE PERSONNALISER  
 		});
 	</script>
 </head>
 
 <body role="main">
 	<!-- Header -->
-	<div id="header"></div>
+	<div class="header"></div>
 
 	<!-- Navigation Bar -->
-	<div class="navbar" role="navigation">
+	<div class="navbar" id="navbar" role="navigation">
 		<a id="home_from_index">Home</a>
 		<a href="./articles/index_articles.html">Articles</a>
 		<a href="#contact">Contact</a>
@@ -198,6 +198,6 @@
 	</div>
 
 	<!-- Footer -->
-	<div id="footer"></div>
+	<div class="footer"></div>
 </body>
 </html>

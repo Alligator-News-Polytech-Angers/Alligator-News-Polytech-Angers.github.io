@@ -174,11 +174,12 @@ body {
   border-color: var(--background-footer-color);
 }
 /* Cache le lien du github et du compteur si on n'est pas dans l'index : */
-.is_not_the_index #github_link,
-.is_not_the_index #compteur_view { 
+.is_not_the_index #github_link { 
   display: none;
+  margin-bottom: 15px;
 }
 #compteur_view {
+  display: none;
   margin-top: 15px;
 }
 .footer h2 { /* Gros titre du footer */
