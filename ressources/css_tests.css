@@ -2,7 +2,3 @@
 /**  UTILE UNIQUEMENT POUR CODER DU STYLE CSS SANS CASSER LES AUTRES PAGES "stables"       **/
 /** NB : VOUS POUVEZ SURCHARGEZ LE CSS DES AUTRES FICHIERS, PUISQUE CELUI-CI EST LU APRÈS **/
 
-.is_not_the_index#github_link {
-    display: block;
-    color: red;
-}

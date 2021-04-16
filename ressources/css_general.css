@@ -173,6 +173,9 @@ body {
   border-top-style: solid;
   border-color: var(--background-footer-color);
 }
+.is_not_the_index a#github_link {
+  color: red;
+}
 .footer h2 { /* Gros titre du footer */
   color: var(--text1-footer);
   text-decoration: underline;
