@@ -22,41 +22,25 @@
 	<meta property="og:site_name" content='Alligator NEWS' />
 	<meta property="og:url" content='https://alligator-news-polytech-angers.github.io/articles/index_articles.html' />
 	<meta property="og:image" content="../ressources/images/global/img_index_alligator_news.jpg" />
+
+	<!-- JavaScript : -->
+	<script src="../ressources/java_script/jquery-3.6.0.min.js"></script>
+	<script>
+		// Chargement des éléments html génériques :
+		$(document).ready(function() {
+			$(".header").load("../ressources/elements-html-to-load/header.html").attr('id', 'header'); // Chargement du header, permet de l'externaliser // ATTENTION, IL FAUDRA RECUPERER LE CODE DE CELUI-CI SUR LES EDITIONS ANTERIEUR À LA 10eme SI VOUS VOULEZ CHANGER L'UNE DES 2 IMAGES
+			$(".navbar").load("../ressources/elements-html-to-load/navbar.html").attr('id', 'navbar'); // Chargement de la navbar (menu de navigation)
+			$(".footer").load("../ressources/elements-html-to-load/footer.html").addClass('is_not_the_index').attr('id', 'footer'); // Chargement du footer, permet de l'externaliser // ATTENTION, IL FAUDRA RECUPERER LE CODE DE CELUI-CI SUR LES EDITIONS ANTERIEUR À LA 10eme SI VOUS VOULEZ LE CHANGER / LE PERSONNALISER  
+		});
+	</script>
 </head>
 
 <body>
 	<!-- Header -->
-	<div class="header">
-		<div class="LogoPolytech">
-			<img src="../ressources/images/global/logo_polytech-blanc.svg" alt="*Logo Polytech Angers*">
-		</div>
-		<div class="titre">
-			<h1>Alligator NEWS</h1>
-			<p>- Site de news incroyables -</p>
-			<span>Sans pubs et sans avoir à accepter de cookies !</span>
-			<br><br>
-		</div>
-		<div class="LogoAlligator">
-			<img src="../ressources/images/global/logo_alligator_news.svg" alt="*logo_alligator_news*">
-		</div>
-	</div>
+	<div class="header"></div>
 
 	<!-- Navigation Bar -->
-	<div class="navbar">
-		<a href="../index.html">Home</a>
-		<!-- <ul>
-			<li class="deroulant"><a>Articles</a>
-				<ul class="sous">
-					<li><a href="./article_interview2.html">Interview Mr Chatti</a></li>
-					<hr>
-					<li><a href="./article_interview1.html">Interview Mr Mercier</a></li>
-					<hr>
-					<li><a href="./Article_histoire_logo.html">L'histoire du logo</a></li>
-				</ul>
-			</li>
-		</ul> -->
-		<a href="#contact">Contact</a>
-	</div>
+	<div class="navbar"></div>
 
 	<!-- Index des articles -->
 	<div class="mainMenuArticle">
@@ -153,42 +137,6 @@
 	</div>
 
 	<!-- Footer -->
-	<div class="footer">
-		<br>
-		<h2 id="contact">CONTACT</h2>
-		<a href="https://www.facebook.com/AlligatorNews.486C/" loading="lazy" target="_blank"><img src="../ressources/images/global/logo_fb.png" alt="logo_facebook"></a>
-		<a href="https://www.instagram.com/alligator_news.angers/" loading="lazy" target="_blank"><img src="../ressources/images/global/logo_insta.png" alt="logo_instagram"></a>
-		<a href="mailto:alligatornews.polytech.angers@gmail.com"><img src="../ressources/images/global/logo_mail.png" loading="lazy" alt="logo_send_mail"></a>
-		<h5>Si vous rencontrez un problème, une faute, un bug, ... Merci de contacter l'équipe d'Alligator News ☺</h5>
-		<a href="mailto:alligatornews.polytech.angers@gmail.com">
-			<h4>alligatornews.polytech.angers@gmail.com</h4>
-		</a>
-		<hr>
-		<p>Le club de journalisme de Polytech Angers : Alligator News, est fier de vous relayer des informations
-			diverses et variées pour votre plus grand plaisir !</p>
-		<br>
-		<p>L'équipe réalisant les articles et les éditions est actuellement composée de 6 membres très motivés :</p>
-		<br>
-		<p>► Thomas LÉPINE <a href="https://www.linkedin.com/in/thomas-l%C3%A9pine/" target="_blank"><img
-					src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
-		<p>► Lucas PERCEREAU <a href="https://www.linkedin.com/in/lucas-percereau/" target="_blank"><img
-					src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
-		<p>► Yohann HIRRIEN <a href="https://www.linkedin.com/in/yohann-hirrien-a60571140/" target="_blank"><img
-					src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
-		<p>► Caitlin JOLIVET <a href="https://www.linkedin.com/in/caitlin-jolivet-8bb56b140/" target="_blank"><img
-					src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
-		<p>► Florian ROBIC <a href="https://www.linkedin.com/in/florian-robic/" target="_blank"><img
-					src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
-		<p>► Léo BLAISE <a href="https://www.linkedin.com/in/leo-blaise-584929153/" target="_blank"><img
-					src="../ressources/images/global/logo_linkedin.png" alt="logo_linkedin"></a></p>
-		<br>
-		<p>Si tu souhaites faire partie de l'équipe, n'hésite pas à nous contacter ! <i>En plus on a des cookies (des
-				vrais bien sûr)</i></p>
-		<br><br><br>
-		<a title="Compteur"><img
-				src="https://counter11.stat.ovh/private/compteurdevisite.php?c=ytlx55fltgpc9tfwm4qfrmj7n4dqbd9r"
-				border="0" title="Compteur" alt="Compteur"></a>
-		<br>
-	</div>
+	<div class="footer" id="footer"></div>
 </body>
 </html>
