@@ -82,6 +82,7 @@ table.img_inligne {
   font-weight: 200;
   font-size: 13.5px;
   color: #4D4D4D;
+  margin: 5px auto;
 }
 table.img_inligne img {
   width: 48%;
