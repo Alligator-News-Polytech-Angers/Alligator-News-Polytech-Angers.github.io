@@ -105,7 +105,8 @@ body {
   position: absolute;
   width: 100%;
 }
-#home_from_index {
+#home_from_index,
+#index-articles_from_index {
   cursor: pointer;
 }
 .navbar > ul li:hover .sous{
