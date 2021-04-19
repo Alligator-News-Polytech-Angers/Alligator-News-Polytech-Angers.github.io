@@ -81,7 +81,7 @@ div.Edition {
 }
 .containerTheme {
   background-color: var(--background-color);
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 /*************************/
 
@@ -146,15 +146,19 @@ p.link a{
   margin-bottom: 20px;
 }
 .EditionBlockWraped img.img_article {
-  display:block;
-  margin: auto;
+  display: block;
+  margin: 8px auto;
   width: 50%;
-  padding: 6px 0px;
 }
 .EditionBig img.img_article {
-  display:block;
+  display: block;
   margin: auto;
   width: 28%;
+}
+#img_mot_debut {
+  display: flex;
+  margin: 10px auto;
+  width: 90%;
 }
 img.img_titre_article {
   display: block;
@@ -182,6 +186,8 @@ img.img_titre_popBig {
 .legende {
   font-style: italic;
   text-align: center;
+  margin: 8px auto;
+  margin-top: 4px;
   color: #333;
 }
 .FullArticle hr {
@@ -342,10 +348,10 @@ a.mail_link {
     padding: 4px 5px;
   }
   .EditionBig{
-	  padding: 5px 14px;
+	  padding: 5px 10px;
   }
   .EditionBig article {
-    padding: 10px 0px;
+    padding: 10px 8px;
   }
   .FullArticle {
     padding: 4.5px 15px;

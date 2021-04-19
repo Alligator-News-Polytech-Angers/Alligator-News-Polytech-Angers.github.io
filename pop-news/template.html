@@ -13,15 +13,13 @@
 	<link rel="stylesheet" type="text/css" href="../ressources/css_general.css" />
 	<link rel="stylesheet" type="text/css" href="../ressources/css_pop_editions.css" />
 	<!-- Le fichier css suivant ↓ permet de s'occuper du thème du fichier (palette de couleur) -->
+	<!-- TODO : modifier ce fichier s'il y a besoin de modifier le thème : -->
 	<link rel="stylesheet" type="text/css" href="../ressources/themes_css/classic-theme.css" />
 
 	<!-- Balises <meta> : permet de rajouter de la méta-données -->
-	<!-- FORMAT des textes ↓ -->
-	<meta charset="UTF-8" />
-	<!-- Récupération des caractéristiques de l'application ↓ -->
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!-- Description de la page ↓ -->
-	<meta name="description" content="Alligator NEWS : site du journal de Polytech Angers" />
+	<meta charset="UTF-8"/><!-- FORMAT des textes -->
+	<meta name="viewport" content="width=device-width, initial-scale=1"/><!-- Récupération des caractéristiques de l'application -->
+	<meta name="description" content="Alligator NEWS : site du journal de Polytech Angers" /><!-- Description de la page -->
 
 	<!-- Meta spécifique pour les réseaux sociaux : -->
 	<meta property="og:type" content='website' />
@@ -37,7 +35,7 @@
 
 	<!-- JavaScript : -->
 	<script src="../ressources/java_script/jquery-3.6.0.min.js"></script>
-	<script loading="eager">
+	<script>
 		// Chargement des éléments html génériques :
 		$(document).ready(function() {
 			$(".header").attr('id', 'header'); //.load("../ressources/elements-html-to-load/header.html") // Chargement du header, permet de l'externaliser // ATTENTION, IL FAUDRA RECUPERER LE CODE DE CELUI-CI SUR LES EDITIONS ANTERIEUR À LA 10eme SI VOUS VOULEZ CHANGER L'UNE DES 2 IMAGES
@@ -69,7 +67,7 @@
 	</div>
 
 	<!-- Navigation Bar -->
-	<div class="navbar"></div>
+	<div class="navbar"></div>  <!-- Élément chargé, visible uniquement sur la version déployé et non en local -->
 
 	<!-- Container des articles : (gère également les couleurs des fonds)  -->
 	<div class="containerTheme">
@@ -96,8 +94,7 @@
 							N'hésitez plus,
 							rejoignez-nous, on a des cookies ♥
 						</p>
-						<img class="img_article" style="width: 88%;"
-							src="../ressources/images/pop/affiche_recrutement.webp" />
+						<img id="img_mot_debut" src="../ressources/images/pop/img_recrutement-v2021_1.jpg" />
 						<hr>
 					</div>
 				</div>
@@ -105,7 +102,7 @@
 		</div>
 
 		<!-- TODO : À enlever les articles non utiles ↓ -->
-		<!-- TODO : À modifier les articles ceux réalisés par l'équipe ↓ -->
+		<!-- TODO : À modifier les <articles> par ceux réalisés par l'équipe ↓ -->
 		<!-- NOTE : les articles sont identifiables à l'aide des balises <article> -->
 		<!-- Contenu de l'édition (petit format) -->
 		<div class="EditionBlockWraped">
@@ -872,7 +869,7 @@
 		</div>
 
 		<!-- TODO : À enlever les articles non utiles ↓ -->
-		<!-- TODO : À modifier les articles ceux réalisés par l'équipe ↓ -->
+		<!-- TODO : À modifier les <articles> par ceux réalisés par l'équipe ↓ -->
 		<!-- NOTE : les articles sont identifiables à l'aide des balises <article> -->
 		<!-- Contenu de l'édition (gros format = toute la largeur de la page) -->
 		<div class="EditionBig">
