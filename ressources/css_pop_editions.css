@@ -103,13 +103,13 @@ div.Edition {
 }
 p.link {
   text-indent: inherit;
-  color: #666666;
+  color: #666;
   padding-top: 6px;
   padding-bottom: 14px;
 }
 p.link a{
   text-decoration: underline;
-  color: #666666;
+  color: #666;
 }
 .FullArticle h2 { /* Sous partie rubrique */
   text-align: center;

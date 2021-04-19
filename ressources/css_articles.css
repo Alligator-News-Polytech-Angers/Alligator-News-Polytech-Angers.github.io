@@ -84,6 +84,23 @@
   text-align: center;
   margin: 6px 18px;
 }
+p.link { /* Sitographie */
+  text-indent: inherit;
+  color: #666;
+  padding-top: 6px;
+  padding-bottom: 14px;
+}
+p.link a{
+  text-decoration: underline;
+  color: #666;
+}
+.legende { /* Légende sous les images */
+  font-style: italic;
+  text-align: center;
+  margin: 8px auto;
+  margin-top: 4px;
+  color: #333;
+}
 table.img_inligne {
   text-align: center;
   font-style: italic;
