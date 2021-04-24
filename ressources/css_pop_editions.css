@@ -66,8 +66,7 @@
   height: 100%;
 }
 .EditionBig {
-  padding: 2px 18px;
-  margin-bottom: -8px;
+  padding: 0px 18px;
 }
 .EditionBig article {
   padding: 10px 0px;
@@ -98,8 +97,7 @@ div.Edition {
   text-indent: 30px;
   line-height: 140%;
   text-align: justify;
-  margin: 4px auto;
-  /* font-size: 17px; */
+  margin: 15px auto;
 }
 p.link {
   text-indent: inherit;
@@ -168,9 +166,9 @@ img.img_titre_article {
 }
 img.img_titre_popBig {
   display: block;
-  padding: 8px 0;
-  margin: 10px auto;
-  width: 58%;
+  padding: 16px 4px;
+  margin: 0 auto;
+  width: 60%;
   position: relative;
   z-index: 1;
 }
@@ -348,10 +346,13 @@ a.mail_link {
     padding: 4px 5px;
   }
   .EditionBig{
-	  padding: 5px 10px;
+	  padding: 0px 10px;
+  }
+  .EditionBig div {
+    margin: 5px 8px;
   }
   .EditionBig article {
-    padding: 10px 8px;
+    padding: 5px 0px;
   }
   .FullArticle {
     padding: 4.5px 15px;
@@ -414,6 +415,9 @@ a.mail_link {
   .EditionBlockWraped article {
     max-width: 50%; /* Permet d'avoir 2 Editions sur la même ligne dans le menu */
     margin: 0 auto;
+  }
+  .EditionBlockWraped article#mot_debut {
+    max-width: 60%;
   }
   .Edition {
     width: 100%;
