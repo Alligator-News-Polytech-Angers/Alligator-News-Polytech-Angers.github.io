@@ -24,6 +24,7 @@ body {
   color: var(--title-color);
   text-align: center;
   margin: auto;
+  padding-bottom: 18px;
 }
 .titre h1 {
   margin: auto;
@@ -253,7 +254,7 @@ body {
     margin-bottom: 2.5px;
   }
   .titre span {
-    font-size: 11px;
+    font-size: 12px;
   }
   .LogoPolytech img{
     width: 115%;
