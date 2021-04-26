@@ -348,7 +348,7 @@ a.mail_link {
   .EditionBig{
 	  padding: 0px 10px;
   }
-  .EditionBig div {
+  div.EditionBig {
     margin: 5px 8px;
   }
   .EditionBig article {
