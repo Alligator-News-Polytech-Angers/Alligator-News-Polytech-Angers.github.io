@@ -80,9 +80,9 @@ div.Edition {
 }
 .containerTheme {
   background-color: var(--background-color);
-  padding-bottom: 10px;
+  padding: 10px 0px;
 }
-/*************************/
+/*****************************/
 
 /***************************/
 /**  Editions completes  **/
@@ -311,6 +311,27 @@ a.mail_link {
 }
 /*************************************/
 
+/***********  Séparateur *************/
+.separateur {
+  background-color: var(--background-article-color);
+  width: 100%;
+  margin: 5px 10px;
+  padding: 8px 20px;
+}
+.separateur hr {
+  width: 96%;
+  background: var(--background-color);
+  height: 2px;
+  border: 0;
+  text-align: center;
+  margin: 6px auto;
+}
+.separateur img {
+  display: block;
+  margin: 0 auto;
+  padding: 2px;
+  width: 80%;
+}
 /***********  Vidéos YouTube *************/
 .video_youtube {
   display: block;
@@ -332,9 +353,7 @@ a.mail_link {
     padding-right: 20px;
   }
   .EditionBlockWraped {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: -15px;
+    padding: 0 10px;
   }
   .EditionBlockWraped article{
     padding: 10px 8px;
@@ -352,7 +371,7 @@ a.mail_link {
     margin: 5px 8px;
   }
   .EditionBig article {
-    padding: 5px 0px;
+    padding: 10px 0px;
   }
   .FullArticle {
     padding: 4.5px 15px;
@@ -386,6 +405,7 @@ a.mail_link {
   }
   img.img_titre_popBig {
     width: 98.5%;
+    padding: 4px;
   }
   .cadre {
     border-width: 8px;
@@ -399,6 +419,10 @@ a.mail_link {
   }
   .citation p{
     font-size: 13px;
+  }
+  .separateur {
+    margin: 0 auto;
+    border: 8.5px solid var(--background-color);
   }
   .video_youtube {
     width: 100%;
