@@ -52,7 +52,11 @@
 
 /*** REDEFINITION DE CLASSES CSS POUR LE THEME : ***/
 @media screen and (min-width: 768px){ /* Resolution d'une fenêtre sur un PC / tablette */
-
+  .EditionBlockWraped article {
+    /* Permet d'ajuster la taille des articles selon le contenu */
+    margin: auto auto;
+    height: max-content;
+  }
 }
 @media screen and (max-width: 768px) { /* Resolution d'un  portable  */
   .titre p {

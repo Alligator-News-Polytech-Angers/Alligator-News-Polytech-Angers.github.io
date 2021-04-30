@@ -39,13 +39,7 @@
 .Edition_MenuView {
   color: black; /* Couleur du texte */
   background-color: var(--background-article-color);
-  padding: 2px 20px;
-}
-.Edition_MenuView h6 {
-  text-align: center;
-  font-size: 18px;
-  margin: 5px 0px;
-  letter-spacing: 0.04em;
+  padding: 10px 20px;
 }
 /**************************************/
 
