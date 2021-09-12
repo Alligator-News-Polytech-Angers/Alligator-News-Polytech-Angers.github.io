@@ -1,0 +1,533 @@
+%!Adobe-FontList 1.20
+%Locale:0x40c
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ACaslonPro-Italic
+FamilyName:Adobe Caslon Pro
+StyleName:Italic
+FullName:Adobe Caslon Pro Italic
+MenuName:Adobe Caslon Pro
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\acaslonpro-italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:167264
+FileModTime:1631474293
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Adobe Caslon Pro Italic
+NameArray:0,Win,1,Adobe Caslon Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ACaslonPro-Regular
+FamilyName:Adobe Caslon Pro
+StyleName:Regular
+FullName:Adobe Caslon Pro
+MenuName:Adobe Caslon Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\acaslonpro-regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:161820
+FileModTime:1631474293
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Adobe Caslon Pro
+NameArray:0,Win,1,Adobe Caslon Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ARBERKLEY
+FamilyName:AR BERKLEY
+StyleName:Regular
+FullName:AR BERKLEY
+MenuName:AR BERKLEY
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\ar-berkley.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:79652
+FileModTime:1631474293
+WeightClass:5
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,AR BERKLEY
+NameArray:0,Win,1,AR BERKLEY
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ARBLANCA
+FamilyName:AR BLANCA
+StyleName:Regular
+FullName:AR BLANCA
+MenuName:AR BLANCA
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\ARBLANCA.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:212912
+FileModTime:1631474293
+WeightClass:5
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,AR BLANCA
+NameArray:0,Win,1,AR BLANCA
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ARCHRISTY
+FamilyName:AR CHRISTY
+StyleName:Regular
+FullName:AR CHRISTY
+MenuName:AR CHRISTY
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\ARCHRISTY.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:72364
+FileModTime:1631474293
+WeightClass:5
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,AR CHRISTY
+NameArray:0,Win,1,AR CHRISTY
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ArnoPro-Bold
+FamilyName:Arno Pro
+StyleName:Bold
+FullName:Arno Pro Bold
+MenuName:Arno Pro
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\arnopro-bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:403036
+FileModTime:1631474293
+WeightClass:700
+WidthClass:5
+AngleClass:0
+DesignSize:120
+NameArray:0,Mac,4,Arno Pro Bold
+NameArray:0,Win,1,Arno Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ArnoPro-Italic
+FamilyName:Arno Pro
+StyleName:Italic
+FullName:Arno Pro Italic
+MenuName:Arno Pro
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\arnopro-italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:475412
+FileModTime:1631474293
+WeightClass:400
+WidthClass:5
+AngleClass:1
+DesignSize:120
+NameArray:0,Mac,4,Arno Pro Italic
+NameArray:0,Win,1,Arno Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ArnoPro-Regular
+FamilyName:Arno Pro
+StyleName:Regular
+FullName:Arno Pro
+MenuName:Arno Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\arnopro-regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:404236
+FileModTime:1631474293
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:120
+NameArray:0,Mac,4,Arno Pro
+NameArray:0,Win,1,Arno Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BebasNeue-Regular
+FamilyName:Bebas Neue
+StyleName:Regular
+FullName:Bebas Neue Regular
+MenuName:Bebas Neue
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\BebasNeue-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:60576
+FileModTime:1631474293
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Bebas Neue Regular
+NameArray:0,Win,1,Bebas Neue
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Backtothefuture2002-Regular
+FamilyName:Back to the future 2002
+StyleName:Regular
+FullName:Back to the future 2002
+MenuName:Back to the future 2002
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\BTTF.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:21156
+FileModTime:1631474293
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Back to the future 2002
+NameArray:0,Win,1,Back to the future 2002
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CollegiateFLF
+FamilyName:CollegiateFLF
+StyleName:Regular
+FullName:CollegiateFLF
+MenuName:CollegiateFLF
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\CollegiateFLF.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:19272
+FileModTime:1631474293
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,CollegiateFLF
+NameArray:0,Win,1,CollegiateFLF
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ForgottenFuturistRg-Bold
+FamilyName:Forgotten Futurist
+StyleName:Bold
+FullName:ForgottenFuturistRg-Bold
+MenuName:Forgotten Futurist Rg
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\forgotten futurist bd.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:92780
+FileModTime:1631474293
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,ForgottenFuturistRg-Bold
+NameArray:0,Win,1,Forgotten Futurist Rg
+NameArray:0,Win,16,Forgotten Futurist
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ForgottenFuturistRg-Regular
+FamilyName:Forgotten Futurist
+StyleName:Regular
+FullName:ForgottenFuturistRg-Regular
+MenuName:Forgotten Futurist Rg
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\forgotten futurist rg.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:91104
+FileModTime:1631474293
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,ForgottenFuturistRg-Regular
+NameArray:0,Win,1,Forgotten Futurist Rg
+NameArray:0,Win,16,Forgotten Futurist
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GillSans-Bold
+FamilyName:Gill Sans
+StyleName:Bold
+FullName:Gill Sans Bold
+MenuName:Gill Sans
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\Gill Sans Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:131444
+FileModTime:1631474293
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Gill Sans Bold
+NameArray:0,Win,1,Gill Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GillSans-Italic
+FamilyName:Gill Sans
+StyleName:Italic
+FullName:Gill Sans Italic
+MenuName:Gill Sans
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\Gill Sans Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:151856
+FileModTime:1631474293
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Gill Sans Italic
+NameArray:0,Win,1,Gill Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GillSans
+FamilyName:Gill Sans
+StyleName:Regular
+FullName:Gill Sans
+MenuName:Gill Sans
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\Gill Sans.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:149908
+FileModTime:1631474293
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Gill Sans
+NameArray:0,Win,1,Gill Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HauntingAttraction
+FamilyName:Haunting Attraction
+StyleName:Regular
+FullName:Haunting Attraction
+MenuName:Haunting Attraction
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\Haunting Attraction.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:61068
+FileModTime:1631474293
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Haunting Attraction
+NameArray:0,Win,1,Haunting Attraction
+NameArray:0,Win,16,Haunting Attraction
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:kindergarten
+FamilyName:kindergarten
+StyleName:Medium
+FullName:kindergarten
+MenuName:kindergarten
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\kindergarten.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:24496
+FileModTime:1631474293
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,kindergarten
+NameArray:0,Win,1,kindergarten
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:MeganJune
+FamilyName:Megan June
+StyleName:Regular
+FullName:Megan June
+MenuName:Megan June
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\Megan June.otf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:33256
+FileModTime:1631474293
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Megan June
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Requiem
+FamilyName:Requiem
+StyleName:Regular
+FullName:Requiem
+MenuName:Requiem
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\Requiem.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:53932
+FileModTime:1631474293
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Requiem
+NameArray:0,Win,1,Requiem
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SKULLX
+FamilyName:SKULLX
+StyleName:Regular
+FullName:SKULLX
+MenuName:SKULLX
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\SKULLX.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:271192
+FileModTime:1631474293
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,SKULLX
+NameArray:0,Win,1,SKULLX
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SweetsDelightDEMO
+FamilyName:Sweets Delight
+StyleName:DEMO
+FullName:Sweets Delight DEMO
+MenuName:Sweets Delight DEMO
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\PC de clément R\OneDrive\Bureau\même\Alligator-News-Polytech-Angers.github.io\touche_pas_a_ca_ptit_con\Font\SweetsDelightDemo.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:256880
+FileModTime:1631474293
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Sweets Delight DEMO
+NameArray:0,Win,1,Sweets Delight DEMO
+NameArray:0,Win,16,Sweets Delight
+%EndFont
+
