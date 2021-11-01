@@ -302,15 +302,25 @@ a.mail_link {
   background-color: var(--background-color);
   padding: 20px 20px;
 }
-.error_404_text {
+.error_404_block {
   color: black;
   background-color: var(--background-article-color);
   padding: 10px 20px;
 }
-.error_404_text h6 {
+.error_404_block h2 {
+  text-align: center;
+  font-size: 28px;
+  margin: 18px 0px 10px 0px;
+}
+.error_404_block h6 {
   text-align: center;
   font-size: 18px;
   margin: 15px 0px;
+}
+.error_404 img {
+  width: 16%;
+  display: block;
+  margin: 10px auto;
 }
 
 /************************/
