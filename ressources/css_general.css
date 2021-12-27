@@ -133,8 +133,14 @@ body {
 }
 
 /*Symbole "NEW" */
-.plop_new {
-  text-shadow: black 0.01em 0.05em 0.05em; color: red; float: right; margin-right: 10px; padding-bottom: 5px; font-style: italic; font-size: 20px;
+.etiquette_new {
+  text-shadow: black 0.01em 0.05em 0.05em;
+  color: red;
+  float: right;
+  margin-right: 10px;
+  padding-bottom: 5px;
+  font-style: italic;
+  font-size: 20px;
 }
 
 /***********************************************/
@@ -169,7 +175,7 @@ body {
   background: var(--background-footer-color);
   width: 100%;
   padding: 10px 15px;
-  padding-bottom: 50px;
+  padding-bottom: 33px;
   z-index: 1;
   border-top-width: 10px;
   border-top-style: solid;
@@ -179,10 +185,6 @@ body {
 .is_not_the_index #github_link { 
   display: none;
   margin-bottom: 15px;
-}
-#compteur_view {
-  display: none;
-  margin-top: 15px;
 }
 .footer h2 { /* Gros titre du footer */
   color: var(--text1-footer);
@@ -264,6 +266,7 @@ body {
     width: 100%;
     margin-right: 6px;
   }
+  /* FOOTER : */
   .footer h4 {
     font-size: 16px;
   }
@@ -284,8 +287,8 @@ body {
     width: 18%;
     padding-left: 2.5px;
     padding-bottom: 5px;
-	display: flex;
-	text-align:center;
+	  display: flex;
+	  text-align: center;
   }
   .footer p img {
     width: 6%;	
@@ -293,10 +296,10 @@ body {
     margin-bottom: 5px;
   }
   td.name_right_footer {
-	text-align:center;
+	  text-align: center;
   }
   td.name_left_footer {    
-	text-align:center;
+	  text-align: center;
   }
 }
 @media screen and (min-width: 768px){ /* Resolution d'une fenêtre sur un PC / tablette */

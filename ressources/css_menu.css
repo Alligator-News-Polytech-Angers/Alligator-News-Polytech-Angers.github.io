@@ -39,9 +39,49 @@
 }
 .Edition_MenuView {
   color: black;
-  /* Couleur du texte */
   background-color: var(--background-article-color);
   padding: 10px 20px;
+}
+/* IMAGE footer menu : */
+.footer img.img_easter_egg {
+  margin: 10px 24px;
+  width: 10%;
+}
+.footer p img {
+  margin-left: 1px;
+}
+#github_link p {
+  display: contents;
+}
+
+/* Css pour la vignette liée au changement de format du journal site -> pdf (annonce) */
+.no_clickable {
+  display: block;
+  padding: 10px 10px;
+  margin: 10px auto;
+}
+.no_clickable .Edition_MenuView p {
+  display: block;
+}
+.no_clickable .Edition_MenuView a {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  color: black;
+  text-decoration: underline;
+}
+.no_clickable .Edition_MenuView img {
+  width: 10%;
+  margin: auto 0 0 0;
+}
+.etiquette_important {
+  text-shadow: black 0.01em 0.05em 0.05em;
+  color: red;
+  float: left;
+  margin-left: 10px;
+  padding: 4px 0px;
+  font-style: italic;
+  font-size: 20px;
 }
 
 /************************/
@@ -51,5 +91,8 @@
   /* Resolution d'un  portable */
   .Pop_New_MenuView img {
     width: 98%;
+  }
+  .footer img.img_easter_egg {
+    width: 18%;
   }
 }
