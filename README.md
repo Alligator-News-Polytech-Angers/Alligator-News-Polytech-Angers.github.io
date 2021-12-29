@@ -6,7 +6,9 @@
   <img src="https://github.com/Alligator-News-Polytech-Angers/Alligator-News-Polytech-Angers.github.io/blob/master/ressources/images/global/logo_alligator_news.svg" alt="Logo Alligator NEWS" width="280" />
   <br />
   <p align="center">
-    <a href="https://alligator-news-polytech-angers.github.io/">Lien vers le site du journal</a>
+    <a href="https://alligator-news-polytech-angers.github.io/">
+      <h4>Lien vers le site du journal</h4>
+    </a>
   </p>
   <hr>
   <div align="left">
