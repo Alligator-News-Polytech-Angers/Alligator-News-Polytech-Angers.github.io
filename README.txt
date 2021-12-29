@@ -5,17 +5,20 @@
 <div align="center" style="text-align:center; margin:0 auto;">
   <h1>README</h1>
   <h2>Alligator NEWS - Club de journalisme de Polytech Angers</h2>
-  <img src="https://github.com/Alligator-News-Polytech-Angers/Alligator-News-Polytech-Angers.github.io/blob/master/ressources/images/global/logo_alligator_news.svg" alt="Logo Alligator NEWS" width="200">
+  <img src="https://github.com/Alligator-News-Polytech-Angers/Alligator-News-Polytech-Angers.github.io/blob/master/ressources/images/global/logo_alligator_news.svg" alt="Logo Alligator NEWS" width="200" />
   <br />
   <p align="center">
     <a href="https://alligator-news-polytech-angers.github.io/">Lien vers le site du journal</a>
   </p>
   <hr>
-  <h3 style="text-align:left;">Le club recrute, n'héstez pas à nous contacter via Facebook ou Instagram !</h3>
-  <p>
+  <h3 style="text-align:left;">À propos :</h3>
+  <p style="text-align:left;">
     Alligator News est un journal qui a été créé lors du premier confinement par un groupe d’élèves ingénieurs de Polytech Angers, rassemblé par l’envie de partager de l’information et du savoir.
+    <br />
     Le journal propose ainsi des rubriques diverses et variées à chaque édition. Le but de ce club de journalisme est avant tout de prendre du plaisir.
+    <br />
     Chacun écrit sur les sujets qu’il souhaite partager lorsqu’il en a l’envie et le temps. Ce journal web a été réalisé entièrement par nos soins et est hébergé/déployé grâce à la solution « github-pages » de la plateforme GitHub.
+    <br />
     <br />
     Le logo pensé par Thomas Lépine et réalisé par Nicolas Fabre (Un grand remerciement à lui).
   </p>
