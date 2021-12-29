@@ -41,10 +41,11 @@
   <br />
 </div>
 <p align="center">
+  <hr>
   <a href="https://github.com/Alligator-News-Polytech-Angers/Alligator-News-Polytech-Angers.github.io/issues">Report Bug</a>
 </p>
 <br />
-<h4 style="color:#888">Copyright du code : Thomas Lépine & Lucas Percereau</h4>
+<h4 style="color:#666">Copyright du code : Thomas Lépine & Lucas Percereau</h4>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
