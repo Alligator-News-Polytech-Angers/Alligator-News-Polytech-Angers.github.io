@@ -11,8 +11,8 @@
     <a href="https://alligator-news-polytech-angers.github.io/">Lien vers le site du journal</a>
   </p>
   <hr>
-  <h3 style="text-align:left;">À propos :</h3>
-  <p style="text-align:left;">
+  <h3 align="left">À propos :</h3>
+  <p align="left">
     Alligator News est un journal qui a été créé lors du premier confinement par un groupe d’élèves ingénieurs de Polytech Angers, rassemblé par l’envie de partager de l’information et du savoir.
     <br />
     Le journal propose ainsi des rubriques diverses et variées à chaque édition. Le but de ce club de journalisme est avant tout de prendre du plaisir.
