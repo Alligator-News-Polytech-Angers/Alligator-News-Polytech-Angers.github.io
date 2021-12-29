@@ -21,7 +21,7 @@
       Chacun écrit sur les sujets qu’il souhaite partager lorsqu’il en a l’envie et le temps. Ce journal web a été réalisé entièrement par nos soins et est hébergé/déployé grâce à la solution « github-pages » de la plateforme GitHub.
       <br />
       <br />
-      Le logo pensé par Thomas Lépine et réalisé par Nicolas Fabre (Un grand remerciement à lui).
+      Le logo a été pensé par Thomas Lépine et réalisé par Nicolas Fabre (un grand remerciement à lui).
     </p>
   </div>
   <hr>
