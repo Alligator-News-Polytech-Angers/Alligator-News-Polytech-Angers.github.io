@@ -40,9 +40,11 @@
   <img src="https://github.com/Alligator-News-Polytech-Angers/Alligator-News-Polytech-Angers.github.io/blob/master/ressources/images/pop/recrutement_2021_1.jpg" alt="Affiche recrutement 2021" width="800">
   <br />
 </div>
-<p align="center">
+<p>
   <hr>
-  <a href="https://github.com/Alligator-News-Polytech-Angers/Alligator-News-Polytech-Angers.github.io/issues">Report Bug</a>
+  <a href="https://github.com/Alligator-News-Polytech-Angers/Alligator-News-Polytech-Angers.github.io/issues">
+    <span  align="center">Report Bug</span>
+  </a>
 </p>
 <br />
 <h4 style="color:#666">Copyright du code : Thomas Lépine & Lucas Percereau</h4>
