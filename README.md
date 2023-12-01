@@ -33,6 +33,9 @@
     <p>
       Instagram : <a href="https://www.instagram.com/alligator_news.angers/">https://www.instagram.com/alligator_news.angers/</a>
     </p>
+    <p>
+      Site web : <a href="https://alligator-news-polytech-angers.github.io/index.html">https://www.instagram.com/alligator_news.angers</a>
+    </p>
   </div>
   <hr>
   <h3>Le club recrute, n'héstez pas à nous contacter via Facebook ou Instagram !</h3>
